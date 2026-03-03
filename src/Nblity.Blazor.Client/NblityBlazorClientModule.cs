@@ -5,6 +5,7 @@ using System.Net.Http;
 using Blazorise;
 using Blazorise.Bootstrap5;
 using Blazorise.Icons.FontAwesome;
+using MudBlazor.Services;
 using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -89,6 +90,7 @@ public class NblityBlazorClientModule : AbpModule
             })
             .AddBootstrap5Providers()
             .AddFontAwesomeIcons();
+        context.Services.AddMudServices();
     }
 
     private static void ConfigureAuthentication(WebAssemblyHostBuilder builder)
