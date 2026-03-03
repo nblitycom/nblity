@@ -4,6 +4,7 @@ using System.Security.Cryptography.X509Certificates;
 using Blazorise;
 using Blazorise.Bootstrap5;
 using Blazorise.Icons.FontAwesome;
+using MudBlazor.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -262,6 +263,7 @@ public class NblityBlazorModule : AbpModule
             })
             .AddBootstrap5Providers()
             .AddFontAwesomeIcons();
+        context.Services.AddMudServices();
     }
 
     private void ConfigureMenu(ServiceConfigurationContext context)
