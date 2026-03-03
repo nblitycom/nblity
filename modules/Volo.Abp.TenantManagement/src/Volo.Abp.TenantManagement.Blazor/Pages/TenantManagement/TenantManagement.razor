@@ -13,15 +13,15 @@
 @inject IStringLocalizer<AbpUiNavigationResource> LUiNavigation
 @inherits AbpCrudPageBase<ITenantAppService, TenantDto, Guid, GetTenantsInput, TenantCreateDto, TenantUpdateDto>
 
-<Card>
-    <CardHeader>
+<MudCard>
+    <MudCardHeader>
         @* ************************* PAGE HEADER ************************* *@
         <PageHeader Title="@L["Tenants"]"
                     BreadcrumbItems="@BreadcrumbItems"
                     Toolbar="@Toolbar">
         </PageHeader>
-    </CardHeader>
-    <CardBody>
+    </MudCardHeader>
+    <MudCardContent>
         @* ************************* DATA GRID ************************* *@
         <AbpExtensibleDataGrid TItem="TenantDto"
                                Data="@Entities"
@@ -32,8 +32,8 @@
                                CurrentPage="@CurrentPage"
                                Columns="@TenantManagementTableColumns">
         </AbpExtensibleDataGrid>
-    </CardBody>
-</Card>
+    </MudCardContent>
+</MudCard>
 
 @* ************************* CREATE MODAL ************************* *@
 @if ( HasCreatePermission )
