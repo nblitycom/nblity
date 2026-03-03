@@ -2,103 +2,90 @@
 @using Microsoft.Extensions.Localization
 @inherits AbpFeatureManagementComponentBase
 
-<Modal @ref="Modal" Closing="@ClosingModal">
-    <ModalContent Size="ModalSize.Large">
-        <ModalHeader>
-            <ModalTitle>@L["Features"]@ProviderKeyDisplayName</ModalTitle>
-            <CloseButton Clicked="CloseModal" />
-        </ModalHeader>
+<MudDialog @bind-Visible="_visible" Options="@(new DialogOptions { MaxWidth = MaxWidth.Large, FullWidth = true, BackdropClick = false })">
+    <TitleContent>
+        <MudText Typo="Typo.h6">@L["Features"]@ProviderKeyDisplayName</MudText>
+        <MudIconButton Icon="@Icons.Material.Filled.Close" Size="MudBlazor.Size.Small" OnClick="CloseModal" Class="ml-auto" />
+    </TitleContent>
+    <DialogContent>
         @if (Groups == null || !Groups.Any())
         {
             <span class="m-3">@L["NoFeatureFoundMessage"]</span>
         }
         else
         {
-            <ModalBody>
-                <Tabs TabPosition="TabPosition.Start" Pills="true" @bind-SelectedTab="@SelectedTabName">
-                    <Items>
-                        @foreach (var group in Groups)
+            <MudTabs @bind-ActivePanelIndex="_selectedTabIndex" Position="MudBlazor.Position.Left" Border="false" ApplyEffectsToContainer="true" Class="pa-4">
+                @for (var i = 0; i < Groups.Count; i++)
+                {
+                    var index = i;
+                    <MudTabPanel Text="@Groups[index].DisplayName">
+                        <h4>@Groups[index].DisplayName</h4>
+                        <hr class="mt-2 mb-3" />
+                        @foreach (var feature in Groups[index].Features)
                         {
-                            <Tab Name="@GetNormalizedGroupName(group.Name)">
-                                <span>@group.DisplayName</span>
-                            </Tab>
-                        }
-                    </Items>
-                    <Content>
-                        @for (var i = 0; i < Groups.Count; i++)
-                        {
-                            var index = i;
-                            <TabPanel Name="@GetNormalizedGroupName(Groups[index].Name)">
-                                <h4>@Groups[index].DisplayName</h4>
-                                <hr class="mt-2 mb-3" />
-                                @foreach (var feature in Groups[index].Features)
-                                {
-                                    <div class="mt-2">
-                                        @{
-                                            var disabled = IsDisabled(feature);
+                            <div class="mt-2">
+                                @{
+                                    var disabled = IsDisabled(feature);
 
-                                            if (feature.ValueType is FreeTextStringValueType)
+                                    if (feature.ValueType is FreeTextStringValueType)
+                                    {
+                                        <div style="@GetFeatureStyles(feature)">
+                                            <MudTextField T="string"
+                                                          Label="@GetShownName(feature)"
+                                                          Disabled="@disabled"
+                                                          Value="@feature.Value"
+                                                          ValueChanged="@(async (string v) => await OnFeatureValueChangedAsync(v, feature))" />
+                                            @if (feature.Description != null)
                                             {
-                                                <Field Style="@GetFeatureStyles(feature)">
-                                                    <FieldLabel>@GetShownName(feature)</FieldLabel>
-                                                    <TextEdit Disabled="@disabled"
-                                                          Text="@feature.Value"
-                                                          TextChanged="@(async (v) => await OnFeatureValueChangedAsync(v, feature))" />
-                                                    @if (feature.Description != null)
-                                                    {
-                                                        <div class="form-text">@feature.Description</div>
-                                                    }
-                                                </Field>
+                                                <div class="form-text">@feature.Description</div>
                                             }
+                                        </div>
+                                    }
 
-                                            if (feature.ValueType is SelectionStringValueType)
+                                    if (feature.ValueType is SelectionStringValueType)
+                                    {
+                                        var items = ((SelectionStringValueType)feature.ValueType).ItemSource.Items;
+                                        var selectedValue = SelectionStringValues[feature.Name];
+                                        <div style="@GetFeatureStyles(feature)">
+                                            <MudSelect T="string" Label="@GetShownName(feature)" Disabled="@disabled" Value="@selectedValue" ValueChanged="@(s => SelectionStringValues[feature.Name] = s)">
+                                                @foreach (var item in items)
+                                                {
+                                                    <MudSelectItem T="string" Value="@item.Value">
+                                                        @CreateStringLocalizer(item.DisplayText.ResourceName).GetString(item.DisplayText.Name)
+                                                    </MudSelectItem>
+                                                }
+                                            </MudSelect>
+                                            @if (feature.Description != null)
                                             {
-                                                var items = ((SelectionStringValueType)feature.ValueType).ItemSource.Items;
-                                                var selectedValue = SelectionStringValues[feature.Name];
-                                                <Field Style="@GetFeatureStyles(feature)">
-                                                    <FieldLabel>@GetShownName(feature)</FieldLabel>
-                                                    <Select TValue="string" Disabled="disabled" SelectedValue="selectedValue" SelectedValueChanged="s => SelectionStringValues[feature.Name] = s">
-                                                        @foreach (var item in items)
-                                                        {
-                                                            <SelectItem Value="@item.Value">
-                                                                @CreateStringLocalizer(item.DisplayText.ResourceName).GetString(item.DisplayText.Name)
-                                                            </SelectItem>
-                                                        }
-                                                    </Select>
-                                                    @if (feature.Description != null)
-                                                    {
-                                                        <div class="form-text">@feature.Description</div>
-                                                    }
-                                                </Field>
+                                                <div class="form-text">@feature.Description</div>
                                             }
+                                        </div>
+                                    }
 
-                                            if (feature.ValueType is ToggleStringValueType)
+                                    if (feature.ValueType is ToggleStringValueType)
+                                    {
+                                        <div style="@GetFeatureStyles(feature)">
+                                            <MudCheckBox T="bool" Disabled="@disabled" Value="@ToggleValues[feature.Name]" ValueChanged="@(async (bool v) => await OnSelectedValueChangedAsync(v, feature))" Label="@GetShownName(feature)" />
+                                            @if (feature.Description != null)
                                             {
-                                                <Field Style="@GetFeatureStyles(feature)">
-                                                    <Check TValue="bool" Disabled="disabled" Checked="@ToggleValues[feature.Name]" CheckedChanged="@(async (v) => await OnSelectedValueChangedAsync(v, feature))">
-                                                        @GetShownName(feature)
-                                                    </Check>
-                                                    @if (feature.Description != null)
-                                                    {
-                                                        <div class="form-text">@feature.Description</div>
-                                                    }
-                                                </Field>
+                                                <div class="form-text">@feature.Description</div>
                                             }
-                                        }
-                                    </div>
+                                        </div>
+                                    }
                                 }
-
-                            </TabPanel>
+                            </div>
                         }
-                    </Content>
-                </Tabs>
-            </ModalBody>
-            <ModalFooter>
-                <Button class="btn btn-link" Clicked="CloseModal">@L["Cancel"]</Button>
-                <Button Color="Color.Primary" Outline Clicked="@(async () => await DeleteAsync(ProviderName,ProviderKey))">@L["ResetToDefault"]</Button>
-                <Button Color="Color.Primary" Clicked="SaveAsync">@L["Save"]</Button>
-            </ModalFooter>
+                    </MudTabPanel>
+                }
+            </MudTabs>
         }
-
-    </ModalContent>
-</Modal>
+    </DialogContent>
+    <DialogActions>
+        @if (Groups != null && Groups.Any())
+        {
+            <MudButton OnClick="CloseModal">@L["Cancel"]</MudButton>
+            <MudButton Color="MudBlazor.Color.Primary" Variant="Variant.Outlined" OnClick="@(async () => await DeleteAsync(ProviderName, ProviderKey))">@L["ResetToDefault"]</MudButton>
+            <MudButton Color="MudBlazor.Color.Primary" Variant="Variant.Filled" OnClick="SaveAsync">@L["Save"]</MudButton>
+        }
+    </DialogActions>
+</MudDialog>

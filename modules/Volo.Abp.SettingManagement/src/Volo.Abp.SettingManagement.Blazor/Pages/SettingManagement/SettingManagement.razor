@@ -12,36 +12,42 @@
 
 </PageHeader>
 
-<Card>
-    <CardBody Class="pt-3">
+<MudCard>
+    <MudCardContent Class="pt-3">
         @if (!string.IsNullOrEmpty(SelectedGroup))
         {
-            <Tabs @bind-SelectedTab="@SelectedGroup" TabPosition="TabPosition.Start" Pills="true" RenderMode="TabsRenderMode.LazyReload" VerticalItemsColumnSize="ColumnSize.Is3.OnDesktop.Is6.OnTablet.Is12.OnMobile">
-                <Items>
+            <MudGrid>
+                <MudItem xs="12" sm="3">
+                    <MudNavMenu>
+                        @foreach (var group in SettingComponentCreationContext.Groups)
+                        {
+                            <MudNavLink OnClick="@(() => SelectedGroup = GetNormalizedString(group.Id))"
+                                        Match="Microsoft.AspNetCore.Components.Routing.NavLinkMatch.All"
+                                        Class="@(SelectedGroup == GetNormalizedString(group.Id) ? "mud-nav-link-active" : "")">
+                                @group.DisplayName
+                            </MudNavLink>
+                        }
+                    </MudNavMenu>
+                </MudItem>
+                <MudItem xs="12" sm="9">
                     @foreach (var group in SettingComponentCreationContext.Groups)
                     {
-                        <Tab Name="@GetNormalizedString(group.Id)">
-                            @group.DisplayName
-                        </Tab>
+                        @if (SelectedGroup == GetNormalizedString(group.Id))
+                        {
+                            <div class="abp-md-form">
+                                @{
+                                    RenderFragment settingRender = builder =>
+                                    {
+                                        builder.OpenComponent(0, group.ComponentType);
+                                        builder.CloseComponent();
+                                    };
+                                }
+                                @settingRender
+                            </div>
+                        }
                     }
-                </Items>
-                <Content>
-                    @foreach (var group in SettingComponentCreationContext.Groups)
-                    {
-                        <TabPanel Name="@GetNormalizedString(group.Id)" class="abp-md-form">
-                            @{
-                                SettingItemRenders.Add(builder =>
-                                {
-                                    builder.OpenComponent(0, group.ComponentType);
-                                    builder.CloseComponent();
-                                });
-                            }
-
-                            @SettingItemRenders.Last()
-                        </TabPanel>
-                    }
-                </Content>
-            </Tabs>
+                </MudItem>
+            </MudGrid>
         }
-    </CardBody>
-</Card>
+    </MudCardContent>
+</MudCard>

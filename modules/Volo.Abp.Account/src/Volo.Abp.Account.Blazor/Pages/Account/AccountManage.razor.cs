@@ -12,7 +12,7 @@ public partial class AccountManage
 
     [Inject] protected IUiMessageService UiMessageService { get; set; }
 
-    protected string SelectedTab = "Password";
+    protected int _selectedTabIndex = 0;
 
     protected ChangePasswordModel ChangePasswordModel;
 

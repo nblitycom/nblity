@@ -13,15 +13,15 @@
 @inject IStringLocalizer<AbpUiNavigationResource> LUiNavigation
 @inherits AbpCrudPageBase<ITenantAppService, TenantDto, Guid, GetTenantsInput, TenantCreateDto, TenantUpdateDto>
 
-<Card>
-    <CardHeader>
+<MudCard>
+    <MudCardHeader>
         @* ************************* PAGE HEADER ************************* *@
         <PageHeader Title="@L["Tenants"]"
                     BreadcrumbItems="@BreadcrumbItems"
                     Toolbar="@Toolbar">
         </PageHeader>
-    </CardHeader>
-    <CardBody>
+    </MudCardHeader>
+    <MudCardContent>
         @* ************************* DATA GRID ************************* *@
         <AbpExtensibleDataGrid TItem="TenantDto"
                                Data="@Entities"
@@ -32,8 +32,8 @@
                                CurrentPage="@CurrentPage"
                                Columns="@TenantManagementTableColumns">
         </AbpExtensibleDataGrid>
-    </CardBody>
-</Card>
+    </MudCardContent>
+</MudCard>
 
 @* ************************* CREATE MODAL ************************* *@
 @if ( HasCreatePermission )
@@ -76,7 +76,7 @@
                                     </TextEdit>
                                 </Addon>
                                 <Addon AddonType="AddonType.End">
-                                    <Button Color="Color.Secondary" Clicked="@(() => TogglePasswordVisibility())">
+                                    <Button Color="Blazorise.Color.Secondary" Clicked="@(() => TogglePasswordVisibility())">
                                         <Icon Name="ShowPassword ? IconName.Eye : IconName.EyeSlash" />
                                     </Button>
                                 </Addon>
@@ -88,7 +88,7 @@
                     </Validations>
                 </ModalBody>
                 <ModalFooter>
-                    <Button Color="Color.Primary" Outline Clicked="CloseCreateModalAsync">@L["Cancel"]</Button>
+                    <Button Color="Blazorise.Color.Primary" Outline Clicked="CloseCreateModalAsync">@L["Cancel"]</Button>
                     <SubmitButton Form="CreateTenantForm" Clicked="@CreateEntityAsync"/>
                 </ModalFooter>
             </Form>
@@ -122,7 +122,7 @@
                     <ExtensionProperties TEntityType="TenantUpdateDto" TResourceType="AbpTenantManagementResource" Entity="@EditingEntity" LH="@LH" ModalType="ExtensionPropertyModalType.EditModal" />
                 </ModalBody>
                 <ModalFooter>
-                    <Button Color="Color.Primary" Outline Clicked="CloseEditModalAsync">@L["Cancel"]</Button>
+                    <Button Color="Blazorise.Color.Primary" Outline Clicked="CloseEditModalAsync">@L["Cancel"]</Button>
                     <SubmitButton Form="EditTenantForm" Clicked="@UpdateEntityAsync"/>
                 </ModalFooter>
             </Form>

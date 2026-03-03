@@ -12,23 +12,23 @@
 
 @inherits AbpCrudPageBase<IIdentityUserAppService, IdentityUserDto, Guid, GetIdentityUsersInput, IdentityUserCreateDto, IdentityUserUpdateDto>
 
-<Card>
-    <CardHeader>
+<MudCard>
+    <MudCardHeader>
         @* ************************* PAGE HEADER ************************* *@
         <PageHeader Title="@L["Users"]"
                     BreadcrumbItems="@BreadcrumbItems"
                     Toolbar="@Toolbar" />
-    </CardHeader>
-    <CardBody class="row">
+    </MudCardHeader>
+    <MudCardContent Class="row">
 
-        <Column ColumnSize="ColumnSize.Is8">
-        </Column>
-        <Column ColumnSize="ColumnSize.Is4" class="form-group row" style="text-align:right;">
+        <div class="col-8">
+        </div>
+        <div class="col-4 form-group row" style="text-align:right;">
             <label for="inputPassword" class="col-sm-4 col-form-label pt-1">  @L["Search"] </label>
             <div class="col-sm-8">
-                <TextEdit class="form-control-sm" id="inputPassword" Text="@GetListInput.Filter" TextChanged="@OnSearchTextChanged" />
+                <MudTextField T="string" Class="form-control-sm" id="inputPassword" Value="@GetListInput.Filter" ValueChanged="@OnSearchTextChanged" Immediate="true" Variant="Variant.Outlined" Margin="MudBlazor.Margin.Dense" />
             </div>
-        </Column>
+        </div>
 
         @* ************************* DATA GRID ************************* *@
         <AbpExtensibleDataGrid TItem="IdentityUserDto"
@@ -40,8 +40,8 @@
                                CurrentPage="@CurrentPage"
                                Columns="@UserManagementTableColumns">
         </AbpExtensibleDataGrid>
-    </CardBody>
-</Card>
+    </MudCardContent>
+</MudCard>
 
 @* ************************* CREATE MODAL ************************* *@
 @if (HasCreatePermission)
@@ -101,7 +101,7 @@
                                                     </TextEdit>
                                                 </Addon>
                                                 <Addon AddonType="AddonType.End">
-                                                    <Button Color="Color.Secondary" Clicked="@(() => ChangePasswordTextRole(null))">
+                                                    <Button Color="Blazorise.Color.Secondary" Clicked="@(() => ChangePasswordTextRole(null))">
                                                         <Icon Name="ShowPassword ? IconName.Eye : IconName.EyeSlash" />
                                                     </Button>
                                                 </Addon>
@@ -156,7 +156,7 @@
                     </Validations>
                 </ModalBody>
                 <ModalFooter>
-                    <Button Color="Color.Primary" Outline Clicked="CloseCreateModalAsync">@L["Cancel"]</Button>
+                    <Button Color="Blazorise.Color.Primary" Outline Clicked="CloseCreateModalAsync">@L["Cancel"]</Button>
                     <SubmitButton Form="CreateUserForm" Clicked="@CreateEntityAsync" />
                 </ModalFooter>
             </Form>
@@ -227,7 +227,7 @@
                                                     </TextEdit>
                                                 </Addon>
                                                 <Addon AddonType="AddonType.End">
-                                                    <Button Color="Color.Secondary" Clicked="@(() => ChangePasswordTextRole(null))">
+                                                    <Button Color="Blazorise.Color.Secondary" Clicked="@(() => ChangePasswordTextRole(null))">
                                                         <Icon Name="ShowPassword ? IconName.Eye : IconName.EyeSlash" />
                                                     </Button>
                                                 </Addon>
@@ -288,7 +288,7 @@
                     </Validations>
                 </ModalBody>
                 <ModalFooter>
-                    <Button Color="Color.Primary" Outline Clicked="CloseEditModalAsync">@L["Cancel"]</Button>
+                    <Button Color="Blazorise.Color.Primary" Outline Clicked="CloseEditModalAsync">@L["Cancel"]</Button>
                     <SubmitButton Form="EditUserForm" Clicked="@UpdateEntityAsync" />
                 </ModalFooter>
             </Form>

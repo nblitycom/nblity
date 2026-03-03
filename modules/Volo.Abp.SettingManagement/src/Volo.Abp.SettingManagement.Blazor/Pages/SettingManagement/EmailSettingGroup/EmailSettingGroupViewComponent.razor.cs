@@ -1,8 +1,8 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
-using Blazorise;
 using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Forms;
 using Volo.Abp.AspNetCore.Components.Messages;
 using Volo.Abp.AspNetCore.Components.Web.Configuration;
 using Volo.Abp.Auditing;
@@ -29,15 +29,13 @@ public partial class EmailSettingGroupViewComponent
 
     protected SendTestEmailViewModel SendTestEmailInput;
 
-    protected Validations EmailSettingValidation;
-    
-    protected Validations EmailSettingTestValidation;
-    
-    protected Modal SendTestEmailModal;
+    protected EditContext _emailSettingEditContext;
+
+    protected EditContext _testEmailEditContext;
+
+    protected bool _sendTestEmailVisible;
     
     protected bool HasSendTestEmailPermission { get; set; }
-    
-    
 
     public EmailSettingGroupViewComponent()
     {
@@ -52,6 +50,8 @@ public partial class EmailSettingGroupViewComponent
             EmailSettings = ObjectMapper.Map<EmailSettingsDto, UpdateEmailSettingsViewModel>(await EmailSettingsAppService.GetAsync());
             HasSendTestEmailPermission = await PermissionChecker.IsGrantedAsync(SettingManagementPermissions.EmailingTest);
             SendTestEmailInput = new SendTestEmailViewModel();
+            _emailSettingEditContext = new EditContext(EmailSettings);
+            _testEmailEditContext = new EditContext(SendTestEmailInput);
         }
         catch (Exception ex)
         {
@@ -63,7 +63,7 @@ public partial class EmailSettingGroupViewComponent
     {
         try
         {
-            if (!await EmailSettingValidation.ValidateAll())
+            if (!_emailSettingEditContext.Validate())
             {
                 return;
             }
@@ -84,7 +84,6 @@ public partial class EmailSettingGroupViewComponent
     {
         try
         {
-            await EmailSettingTestValidation.ClearAll();
             var emailSettings = await EmailSettingsAppService.GetAsync();
             SendTestEmailInput = new SendTestEmailViewModel 
             {
@@ -93,8 +92,10 @@ public partial class EmailSettingGroupViewComponent
                 Subject = L["TestEmailSubject", new Random().Next(1000, 9999)],
                 Body = L["TestEmailBody"]
             };
-            
-            await SendTestEmailModal.Show();
+            _testEmailEditContext = new EditContext(SendTestEmailInput);
+
+            _sendTestEmailVisible = true;
+            StateHasChanged();
         }
         catch (Exception ex)
         {
@@ -104,14 +105,16 @@ public partial class EmailSettingGroupViewComponent
 
     protected virtual Task CloseSendTestEmailModalAsync()
     {
-        return InvokeAsync(SendTestEmailModal.Hide);
+        _sendTestEmailVisible = false;
+        StateHasChanged();
+        return Task.CompletedTask;
     }
 
     protected virtual async Task SendTestEmailAsync()
     {
         try
         {
-            if (!await EmailSettingTestValidation.ValidateAll())
+            if (!_testEmailEditContext.Validate())
             {
                 return;
             }
