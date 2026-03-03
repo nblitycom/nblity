@@ -4,25 +4,18 @@
 
 @if (TimezoneSettings != null)
 {
-    <Form>
-        <Row>
-            <Column>
-                 <Field>
-                     <FieldLabel>@L["DisplayName:Timezone"] *</FieldLabel>
-                     <Select TValue="string" SelectedValue="TimezoneSettings.Timezone" SelectedValueChanged="OnSelectedValueChangedAsync">
-                         @foreach (var item in TimezoneSettings.TimeZoneItems)
-                         {
-                             <SelectItem Value="item.Value">@item.Name</SelectItem>
-                         }
-                     </Select>
-                     <div class="form-text">@L["TimezoneHelpText"].Value</div>
-                 </Field>
-            </Column>
-        </Row>
-        <Row>
-            <Column>
-                <SubmitButton Clicked="@UpdateSettingsAsync"/>
-            </Column>
-        </Row>
-    </Form>
+    <MudGrid>
+        <MudItem xs="12">
+            <MudSelect T="string" Label="@($"{L["DisplayName:Timezone"]} *")" Value="TimezoneSettings.Timezone" ValueChanged="OnSelectedValueChangedAsync">
+                @foreach (var item in TimezoneSettings.TimeZoneItems)
+                {
+                    <MudSelectItem Value="item.Value">@item.Name</MudSelectItem>
+                }
+            </MudSelect>
+            <MudText Typo="Typo.caption" Class="mt-1">@L["TimezoneHelpText"].Value</MudText>
+        </MudItem>
+        <MudItem xs="12">
+            <MudButton Color="Color.Primary" Variant="Variant.Filled" OnClick="@UpdateSettingsAsync">@L["Save"]</MudButton>
+        </MudItem>
+    </MudGrid>
 }
