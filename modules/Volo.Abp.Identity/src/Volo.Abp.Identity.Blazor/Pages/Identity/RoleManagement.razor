@@ -14,15 +14,15 @@
 @inject IStringLocalizer<AbpUiNavigationResource> LUiNavigation
 
 @inherits AbpCrudPageBase<IIdentityRoleAppService, IdentityRoleDto, Guid, GetIdentityRolesInput, IdentityRoleCreateDto, IdentityRoleUpdateDto>
-<Card>
-    <CardHeader>
+<MudCard>
+    <MudCardHeader>
         @* ************************* PAGE HEADER ************************* *@
         <PageHeader Title="@L["Roles"]"
                     BreadcrumbItems="@BreadcrumbItems"
                     Toolbar="@Toolbar">
         </PageHeader>
-    </CardHeader>
-    <CardBody>
+    </MudCardHeader>
+    <MudCardContent>
         @* ************************* DATA GRID ************************* *@
         <AbpExtensibleDataGrid TItem="IdentityRoleDto"
                                Data="@Entities"
@@ -33,8 +33,8 @@
                                CurrentPage="@CurrentPage"
                                Columns="@RoleManagementTableColumns">
         </AbpExtensibleDataGrid>
-    </CardBody>
-</Card>
+    </MudCardContent>
+</MudCard>
 
 @* ************************* CREATE MODAL ************************* *@
 @if (HasCreatePermission)
