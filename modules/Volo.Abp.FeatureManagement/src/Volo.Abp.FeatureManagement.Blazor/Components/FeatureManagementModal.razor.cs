@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Blazorise;
 using JetBrains.Annotations;
 using Microsoft.AspNetCore.Components;
 using Microsoft.Extensions.Localization;
@@ -27,13 +26,13 @@ public partial class FeatureManagementModal
 
     [Inject] protected ICurrentApplicationConfigurationCacheResetService CurrentApplicationConfigurationCacheResetService { get; set; }
 
-    protected Modal Modal;
+    protected bool _visible;
 
     protected string ProviderName;
     protected string ProviderKey;
     protected string ProviderKeyDisplayName;
 
-    protected string SelectedTabName;
+    protected int _selectedTabIndex;
 
     protected List<FeatureGroupDto> Groups { get; set; }
 
@@ -62,7 +61,7 @@ public partial class FeatureManagementModal
 
             if (Groups.Any())
             {
-                SelectedTabName = GetNormalizedGroupName(Groups.First().Name);
+                _selectedTabIndex = 0;
             }
 
             foreach (var featureGroupDto in Groups)
@@ -81,7 +80,11 @@ public partial class FeatureManagementModal
                 }
             }
 
-            await InvokeAsync(Modal.Show);
+            await InvokeAsync(() =>
+            {
+                _visible = true;
+                StateHasChanged();
+            });
         }
         catch (Exception ex)
         {
@@ -91,7 +94,11 @@ public partial class FeatureManagementModal
 
     public virtual Task CloseModal()
     {
-        return InvokeAsync(Modal.Hide);
+        return InvokeAsync(() =>
+        {
+            _visible = false;
+            StateHasChanged();
+        });
     }
 
     protected virtual async Task SaveAsync()
@@ -112,7 +119,11 @@ public partial class FeatureManagementModal
 
             await CurrentApplicationConfigurationCacheResetService.ResetAsync();
 
-            await InvokeAsync(Modal.Hide);
+            await InvokeAsync(() =>
+            {
+                _visible = false;
+                StateHasChanged();
+            });
             await Notify.Success(L["SavedSuccessfully"]);
         }
         catch (Exception ex)
@@ -234,10 +245,5 @@ public partial class FeatureManagementModal
                StringLocalizerFactory.CreateDefaultOrNull();
     }
 
-    protected virtual Task ClosingModal(ModalClosingEventArgs eventArgs)
-    {
-        eventArgs.Cancel = eventArgs.CloseReason == CloseReason.FocusLostClosing;
 
-        return Task.CompletedTask;
-    }
 }
