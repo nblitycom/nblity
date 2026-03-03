@@ -101,7 +101,7 @@
                                                     </TextEdit>
                                                 </Addon>
                                                 <Addon AddonType="AddonType.End">
-                                                    <Button Color="Color.Secondary" Clicked="@(() => ChangePasswordTextRole(null))">
+                                                    <Button Color="Blazorise.Color.Secondary" Clicked="@(() => ChangePasswordTextRole(null))">
                                                         <Icon Name="ShowPassword ? IconName.Eye : IconName.EyeSlash" />
                                                     </Button>
                                                 </Addon>
@@ -156,7 +156,7 @@
                     </Validations>
                 </ModalBody>
                 <ModalFooter>
-                    <Button Color="Color.Primary" Outline Clicked="CloseCreateModalAsync">@L["Cancel"]</Button>
+                    <Button Color="Blazorise.Color.Primary" Outline Clicked="CloseCreateModalAsync">@L["Cancel"]</Button>
                     <SubmitButton Form="CreateUserForm" Clicked="@CreateEntityAsync" />
                 </ModalFooter>
             </Form>
@@ -227,7 +227,7 @@
                                                     </TextEdit>
                                                 </Addon>
                                                 <Addon AddonType="AddonType.End">
-                                                    <Button Color="Color.Secondary" Clicked="@(() => ChangePasswordTextRole(null))">
+                                                    <Button Color="Blazorise.Color.Secondary" Clicked="@(() => ChangePasswordTextRole(null))">
                                                         <Icon Name="ShowPassword ? IconName.Eye : IconName.EyeSlash" />
                                                     </Button>
                                                 </Addon>
@@ -288,7 +288,7 @@
                     </Validations>
                 </ModalBody>
                 <ModalFooter>
-                    <Button Color="Color.Primary" Outline Clicked="CloseEditModalAsync">@L["Cancel"]</Button>
+                    <Button Color="Blazorise.Color.Primary" Outline Clicked="CloseEditModalAsync">@L["Cancel"]</Button>
                     <SubmitButton Form="EditUserForm" Clicked="@UpdateEntityAsync" />
                 </ModalFooter>
             </Form>

@@ -22,7 +22,7 @@
                         @foreach (var group in SettingComponentCreationContext.Groups)
                         {
                             <MudNavLink OnClick="@(() => SelectedGroup = GetNormalizedString(group.Id))"
-                                        Match="NavLinkMatch.All"
+                                        Match="Microsoft.AspNetCore.Components.Routing.NavLinkMatch.All"
                                         Class="@(SelectedGroup == GetNormalizedString(group.Id) ? "mud-nav-link-active" : "")">
                                 @group.DisplayName
                             </MudNavLink>

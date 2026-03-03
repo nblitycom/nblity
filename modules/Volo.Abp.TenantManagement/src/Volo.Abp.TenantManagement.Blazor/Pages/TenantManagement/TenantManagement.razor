@@ -76,7 +76,7 @@
                                     </TextEdit>
                                 </Addon>
                                 <Addon AddonType="AddonType.End">
-                                    <Button Color="Color.Secondary" Clicked="@(() => TogglePasswordVisibility())">
+                                    <Button Color="Blazorise.Color.Secondary" Clicked="@(() => TogglePasswordVisibility())">
                                         <Icon Name="ShowPassword ? IconName.Eye : IconName.EyeSlash" />
                                     </Button>
                                 </Addon>
@@ -88,7 +88,7 @@
                     </Validations>
                 </ModalBody>
                 <ModalFooter>
-                    <Button Color="Color.Primary" Outline Clicked="CloseCreateModalAsync">@L["Cancel"]</Button>
+                    <Button Color="Blazorise.Color.Primary" Outline Clicked="CloseCreateModalAsync">@L["Cancel"]</Button>
                     <SubmitButton Form="CreateTenantForm" Clicked="@CreateEntityAsync"/>
                 </ModalFooter>
             </Form>
@@ -122,7 +122,7 @@
                     <ExtensionProperties TEntityType="TenantUpdateDto" TResourceType="AbpTenantManagementResource" Entity="@EditingEntity" LH="@LH" ModalType="ExtensionPropertyModalType.EditModal" />
                 </ModalBody>
                 <ModalFooter>
-                    <Button Color="Color.Primary" Outline Clicked="CloseEditModalAsync">@L["Cancel"]</Button>
+                    <Button Color="Blazorise.Color.Primary" Outline Clicked="CloseEditModalAsync">@L["Cancel"]</Button>
                     <SubmitButton Form="EditTenantForm" Clicked="@UpdateEntityAsync"/>
                 </ModalFooter>
             </Form>
