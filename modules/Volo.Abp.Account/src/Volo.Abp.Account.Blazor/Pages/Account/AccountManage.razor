@@ -2,7 +2,6 @@
 @using Microsoft.AspNetCore.Components.Forms
 @using Volo.Abp.Account.Localization
 @using Volo.Abp.AspNetCore.Components.Web
-@using Volo.Abp.BlazoriseUI.Components.ObjectExtending
 @using Volo.Abp.ObjectExtending
 @using Volo.Abp.Data
 
@@ -39,37 +38,10 @@
                         <MudTextField T="string" @bind-Value="@PersonalInfoModel.Email" Label="@L["DisplayName:Email"]" />
                         <MudTextField T="string" @bind-Value="@PersonalInfoModel.PhoneNumber" Label="@L["DisplayName:PhoneNumber"]" />
 
-                        // TODO: Move this logic to 'ExtensionProperties' component.
-                        @foreach (var propertyInfo in ObjectExtensionManager.Instance.GetProperties<PersonalInfoModel>())
-                        {
-                            var isAllowed = propertyInfo.Configuration.GetOrDefault(IdentityModuleExtensionConsts.ConfigurationNames.AllowUserToEdit);
+                        @* TODO: Implement MudBlazor-based extension property rendering when extension properties are configured.
+                           Candidate approach: Use MudTextField/MudSelect/MudCheckBox based on property type from
+                           ObjectExtensionManager.Instance.GetProperties<PersonalInfoModel>(). *@
 
-                            if (isAllowed == null || !isAllowed.Equals(true))
-                            {
-                                continue;
-                            }
-
-                            if (!propertyInfo.Name.EndsWith("_Text"))
-                            {
-                                if (propertyInfo.IsEnum())
-                                {
-                                    <SelectExtensionProperty PropertyInfo="@propertyInfo" Entity="@PersonalInfoModel" TEntity="PersonalInfoModel" TResourceType="AccountResource" LH="@LH" />
-                                }
-                                else if (!propertyInfo.Lookup.Url.IsNullOrEmpty())
-                                {
-                                    <LookupExtensionProperty PropertyInfo="@propertyInfo" Entity="@PersonalInfoModel" TEntity="PersonalInfoModel" TResourceType="AccountResource" LH="@LH" />
-                                }
-                                else
-                                {
-                                    var inputType = propertyInfo.GetInputType();
-                                    __builder.OpenComponent(0, inputType.MakeGenericType(new[] { typeof(PersonalInfoModel), typeof(AccountResource) }));
-                                    __builder.AddAttribute(1, "PropertyInfo", propertyInfo);
-                                    __builder.AddAttribute(2, "Entity", PersonalInfoModel);
-                                    __builder.AddAttribute(3, "LH", LH);
-                                    __builder.CloseComponent();
-                                }
-                            }
-                        }
                         <MudButton ButtonType="MudBlazor.ButtonType.Submit" Color="MudBlazor.Color.Primary" Variant="Variant.Filled" OnClick="@UpdatePersonalInfoAsync">@L["Save"]</MudButton>
                     </EditForm>
                 }

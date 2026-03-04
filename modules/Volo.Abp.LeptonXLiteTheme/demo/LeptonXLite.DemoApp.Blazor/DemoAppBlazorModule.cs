@@ -1,7 +1,5 @@
 using System.IO;
 using Volo.Abp.VirtualFileSystem;
-using Blazorise.Bootstrap5;
-using Blazorise.Icons.FontAwesome;
 using LeptonXLite.DemoApp.Blazor.Menus;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -18,6 +16,7 @@ using Volo.Abp.Modularity;
 using Volo.Abp.SettingManagement.Blazor.WebAssembly;
 using Volo.Abp.TenantManagement.Blazor.WebAssembly;
 using Volo.Abp.UI.Navigation;
+using MudBlazor.Services;
 
 namespace LeptonXLite.DemoApp.Blazor;
 
@@ -38,7 +37,7 @@ public class DemoAppBlazorModule : AbpModule
 
         ConfigureAuthentication(builder);
         ConfigureHttpClient(context, environment);
-        ConfigureBlazorise(context);
+        ConfigureMudBlazor(context);
         ConfigureRouter(context);
         ConfigureUI(builder);
         ConfigureMenu(context);
@@ -60,11 +59,9 @@ public class DemoAppBlazorModule : AbpModule
         });
     }
 
-    private void ConfigureBlazorise(ServiceConfigurationContext context)
+    private void ConfigureMudBlazor(ServiceConfigurationContext context)
     {
-        context.Services
-            .AddBootstrap5Providers()
-            .AddFontAwesomeIcons();
+        context.Services.AddMudServices();
     }
 
     private static void ConfigureAuthentication(WebAssemblyHostBuilder builder)

@@ -2,9 +2,6 @@ using System.IO;
 using Volo.Abp.VirtualFileSystem;
 using System;
 using System.Net.Http;
-using Blazorise;
-using Blazorise.Bootstrap5;
-using Blazorise.Icons.FontAwesome;
 using MudBlazor.Services;
 using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
@@ -57,7 +54,7 @@ public class NblityBlazorClientModule : AbpModule
 
         ConfigureAuthentication(builder);
         ConfigureHttpClient(context, environment);
-        ConfigureBlazorise(context);
+        ConfigureMudBlazor(context);
         ConfigureRouter(context);
         ConfigureMenu(context);
     }
@@ -80,16 +77,8 @@ public class NblityBlazorClientModule : AbpModule
         });
     }
 
-    private void ConfigureBlazorise(ServiceConfigurationContext context)
+    private void ConfigureMudBlazor(ServiceConfigurationContext context)
     {
-        // Blazorise registration is retained because AbpCrudPageBase (from Volo.Abp.BlazoriseUI NuGet package)
-        // requires Blazorise Modal/Validations for Identity and TenantManagement CRUD pages.
-        context.Services
-            .AddBlazorise(options =>
-            {
-            })
-            .AddBootstrap5Providers()
-            .AddFontAwesomeIcons();
         context.Services.AddMudServices();
     }
 

@@ -1,8 +1,7 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Blazorise;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 using Volo.Abp.AspNetCore.Components.Web.Extensibility.EntityActions;
@@ -20,8 +19,6 @@ public partial class UserManagement
 {
     protected const string PermissionProviderName = "U";
 
-    protected const string DefaultSelectedTab = "UserInformations";
-
     protected PermissionManagementModal PermissionManagementModal;
 
     protected IReadOnlyList<IdentityRoleDto> Roles;
@@ -34,16 +31,17 @@ public partial class UserManagement
 
     protected bool HasManagePermissionsPermission { get; set; }
 
-    protected string CreateModalSelectedTab = DefaultSelectedTab;
+    protected bool CreateDialogVisible;
 
-    protected string EditModalSelectedTab = DefaultSelectedTab;
-    protected bool ShowPassword { get; set; }
+    protected bool EditDialogVisible;
+
+    protected bool ShowPassword;
+
+    protected bool IsEditCurrentUser { get; set; }
 
     protected PageToolbar Toolbar { get; } = new();
 
-    private List<TableColumn> UserManagementTableColumns => TableColumns.Get<UserManagement>();
-    private TextRole _passwordTextRole = TextRole.Password;
-    public bool IsEditCurrentUser { get; set; }
+    protected List<TableColumn> UserManagementTableColumns => TableColumns.Get<UserManagement>();
 
     [Inject]
     protected IPermissionChecker PermissionChecker { get; set; }
@@ -98,35 +96,72 @@ public partial class UserManagement
 
     protected override async Task OpenCreateModalAsync()
     {
-        CreateModalSelectedTab = DefaultSelectedTab;
-
-        NewUserRoles = Roles.Select(x => new AssignedRoleViewModel
+        try
         {
-            Name = x.Name,
-            IsAssigned = x.IsDefault
-        }).ToArray();
+            await CheckCreatePolicyAsync();
 
-        ChangePasswordTextRole(TextRole.Password);
-        await base.OpenCreateModalAsync();
+            NewUserRoles = Roles.Select(x => new AssignedRoleViewModel
+            {
+                Name = x.Name,
+                IsAssigned = x.IsDefault
+            }).ToArray();
 
-        NewEntity.IsActive = true;
-        NewEntity.LockoutEnabled = true;
+            ShowPassword = false;
+            NewEntity = new IdentityUserCreateDto();
+            NewEntity.IsActive = true;
+            NewEntity.LockoutEnabled = true;
+
+            CreateDialogVisible = true;
+            await InvokeAsync(StateHasChanged);
+        }
+        catch (Exception ex)
+        {
+            await HandleErrorAsync(ex);
+        }
+    }
+
+    protected override Task CloseCreateModalAsync()
+    {
+        CreateDialogVisible = false;
+        return Task.CompletedTask;
     }
 
     protected override Task OnCreatingEntityAsync()
     {
-        // apply roles before saving
         NewEntity.RoleNames = NewUserRoles.Where(x => x.IsAssigned).Select(x => x.Name).ToArray();
-
         return base.OnCreatingEntityAsync();
+    }
+
+    protected override async Task CreateEntityAsync()
+    {
+        try
+        {
+            await OnCreatingEntityAsync();
+            await CheckCreatePolicyAsync();
+            await AppService.CreateAsync(NewEntity);
+            await OnCreatedEntityAsync();
+        }
+        catch (Exception ex)
+        {
+            await HandleErrorAsync(ex);
+        }
+    }
+
+    protected override async Task OnCreatedEntityAsync()
+    {
+        CreateDialogVisible = false;
+        await GetEntitiesAsync();
+        await InvokeAsync(StateHasChanged);
     }
 
     protected override async Task OpenEditModalAsync(IdentityUserDto entity)
     {
         try
         {
-            EditModalSelectedTab = DefaultSelectedTab;
+            await CheckUpdatePolicyAsync();
+
             IsEditCurrentUser = entity.Id == CurrentUser.Id;
+            ShowPassword = false;
 
             if (await PermissionChecker.IsGrantedAsync(IdentityPermissions.Users.ManageRoles))
             {
@@ -137,10 +172,14 @@ public partial class UserManagement
                     Name = x.Name,
                     IsAssigned = userRoleIds.Contains(x.Id)
                 }).ToArray();
-
-                ChangePasswordTextRole(TextRole.Password);
             }
-            await base.OpenEditModalAsync(entity);
+
+            var entityDto = await AppService.GetAsync(entity.Id);
+            EditingEntityId = entity.Id;
+            EditingEntity = MapToEditingEntity(entityDto);
+
+            EditDialogVisible = true;
+            await InvokeAsync(StateHasChanged);
         }
         catch (Exception ex)
         {
@@ -148,14 +187,41 @@ public partial class UserManagement
         }
     }
 
+    protected override Task CloseEditModalAsync()
+    {
+        EditDialogVisible = false;
+        return Task.CompletedTask;
+    }
+
     protected override Task OnUpdatingEntityAsync()
     {
-        // apply roles before saving
         if (EditUserRoles != null)
         {
             EditingEntity.RoleNames = EditUserRoles.Where(x => x.IsAssigned).Select(x => x.Name).ToArray();
         }
         return base.OnUpdatingEntityAsync();
+    }
+
+    protected override async Task UpdateEntityAsync()
+    {
+        try
+        {
+            await OnUpdatingEntityAsync();
+            await CheckUpdatePolicyAsync();
+            await AppService.UpdateAsync(EditingEntityId, EditingEntity);
+            await OnUpdatedEntityAsync();
+        }
+        catch (Exception ex)
+        {
+            await HandleErrorAsync(ex);
+        }
+    }
+
+    protected override async Task OnUpdatedEntityAsync()
+    {
+        EditDialogVisible = false;
+        await GetEntitiesAsync();
+        await InvokeAsync(StateHasChanged);
     }
 
     protected override string GetDeleteConfirmationMessage(IdentityUserDto entity)
@@ -235,25 +301,23 @@ public partial class UserManagement
 
     protected override ValueTask SetToolbarItemsAsync()
     {
-        Toolbar.AddButton(L["NewUser"], OpenCreateModalAsync,
-            IconName.Add,
+        Toolbar.AddButton(L["NewUser"],
+            OpenCreateModalAsync,
             requiredPolicyName: CreatePolicyName);
 
         return base.SetToolbarItemsAsync();
     }
 
-    protected virtual void ChangePasswordTextRole(TextRole? textRole)
+    protected virtual void TogglePasswordVisibility()
     {
-        if (textRole == null)
-        {
-            ChangePasswordTextRole(_passwordTextRole == TextRole.Password ? TextRole.Text : TextRole.Password);
-            ShowPassword = !ShowPassword;
-        }
-        else
-        {
-            _passwordTextRole = textRole.Value;
-        }
+        ShowPassword = !ShowPassword;
+    }
 
+    protected async Task OnPageChangedAsync(int newPage)
+    {
+        CurrentPage = newPage - 1;
+        await GetEntitiesAsync();
+        await InvokeAsync(StateHasChanged);
     }
 }
 
