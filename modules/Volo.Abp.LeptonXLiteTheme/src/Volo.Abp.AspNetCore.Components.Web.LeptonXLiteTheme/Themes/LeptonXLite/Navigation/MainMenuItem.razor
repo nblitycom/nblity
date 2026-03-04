@@ -31,7 +31,9 @@ else
 {
 	if (customComponentType != null)
 	{
-		<DynamicComponent Type="@customComponentType" />
+		<div @onclick="ToggleMenu">
+			<DynamicComponent Type="@customComponentType" />
+		</div>
 	}
 	else
 	{
