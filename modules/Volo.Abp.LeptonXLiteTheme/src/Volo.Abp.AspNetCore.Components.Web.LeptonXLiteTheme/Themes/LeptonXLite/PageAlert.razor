@@ -1,5 +1,6 @@
 @using Volo.Abp.AspNetCore.Components.Alerts
 @inject IAlertManager AlertManager
+@implements IDisposable
 
 @if (AlertManager.Alerts.Any())
 {
@@ -21,9 +22,12 @@
 }
 
 @code {
+    private System.Collections.Specialized.NotifyCollectionChangedEventHandler? _handler;
+
     protected override void OnInitialized()
     {
-        AlertManager.Alerts.CollectionChanged += async (s, e) => await InvokeAsync(StateHasChanged);
+        _handler = async (s, e) => await InvokeAsync(StateHasChanged);
+        AlertManager.Alerts.CollectionChanged += _handler;
     }
 
     private MudBlazor.Severity GetSeverity(AlertType type) => type switch
@@ -38,5 +42,13 @@
     private void DismissAlert(AlertMessage alert)
     {
         AlertManager.Alerts.Remove(alert);
+    }
+
+    public void Dispose()
+    {
+        if (_handler != null)
+        {
+            AlertManager.Alerts.CollectionChanged -= _handler;
+        }
     }
 }

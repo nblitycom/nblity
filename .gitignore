@@ -271,4 +271,5 @@ src/Nblity.Blazor.Server.Tiered/Logs/*
 
 # IdentityServer temp files
 tempkey.rsa
-tempkey.jwksrc/Nblity.Blazor/Logs/*
+tempkey.jwk
+src/Nblity.Blazor/Logs/*

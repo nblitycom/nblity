@@ -28,11 +28,13 @@
                 _ => MudBlazor.Severity.Info
             };
 
-            var message = string.IsNullOrEmpty(e.Title)
-                ? e.Message
-                : $"<strong>{e.Title}</strong><br/>{e.Message}";
-
-            Snackbar.Add(message, severity);
+            Snackbar.Add(e.Message, severity, config =>
+            {
+                if (!string.IsNullOrEmpty(e.Title))
+                {
+                    config.Action = e.Title;
+                }
+            });
         });
     }
 
