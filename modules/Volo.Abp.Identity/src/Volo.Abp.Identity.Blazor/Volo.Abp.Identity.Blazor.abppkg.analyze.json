@@ -19,11 +19,6 @@
           "declaringAssemblyName": "Volo.Abp.PermissionManagement.Blazor",
           "namespace": "Volo.Abp.PermissionManagement.Blazor",
           "name": "AbpPermissionManagementBlazorModule"
-        },
-        {
-          "declaringAssemblyName": "Volo.Abp.BlazoriseUI",
-          "namespace": "Volo.Abp.BlazoriseUI",
-          "name": "AbpBlazoriseUIModule"
         }
       ],
       "implementingInterfaces": [

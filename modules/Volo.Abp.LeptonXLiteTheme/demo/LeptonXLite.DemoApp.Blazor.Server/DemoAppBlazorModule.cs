@@ -1,5 +1,3 @@
-using Blazorise.Bootstrap5;
-using Blazorise.Icons.FontAwesome;
 using LeptonXLite.DemoApp.Blazor.Menus;
 using LeptonXLite.DemoApp.Localization;
 using LeptonXLite.DemoApp.MultiTenancy;
@@ -11,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 using Microsoft.OpenApi;
+using MudBlazor.Services;
 using StackExchange.Redis;
 using System;
 using System.IO;
@@ -88,7 +87,7 @@ namespace LeptonXLite.DemoApp.Blazor
             ConfigureAuthentication(context, configuration);
             ConfigureVirtualFileSystem(hostingEnvironment);
             ConfigureLocalizationServices();
-            ConfigureBlazorise(context);
+            ConfigureMudBlazor(context);
             ConfigureRouter(context);
             ConfigureMenu(configuration);
             ConfigureDataProtection(context, configuration, hostingEnvironment);
@@ -219,11 +218,9 @@ namespace LeptonXLite.DemoApp.Blazor
             });
         }
 
-        private void ConfigureBlazorise(ServiceConfigurationContext context)
+        private void ConfigureMudBlazor(ServiceConfigurationContext context)
         {
-            context.Services
-                .AddBootstrap5Providers()
-                .AddFontAwesomeIcons();
+            context.Services.AddMudServices();
         }
 
         private void ConfigureMenu(IConfiguration configuration)

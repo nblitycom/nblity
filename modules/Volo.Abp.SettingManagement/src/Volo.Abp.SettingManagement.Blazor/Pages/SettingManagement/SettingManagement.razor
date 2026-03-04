@@ -7,10 +7,8 @@
 @using Microsoft.Extensions.Localization
 @using Volo.Abp.UI.Navigation.Localization.Resource
 @inject IStringLocalizer<AbpUiNavigationResource> LUiNavigation
-@* ************************* PAGE HEADER ************************* *@
-<PageHeader Title="@L["Settings"]" BreadcrumbItems="@BreadcrumbItems">
 
-</PageHeader>
+<MudText Typo="Typo.h5" Class="mb-4">@L["Settings"]</MudText>
 
 <MudCard>
     <MudCardContent Class="pt-3">
