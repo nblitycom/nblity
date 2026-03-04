@@ -18,7 +18,7 @@ public class SettingManagementFeatureDefinitionProvider : FeatureDefinitionProvi
             L("Feature:SettingManagementEnable"),
             L("Feature:SettingManagementEnableDescription"),
             new ToggleStringValueType(),
-            isAvailableToHost: false);
+            isAvailableToHost: true);
 
         settingEnableFeature.CreateChild(
             SettingManagementFeatures.AllowChangingEmailSettings,
@@ -26,7 +26,7 @@ public class SettingManagementFeatureDefinitionProvider : FeatureDefinitionProvi
             L("Feature:AllowChangingEmailSettings"),
             null,
             new ToggleStringValueType(),
-            isAvailableToHost: false);
+            isAvailableToHost: true);
     }
 
     private static LocalizableString L(string name)

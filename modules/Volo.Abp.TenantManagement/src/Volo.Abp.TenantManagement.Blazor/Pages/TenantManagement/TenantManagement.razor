@@ -34,7 +34,7 @@
         @* ************************* DATA TABLE ************************* *@
         <MudTable T="TenantDto"
                   Items="@Entities"
-                  CurrentPage="@CurrentPage"
+                  CurrentPage="@(CurrentPage - 1)"
                   RowsPerPage="@PageSize"
                   Hover="true"
                   Breakpoint="MudBlazor.Breakpoint.Sm"
@@ -68,7 +68,7 @@
         </MudTable>
         <MudPagination Class="mt-4 d-flex justify-end"
                        Count="@((int)Math.Ceiling((double)(TotalCount ?? 0) / PageSize))"
-                       Selected="@(CurrentPage + 1)"
+                       Selected="@CurrentPage"
                        SelectedChanged="@OnPageChangedAsync" />
     </MudCardContent>
 </MudCard>

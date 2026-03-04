@@ -315,7 +315,7 @@ public partial class UserManagement
 
     protected async Task OnPageChangedAsync(int newPage)
     {
-        CurrentPage = newPage - 1;
+        CurrentPage = newPage;
         await GetEntitiesAsync();
         await InvokeAsync(StateHasChanged);
     }

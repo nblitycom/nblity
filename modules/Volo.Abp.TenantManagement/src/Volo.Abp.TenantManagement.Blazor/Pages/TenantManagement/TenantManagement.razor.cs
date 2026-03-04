@@ -226,8 +226,7 @@ public partial class TenantManagement
 
     protected async Task OnPageChangedAsync(int newPage)
     {
-        // MudPagination is 1-based; CurrentPage is 0-based
-        CurrentPage = newPage - 1;
+        CurrentPage = newPage;
         await GetEntitiesAsync();
         await InvokeAsync(StateHasChanged);
     }
