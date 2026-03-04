@@ -2,7 +2,6 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Routing;
-using Microsoft.JSInterop;
 
 namespace Volo.Abp.AspNetCore.Components.Web.LeptonXLiteTheme.Themes.LeptonXLite;
 
@@ -10,26 +9,16 @@ public partial class MainLayout : IDisposable
 {
     [Inject] private NavigationManager NavigationManager { get; set; }
 
-    [Inject] IJSRuntime JSRuntime { get; set; }
-
-    private bool IsCollapseShown { get; set; }
+    private bool _drawerOpen = true;
 
     protected override void OnInitialized()
     {
         NavigationManager.LocationChanged += OnLocationChanged;
     }
 
-    protected override async Task OnAfterRenderAsync(bool firstRender)
+    private void ToggleDrawer()
     {
-        if (firstRender)
-        {
-            await JSRuntime.InvokeVoidAsync("initLeptonX");
-        }
-    }
-
-    private void ToggleCollapse()
-    {
-        IsCollapseShown = !IsCollapseShown;
+        _drawerOpen = !_drawerOpen;
     }
 
     public void Dispose()
@@ -39,7 +28,6 @@ public partial class MainLayout : IDisposable
 
     private void OnLocationChanged(object sender, LocationChangedEventArgs e)
     {
-        IsCollapseShown = false;
         InvokeAsync(StateHasChanged);
     }
 }
