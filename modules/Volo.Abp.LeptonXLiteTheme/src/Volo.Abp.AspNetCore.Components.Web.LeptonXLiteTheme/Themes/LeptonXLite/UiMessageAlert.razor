@@ -1,0 +1,123 @@
+@using Volo.Abp.AspNetCore.Components.Messages
+@using Volo.Abp.BlazoriseUI
+@inject IUiMessageService UiMessageService
+@implements IDisposable
+
+@if (_isVisible)
+{
+    <MudOverlay Visible="true" DarkBackground="true" ZIndex="9999" />
+    <MudPaper Class="mud-message-alert-dialog" Elevation="8"
+              Style="position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:10000;min-width:400px;max-width:600px;padding:24px;">
+        @if (!string.IsNullOrEmpty(_title))
+        {
+            <MudText Typo="Typo.h6" Class="mb-2">@_title</MudText>
+        }
+        <MudText Typo="Typo.body1" Class="mb-4">@_message</MudText>
+        <div class="d-flex justify-end gap-2">
+            @if (_messageType == UiMessageType.Confirmation)
+            {
+                <MudButton Variant="Variant.Outlined"
+                           Color="MudBlazor.Color.Default"
+                           OnClick="OnCancelClicked">
+                    @(_cancelButtonText ?? "Cancel")
+                </MudButton>
+                <MudButton Variant="Variant.Filled"
+                           Color="MudBlazor.Color.Primary"
+                           OnClick="OnConfirmClicked">
+                    @(_confirmButtonText ?? "Yes")
+                </MudButton>
+            }
+            else
+            {
+                <MudButton Variant="Variant.Filled"
+                           Color="@GetButtonColor()"
+                           OnClick="OnOkClicked">
+                    @(_okButtonText ?? "OK")
+                </MudButton>
+            }
+        </div>
+    </MudPaper>
+}
+
+@code {
+    private bool _isVisible;
+    private string? _title;
+    private string? _message;
+    private UiMessageType _messageType;
+    private string? _okButtonText;
+    private string? _confirmButtonText;
+    private string? _cancelButtonText;
+    private TaskCompletionSource<bool>? _callback;
+
+    private BlazoriseUiMessageService? _blazoriseService;
+
+    protected override void OnInitialized()
+    {
+        if (UiMessageService is BlazoriseUiMessageService svc)
+        {
+            _blazoriseService = svc;
+            _blazoriseService.MessageReceived += OnMessageReceived;
+        }
+    }
+
+    private async void OnMessageReceived(object? sender, UiMessageEventArgs e)
+    {
+        _messageType = e.MessageType;
+        _message = e.Message;
+        _title = e.Title;
+        _callback = e.Callback;
+
+        if (e.Options != null)
+        {
+            _okButtonText = e.Options.OkButtonText;
+            _confirmButtonText = e.Options.ConfirmButtonText;
+            _cancelButtonText = e.Options.CancelButtonText;
+        }
+        else
+        {
+            _okButtonText = null;
+            _confirmButtonText = null;
+            _cancelButtonText = null;
+        }
+
+        _isVisible = true;
+        await InvokeAsync(StateHasChanged);
+    }
+
+    private void OnOkClicked()
+    {
+        _isVisible = false;
+        _callback?.TrySetResult(true);
+        StateHasChanged();
+    }
+
+    private void OnConfirmClicked()
+    {
+        _isVisible = false;
+        _callback?.TrySetResult(true);
+        StateHasChanged();
+    }
+
+    private void OnCancelClicked()
+    {
+        _isVisible = false;
+        _callback?.TrySetResult(false);
+        StateHasChanged();
+    }
+
+    private MudBlazor.Color GetButtonColor() => _messageType switch
+    {
+        UiMessageType.Success => MudBlazor.Color.Success,
+        UiMessageType.Warning => MudBlazor.Color.Warning,
+        UiMessageType.Error => MudBlazor.Color.Error,
+        _ => MudBlazor.Color.Primary
+    };
+
+    public void Dispose()
+    {
+        if (_blazoriseService != null)
+        {
+            _blazoriseService.MessageReceived -= OnMessageReceived;
+        }
+    }
+}

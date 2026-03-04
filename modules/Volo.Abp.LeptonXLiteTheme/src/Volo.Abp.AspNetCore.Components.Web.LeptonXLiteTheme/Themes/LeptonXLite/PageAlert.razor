@@ -1,0 +1,42 @@
+@using Volo.Abp.AspNetCore.Components.Alerts
+@inject IAlertManager AlertManager
+
+@if (AlertManager.Alerts.Any())
+{
+    @foreach (var alert in AlertManager.Alerts.ToList())
+    {
+        <MudAlert Severity="@GetSeverity(alert.Type)"
+                  Variant="Variant.Filled"
+                  ShowCloseIcon="@alert.Dismissible"
+                  CloseIconClicked="@(() => DismissAlert(alert))"
+                  Class="mb-2">
+            @if (!string.IsNullOrEmpty(alert.Title))
+            {
+                <strong>@alert.Title</strong>
+                <br />
+            }
+            @alert.Text
+        </MudAlert>
+    }
+}
+
+@code {
+    protected override void OnInitialized()
+    {
+        AlertManager.Alerts.CollectionChanged += async (s, e) => await InvokeAsync(StateHasChanged);
+    }
+
+    private MudBlazor.Severity GetSeverity(AlertType type) => type switch
+    {
+        AlertType.Success => MudBlazor.Severity.Success,
+        AlertType.Danger => MudBlazor.Severity.Error,
+        AlertType.Warning => MudBlazor.Severity.Warning,
+        AlertType.Info => MudBlazor.Severity.Info,
+        _ => MudBlazor.Severity.Normal
+    };
+
+    private void DismissAlert(AlertMessage alert)
+    {
+        AlertManager.Alerts.Remove(alert);
+    }
+}
