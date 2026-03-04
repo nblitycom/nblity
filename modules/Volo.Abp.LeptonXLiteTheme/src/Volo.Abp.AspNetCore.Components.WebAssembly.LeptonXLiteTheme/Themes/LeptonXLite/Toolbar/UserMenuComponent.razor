@@ -7,46 +7,36 @@
 @inject IOptions<AbpAspNetCoreComponentsWebOptions> AbpAspNetCoreComponentsWebOptions
 <AuthorizeView>
 	<Authorized>
-		<div class="dropdown">
-			<div class="lpx-user-profile dropdown-toggle" role="button" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-
-				@* TODO: Find out what to do with avatar.
-					<div class="lpx-avatar">
-					<img class="lpx-avatar-img" src="@ProfileImageUrl" alt="@UserName avatar">
-					</div>
-				*@
-
-				@if (TenantName.IsNullOrEmpty())
-				{
-					<span class="user-full-name">@UserFullName</span>
-				}
-				else
-				{
-					<span class="user-full-name"><i>@CurrentTenant.Name</i>\@UserFullName</span>
-				}
-			</div>
-			<div class="dropdown-menu" aria-labelledby="userDropdown">
+		<MudMenu AnchorOrigin="Origin.BottomCenter" TransformOrigin="Origin.TopCenter" Dense="true">
+			<ActivatorContent Context="activatorContext">
+				<MudButton Color="MudBlazor.Color.Inherit" Class="text-transform-none">
+					<MudIcon Icon="@Icons.Material.Filled.Person" Class="me-1" />
+					@if (TenantName.IsNullOrEmpty())
+					{
+						<span>@UserFullName</span>
+					}
+					else
+					{
+						<span><i>@CurrentTenant.Name</i>\@UserFullName</span>
+					}
+				</MudButton>
+			</ActivatorContent>
+			<ChildContent>
 				@for (var i = 0; i < UserMenu.Items.Count; i++)
 				{
-					<a class="dropdown-item" href="@UserMenu.Items[i].Url.TrimStart('~')" target="@UserMenu.Items[i].Target" id="@UserMenu.Items[i].ElementId">
-						<span class="lpx-menu-item-icon">
-							<i class="lpx-icon @UserMenu.Items[i].Icon" />
-						</span>
+					<MudMenuItem Href="@UserMenu.Items[i].Url.TrimStart('~')" id="@UserMenu.Items[i].ElementId">
 						@UserMenu.Items[i].DisplayName
-					</a>
+					</MudMenuItem>
 				}
 
-				<div class="dropdown-divider"></div>
-				<a class="dropdown-item" id="MenuItem_Logout" href="javascript:void(0)" @onclick="BeginSignOut">
-					<span class="lpx-menu-item-icon">
-						<i class="lpx-icon" />
-					</span>
+				<MudDivider />
+				<MudMenuItem OnClick="BeginSignOut" id="MenuItem_Logout">
 					@UiLocalizer["Logout"]
-				</a>
-			</div>
-		</div>
+				</MudMenuItem>
+			</ChildContent>
+		</MudMenu>
 	</Authorized>
 	<NotAuthorized>
-		<a class="nav-link" href="@AuthenticationOptions.Value.LoginUrl">@L["Login"]</a>
+		<MudButton Href="@AuthenticationOptions.Value.LoginUrl" Color="MudBlazor.Color.Inherit">@L["Login"]</MudButton>
 	</NotAuthorized>
 </AuthorizeView>

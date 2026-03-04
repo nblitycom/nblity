@@ -1,25 +1,18 @@
-﻿<ol class="lpx-breadcrumb">
-	@if (PageLayout.BreadcrumbItems.Any())
-	{
-		<li class="lpx-breadcrumb-item">
-			<a href=""><i class="lpx-breadcrumb-item-icon bi-house-door-fill" aria-hidden="true"></i></a>
-		</li>
+﻿@{
+	var items = new List<MudBlazor.BreadcrumbItem>();
+	items.Add(new MudBlazor.BreadcrumbItem("Home", href: "/", icon: Icons.Material.Filled.Home));
 
+	if (PageLayout.BreadcrumbItems.Any())
+	{
 		foreach (var breadcrumb in PageLayout.BreadcrumbItems)
 		{
-			<li class="lpx-breadcrumb-separator"><i class="lpx-icon bi bi-chevron-right"></i></li>
-
-			<li class="lpx-breadcrumb-item" data-lpx-toggle="breadcrumb">
-				<i class="lpx-breadcrumb-item-icon @breadcrumb.Icon" aria-hidden="true"></i>
-
-				<a href="@breadcrumb.Url">@breadcrumb.Text</a>
-			</li>
+			items.Add(new MudBlazor.BreadcrumbItem(breadcrumb.Text, href: breadcrumb.Url));
 		}
 	}
-	else
+	else if (!string.IsNullOrEmpty(PageLayout.Title))
 	{
-		<li class="lpx-breadcrumb-item">
-			<a href=""><i class="lpx-breadcrumb-item-icon bi-house-door-fill me-1" aria-hidden="true"></i>@PageLayout.Title</a>
-		</li>
+		items.Add(new MudBlazor.BreadcrumbItem(PageLayout.Title, href: null, disabled: true));
 	}
-</ol>
+}
+
+<MudBreadcrumbs Items="@items" Class="pa-0 ma-0"></MudBreadcrumbs>

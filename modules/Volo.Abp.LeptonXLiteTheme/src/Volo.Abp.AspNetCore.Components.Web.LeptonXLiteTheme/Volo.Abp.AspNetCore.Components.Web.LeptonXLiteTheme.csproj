@@ -11,6 +11,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Volo.Abp.AspNetCore.Components.Web.Theming" Version="10.1.0" />
+    <PackageReference Include="MudBlazor" Version="9.0.0" />
     <PackageReference Update="Fody" Version="6.6.1">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>

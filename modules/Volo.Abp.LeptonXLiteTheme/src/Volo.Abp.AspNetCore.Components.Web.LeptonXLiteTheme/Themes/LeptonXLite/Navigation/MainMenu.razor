@@ -2,9 +2,6 @@
 {
 	@foreach (var menuItem in Menu.Items)
 	{
-		<li class="outer-menu-item">
-			<MainMenuItem Menu="@Menu" MenuItem="@menuItem" />
-		</li>
-
+		<MainMenuItem Menu="@Menu" MenuItem="@menuItem" />
 	}
 }
