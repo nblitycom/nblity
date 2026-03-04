@@ -255,11 +255,11 @@ public class NblityBlazorModule : AbpModule
 
     private void ConfigureBlazorise(ServiceConfigurationContext context)
     {
+        // Blazorise registration is retained because AbpCrudPageBase (from Volo.Abp.BlazoriseUI NuGet package)
+        // requires Blazorise Modal/Validations for Identity and TenantManagement CRUD pages.
         context.Services
             .AddBlazorise(options =>
             {
-                // TODO (IMPORTANT): To use Blazorise, you need a license key. Get your license key directly from Blazorise, follow  the instructions at https://abp.io/faq#how-to-get-blazorise-license-key
-                //options.ProductToken = "Your Product Token";
             })
             .AddBootstrap5Providers()
             .AddFontAwesomeIcons();
