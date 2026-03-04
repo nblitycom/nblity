@@ -6,7 +6,6 @@
 @using Volo.Abp.Identity.Localization
 @using Volo.Abp.AspNetCore.Components.Web
 @using Volo.Abp.AspNetCore.Components.Web.Theming
-@using Volo.Abp.BlazoriseUI.Components.ObjectExtending
 @using Volo.Abp.AspNetCore.Components.Web.Theming.Layout
 @inject AbpBlazorMessageLocalizerHelper<IdentityResource> LH
 @using Microsoft.Extensions.Localization
@@ -14,105 +13,145 @@
 @inject IStringLocalizer<AbpUiNavigationResource> LUiNavigation
 
 @inherits AbpCrudPageBase<IIdentityRoleAppService, IdentityRoleDto, Guid, GetIdentityRolesInput, IdentityRoleCreateDto, IdentityRoleUpdateDto>
+
 <MudCard>
     <MudCardHeader>
-        @* ************************* PAGE HEADER ************************* *@
-        <PageHeader Title="@L["Roles"]"
-                    BreadcrumbItems="@BreadcrumbItems"
-                    Toolbar="@Toolbar">
-        </PageHeader>
+        <CardHeaderContent>
+            <MudText Typo="Typo.h5">@L["Roles"]</MudText>
+        </CardHeaderContent>
+        <CardHeaderActions>
+            @if (HasCreatePermission)
+            {
+                <MudButton Variant="Variant.Filled"
+                           Color="MudBlazor.Color.Primary"
+                           StartIcon="@Icons.Material.Filled.Add"
+                           OnClick="OpenCreateModalAsync">
+                    @L["NewRole"]
+                </MudButton>
+            }
+        </CardHeaderActions>
     </MudCardHeader>
     <MudCardContent>
-        @* ************************* DATA GRID ************************* *@
-        <AbpExtensibleDataGrid TItem="IdentityRoleDto"
-                               Data="@Entities"
-                               ReadData="@OnDataGridReadAsync"
-                               TotalItems="@TotalCount"
-                               ShowPager="true"
-                               PageSize="@PageSize"
-                               CurrentPage="@CurrentPage"
-                               Columns="@RoleManagementTableColumns">
-        </AbpExtensibleDataGrid>
+        @* ************************* DATA TABLE ************************* *@
+        <MudTable T="IdentityRoleDto"
+                  Items="@Entities"
+                  CurrentPage="@CurrentPage"
+                  RowsPerPage="@PageSize"
+                  Hover="true"
+                  Breakpoint="MudBlazor.Breakpoint.Sm"
+                  Dense="true">
+            <HeaderContent>
+                <MudTh>@L["Actions"]</MudTh>
+                <MudTh>@L["RoleName"]</MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd DataLabel="@L["Actions"]">
+                    <MudMenu Icon="@Icons.Material.Filled.MoreHoriz"
+                             Size="MudBlazor.Size.Small"
+                             Dense="true"
+                             AnchorOrigin="Origin.BottomLeft">
+                        @if (HasUpdatePermission)
+                        {
+                            <MudMenuItem OnClick="@(() => OpenEditModalAsync(context))">@L["Edit"]</MudMenuItem>
+                        }
+                        @if (HasManagePermissionsPermission)
+                        {
+                            <MudMenuItem OnClick="@(() => PermissionManagementModal.OpenAsync(PermissionProviderName, context.Name))">@L["Permissions"]</MudMenuItem>
+                        }
+                        @if (HasDeletePermission && !context.IsStatic)
+                        {
+                            <MudMenuItem OnClick="@(() => DeleteEntityAsync(context))">@L["Delete"]</MudMenuItem>
+                        }
+                    </MudMenu>
+                </MudTd>
+                <MudTd DataLabel="@L["RoleName"]">
+                    <RoleNameComponent Data="@context" />
+                </MudTd>
+            </RowTemplate>
+        </MudTable>
+        <MudPagination Class="mt-4 d-flex justify-end"
+                       Count="@((int)Math.Ceiling((double)TotalCount / PageSize))"
+                       Selected="@(CurrentPage + 1)"
+                       SelectedChanged="@OnPageChangedAsync" />
     </MudCardContent>
 </MudCard>
 
 @* ************************* CREATE MODAL ************************* *@
 @if (HasCreatePermission)
 {
-    <Modal @ref="CreateModal" Closing="@ClosingCreateModal">
-        <ModalContent Centered="true">
-            <Form id="CreateRoleForm">
-                <ModalHeader>
-                    <ModalTitle>@L["NewRole"]</ModalTitle>
-                    <CloseButton Clicked="CloseCreateModalAsync"/>
-                </ModalHeader>
-                <ModalBody>
-                    <Validations @ref="@CreateValidationsRef" Model="@NewEntity" ValidateOnLoad="false">
-                        <Validation MessageLocalizer="@LH.Localize">
-                            <Field>
-                                <FieldLabel>@L["DisplayName:RoleName"] *</FieldLabel>
-                                <TextEdit @bind-Text="@NewEntity.Name" Autofocus="true">
-                                    <Feedback>
-                                        <ValidationError/>
-                                    </Feedback>
-                                </TextEdit>
-                            </Field>
-                            <ExtensionProperties TEntityType="IdentityRoleCreateDto" TResourceType="IdentityResource" Entity="@NewEntity" LH="@LH" ModalType="ExtensionPropertyModalType.CreateModal" />
-                        </Validation>
-                        <Field>
-                            <Check TValue="bool" @bind-Checked="@NewEntity.IsDefault">@L["DisplayName:IsDefault"]</Check>
-                            <Check TValue="bool" @bind-Checked="@NewEntity.IsPublic">@L["DisplayName:IsPublic"]</Check>
-                        </Field>
-                    </Validations>
-                </ModalBody>
-                <ModalFooter>
-                    <Button Color="Blazorise.Color.Primary" Outline Clicked="CloseCreateModalAsync">@L["Cancel"]</Button>
-                    <SubmitButton Form="CreateRoleForm" Clicked="@CreateEntityAsync"/>
-                </ModalFooter>
-            </Form>
-        </ModalContent>
-    </Modal>
+    <MudDialog @bind-Visible="CreateDialogVisible"
+               Options="@(new DialogOptions { MaxWidth = MaxWidth.Small, FullWidth = true })">
+        <TitleContent>
+            <MudText Typo="Typo.h6">@L["NewRole"]</MudText>
+        </TitleContent>
+        <DialogContent>
+            <EditForm Model="@NewEntity">
+                <DataAnnotationsValidator />
+                <MudTextField @bind-Value="@NewEntity.Name"
+                              Label="@(L["DisplayName:RoleName"].Value + " *")"
+                              AutoFocus="true"
+                              Required="true"
+                              Class="mb-4" />
+                <MudCheckBox @bind-Value="@NewEntity.IsDefault"
+                             Label="@L["DisplayName:IsDefault"]" />
+                <MudCheckBox @bind-Value="@NewEntity.IsPublic"
+                             Label="@L["DisplayName:IsPublic"]" />
+            </EditForm>
+        </DialogContent>
+        <DialogActions>
+            <MudButton OnClick="CloseCreateModalAsync"
+                       Variant="Variant.Outlined"
+                       Color="MudBlazor.Color.Primary">
+                @L["Cancel"]
+            </MudButton>
+            <MudButton OnClick="CreateEntityAsync"
+                       Variant="Variant.Filled"
+                       Color="MudBlazor.Color.Primary">
+                @L["Save"]
+            </MudButton>
+        </DialogActions>
+    </MudDialog>
 }
+
 @* ************************* EDIT MODAL ************************* *@
 @if (HasUpdatePermission)
 {
-    <Modal @ref="EditModal" Closing="@ClosingEditModal">
-        <ModalContent Centered="true">
-            <Form id="EditRoleForm">
-                <ModalHeader>
-                    <ModalTitle>@L["Edit"]</ModalTitle>
-                    <CloseButton Clicked="CloseEditModalAsync"/>
-                </ModalHeader>
-                <ModalBody>
-                    <Validations @ref="@EditValidationsRef" Model="@EditingEntity" ValidateOnLoad="false">
-                        <input type="hidden" name="ConcurrencyStamp" @bind-value="EditingEntity.ConcurrencyStamp"/>
-                        <Validation MessageLocalizer="@LH.Localize">
-                            <Field>
-                                <FieldLabel>@L["DisplayName:RoleName"] *</FieldLabel>
-                                <TextEdit @bind-Text="EditingEntity.Name" Autofocus="true">
-                                    <Feedback>
-                                        <ValidationError/>
-                                    </Feedback>
-                                </TextEdit>
-                            </Field>
-                            <ExtensionProperties TEntityType="IdentityRoleUpdateDto" TResourceType="IdentityResource" Entity="@EditingEntity" LH="@LH"  ModalType="ExtensionPropertyModalType.EditModal" />
-                        </Validation>
-                        <Field>
-                            <Check TValue="bool" @bind-Checked="@EditingEntity.IsDefault">@L["DisplayName:IsDefault"]</Check>
-                            <Check TValue="bool" @bind-Checked="@EditingEntity.IsPublic">@L["DisplayName:IsPublic"]</Check>
-                        </Field>
-                    </Validations>
-                </ModalBody>
-                <ModalFooter>
-                    <Button Color="Blazorise.Color.Primary" Outline Clicked="CloseEditModalAsync">@L["Cancel"]</Button>
-                    <SubmitButton Form="EditRoleForm" Clicked="@UpdateEntityAsync"/>
-                </ModalFooter>
-            </Form>
-        </ModalContent>
-    </Modal>
+    <MudDialog @bind-Visible="EditDialogVisible"
+               Options="@(new DialogOptions { MaxWidth = MaxWidth.Small, FullWidth = true })">
+        <TitleContent>
+            <MudText Typo="Typo.h6">@L["Edit"]</MudText>
+        </TitleContent>
+        <DialogContent>
+            <EditForm Model="@EditingEntity">
+                <DataAnnotationsValidator />
+                <input type="hidden" name="ConcurrencyStamp" @bind-value="EditingEntity.ConcurrencyStamp" />
+                <MudTextField @bind-Value="@EditingEntity.Name"
+                              Label="@(L["DisplayName:RoleName"].Value + " *")"
+                              AutoFocus="true"
+                              Required="true"
+                              Class="mb-4" />
+                <MudCheckBox @bind-Value="@EditingEntity.IsDefault"
+                             Label="@L["DisplayName:IsDefault"]" />
+                <MudCheckBox @bind-Value="@EditingEntity.IsPublic"
+                             Label="@L["DisplayName:IsPublic"]" />
+            </EditForm>
+        </DialogContent>
+        <DialogActions>
+            <MudButton OnClick="CloseEditModalAsync"
+                       Variant="Variant.Outlined"
+                       Color="MudBlazor.Color.Primary">
+                @L["Cancel"]
+            </MudButton>
+            <MudButton OnClick="UpdateEntityAsync"
+                       Variant="Variant.Filled"
+                       Color="MudBlazor.Color.Primary">
+                @L["Save"]
+            </MudButton>
+        </DialogActions>
+    </MudDialog>
 }
 
 @if (HasManagePermissionsPermission)
 {
-    <PermissionManagementModal @ref="PermissionManagementModal"/>
+    <PermissionManagementModal @ref="PermissionManagementModal" />
 }

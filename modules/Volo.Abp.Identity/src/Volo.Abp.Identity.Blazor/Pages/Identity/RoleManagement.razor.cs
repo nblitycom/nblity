@@ -1,9 +1,7 @@
-using System.Threading.Tasks;
-using Blazorise;
-using Microsoft.AspNetCore.Authorization;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Volo.Abp.AspNetCore.Components.Web.Extensibility.EntityActions;
 using Volo.Abp.AspNetCore.Components.Web.Extensibility.TableColumns;
 using Volo.Abp.AspNetCore.Components.Web.Theming.PageToolbars;
@@ -23,6 +21,10 @@ public partial class RoleManagement
     protected string ManagePermissionsPolicyName;
 
     protected bool HasManagePermissionsPermission { get; set; }
+
+    protected bool CreateDialogVisible;
+
+    protected bool EditDialogVisible;
 
     protected PageToolbar Toolbar { get; } = new();
 
@@ -123,9 +125,104 @@ public partial class RoleManagement
     {
         Toolbar.AddButton(L["NewRole"],
             OpenCreateModalAsync,
-            IconName.Add,
             requiredPolicyName: CreatePolicyName);
 
         return base.SetToolbarItemsAsync();
+    }
+
+    protected override async Task OpenCreateModalAsync()
+    {
+        try
+        {
+            await CheckCreatePolicyAsync();
+            NewEntity = new IdentityRoleCreateDto();
+            CreateDialogVisible = true;
+            await InvokeAsync(StateHasChanged);
+        }
+        catch (Exception ex)
+        {
+            await HandleErrorAsync(ex);
+        }
+    }
+
+    protected override Task CloseCreateModalAsync()
+    {
+        CreateDialogVisible = false;
+        return Task.CompletedTask;
+    }
+
+    protected override async Task OpenEditModalAsync(IdentityRoleDto entity)
+    {
+        try
+        {
+            await CheckUpdatePolicyAsync();
+            var entityDto = await AppService.GetAsync(entity.Id);
+            EditingEntityId = entity.Id;
+            EditingEntity = MapToEditingEntity(entityDto);
+            EditDialogVisible = true;
+            await InvokeAsync(StateHasChanged);
+        }
+        catch (Exception ex)
+        {
+            await HandleErrorAsync(ex);
+        }
+    }
+
+    protected override Task CloseEditModalAsync()
+    {
+        EditDialogVisible = false;
+        return Task.CompletedTask;
+    }
+
+    protected override async Task CreateEntityAsync()
+    {
+        try
+        {
+            await OnCreatingEntityAsync();
+            await CheckCreatePolicyAsync();
+            await AppService.CreateAsync(NewEntity);
+            await OnCreatedEntityAsync();
+        }
+        catch (Exception ex)
+        {
+            await HandleErrorAsync(ex);
+        }
+    }
+
+    protected override async Task OnCreatedEntityAsync()
+    {
+        CreateDialogVisible = false;
+        await GetEntitiesAsync();
+        await InvokeAsync(StateHasChanged);
+    }
+
+    protected override async Task UpdateEntityAsync()
+    {
+        try
+        {
+            await OnUpdatingEntityAsync();
+            await CheckUpdatePolicyAsync();
+            await AppService.UpdateAsync(EditingEntityId, EditingEntity);
+            await OnUpdatedEntityAsync();
+        }
+        catch (Exception ex)
+        {
+            await HandleErrorAsync(ex);
+        }
+    }
+
+    protected override async Task OnUpdatedEntityAsync()
+    {
+        EditDialogVisible = false;
+        await GetEntitiesAsync();
+        await InvokeAsync(StateHasChanged);
+    }
+
+    protected async Task OnPageChangedAsync(int newPage)
+    {
+        // MudPagination is 1-based; CurrentPage is 0-based
+        CurrentPage = newPage - 1;
+        await GetEntitiesAsync();
+        await InvokeAsync(StateHasChanged);
     }
 }
