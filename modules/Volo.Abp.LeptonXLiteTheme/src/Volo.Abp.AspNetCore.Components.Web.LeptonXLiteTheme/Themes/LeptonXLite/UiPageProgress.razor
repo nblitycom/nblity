@@ -1,0 +1,42 @@
+@using Volo.Abp.AspNetCore.Components.Progression
+@inject IUiPageProgressService UiPageProgressService
+@implements IDisposable
+
+@if (_visible)
+{
+    <MudProgressLinear Color="@_color"
+                       Value="@(_percentage ?? 0)"
+                       Indeterminate="@(_percentage == null)"
+                       Class="mud-progress-top" />
+}
+
+@code {
+    private bool _visible;
+    private int? _percentage;
+    private MudBlazor.Color _color = MudBlazor.Color.Primary;
+
+    protected override void OnInitialized()
+    {
+        UiPageProgressService.ProgressChanged += OnProgressChanged;
+    }
+
+    private async void OnProgressChanged(object? sender, UiPageProgressEventArgs e)
+    {
+        _percentage = e.Percentage;
+        _visible = e.Percentage is null or (>= 0 and < 100);
+        _color = e.Options?.Type switch
+        {
+            UiPageProgressType.Success => MudBlazor.Color.Success,
+            UiPageProgressType.Warning => MudBlazor.Color.Warning,
+            UiPageProgressType.Error => MudBlazor.Color.Error,
+            UiPageProgressType.Info => MudBlazor.Color.Info,
+            _ => MudBlazor.Color.Primary
+        };
+        await InvokeAsync(StateHasChanged);
+    }
+
+    public void Dispose()
+    {
+        UiPageProgressService.ProgressChanged -= OnProgressChanged;
+    }
+}
