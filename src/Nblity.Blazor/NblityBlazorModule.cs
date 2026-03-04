@@ -208,6 +208,7 @@ public class NblityBlazorModule : AbpModule
                 bundle =>
                 {
                     bundle.AddFiles("/global-styles.css");
+                    bundle.AddContributors(typeof(NblityStyleBundleContributor));
                 }
             );
         });

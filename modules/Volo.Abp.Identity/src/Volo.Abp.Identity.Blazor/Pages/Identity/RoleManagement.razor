@@ -71,7 +71,7 @@
             </RowTemplate>
         </MudTable>
         <MudPagination Class="mt-4 d-flex justify-end"
-                       Count="@((int)Math.Ceiling((double)TotalCount / PageSize))"
+                       Count="@((int)Math.Ceiling((double)(TotalCount ?? 0) / PageSize))"
                        Selected="@(CurrentPage + 1)"
                        SelectedChanged="@OnPageChangedAsync" />
     </MudCardContent>
