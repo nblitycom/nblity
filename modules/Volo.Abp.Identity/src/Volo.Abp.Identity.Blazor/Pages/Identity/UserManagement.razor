@@ -116,9 +116,9 @@
                                       Class="mb-4" />
                         <MudTextField @bind-Value="@NewEntity.Password"
                                       Label="@(L["DisplayName:Password"].Value + " *")"
-                                      InputType="@(_showPassword ? InputType.Text : InputType.Password)"
+                                      InputType="@(ShowPassword ? InputType.Text : InputType.Password)"
                                       Adornment="Adornment.End"
-                                      AdornmentIcon="@(_showPassword ? Icons.Material.Filled.Visibility : Icons.Material.Filled.VisibilityOff)"
+                                      AdornmentIcon="@(ShowPassword ? Icons.Material.Filled.Visibility : Icons.Material.Filled.VisibilityOff)"
                                       OnAdornmentClick="TogglePasswordVisibility"
                                       Required="true"
                                       Class="mb-4" />
@@ -191,9 +191,9 @@
                                       Class="mb-4" />
                         <MudTextField @bind-Value="@EditingEntity.Password"
                                       Label="@L["DisplayName:Password"]"
-                                      InputType="@(_showPassword ? InputType.Text : InputType.Password)"
+                                      InputType="@(ShowPassword ? InputType.Text : InputType.Password)"
                                       Adornment="Adornment.End"
-                                      AdornmentIcon="@(_showPassword ? Icons.Material.Filled.Visibility : Icons.Material.Filled.VisibilityOff)"
+                                      AdornmentIcon="@(ShowPassword ? Icons.Material.Filled.Visibility : Icons.Material.Filled.VisibilityOff)"
                                       OnAdornmentClick="TogglePasswordVisibility"
                                       Class="mb-4" />
                         <MudTextField @bind-Value="@EditingEntity.Email"

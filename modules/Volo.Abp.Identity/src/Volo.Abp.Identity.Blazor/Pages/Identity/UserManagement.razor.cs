@@ -35,7 +35,7 @@ public partial class UserManagement
 
     protected bool EditDialogVisible;
 
-    private bool _showPassword;
+    protected bool ShowPassword;
 
     protected bool IsEditCurrentUser { get; set; }
 
@@ -106,7 +106,7 @@ public partial class UserManagement
                 IsAssigned = x.IsDefault
             }).ToArray();
 
-            _showPassword = false;
+            ShowPassword = false;
             NewEntity = new IdentityUserCreateDto();
             NewEntity.IsActive = true;
             NewEntity.LockoutEnabled = true;
@@ -161,7 +161,7 @@ public partial class UserManagement
             await CheckUpdatePolicyAsync();
 
             IsEditCurrentUser = entity.Id == CurrentUser.Id;
-            _showPassword = false;
+            ShowPassword = false;
 
             if (await PermissionChecker.IsGrantedAsync(IdentityPermissions.Users.ManageRoles))
             {
@@ -310,7 +310,7 @@ public partial class UserManagement
 
     protected virtual void TogglePasswordVisibility()
     {
-        _showPassword = !_showPassword;
+        ShowPassword = !ShowPassword;
     }
 
     protected async Task OnPageChangedAsync(int newPage)
