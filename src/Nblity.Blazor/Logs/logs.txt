@@ -1,182 +1,176 @@
-2026-03-05 10:05:23.539 +00:00 [INF] Starting web host.
-2026-03-05 10:05:25.612 +00:00 [DBG] Loaded ABP modules:
-2026-03-05 10:05:25.614 +00:00 [DBG] - Nblity.Blazor.NblityBlazorModule
-2026-03-05 10:05:25.614 +00:00 [DBG]   - Nblity.NblityApplicationModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.NblityDomainModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Nblity.NblityDomainSharedModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.Validation.AbpValidationModule
-2026-03-05 10:05:25.614 +00:00 [DBG]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]             - Volo.Abp.Localization.AbpLocalizationModule
-2026-03-05 10:05:25.614 +00:00 [DBG]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
-2026-03-05 10:05:25.614 +00:00 [DBG]               - Volo.Abp.Settings.AbpSettingsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]                 - Volo.Abp.Security.AbpSecurityModule
-2026-03-05 10:05:25.614 +00:00 [DBG]                 - Volo.Abp.Data.AbpDataModule
-2026-03-05 10:05:25.614 +00:00 [DBG]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
-2026-03-05 10:05:25.614 +00:00 [DBG]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
-2026-03-05 10:05:25.614 +00:00 [DBG]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]               - Volo.Abp.Threading.AbpThreadingModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainSharedModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Nblity.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
-2026-03-05 10:05:25.614 +00:00 [DBG]             - Volo.Abp.Json.AbpJsonAbstractionsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]             - Volo.Abp.Timing.AbpTimingModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Nblity.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Nblity.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.Features.AbpFeaturesModule
-2026-03-05 10:05:25.614 +00:00 [DBG]             - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
-2026-03-05 10:05:25.614 +00:00 [DBG]               - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Nblity.Abp.Identity.AbpIdentityDomainSharedModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.Users.AbpUsersDomainSharedModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Nblity.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.Auditing.AbpAuditingModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.Json.AbpJsonModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.Auditing.AbpAuditingContractsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.Domain.AbpDddDomainModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.EventBus.AbpEventBusModule
-2026-03-05 10:05:25.614 +00:00 [DBG]             - Volo.Abp.Guids.AbpGuidsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
-2026-03-05 10:05:25.614 +00:00 [DBG]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.Specifications.AbpSpecificationsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.Caching.AbpCachingModule
-2026-03-05 10:05:25.614 +00:00 [DBG]             - Volo.Abp.Serialization.AbpSerializationModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.Domain.AbpDddDomainSharedModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.Mapperly.AbpMapperlyModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Nblity.Abp.FeatureManagement.AbpFeatureManagementDomainModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Nblity.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Nblity.Abp.PermissionManagement.AbpPermissionManagementDomainModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.Authorization.AbpAuthorizationModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.Users.AbpUsersAbstractionModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Nblity.Abp.SettingManagement.AbpSettingManagementDomainModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Volo.Abp.Emailing.AbpEmailingModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
-2026-03-05 10:05:25.614 +00:00 [DBG]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Nblity.Abp.Identity.AbpIdentityDomainModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.Users.AbpUsersDomainModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.Identity.AbpIdentityDomainModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Nblity.Abp.TenantManagement.AbpTenantManagementDomainModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.BlobStoring.AbpBlobStoringModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.NblityApplicationContractsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Nblity.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.Application.AbpDddApplicationContractsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Nblity.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Nblity.Abp.Identity.AbpIdentityApplicationContractsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Nblity.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Nblity.Abp.Account.AbpAccountApplicationContractsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Nblity.Abp.TenantManagement.AbpTenantManagementApplicationContractsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Volo.Abp.Application.AbpDddApplicationModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.Http.AbpHttpAbstractionsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.Abp.Identity.AbpIdentityApplicationModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.Abp.Account.AbpAccountApplicationModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.UI.AbpUiModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.Abp.TenantManagement.AbpTenantManagementApplicationModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.Abp.SettingManagement.AbpSettingManagementApplicationModule
-2026-03-05 10:05:25.614 +00:00 [DBG]   - Nblity.EntityFrameworkCore.NblityEntityFrameworkCoreModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Volo.Abp.BackgroundJobs.EntityFrameworkCore.AbpBackgroundJobsEntityFrameworkCoreModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
-2026-03-05 10:05:25.614 +00:00 [DBG]   - Nblity.NblityHttpApiModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.Http.AbpHttpModule
-2026-03-05 10:05:25.614 +00:00 [DBG]             - Volo.Abp.Minify.AbpMinifyModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.AspNetCore.AbpAspNetCoreAbstractionsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.Abp.SettingManagement.AbpSettingManagementHttpApiModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.Abp.Account.AbpAccountHttpApiModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Nblity.Abp.Identity.AbpIdentityHttpApiModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.Abp.TenantManagement.AbpTenantManagementHttpApiModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Nblity.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
-2026-03-05 10:05:25.614 +00:00 [DBG]   - Volo.Abp.Autofac.AbpAutofacModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Volo.Abp.Castle.AbpCastleCoreModule
-2026-03-05 10:05:25.614 +00:00 [DBG]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
-2026-03-05 10:05:25.614 +00:00 [DBG]   - Nblity.Abp.Identity.Blazor.Server.AbpIdentityBlazorServerModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.Abp.Identity.Blazor.AbpIdentityBlazorModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Nblity.Abp.PermissionManagement.Blazor.AbpPermissionManagementBlazorModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.AspNetCore.Components.Web.Theming.AbpAspNetCoreComponentsWebThemingModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.BlazoriseUI.AbpBlazoriseUIModule
-2026-03-05 10:05:25.614 +00:00 [DBG]             - Volo.Abp.AspNetCore.Components.Web.AbpAspNetCoreComponentsWebModule
-2026-03-05 10:05:25.614 +00:00 [DBG]               - Volo.Abp.AspNetCore.Components.AbpAspNetCoreComponentsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.Abp.PermissionManagement.Blazor.Server.AbpPermissionManagementBlazorServerModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Volo.Abp.AspNetCore.Components.Server.Theming.AbpAspNetCoreComponentsServerThemingModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.AspNetCore.Components.Server.AbpAspNetCoreComponentsServerModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.Http.Client.AbpHttpClientModule
-2026-03-05 10:05:25.614 +00:00 [DBG]             - Volo.Abp.RemoteServices.AbpRemoteServicesModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
-2026-03-05 10:05:25.614 +00:00 [DBG]             - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
-2026-03-05 10:05:25.614 +00:00 [DBG]           - Volo.Abp.AspNetCore.Bundling.AbpAspNetCoreBundlingModule
-2026-03-05 10:05:25.614 +00:00 [DBG]   - Nblity.Abp.TenantManagement.Blazor.Server.AbpTenantManagementBlazorServerModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.Abp.TenantManagement.Blazor.AbpTenantManagementBlazorModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Nblity.Abp.FeatureManagement.Blazor.AbpFeatureManagementBlazorModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Nblity.Abp.SettingManagement.Blazor.AbpSettingManagementBlazorModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.Abp.FeatureManagement.Blazor.Server.AbpFeatureManagementBlazorServerModule
-2026-03-05 10:05:25.614 +00:00 [DBG]   - Nblity.Abp.Account.Web.AbpAccountWebOpenIddictModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.Abp.Account.Web.AbpAccountWebModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Nblity.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
-2026-03-05 10:05:25.614 +00:00 [DBG]         - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Volo.Abp.OpenIddict.AbpOpenIddictAspNetCoreModule
-2026-03-05 10:05:25.614 +00:00 [DBG]       - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
-2026-03-05 10:05:25.614 +00:00 [DBG]   - Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme.AbpAspNetCoreComponentsServerMudblazorThemeModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme.AbpAspNetCoreComponentsWebMudblazorThemeModule
-2026-03-05 10:05:25.614 +00:00 [DBG]   - Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Bundling.AbpAspNetCoreComponentsWebAssemblyMudblazorThemeBundlingModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Volo.Abp.AspNetCore.Components.WebAssembly.Theming.Bundling.AbpAspNetCoreComponentsWebAssemblyThemingBundlingModule
-2026-03-05 10:05:25.614 +00:00 [DBG]   - Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor.AbpAspNetCoreMvcUiMudblazorThemeModule
-2026-03-05 10:05:25.614 +00:00 [DBG]     - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
-2026-03-05 10:05:25.614 +00:00 [DBG]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
-2026-03-05 10:05:25.699 +00:00 [DBG] Started background worker: Volo.Abp.BackgroundJobs.BackgroundJobWorker
-2026-03-05 10:05:25.757 +00:00 [DBG] Started background worker: Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker
-2026-03-05 10:05:26.023 +00:00 [ERR] Could not find the file: _content/Blazorise.Bootstrap5/blazorise.bootstrap5.css
-2026-03-05 10:05:26.652 +00:00 [INF] User profile is available. Using '/home/runner/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
-2026-03-05 10:05:26.702 +00:00 [FTL] Host terminated unexpectedly!
-Volo.Abp.AbpInitializationException: An error occurred during the initialize Volo.Abp.Modularity.OnApplicationInitializationModuleLifecycleContributor phase of the module Nblity.Blazor.NblityBlazorModule, Nblity.Blazor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null: An exception was thrown while activating Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionEndpointDataSourceFactory -> Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider -> λ:Microsoft.AspNetCore.Mvc.Abstractions.IActionDescriptorProvider[] -> Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider -> Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModelFactory -> λ:Microsoft.AspNetCore.Mvc.ApplicationModels.IApplicationModelProvider[] -> Microsoft.AspNetCore.Mvc.ApplicationModels.DefaultApplicationModelProvider -> Volo.Abp.Options.AbpUnnamedOptionsManager`1[[Microsoft.AspNetCore.Mvc.MvcOptions, Microsoft.AspNetCore.Mvc.Core, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]] -> Microsoft.Extensions.Options.OptionsFactory`1[[Microsoft.AspNetCore.Mvc.MvcOptions, Microsoft.AspNetCore.Mvc.Core, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]] -> λ:Microsoft.Extensions.Options.IConfigureOptions`1[[Microsoft.AspNetCore.Mvc.MvcOptions, Microsoft.AspNetCore.Mvc.Core, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]][] -> Microsoft.Extensions.DependencyInjection.MvcDataAnnotationsMvcOptionsSetup -> Volo.Abp.Localization.AbpStringLocalizerFactory.. See the inner exception for details.
- ---> Autofac.Core.DependencyResolutionException: An exception was thrown while activating Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionEndpointDataSourceFactory -> Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider -> λ:Microsoft.AspNetCore.Mvc.Abstractions.IActionDescriptorProvider[] -> Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider -> Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModelFactory -> λ:Microsoft.AspNetCore.Mvc.ApplicationModels.IApplicationModelProvider[] -> Microsoft.AspNetCore.Mvc.ApplicationModels.DefaultApplicationModelProvider -> Volo.Abp.Options.AbpUnnamedOptionsManager`1[[Microsoft.AspNetCore.Mvc.MvcOptions, Microsoft.AspNetCore.Mvc.Core, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]] -> Microsoft.Extensions.Options.OptionsFactory`1[[Microsoft.AspNetCore.Mvc.MvcOptions, Microsoft.AspNetCore.Mvc.Core, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]] -> λ:Microsoft.Extensions.Options.IConfigureOptions`1[[Microsoft.AspNetCore.Mvc.MvcOptions, Microsoft.AspNetCore.Mvc.Core, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]][] -> Microsoft.Extensions.DependencyInjection.MvcDataAnnotationsMvcOptionsSetup -> Volo.Abp.Localization.AbpStringLocalizerFactory.
- ---> Autofac.Core.DependencyResolutionException: An exception was thrown while invoking the constructor 'Void .ctor(Microsoft.Extensions.Localization.ResourceManagerStringLocalizerFactory, Microsoft.Extensions.Options.IOptions`1[Volo.Abp.Localization.AbpLocalizationOptions], System.IServiceProvider, Volo.Abp.Localization.External.IExternalLocalizationStore)' on type 'AbpStringLocalizerFactory'.
- ---> Volo.Abp.AbpException: Can not find a resource with given type: Nblity.Abp.PermissionManagement.Localization.AbpPermissionManagementResource, Nblity.Abp.PermissionManagement.Domain.Shared, Version=10.1.0.0, Culture=neutral, PublicKeyToken=null
-   at Volo.Abp.Localization.LocalizationResourceDictionary.Get[TResource]()
-   at Nblity.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule.<>c.<ConfigureServices>b__1_0(AbpLocalizationOptions options) in /home/runner/work/nblity/nblity/modules/Nblity.Abp.PermissionManagement/src/Nblity.Abp.PermissionManagement.HttpApi/Volo/Abp/PermissionManagement/AbpPermissionManagementHttpApiModule.cs:line 29
-   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
-   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
-   at lambda_method147(Closure, Object[])
-   at Autofac.Core.Activators.Reflection.BoundConstructor.Instantiate()
-   --- End of inner exception stack trace ---
-   at Autofac.Core.Activators.Reflection.BoundConstructor.Instantiate()
+2026-03-05 10:17:17.796 +00:00 [INF] Starting web host.
+2026-03-05 10:17:19.907 +00:00 [DBG] Loaded ABP modules:
+2026-03-05 10:17:19.908 +00:00 [DBG] - Nblity.Blazor.NblityBlazorModule
+2026-03-05 10:17:19.909 +00:00 [DBG]   - Nblity.NblityApplicationModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.NblityDomainModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Nblity.NblityDomainSharedModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.Validation.AbpValidationModule
+2026-03-05 10:17:19.909 +00:00 [DBG]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]             - Volo.Abp.Localization.AbpLocalizationModule
+2026-03-05 10:17:19.909 +00:00 [DBG]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2026-03-05 10:17:19.909 +00:00 [DBG]               - Volo.Abp.Settings.AbpSettingsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]                 - Volo.Abp.Security.AbpSecurityModule
+2026-03-05 10:17:19.909 +00:00 [DBG]                 - Volo.Abp.Data.AbpDataModule
+2026-03-05 10:17:19.909 +00:00 [DBG]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2026-03-05 10:17:19.909 +00:00 [DBG]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2026-03-05 10:17:19.909 +00:00 [DBG]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]               - Volo.Abp.Threading.AbpThreadingModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainSharedModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Nblity.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2026-03-05 10:17:19.909 +00:00 [DBG]             - Volo.Abp.Json.AbpJsonAbstractionsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]             - Volo.Abp.Timing.AbpTimingModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Nblity.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Nblity.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.Features.AbpFeaturesModule
+2026-03-05 10:17:19.909 +00:00 [DBG]             - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2026-03-05 10:17:19.909 +00:00 [DBG]               - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Nblity.Abp.Identity.AbpIdentityDomainSharedModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Nblity.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.Auditing.AbpAuditingModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.Json.AbpJsonModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.Auditing.AbpAuditingContractsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.Domain.AbpDddDomainModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.EventBus.AbpEventBusModule
+2026-03-05 10:17:19.909 +00:00 [DBG]             - Volo.Abp.Guids.AbpGuidsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2026-03-05 10:17:19.909 +00:00 [DBG]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.Caching.AbpCachingModule
+2026-03-05 10:17:19.909 +00:00 [DBG]             - Volo.Abp.Serialization.AbpSerializationModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.Domain.AbpDddDomainSharedModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.Mapperly.AbpMapperlyModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Nblity.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Nblity.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Nblity.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.Users.AbpUsersAbstractionModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Nblity.Abp.SettingManagement.AbpSettingManagementDomainModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Volo.Abp.Emailing.AbpEmailingModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2026-03-05 10:17:19.909 +00:00 [DBG]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Nblity.Abp.Identity.AbpIdentityDomainModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.Users.AbpUsersDomainModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.Identity.AbpIdentityDomainModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Nblity.Abp.TenantManagement.AbpTenantManagementDomainModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.NblityApplicationContractsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Nblity.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.Application.AbpDddApplicationContractsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Nblity.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Nblity.Abp.Identity.AbpIdentityApplicationContractsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Nblity.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Nblity.Abp.Account.AbpAccountApplicationContractsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Nblity.Abp.TenantManagement.AbpTenantManagementApplicationContractsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Volo.Abp.Application.AbpDddApplicationModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.Http.AbpHttpAbstractionsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.Abp.Identity.AbpIdentityApplicationModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.Abp.Account.AbpAccountApplicationModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.UI.AbpUiModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.Abp.TenantManagement.AbpTenantManagementApplicationModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2026-03-05 10:17:19.909 +00:00 [DBG]   - Nblity.EntityFrameworkCore.NblityEntityFrameworkCoreModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Volo.Abp.BackgroundJobs.EntityFrameworkCore.AbpBackgroundJobsEntityFrameworkCoreModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2026-03-05 10:17:19.909 +00:00 [DBG]   - Nblity.NblityHttpApiModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.Http.AbpHttpModule
+2026-03-05 10:17:19.909 +00:00 [DBG]             - Volo.Abp.Minify.AbpMinifyModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.AspNetCore.AbpAspNetCoreAbstractionsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.Abp.Account.AbpAccountHttpApiModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Nblity.Abp.Identity.AbpIdentityHttpApiModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.Abp.TenantManagement.AbpTenantManagementHttpApiModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Nblity.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2026-03-05 10:17:19.909 +00:00 [DBG]   - Volo.Abp.Autofac.AbpAutofacModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Volo.Abp.Castle.AbpCastleCoreModule
+2026-03-05 10:17:19.909 +00:00 [DBG]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2026-03-05 10:17:19.909 +00:00 [DBG]   - Nblity.Abp.Identity.Blazor.Server.AbpIdentityBlazorServerModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.Abp.Identity.Blazor.AbpIdentityBlazorModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Nblity.Abp.PermissionManagement.Blazor.AbpPermissionManagementBlazorModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.AspNetCore.Components.Web.Theming.AbpAspNetCoreComponentsWebThemingModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.BlazoriseUI.AbpBlazoriseUIModule
+2026-03-05 10:17:19.909 +00:00 [DBG]             - Volo.Abp.AspNetCore.Components.Web.AbpAspNetCoreComponentsWebModule
+2026-03-05 10:17:19.909 +00:00 [DBG]               - Volo.Abp.AspNetCore.Components.AbpAspNetCoreComponentsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.Abp.PermissionManagement.Blazor.Server.AbpPermissionManagementBlazorServerModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Volo.Abp.AspNetCore.Components.Server.Theming.AbpAspNetCoreComponentsServerThemingModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.AspNetCore.Components.Server.AbpAspNetCoreComponentsServerModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.Http.Client.AbpHttpClientModule
+2026-03-05 10:17:19.909 +00:00 [DBG]             - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2026-03-05 10:17:19.909 +00:00 [DBG]             - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2026-03-05 10:17:19.909 +00:00 [DBG]           - Volo.Abp.AspNetCore.Bundling.AbpAspNetCoreBundlingModule
+2026-03-05 10:17:19.909 +00:00 [DBG]   - Nblity.Abp.TenantManagement.Blazor.Server.AbpTenantManagementBlazorServerModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.Abp.TenantManagement.Blazor.AbpTenantManagementBlazorModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Nblity.Abp.FeatureManagement.Blazor.AbpFeatureManagementBlazorModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Nblity.Abp.SettingManagement.Blazor.AbpSettingManagementBlazorModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.Abp.FeatureManagement.Blazor.Server.AbpFeatureManagementBlazorServerModule
+2026-03-05 10:17:19.909 +00:00 [DBG]   - Nblity.Abp.Account.Web.AbpAccountWebOpenIddictModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.Abp.Account.Web.AbpAccountWebModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Nblity.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2026-03-05 10:17:19.909 +00:00 [DBG]         - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Volo.Abp.OpenIddict.AbpOpenIddictAspNetCoreModule
+2026-03-05 10:17:19.909 +00:00 [DBG]       - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2026-03-05 10:17:19.909 +00:00 [DBG]   - Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme.AbpAspNetCoreComponentsServerMudblazorThemeModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme.AbpAspNetCoreComponentsWebMudblazorThemeModule
+2026-03-05 10:17:19.909 +00:00 [DBG]   - Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Bundling.AbpAspNetCoreComponentsWebAssemblyMudblazorThemeBundlingModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Volo.Abp.AspNetCore.Components.WebAssembly.Theming.Bundling.AbpAspNetCoreComponentsWebAssemblyThemingBundlingModule
+2026-03-05 10:17:19.909 +00:00 [DBG]   - Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor.AbpAspNetCoreMvcUiMudblazorThemeModule
+2026-03-05 10:17:19.909 +00:00 [DBG]     - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2026-03-05 10:17:19.909 +00:00 [DBG]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2026-03-05 10:17:19.995 +00:00 [DBG] Started background worker: Volo.Abp.BackgroundJobs.BackgroundJobWorker
+2026-03-05 10:17:20.058 +00:00 [DBG] Started background worker: Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker
+2026-03-05 10:17:20.358 +00:00 [ERR] Could not find the file: _content/Blazorise.Bootstrap5/blazorise.bootstrap5.css
+2026-03-05 10:17:21.070 +00:00 [INF] User profile is available. Using '/home/runner/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-03-05 10:17:21.188 +00:00 [FTL] Host terminated unexpectedly!
+Volo.Abp.AbpInitializationException: An error occurred during the initialize Volo.Abp.Modularity.OnApplicationInitializationModuleLifecycleContributor phase of the module Nblity.Blazor.NblityBlazorModule, Nblity.Blazor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null: An exception was thrown while activating Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionEndpointDataSourceFactory -> Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider -> λ:Microsoft.AspNetCore.Mvc.Abstractions.IActionDescriptorProvider[] -> Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider -> Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModelFactory -> λ:Microsoft.AspNetCore.Mvc.ApplicationModels.IApplicationModelProvider[] -> Microsoft.AspNetCore.Mvc.ApplicationModels.AuthorizationApplicationModelProvider -> Volo.Abp.Authorization.AbpAuthorizationPolicyProvider -> Volo.Abp.Authorization.Permissions.PermissionDefinitionManager -> Volo.Abp.PermissionManagement.DynamicPermissionDefinitionStore.. See the inner exception for details.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while activating Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionEndpointDataSourceFactory -> Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider -> λ:Microsoft.AspNetCore.Mvc.Abstractions.IActionDescriptorProvider[] -> Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider -> Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModelFactory -> λ:Microsoft.AspNetCore.Mvc.ApplicationModels.IApplicationModelProvider[] -> Microsoft.AspNetCore.Mvc.ApplicationModels.AuthorizationApplicationModelProvider -> Volo.Abp.Authorization.AbpAuthorizationPolicyProvider -> Volo.Abp.Authorization.Permissions.PermissionDefinitionManager -> Volo.Abp.PermissionManagement.DynamicPermissionDefinitionStore.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found on type 'Volo.Abp.PermissionManagement.DynamicPermissionDefinitionStore' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Volo.Abp.PermissionManagement.IPermissionGroupDefinitionRecordRepository permissionGroupRepository' of constructor 'Void .ctor(Volo.Abp.PermissionManagement.IPermissionGroupDefinitionRecordRepository, Volo.Abp.PermissionManagement.IPermissionDefinitionRecordRepository, Volo.Abp.PermissionManagement.IPermissionDefinitionSerializer, Volo.Abp.PermissionManagement.IDynamicPermissionDefinitionStoreInMemoryCache, Microsoft.Extensions.Caching.Distributed.IDistributedCache, Microsoft.Extensions.Options.IOptions`1[Volo.Abp.Caching.AbpDistributedCacheOptions], Microsoft.Extensions.Options.IOptions`1[Volo.Abp.PermissionManagement.PermissionManagementOptions], Volo.Abp.DistributedLocking.IAbpDistributedLock)'.
+
+See https://autofac.rtfd.io/help/no-constructors-bindable for more info.
    at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass14_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext context, Action`1 next)
    at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
    at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext context)
