@@ -8,6 +8,7 @@ using Volo.Abp.EventBus.Distributed;
 using Volo.Abp.EventBus.Local;
 using Volo.Abp.MultiTenancy;
 using Volo.Abp.ObjectExtending;
+using Volo.Abp;
 
 namespace Nblity.Abp.TenantManagement;
 

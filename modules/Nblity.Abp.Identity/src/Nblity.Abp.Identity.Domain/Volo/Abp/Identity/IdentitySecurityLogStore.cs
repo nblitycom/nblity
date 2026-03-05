@@ -5,6 +5,7 @@ using Volo.Abp.DependencyInjection;
 using Volo.Abp.Guids;
 using Volo.Abp.SecurityLog;
 using Volo.Abp.Uow;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity;
 

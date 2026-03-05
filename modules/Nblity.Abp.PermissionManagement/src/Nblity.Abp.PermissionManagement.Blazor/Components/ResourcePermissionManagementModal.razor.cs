@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
 using Volo.Abp.AspNetCore.Components.Messages;
 using Nblity.Abp.PermissionManagement.Localization;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement.Blazor.Components;
 

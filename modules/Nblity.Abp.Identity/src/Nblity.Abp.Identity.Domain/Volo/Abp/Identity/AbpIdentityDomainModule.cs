@@ -12,6 +12,7 @@ using Volo.Abp.ObjectExtending.Modularity;
 using Volo.Abp.Security.Claims;
 using Volo.Abp.Threading;
 using Volo.Abp.Users;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity;
 

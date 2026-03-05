@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using JetBrains.Annotations;
 using Volo.Abp.ObjectExtending;
 using Volo.Abp.Validation;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity;
 

@@ -1,5 +1,6 @@
 ﻿using Volo.Abp.Application;
 using Volo.Abp.Modularity;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement;
 

@@ -8,6 +8,7 @@ using Volo.Abp.Application.Services;
 using Nblity.Abp.Identity;
 using Volo.Abp.ObjectExtending;
 using Volo.Abp.Settings;
+using Volo.Abp;
 
 namespace Nblity.Abp.Account;
 

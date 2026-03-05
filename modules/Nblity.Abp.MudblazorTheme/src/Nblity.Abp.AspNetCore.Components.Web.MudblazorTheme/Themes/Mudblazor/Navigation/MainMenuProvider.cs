@@ -3,6 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.UI.Navigation;
+using Volo.Abp;
 
 namespace Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme.Themes.Mudblazor.Navigation;
 public class MainMenuProvider : IScopedDependency

@@ -4,6 +4,7 @@ using Volo.Abp.Authorization.Permissions;
 using Volo.Abp.Features;
 using Volo.Abp.MultiTenancy;
 using Volo.Abp.SimpleStateChecking;
+using Volo.Abp;
 
 namespace Nblity.Abp.SettingManagement;
 

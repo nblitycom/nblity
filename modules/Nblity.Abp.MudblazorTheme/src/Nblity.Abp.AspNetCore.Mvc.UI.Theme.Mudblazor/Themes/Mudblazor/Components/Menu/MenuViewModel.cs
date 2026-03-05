@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using Volo.Abp.UI.Navigation;
+using Volo.Abp;
 
 namespace Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor.Themes.Mudblazor.Components.Menu;
 public class MenuViewModel

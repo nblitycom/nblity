@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using Volo.Abp.Settings;
+using Volo.Abp;
 
 namespace Nblity.Abp.SettingManagement;
 

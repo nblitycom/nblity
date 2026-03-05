@@ -2,6 +2,7 @@
 using Volo.Abp.Localization;
 using Volo.Abp.MultiTenancy;
 using Nblity.Abp.TenantManagement.Localization;
+using Volo.Abp;
 
 namespace Nblity.Abp.TenantManagement;
 

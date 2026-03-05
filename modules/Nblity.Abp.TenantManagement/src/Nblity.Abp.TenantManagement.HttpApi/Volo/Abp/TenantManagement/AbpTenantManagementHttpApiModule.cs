@@ -8,6 +8,7 @@ using Volo.Abp.Localization;
 using Volo.Abp.Modularity;
 using Nblity.Abp.TenantManagement.Localization;
 using Microsoft.Extensions.DependencyInjection;
+using Volo.Abp;
 
 namespace Nblity.Abp.TenantManagement;
 

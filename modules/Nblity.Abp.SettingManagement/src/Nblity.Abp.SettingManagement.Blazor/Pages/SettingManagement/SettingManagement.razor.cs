@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Options;
 using Nblity.Abp.SettingManagement.Localization;
+using Volo.Abp;
 
 namespace Nblity.Abp.SettingManagement.Blazor.Pages.SettingManagement;
 

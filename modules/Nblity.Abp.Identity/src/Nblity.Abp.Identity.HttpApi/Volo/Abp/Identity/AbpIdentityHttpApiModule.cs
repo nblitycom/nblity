@@ -4,6 +4,7 @@ using Volo.Abp.Localization;
 using Volo.Abp.Modularity;
 using Localization.Resources.AbpUi;
 using Microsoft.Extensions.DependencyInjection;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity;
 

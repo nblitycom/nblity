@@ -5,6 +5,7 @@ using Volo.Abp.AspNetCore.Components;
 using Volo.Abp.Authorization.Permissions;
 using Nblity.Abp.FeatureManagement.Localization;
 using Volo.Abp.Features;
+using Volo.Abp;
 
 namespace Nblity.Abp.FeatureManagement.Blazor.Components.FeatureSettingGroup;
 

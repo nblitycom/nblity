@@ -9,6 +9,7 @@ using Nblity.Abp.SettingManagement.Blazor.Menus;
 using Nblity.Abp.SettingManagement.Blazor.Settings;
 using Nblity.Abp.SettingManagement.Localization;
 using Volo.Abp.UI.Navigation;
+using Volo.Abp;
 
 namespace Nblity.Abp.SettingManagement.Blazor;
 

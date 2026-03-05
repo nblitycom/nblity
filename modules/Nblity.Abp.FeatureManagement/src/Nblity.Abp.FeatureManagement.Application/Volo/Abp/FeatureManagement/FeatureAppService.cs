@@ -6,6 +6,7 @@ using JetBrains.Annotations;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Options;
 using Volo.Abp.Features;
+using Volo.Abp;
 
 namespace Nblity.Abp.FeatureManagement;
 

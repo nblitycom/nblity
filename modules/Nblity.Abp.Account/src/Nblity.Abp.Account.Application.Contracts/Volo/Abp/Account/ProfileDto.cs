@@ -1,5 +1,6 @@
 ﻿using Volo.Abp.Domain.Entities;
 using Volo.Abp.ObjectExtending;
+using Volo.Abp;
 
 namespace Nblity.Abp.Account;
 

@@ -6,6 +6,7 @@ using Volo.Abp.Features;
 using Volo.Abp.MultiTenancy;
 using Nblity.Abp.SettingManagement.Blazor.Pages.SettingManagement.EmailSettingGroup;
 using Nblity.Abp.SettingManagement.Localization;
+using Volo.Abp;
 
 namespace Nblity.Abp.SettingManagement.Blazor.Settings;
 

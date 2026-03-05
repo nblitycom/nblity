@@ -8,6 +8,7 @@ using Volo.Abp.AspNetCore.Components.Web.Theming.PageToolbars;
 using Nblity.Abp.FeatureManagement.Blazor.Components;
 using Volo.Abp.ObjectExtending;
 using Nblity.Abp.TenantManagement.Localization;
+using Volo.Abp;
 
 namespace Nblity.Abp.TenantManagement.Blazor.Pages.TenantManagement;
 
@@ -44,9 +45,9 @@ public partial class TenantManagement
 
     protected override ValueTask SetBreadcrumbItemsAsync()
     {
-        BreadcrumbItems.Add(new BlazoriseUI.BreadcrumbItem(LUiNavigation["Menu:Administration"]));
-        BreadcrumbItems.Add(new BlazoriseUI.BreadcrumbItem(L["Menu:TenantManagement"]));
-        BreadcrumbItems.Add(new BlazoriseUI.BreadcrumbItem(L["Tenants"]));
+        BreadcrumbItems.Add(new Volo.Abp.BlazoriseUI.BreadcrumbItem(LUiNavigation["Menu:Administration"]));
+        BreadcrumbItems.Add(new Volo.Abp.BlazoriseUI.BreadcrumbItem(L["Menu:TenantManagement"]));
+        BreadcrumbItems.Add(new Volo.Abp.BlazoriseUI.BreadcrumbItem(L["Tenants"]));
         return base.SetBreadcrumbItemsAsync();
     }
 

@@ -4,6 +4,7 @@ using Volo.Abp.AspNetCore.Mvc;
 using Volo.Abp.Localization;
 using Volo.Abp.Modularity;
 using Nblity.Abp.SettingManagement.Localization;
+using Volo.Abp;
 
 namespace Nblity.Abp.SettingManagement;
 

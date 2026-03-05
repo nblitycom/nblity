@@ -3,6 +3,7 @@ using Volo.Abp.Caching;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.Domain.Entities.Events;
 using Volo.Abp.EventBus;
+using Volo.Abp;
 
 namespace Nblity.Abp.FeatureManagement;
 

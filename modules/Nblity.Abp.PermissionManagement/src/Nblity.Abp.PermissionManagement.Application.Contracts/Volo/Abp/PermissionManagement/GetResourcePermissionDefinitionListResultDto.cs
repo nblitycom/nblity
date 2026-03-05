@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement;
 

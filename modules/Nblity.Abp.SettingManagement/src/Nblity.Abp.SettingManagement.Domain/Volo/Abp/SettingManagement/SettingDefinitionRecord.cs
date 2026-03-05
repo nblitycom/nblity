@@ -4,6 +4,7 @@ using JetBrains.Annotations;
 using Volo.Abp.Data;
 using Volo.Abp.Domain.Entities;
 using Volo.Abp.Localization;
+using Volo.Abp;
 
 namespace Nblity.Abp.SettingManagement;
 

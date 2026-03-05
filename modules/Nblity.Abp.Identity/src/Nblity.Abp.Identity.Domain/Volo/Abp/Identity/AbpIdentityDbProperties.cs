@@ -1,3 +1,4 @@
+using Volo.Abp;
 ﻿using Volo.Abp.Data;
 
 namespace Nblity.Abp.Identity;

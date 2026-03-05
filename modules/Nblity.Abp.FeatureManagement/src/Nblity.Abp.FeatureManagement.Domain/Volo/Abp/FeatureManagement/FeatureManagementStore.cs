@@ -6,6 +6,7 @@ using Volo.Abp.DependencyInjection;
 using Volo.Abp.Features;
 using Volo.Abp.Guids;
 using Volo.Abp.Uow;
+using Volo.Abp;
 
 namespace Nblity.Abp.FeatureManagement;
 

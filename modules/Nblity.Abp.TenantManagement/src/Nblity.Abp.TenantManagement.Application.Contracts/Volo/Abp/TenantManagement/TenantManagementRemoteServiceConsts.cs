@@ -1,3 +1,4 @@
+using Volo.Abp;
 ﻿namespace Nblity.Abp.TenantManagement;
 
 public class TenantManagementRemoteServiceConsts

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Volo.Abp.Domain.Services;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity;
 

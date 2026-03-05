@@ -4,6 +4,7 @@ using Volo.Abp.Localization;
 using Volo.Abp.Modularity;
 using Nblity.Abp.PermissionManagement.Localization;
 using Microsoft.Extensions.DependencyInjection;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement.HttpApi;
 

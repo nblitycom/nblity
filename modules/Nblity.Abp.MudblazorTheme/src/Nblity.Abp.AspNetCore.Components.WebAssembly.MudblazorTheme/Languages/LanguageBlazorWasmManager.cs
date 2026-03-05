@@ -9,6 +9,7 @@ using Volo.Abp.AspNetCore.Components.Web;
 using Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme.Languages;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.Localization;
+using Volo.Abp;
 
 namespace Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Languages;
 

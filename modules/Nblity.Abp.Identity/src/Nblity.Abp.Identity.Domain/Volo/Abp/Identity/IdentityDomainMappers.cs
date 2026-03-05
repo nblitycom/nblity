@@ -1,6 +1,7 @@
 ﻿using Riok.Mapperly.Abstractions;
 using Volo.Abp.Mapperly;
 using Volo.Abp.Users;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity;
 

@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Volo.Abp.Domain.Repositories.EntityFrameworkCore;
 using Volo.Abp.EntityFrameworkCore;
 using Volo.Abp.Timing;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity.EntityFrameworkCore;
 

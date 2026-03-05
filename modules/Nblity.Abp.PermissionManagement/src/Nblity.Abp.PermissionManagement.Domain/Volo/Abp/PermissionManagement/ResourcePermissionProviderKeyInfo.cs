@@ -1,4 +1,5 @@
 using Volo.Abp.ObjectExtending;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement;
 

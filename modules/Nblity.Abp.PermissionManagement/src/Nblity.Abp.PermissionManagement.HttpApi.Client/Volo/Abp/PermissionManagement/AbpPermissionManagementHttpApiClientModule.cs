@@ -3,6 +3,7 @@ using Microsoft.Extensions.Options;
 using Volo.Abp.Http.Client;
 using Volo.Abp.Modularity;
 using Volo.Abp.VirtualFileSystem;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement;
 

@@ -5,6 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Volo.Abp.Domain.Services;
 using Volo.Abp.MultiTenancy;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity;
 

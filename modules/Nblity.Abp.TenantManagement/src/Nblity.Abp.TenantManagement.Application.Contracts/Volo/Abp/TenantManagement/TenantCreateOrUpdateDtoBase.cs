@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using Volo.Abp.ObjectExtending;
 using Volo.Abp.Validation;
+using Volo.Abp;
 
 namespace Nblity.Abp.TenantManagement;
 

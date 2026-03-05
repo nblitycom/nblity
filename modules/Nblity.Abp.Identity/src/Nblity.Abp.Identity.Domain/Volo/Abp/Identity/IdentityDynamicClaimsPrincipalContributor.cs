@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using Volo.Abp.Domain.Entities;
 using Volo.Abp.Security.Claims;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity;
 

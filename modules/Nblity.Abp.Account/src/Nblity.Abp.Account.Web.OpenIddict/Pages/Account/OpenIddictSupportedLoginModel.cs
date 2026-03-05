@@ -12,6 +12,7 @@ using Volo.Abp.DependencyInjection;
 using Nblity.Abp.Identity;
 using Volo.Abp.MultiTenancy;
 using Volo.Abp.OpenIddict;
+using Volo.Abp;
 
 namespace Nblity.Abp.Account.Web.Pages.Account;
 

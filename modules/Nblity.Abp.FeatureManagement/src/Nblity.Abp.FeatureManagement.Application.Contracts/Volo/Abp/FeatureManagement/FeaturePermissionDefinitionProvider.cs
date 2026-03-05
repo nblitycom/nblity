@@ -2,6 +2,7 @@
 using Nblity.Abp.FeatureManagement.Localization;
 using Volo.Abp.Localization;
 using Volo.Abp.MultiTenancy;
+using Volo.Abp;
 
 namespace Nblity.Abp.FeatureManagement;
 

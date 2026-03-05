@@ -7,6 +7,7 @@ using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Options;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.Features;
+using Volo.Abp;
 
 namespace Nblity.Abp.FeatureManagement;
 

@@ -1,6 +1,7 @@
 ﻿using System;
 using JetBrains.Annotations;
 using Volo.Abp.Domain.Entities;
+using Volo.Abp;
 
 namespace Nblity.Abp.SettingManagement;
 

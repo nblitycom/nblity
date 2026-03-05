@@ -1,6 +1,7 @@
 using JetBrains.Annotations;
 using Microsoft.EntityFrameworkCore;
 using Volo.Abp.EntityFrameworkCore.Modeling;
+using Volo.Abp;
 
 namespace Nblity.Abp.TenantManagement.EntityFrameworkCore;
 

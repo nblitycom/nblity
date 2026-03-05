@@ -11,6 +11,7 @@ using Volo.Abp.AspNetCore.Mvc.UI.Theming;
 using Volo.Abp.Mapperly;
 using Volo.Abp.Modularity;
 using Volo.Abp.VirtualFileSystem;
+using Volo.Abp;
 
 namespace Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor;
 

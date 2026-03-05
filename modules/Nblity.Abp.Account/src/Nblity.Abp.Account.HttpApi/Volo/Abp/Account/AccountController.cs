@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Volo.Abp.AspNetCore.Mvc;
 using Nblity.Abp.Identity;
+using Volo.Abp;
 
 namespace Nblity.Abp.Account;
 

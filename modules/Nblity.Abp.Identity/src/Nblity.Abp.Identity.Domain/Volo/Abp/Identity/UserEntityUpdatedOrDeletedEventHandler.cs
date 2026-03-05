@@ -8,6 +8,7 @@ using Volo.Abp.Domain.Entities.Events;
 using Volo.Abp.EventBus;
 using Volo.Abp.Security.Claims;
 using Volo.Abp.Uow;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity;
 

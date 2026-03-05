@@ -6,6 +6,7 @@ using Volo.Abp.Authorization.Permissions.Resources;
 using Nblity.Abp.Identity;
 using Volo.Abp.Modularity;
 using Volo.Abp.Users;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement.Identity;
 

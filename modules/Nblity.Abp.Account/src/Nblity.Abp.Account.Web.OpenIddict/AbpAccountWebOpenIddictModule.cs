@@ -2,6 +2,7 @@
 using Volo.Abp.Modularity;
 using Volo.Abp.OpenIddict;
 using Volo.Abp.VirtualFileSystem;
+using Volo.Abp;
 
 namespace Nblity.Abp.Account.Web;
 

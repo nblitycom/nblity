@@ -1,3 +1,4 @@
+using Volo.Abp;
 ﻿using System.Threading.Tasks;
 
 namespace Nblity.Abp.TenantManagement;

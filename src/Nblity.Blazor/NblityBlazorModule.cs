@@ -24,6 +24,8 @@ using Volo.Abp;
 using Nblity.Abp.Account.Web;
 using Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme;
 using Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme.Bundling;
+using Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Bundling;
+using Volo.Abp.AspNetCore.Components.Web;
 using Volo.Abp.AspNetCore.Components.Web.Theming.Routing;
 using Volo.Abp.AspNetCore.Mvc;
 using Volo.Abp.AspNetCore.Mvc.Libs;

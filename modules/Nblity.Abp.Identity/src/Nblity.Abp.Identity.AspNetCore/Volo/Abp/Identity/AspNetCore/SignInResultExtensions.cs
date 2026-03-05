@@ -1,3 +1,4 @@
+using Volo.Abp;
 ﻿using Microsoft.AspNetCore.Identity;
 
 namespace Nblity.Abp.Identity.AspNetCore;

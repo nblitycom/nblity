@@ -1,5 +1,6 @@
 ﻿using System;
 using Volo.Abp.Auditing;
+using Volo.Abp;
 
 namespace Nblity.Abp.TenantManagement;
 

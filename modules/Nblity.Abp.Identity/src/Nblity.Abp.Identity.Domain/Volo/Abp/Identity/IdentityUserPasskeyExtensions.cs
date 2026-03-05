@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Identity;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity;
 

@@ -2,6 +2,7 @@
 using JetBrains.Annotations;
 using Volo.Abp.Authorization.Permissions;
 using Volo.Abp.DependencyInjection;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement;
 

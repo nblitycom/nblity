@@ -4,6 +4,7 @@ using Volo.Abp.Modularity;
 using Volo.Abp.ObjectExtending;
 using Volo.Abp.ObjectExtending.Modularity;
 using Volo.Abp.Threading;
+using Volo.Abp;
 
 namespace Nblity.Abp.TenantManagement;
 

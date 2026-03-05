@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using Nblity.Abp.Identity;
 using Volo.Abp.Validation;
+using Volo.Abp;
 
 namespace Nblity.Abp.Account;
 

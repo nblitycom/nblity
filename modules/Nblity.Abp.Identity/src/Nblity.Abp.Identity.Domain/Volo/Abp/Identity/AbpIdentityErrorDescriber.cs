@@ -3,6 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Localization;
 using Volo.Abp.DependencyInjection;
 using Nblity.Abp.Identity.Localization;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity;
 

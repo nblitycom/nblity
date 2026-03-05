@@ -2,6 +2,7 @@
 using Nblity.Abp.Identity.Localization;
 using Volo.Abp.UI.Navigation;
 using Volo.Abp.Authorization.Permissions;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity.Blazor;
 

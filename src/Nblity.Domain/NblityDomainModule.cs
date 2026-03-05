@@ -13,7 +13,7 @@ using Nblity.Abp.SettingManagement;
 using Volo.Abp.BlobStoring.Database;
 using Volo.Abp.Caching;
 using Volo.Abp.OpenIddict;
-using Nblity.Abp.PermissionManagement.OpenIddict;
+using Volo.Abp.PermissionManagement.OpenIddict;
 using Volo.Abp.AuditLogging;
 using Volo.Abp.BackgroundJobs;
 using Volo.Abp.Emailing;

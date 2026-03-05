@@ -9,6 +9,7 @@ using Nblity.Abp.Identity.Localization;
 using Nblity.Abp.PermissionManagement.Blazor.Components;
 using Volo.Abp.ObjectExtending;
 using Volo.Abp.Data;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity.Blazor.Pages.Identity;
 
@@ -43,9 +44,9 @@ public partial class RoleManagement
 
     protected override ValueTask SetBreadcrumbItemsAsync()
     {
-        BreadcrumbItems.Add(new BlazoriseUI.BreadcrumbItem(LUiNavigation["Menu:Administration"].Value));
-        BreadcrumbItems.Add(new BlazoriseUI.BreadcrumbItem(L["Menu:IdentityManagement"].Value));
-        BreadcrumbItems.Add(new BlazoriseUI.BreadcrumbItem(L["Roles"].Value));
+        BreadcrumbItems.Add(new Volo.Abp.BlazoriseUI.BreadcrumbItem(LUiNavigation["Menu:Administration"].Value));
+        BreadcrumbItems.Add(new Volo.Abp.BlazoriseUI.BreadcrumbItem(L["Menu:IdentityManagement"].Value));
+        BreadcrumbItems.Add(new Volo.Abp.BlazoriseUI.BreadcrumbItem(L["Roles"].Value));
         return base.SetBreadcrumbItemsAsync();
     }
 

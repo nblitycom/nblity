@@ -9,6 +9,7 @@ using Volo.Abp.AspNetCore.Mvc.UI.RazorPages;
 using Volo.Abp.ExceptionHandling;
 using Nblity.Abp.Identity;
 using IdentityUser = Nblity.Abp.Identity.IdentityUser;
+using Volo.Abp;
 
 namespace Nblity.Abp.Account.Web.Pages.Account;
 

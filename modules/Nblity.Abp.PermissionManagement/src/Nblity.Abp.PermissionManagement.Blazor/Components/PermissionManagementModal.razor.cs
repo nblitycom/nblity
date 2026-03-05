@@ -8,6 +8,7 @@ using Volo.Abp.AspNetCore.Components.Web.Configuration;
 using Volo.Abp.Authorization.Permissions;
 using Volo.Abp.Localization;
 using Nblity.Abp.PermissionManagement.Localization;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement.Blazor.Components;
 

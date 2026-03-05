@@ -5,6 +5,7 @@ using Microsoft.Extensions.Logging;
 using Volo.Abp.Emailing;
 using Volo.Abp.MultiTenancy;
 using Volo.Abp.Features;
+using Volo.Abp;
 
 namespace Nblity.Abp.SettingManagement;
 
