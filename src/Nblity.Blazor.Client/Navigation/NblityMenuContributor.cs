@@ -4,14 +4,14 @@ using Microsoft.Extensions.Configuration;
 using Nblity.Localization;
 using Nblity.Permissions;
 using Nblity.MultiTenancy;
-using Volo.Abp.Account.Localization;
+using Nblity.Abp.Account.Localization;
 using Volo.Abp.UI.Navigation;
 using Localization.Resources.AbpUi;
 using Volo.Abp.Authorization.Permissions;
-using Volo.Abp.SettingManagement.Blazor.Menus;
+using Nblity.Abp.SettingManagement.Blazor.Menus;
 using Volo.Abp.Users;
-using Volo.Abp.TenantManagement.Blazor.Navigation;
-using Volo.Abp.Identity.Blazor;
+using Nblity.Abp.TenantManagement.Blazor.Navigation;
+using Nblity.Abp.Identity.Blazor;
 
 namespace Nblity.Blazor.Client.Navigation;
 

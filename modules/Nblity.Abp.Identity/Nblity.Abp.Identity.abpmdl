@@ -1,0 +1,91 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Nblity.Abp.Identity.Web": {
+      "path": "src/Nblity.Abp.Identity.Web/Nblity.Abp.Identity.Web.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.Identity.HttpApi": {
+      "path": "src/Nblity.Abp.Identity.HttpApi/Nblity.Abp.Identity.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.Identity.HttpApi.Client": {
+      "path": "src/Nblity.Abp.Identity.HttpApi.Client/Nblity.Abp.Identity.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.Identity.Blazor": {
+      "path": "src/Nblity.Abp.Identity.Blazor/Nblity.Abp.Identity.Blazor.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.Identity.Blazor.Server": {
+      "path": "src/Nblity.Abp.Identity.Blazor.Server/Nblity.Abp.Identity.Blazor.Server.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.Identity.Blazor.WebAssembly": {
+      "path": "src/Nblity.Abp.Identity.Blazor.WebAssembly/Nblity.Abp.Identity.Blazor.WebAssembly.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.Identity.Domain": {
+      "path": "src/Nblity.Abp.Identity.Domain/Nblity.Abp.Identity.Domain.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.Identity.Application": {
+      "path": "src/Nblity.Abp.Identity.Application/Nblity.Abp.Identity.Application.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.Identity.Application.Contracts": {
+      "path": "src/Nblity.Abp.Identity.Application.Contracts/Nblity.Abp.Identity.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.Identity.Domain.Shared": {
+      "path": "src/Nblity.Abp.Identity.Domain.Shared/Nblity.Abp.Identity.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.Identity.EntityFrameworkCore": {
+      "path": "src/Nblity.Abp.Identity.EntityFrameworkCore/Nblity.Abp.Identity.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.Identity.Application.Tests": {
+      "path": "test/Nblity.Abp.Identity.Application.Tests/Nblity.Abp.Identity.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Nblity.Abp.Identity.MongoDB": {
+      "path": "src/Nblity.Abp.Identity.MongoDB/Nblity.Abp.Identity.MongoDB.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.Identity.MongoDB.Tests": {
+      "path": "test/Nblity.Abp.Identity.MongoDB.Tests/Nblity.Abp.Identity.MongoDB.Tests.abppkg",
+      "folder": "test"
+    },
+    "Nblity.Abp.Identity.EntityFrameworkCore.Tests": {
+      "path": "test/Nblity.Abp.Identity.EntityFrameworkCore.Tests/Nblity.Abp.Identity.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Nblity.Abp.Identity.TestBase": {
+      "path": "test/Nblity.Abp.Identity.TestBase/Nblity.Abp.Identity.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Nblity.Abp.Identity.Domain.Tests": {
+      "path": "test/Nblity.Abp.Identity.Domain.Tests/Nblity.Abp.Identity.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Nblity.Abp.Identity.AspNetCore": {
+      "path": "src/Nblity.Abp.Identity.AspNetCore/Nblity.Abp.Identity.AspNetCore.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.PermissionManagement.Domain.Identity": {
+      "path": "src/Nblity.Abp.PermissionManagement.Domain.Identity/Nblity.Abp.PermissionManagement.Domain.Identity.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.Identity.AspNetCore.Tests": {
+      "path": "test/Nblity.Abp.Identity.AspNetCore.Tests/Nblity.Abp.Identity.AspNetCore.Tests.abppkg",
+      "folder": "test"
+    }
+  },
+  "moduleId": "3a1d3306-b5eb-368a-6ad2-ed8e7c3b4357"
+}

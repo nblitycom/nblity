@@ -16,28 +16,28 @@
           "name": "NblityApplicationContractsModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.PermissionManagement.Application",
-          "namespace": "Volo.Abp.PermissionManagement",
+          "declaringAssemblyName": "Nblity.Abp.PermissionManagement.Application",
+          "namespace": "Nblity.Abp.PermissionManagement",
           "name": "AbpPermissionManagementApplicationModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.FeatureManagement.Application",
-          "namespace": "Volo.Abp.FeatureManagement",
+          "declaringAssemblyName": "Nblity.Abp.FeatureManagement.Application",
+          "namespace": "Nblity.Abp.FeatureManagement",
           "name": "AbpFeatureManagementApplicationModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.Identity.Pro.Application",
-          "namespace": "Volo.Abp.Identity",
+          "declaringAssemblyName": "Nblity.Abp.Identity.Pro.Application",
+          "namespace": "Nblity.Abp.Identity",
           "name": "AbpIdentityApplicationModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.Account.Pro.Public.Application",
-          "namespace": "Volo.Abp.Account",
+          "declaringAssemblyName": "Nblity.Abp.Account.Pro.Public.Application",
+          "namespace": "Nblity.Abp.Account",
           "name": "AbpAccountPublicApplicationModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.Account.Pro.Admin.Application",
-          "namespace": "Volo.Abp.Account",
+          "declaringAssemblyName": "Nblity.Abp.Account.Pro.Admin.Application",
+          "namespace": "Nblity.Abp.Account",
           "name": "AbpAccountAdminApplicationModule"
         },
         {
@@ -66,8 +66,8 @@
           "name": "AbpGdprApplicationModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.SettingManagement.Application",
-          "namespace": "Volo.Abp.SettingManagement",
+          "declaringAssemblyName": "Nblity.Abp.SettingManagement.Application",
+          "namespace": "Nblity.Abp.SettingManagement",
           "name": "AbpSettingManagementApplicationModule"
         }
       ],

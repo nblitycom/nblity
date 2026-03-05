@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>Nblity.Abp.Identity.Application</AssemblyName>
+    <PackageId>Nblity.Abp.Identity.Application</PackageId>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace />
+    <Version>10.1.0</Version>
+    <CopyLocalLockFileAssemblies>True</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nblity.Abp.Identity.Application.Contracts\Nblity.Abp.Identity.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Nblity.Abp.Identity.Domain\Nblity.Abp.Identity.Domain.csproj" />
+    <PackageReference Include="Volo.Abp.Mapperly" Version="10.1.0" />
+    <ProjectReference Include="../../../Nblity.Abp.PermissionManagement/src/Nblity.Abp.PermissionManagement.Application/Nblity.Abp.PermissionManagement.Application.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,4 +1,4 @@
-﻿using Volo.Abp.Identity;
+﻿using Nblity.Abp.Identity;
 
 namespace Nblity;
 

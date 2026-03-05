@@ -1,0 +1,12 @@
+﻿@using Volo.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor.Themes.Mudblazor.Components.Menu
+@model MenuViewModel
+
+@if (Model != null)
+{
+	@foreach (var menuItem in Model.Items)
+	{
+		<li class="outer-menu-item">
+			@await Html.PartialAsync("~/Themes/Mudblazor/Components/Menu/_MenuItem.cshtml", menuItem)
+		</li>
+	}
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Nblity.Abp.Identity.Blazor",
+  "hash": "",
+  "contents": [
+    {
+      "namespace": "Nblity.Abp.Identity.Blazor",
+      "dependsOnModules": [
+        {
+          "declaringAssemblyName": "Nblity.Abp.Identity.Application.Contracts",
+          "namespace": "Nblity.Abp.Identity",
+          "name": "AbpIdentityApplicationContractsModule"
+        },
+        {
+          "declaringAssemblyName": "Volo.Abp.Mapperly",
+          "namespace": "Volo.Abp.Mapperly",
+          "name": "AbpMapperlyModule"
+        },
+        {
+          "declaringAssemblyName": "Nblity.Abp.PermissionManagement.Blazor",
+          "namespace": "Nblity.Abp.PermissionManagement.Blazor",
+          "name": "AbpPermissionManagementBlazorModule"
+        }
+      ],
+      "implementingInterfaces": [
+        {
+          "name": "IAbpModule",
+          "namespace": "Volo.Abp.Modularity",
+          "declaringAssemblyName": "Volo.Abp.Core",
+          "fullName": "Volo.Abp.Modularity.IAbpModule"
+        },
+        {
+          "name": "IOnPreApplicationInitialization",
+          "namespace": "Volo.Abp.Modularity",
+          "declaringAssemblyName": "Volo.Abp.Core",
+          "fullName": "Volo.Abp.Modularity.IOnPreApplicationInitialization"
+        },
+        {
+          "name": "IOnApplicationInitialization",
+          "namespace": "Volo.Abp",
+          "declaringAssemblyName": "Volo.Abp.Core",
+          "fullName": "Volo.Abp.IOnApplicationInitialization"
+        },
+        {
+          "name": "IOnPostApplicationInitialization",
+          "namespace": "Volo.Abp.Modularity",
+          "declaringAssemblyName": "Volo.Abp.Core",
+          "fullName": "Volo.Abp.Modularity.IOnPostApplicationInitialization"
+        },
+        {
+          "name": "IOnApplicationShutdown",
+          "namespace": "Volo.Abp",
+          "declaringAssemblyName": "Volo.Abp.Core",
+          "fullName": "Volo.Abp.IOnApplicationShutdown"
+        },
+        {
+          "name": "IPreConfigureServices",
+          "namespace": "Volo.Abp.Modularity",
+          "declaringAssemblyName": "Volo.Abp.Core",
+          "fullName": "Volo.Abp.Modularity.IPreConfigureServices"
+        },
+        {
+          "name": "IPostConfigureServices",
+          "namespace": "Volo.Abp.Modularity",
+          "declaringAssemblyName": "Volo.Abp.Core",
+          "fullName": "Volo.Abp.Modularity.IPostConfigureServices"
+        }
+      ],
+      "contentType": "abpModule",
+      "name": "AbpIdentityBlazorModule",
+      "summary": null
+    },
+    {
+      "namespace": "Nblity.Abp.Identity.Blazor.Pages.Identity",
+      "contentType": "webPage",
+      "name": "RoleManagement",
+      "summary": null
+    },
+    {
+      "namespace": "Nblity.Abp.Identity.Blazor.Pages.Identity",
+      "contentType": "webPage",
+      "name": "UserManagement",
+      "summary": null
+    }
+  ]
+}

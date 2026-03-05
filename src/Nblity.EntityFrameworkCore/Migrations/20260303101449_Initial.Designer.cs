@@ -459,7 +459,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpBlobContainers", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.FeatureManagement.FeatureDefinitionRecord", b =>
+            modelBuilder.Entity("Nblity.Abp.FeatureManagement.FeatureDefinitionRecord", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -520,7 +520,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpFeatures", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.FeatureManagement.FeatureGroupDefinitionRecord", b =>
+            modelBuilder.Entity("Nblity.Abp.FeatureManagement.FeatureGroupDefinitionRecord", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -548,7 +548,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpFeatureGroups", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.FeatureManagement.FeatureValue", b =>
+            modelBuilder.Entity("Nblity.Abp.FeatureManagement.FeatureValue", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -580,7 +580,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpFeatureValues", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityClaimType", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityClaimType", b =>
                 {
                     b.Property<Guid>("Id")
                         .HasColumnType("uuid");
@@ -632,7 +632,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpClaimTypes", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityLinkUser", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityLinkUser", b =>
                 {
                     b.Property<Guid>("Id")
                         .HasColumnType("uuid");
@@ -657,7 +657,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpLinkUsers", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityRole", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityRole", b =>
                 {
                     b.Property<Guid>("Id")
                         .HasColumnType("uuid");
@@ -714,7 +714,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpRoles", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityRoleClaim", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityRoleClaim", b =>
                 {
                     b.Property<Guid>("Id")
                         .HasColumnType("uuid");
@@ -742,7 +742,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpRoleClaims", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentitySecurityLog", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentitySecurityLog", b =>
                 {
                     b.Property<Guid>("Id")
                         .HasColumnType("uuid");
@@ -818,7 +818,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpSecurityLogs", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentitySession", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentitySession", b =>
                 {
                     b.Property<Guid>("Id")
                         .HasColumnType("uuid");
@@ -873,7 +873,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpSessions", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityUser", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityUser", b =>
                 {
                     b.Property<Guid>("Id")
                         .HasColumnType("uuid");
@@ -1042,7 +1042,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpUsers", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityUserClaim", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityUserClaim", b =>
                 {
                     b.Property<Guid>("Id")
                         .HasColumnType("uuid");
@@ -1070,7 +1070,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpUserClaims", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityUserDelegation", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityUserDelegation", b =>
                 {
                     b.Property<Guid>("Id")
                         .HasColumnType("uuid");
@@ -1096,7 +1096,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpUserDelegations", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityUserLogin", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityUserLogin", b =>
                 {
                     b.Property<Guid>("UserId")
                         .HasColumnType("uuid");
@@ -1125,7 +1125,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpUserLogins", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityUserOrganizationUnit", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityUserOrganizationUnit", b =>
                 {
                     b.Property<Guid>("OrganizationUnitId")
                         .HasColumnType("uuid");
@@ -1152,7 +1152,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpUserOrganizationUnits", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityUserPasskey", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityUserPasskey", b =>
                 {
                     b.Property<byte[]>("CredentialId")
                         .HasMaxLength(1024)
@@ -1172,7 +1172,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpUserPasskeys", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityUserPasswordHistory", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityUserPasswordHistory", b =>
                 {
                     b.Property<Guid>("UserId")
                         .HasColumnType("uuid");
@@ -1193,7 +1193,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpUserPasswordHistories", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityUserRole", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityUserRole", b =>
                 {
                     b.Property<Guid>("UserId")
                         .HasColumnType("uuid");
@@ -1212,7 +1212,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpUserRoles", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityUserToken", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityUserToken", b =>
                 {
                     b.Property<Guid>("UserId")
                         .HasColumnType("uuid");
@@ -1237,7 +1237,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.OrganizationUnit", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.OrganizationUnit", b =>
                 {
                     b.Property<Guid>("Id")
                         .HasColumnType("uuid");
@@ -1315,7 +1315,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpOrganizationUnits", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.OrganizationUnitRole", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.OrganizationUnitRole", b =>
                 {
                     b.Property<Guid>("OrganizationUnitId")
                         .HasColumnType("uuid");
@@ -1644,7 +1644,7 @@ namespace Nblity.Migrations
                     b.ToTable("OpenIddictTokens", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.PermissionManagement.PermissionDefinitionRecord", b =>
+            modelBuilder.Entity("Nblity.Abp.PermissionManagement.PermissionDefinitionRecord", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -1704,7 +1704,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpPermissions", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.PermissionManagement.PermissionGrant", b =>
+            modelBuilder.Entity("Nblity.Abp.PermissionManagement.PermissionGrant", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -1737,7 +1737,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpPermissionGrants", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.PermissionManagement.PermissionGroupDefinitionRecord", b =>
+            modelBuilder.Entity("Nblity.Abp.PermissionManagement.PermissionGroupDefinitionRecord", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -1765,7 +1765,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpPermissionGroups", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.PermissionManagement.ResourcePermissionGrant", b =>
+            modelBuilder.Entity("Nblity.Abp.PermissionManagement.ResourcePermissionGrant", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -1808,7 +1808,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpResourcePermissionGrants", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.SettingManagement.Setting", b =>
+            modelBuilder.Entity("Nblity.Abp.SettingManagement.Setting", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -1840,7 +1840,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpSettings", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.SettingManagement.SettingDefinitionRecord", b =>
+            modelBuilder.Entity("Nblity.Abp.SettingManagement.SettingDefinitionRecord", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -1889,7 +1889,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpSettingDefinitions", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.TenantManagement.Tenant", b =>
+            modelBuilder.Entity("Nblity.Abp.TenantManagement.Tenant", b =>
                 {
                     b.Property<Guid>("Id")
                         .HasColumnType("uuid");
@@ -1958,7 +1958,7 @@ namespace Nblity.Migrations
                     b.ToTable("AbpTenants", (string)null);
                 });
 
-            modelBuilder.Entity("Volo.Abp.TenantManagement.TenantConnectionString", b =>
+            modelBuilder.Entity("Nblity.Abp.TenantManagement.TenantConnectionString", b =>
                 {
                     b.Property<Guid>("TenantId")
                         .HasColumnType("uuid");
@@ -2013,57 +2013,57 @@ namespace Nblity.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityRoleClaim", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityRoleClaim", b =>
                 {
-                    b.HasOne("Volo.Abp.Identity.IdentityRole", null)
+                    b.HasOne("Nblity.Abp.Identity.IdentityRole", null)
                         .WithMany("Claims")
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityUserClaim", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityUserClaim", b =>
                 {
-                    b.HasOne("Volo.Abp.Identity.IdentityUser", null)
+                    b.HasOne("Nblity.Abp.Identity.IdentityUser", null)
                         .WithMany("Claims")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityUserLogin", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityUserLogin", b =>
                 {
-                    b.HasOne("Volo.Abp.Identity.IdentityUser", null)
+                    b.HasOne("Nblity.Abp.Identity.IdentityUser", null)
                         .WithMany("Logins")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityUserOrganizationUnit", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityUserOrganizationUnit", b =>
                 {
-                    b.HasOne("Volo.Abp.Identity.OrganizationUnit", null)
+                    b.HasOne("Nblity.Abp.Identity.OrganizationUnit", null)
                         .WithMany()
                         .HasForeignKey("OrganizationUnitId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Volo.Abp.Identity.IdentityUser", null)
+                    b.HasOne("Nblity.Abp.Identity.IdentityUser", null)
                         .WithMany("OrganizationUnits")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityUserPasskey", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityUserPasskey", b =>
                 {
-                    b.HasOne("Volo.Abp.Identity.IdentityUser", null)
+                    b.HasOne("Nblity.Abp.Identity.IdentityUser", null)
                         .WithMany("Passkeys")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.OwnsOne("Volo.Abp.Identity.IdentityPasskeyData", "Data", b1 =>
+                    b.OwnsOne("Nblity.Abp.Identity.IdentityPasskeyData", "Data", b1 =>
                         {
                             b1.Property<byte[]>("IdentityUserPasskeyCredentialId");
 
@@ -2102,55 +2102,55 @@ namespace Nblity.Migrations
                     b.Navigation("Data");
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityUserPasswordHistory", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityUserPasswordHistory", b =>
                 {
-                    b.HasOne("Volo.Abp.Identity.IdentityUser", null)
+                    b.HasOne("Nblity.Abp.Identity.IdentityUser", null)
                         .WithMany("PasswordHistories")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityUserRole", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityUserRole", b =>
                 {
-                    b.HasOne("Volo.Abp.Identity.IdentityRole", null)
+                    b.HasOne("Nblity.Abp.Identity.IdentityRole", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Volo.Abp.Identity.IdentityUser", null)
+                    b.HasOne("Nblity.Abp.Identity.IdentityUser", null)
                         .WithMany("Roles")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityUserToken", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityUserToken", b =>
                 {
-                    b.HasOne("Volo.Abp.Identity.IdentityUser", null)
+                    b.HasOne("Nblity.Abp.Identity.IdentityUser", null)
                         .WithMany("Tokens")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.OrganizationUnit", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.OrganizationUnit", b =>
                 {
-                    b.HasOne("Volo.Abp.Identity.OrganizationUnit", null)
+                    b.HasOne("Nblity.Abp.Identity.OrganizationUnit", null)
                         .WithMany()
                         .HasForeignKey("ParentId");
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.OrganizationUnitRole", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.OrganizationUnitRole", b =>
                 {
-                    b.HasOne("Volo.Abp.Identity.OrganizationUnit", null)
+                    b.HasOne("Nblity.Abp.Identity.OrganizationUnit", null)
                         .WithMany("Roles")
                         .HasForeignKey("OrganizationUnitId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Volo.Abp.Identity.IdentityRole", null)
+                    b.HasOne("Nblity.Abp.Identity.IdentityRole", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -2175,9 +2175,9 @@ namespace Nblity.Migrations
                         .HasForeignKey("AuthorizationId");
                 });
 
-            modelBuilder.Entity("Volo.Abp.TenantManagement.TenantConnectionString", b =>
+            modelBuilder.Entity("Nblity.Abp.TenantManagement.TenantConnectionString", b =>
                 {
-                    b.HasOne("Volo.Abp.TenantManagement.Tenant", null)
+                    b.HasOne("Nblity.Abp.TenantManagement.Tenant", null)
                         .WithMany("ConnectionStrings")
                         .HasForeignKey("TenantId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -2196,12 +2196,12 @@ namespace Nblity.Migrations
                     b.Navigation("PropertyChanges");
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityRole", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityRole", b =>
                 {
                     b.Navigation("Claims");
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.IdentityUser", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.IdentityUser", b =>
                 {
                     b.Navigation("Claims");
 
@@ -2218,12 +2218,12 @@ namespace Nblity.Migrations
                     b.Navigation("Tokens");
                 });
 
-            modelBuilder.Entity("Volo.Abp.Identity.OrganizationUnit", b =>
+            modelBuilder.Entity("Nblity.Abp.Identity.OrganizationUnit", b =>
                 {
                     b.Navigation("Roles");
                 });
 
-            modelBuilder.Entity("Volo.Abp.TenantManagement.Tenant", b =>
+            modelBuilder.Entity("Nblity.Abp.TenantManagement.Tenant", b =>
                 {
                     b.Navigation("ConnectionStrings");
                 });

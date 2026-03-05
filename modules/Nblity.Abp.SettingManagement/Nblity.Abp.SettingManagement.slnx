@@ -1,0 +1,26 @@
+<Solution>
+  <Folder Name="/app/">
+    <Project Path="app/Nblity.Abp.SettingManagement.DemoApp/Nblity.Abp.SettingManagement.DemoApp.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Nblity.Abp.SettingManagement.Application.Contracts/Nblity.Abp.SettingManagement.Application.Contracts.csproj" />
+    <Project Path="src/Nblity.Abp.SettingManagement.Application/Nblity.Abp.SettingManagement.Application.csproj" />
+    <Project Path="src/Nblity.Abp.SettingManagement.Blazor.Server/Nblity.Abp.SettingManagement.Blazor.Server.csproj" />
+    <Project Path="src/Nblity.Abp.SettingManagement.Blazor.WebAssembly/Nblity.Abp.SettingManagement.Blazor.WebAssembly.csproj" />
+    <Project Path="src/Nblity.Abp.SettingManagement.Blazor/Nblity.Abp.SettingManagement.Blazor.csproj" />
+    <Project Path="src/Nblity.Abp.SettingManagement.Domain.Shared/Nblity.Abp.SettingManagement.Domain.Shared.csproj" />
+    <Project Path="src/Nblity.Abp.SettingManagement.Domain/Nblity.Abp.SettingManagement.Domain.csproj" />
+    <Project Path="src/Nblity.Abp.SettingManagement.EntityFrameworkCore/Nblity.Abp.SettingManagement.EntityFrameworkCore.csproj" />
+    <Project Path="src/Nblity.Abp.SettingManagement.HttpApi.Client/Nblity.Abp.SettingManagement.HttpApi.Client.csproj" />
+    <Project Path="src/Nblity.Abp.SettingManagement.HttpApi/Nblity.Abp.SettingManagement.HttpApi.csproj" />
+    <Project Path="src/Nblity.Abp.SettingManagement.Installer/Nblity.Abp.SettingManagement.Installer.csproj" />
+    <Project Path="src/Nblity.Abp.SettingManagement.MongoDB/Nblity.Abp.SettingManagement.MongoDB.csproj" />
+    <Project Path="src/Nblity.Abp.SettingManagement.Web/Nblity.Abp.SettingManagement.Web.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/Nblity.Abp.SettingManagement.EntityFrameworkCore.Tests/Nblity.Abp.SettingManagement.EntityFrameworkCore.Tests.csproj" />
+    <Project Path="test/Nblity.Abp.SettingManagement.MongoDB.Tests/Nblity.Abp.SettingManagement.MongoDB.Tests.csproj" />
+    <Project Path="test/Nblity.Abp.SettingManagement.TestBase/Nblity.Abp.SettingManagement.TestBase.csproj" />
+    <Project Path="test/Nblity.Abp.SettingManagement.Tests/Nblity.Abp.SettingManagement.Tests.csproj" />
+  </Folder>
+</Solution>

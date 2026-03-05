@@ -9,10 +9,10 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 using Volo.Abp.Data;
 using Volo.Abp.DependencyInjection;
-using Volo.Abp.Identity;
+using Nblity.Abp.Identity;
 using Volo.Abp.MultiTenancy;
 using Nblity.MultiTenancy;
-using Volo.Abp.TenantManagement;
+using Nblity.Abp.TenantManagement;
 
 namespace Nblity.Data;
 

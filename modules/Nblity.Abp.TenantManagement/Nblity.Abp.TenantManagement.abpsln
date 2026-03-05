@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Nblity.Abp.TenantManagement": {
+      "path": "Nblity.Abp.TenantManagement.abpmdl"
+    }
+  }
+}

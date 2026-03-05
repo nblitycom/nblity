@@ -16,88 +16,88 @@ This document provides a comprehensive overview of the projects and their depend
 - [Projects Relationship Graph](#projects-relationship-graph)
 - [Project Details](#project-details)
 
-  - [modules\Volo.Abp.Account\src\Volo.Abp.Account.Application.Contracts\Volo.Abp.Account.Application.Contracts.csproj](#modulesvoloabpaccountsrcvoloabpaccountapplicationcontractsvoloabpaccountapplicationcontractscsproj)
-  - [modules\Volo.Abp.Account\src\Volo.Abp.Account.Application\Volo.Abp.Account.Application.csproj](#modulesvoloabpaccountsrcvoloabpaccountapplicationvoloabpaccountapplicationcsproj)
-  - [modules\Volo.Abp.Account\src\Volo.Abp.Account.Blazor\Volo.Abp.Account.Blazor.csproj](#modulesvoloabpaccountsrcvoloabpaccountblazorvoloabpaccountblazorcsproj)
-  - [modules\Volo.Abp.Account\src\Volo.Abp.Account.HttpApi.Client\Volo.Abp.Account.HttpApi.Client.csproj](#modulesvoloabpaccountsrcvoloabpaccounthttpapiclientvoloabpaccounthttpapiclientcsproj)
-  - [modules\Volo.Abp.Account\src\Volo.Abp.Account.HttpApi\Volo.Abp.Account.HttpApi.csproj](#modulesvoloabpaccountsrcvoloabpaccounthttpapivoloabpaccounthttpapicsproj)
-  - [modules\Volo.Abp.Account\src\Volo.Abp.Account.Installer\Volo.Abp.Account.Installer.csproj](#modulesvoloabpaccountsrcvoloabpaccountinstallervoloabpaccountinstallercsproj)
-  - [modules\Volo.Abp.Account\src\Volo.Abp.Account.Web.IdentityServer\Volo.Abp.Account.Web.IdentityServer.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebidentityservervoloabpaccountwebidentityservercsproj)
-  - [modules\Volo.Abp.Account\src\Volo.Abp.Account.Web.OpenIddict\Volo.Abp.Account.Web.OpenIddict.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebopeniddictvoloabpaccountwebopeniddictcsproj)
-  - [modules\Volo.Abp.Account\src\Volo.Abp.Account.Web\Volo.Abp.Account.Web.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebvoloabpaccountwebcsproj)
-  - [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Application.Contracts\Volo.Abp.FeatureManagement.Application.Contracts.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationcontractsvoloabpfeaturemanagementapplicationcontractscsproj)
-  - [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Application\Volo.Abp.FeatureManagement.Application.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationvoloabpfeaturemanagementapplicationcsproj)
-  - [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Blazor.Server\Volo.Abp.FeatureManagement.Blazor.Server.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorservervoloabpfeaturemanagementblazorservercsproj)
-  - [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Blazor.WebAssembly\Volo.Abp.FeatureManagement.Blazor.WebAssembly.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorwebassemblyvoloabpfeaturemanagementblazorwebassemblycsproj)
-  - [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Blazor\Volo.Abp.FeatureManagement.Blazor.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorvoloabpfeaturemanagementblazorcsproj)
-  - [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Domain.Shared\Volo.Abp.FeatureManagement.Domain.Shared.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainsharedvoloabpfeaturemanagementdomainsharedcsproj)
-  - [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Domain\Volo.Abp.FeatureManagement.Domain.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainvoloabpfeaturemanagementdomaincsproj)
-  - [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.EntityFrameworkCore\Volo.Abp.FeatureManagement.EntityFrameworkCore.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagemententityframeworkcorevoloabpfeaturemanagemententityframeworkcorecsproj)
-  - [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.HttpApi.Client\Volo.Abp.FeatureManagement.HttpApi.Client.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementhttpapiclientvoloabpfeaturemanagementhttpapiclientcsproj)
-  - [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.HttpApi\Volo.Abp.FeatureManagement.HttpApi.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementhttpapivoloabpfeaturemanagementhttpapicsproj)
-  - [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Installer\Volo.Abp.FeatureManagement.Installer.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementinstallervoloabpfeaturemanagementinstallercsproj)
-  - [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.MongoDB\Volo.Abp.FeatureManagement.MongoDB.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementmongodbvoloabpfeaturemanagementmongodbcsproj)
-  - [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Web\Volo.Abp.FeatureManagement.Web.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementwebvoloabpfeaturemanagementwebcsproj)
-  - [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Application.Contracts\Volo.Abp.Identity.Application.Contracts.csproj](#modulesvoloabpidentitysrcvoloabpidentityapplicationcontractsvoloabpidentityapplicationcontractscsproj)
-  - [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Application\Volo.Abp.Identity.Application.csproj](#modulesvoloabpidentitysrcvoloabpidentityapplicationvoloabpidentityapplicationcsproj)
-  - [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.AspNetCore\Volo.Abp.Identity.AspNetCore.csproj](#modulesvoloabpidentitysrcvoloabpidentityaspnetcorevoloabpidentityaspnetcorecsproj)
-  - [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Blazor.Server\Volo.Abp.Identity.Blazor.Server.csproj](#modulesvoloabpidentitysrcvoloabpidentityblazorservervoloabpidentityblazorservercsproj)
-  - [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Blazor.WebAssembly\Volo.Abp.Identity.Blazor.WebAssembly.csproj](#modulesvoloabpidentitysrcvoloabpidentityblazorwebassemblyvoloabpidentityblazorwebassemblycsproj)
-  - [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Blazor\Volo.Abp.Identity.Blazor.csproj](#modulesvoloabpidentitysrcvoloabpidentityblazorvoloabpidentityblazorcsproj)
-  - [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Domain.Shared\Volo.Abp.Identity.Domain.Shared.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainsharedvoloabpidentitydomainsharedcsproj)
-  - [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Domain\Volo.Abp.Identity.Domain.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainvoloabpidentitydomaincsproj)
-  - [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.EntityFrameworkCore\Volo.Abp.Identity.EntityFrameworkCore.csproj](#modulesvoloabpidentitysrcvoloabpidentityentityframeworkcorevoloabpidentityentityframeworkcorecsproj)
-  - [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.HttpApi.Client\Volo.Abp.Identity.HttpApi.Client.csproj](#modulesvoloabpidentitysrcvoloabpidentityhttpapiclientvoloabpidentityhttpapiclientcsproj)
-  - [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.HttpApi\Volo.Abp.Identity.HttpApi.csproj](#modulesvoloabpidentitysrcvoloabpidentityhttpapivoloabpidentityhttpapicsproj)
-  - [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Installer\Volo.Abp.Identity.Installer.csproj](#modulesvoloabpidentitysrcvoloabpidentityinstallervoloabpidentityinstallercsproj)
-  - [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.MongoDB\Volo.Abp.Identity.MongoDB.csproj](#modulesvoloabpidentitysrcvoloabpidentitymongodbvoloabpidentitymongodbcsproj)
-  - [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Web\Volo.Abp.Identity.Web.csproj](#modulesvoloabpidentitysrcvoloabpidentitywebvoloabpidentitywebcsproj)
-  - [modules\Volo.Abp.Identity\src\Volo.Abp.PermissionManagement.Domain.Identity\Volo.Abp.PermissionManagement.Domain.Identity.csproj](#modulesvoloabpidentitysrcvoloabppermissionmanagementdomainidentityvoloabppermissionmanagementdomainidentitycsproj)
-  - [modules\Volo.Abp.LeptonXLiteTheme\src\Volo.Abp.AspNetCore.Components.Server.LeptonXLiteTheme\Volo.Abp.AspNetCore.Components.Server.LeptonXLiteTheme.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentsserverleptonxlitethemevoloabpaspnetcorecomponentsserverleptonxlitethemecsproj)
-  - [modules\Volo.Abp.LeptonXLiteTheme\src\Volo.Abp.AspNetCore.Components.Web.LeptonXLiteTheme\Volo.Abp.AspNetCore.Components.Web.LeptonXLiteTheme.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebleptonxlitethemevoloabpaspnetcorecomponentswebleptonxlitethemecsproj)
-  - [modules\Volo.Abp.LeptonXLiteTheme\src\Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling\Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebassemblyleptonxlitethemebundlingvoloabpaspnetcorecomponentswebassemblyleptonxlitethemebundlingcsproj)
-  - [modules\Volo.Abp.LeptonXLiteTheme\src\Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme\Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebassemblyleptonxlitethemevoloabpaspnetcorecomponentswebassemblyleptonxlitethemecsproj)
-  - [modules\Volo.Abp.LeptonXLiteTheme\src\Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite\Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcoremvcuithemeleptonxlitevoloabpaspnetcoremvcuithemeleptonxlitecsproj)
-  - [modules\Volo.Abp.LeptonXLiteTheme\src\Volo.Abp.LeptonXLiteTheme.Installer\Volo.Abp.LeptonXLiteTheme.Installer.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpleptonxlitethemeinstallervoloabpleptonxlitethemeinstallercsproj)
-  - [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Application.Contracts\Volo.Abp.PermissionManagement.Application.Contracts.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationcontractsvoloabppermissionmanagementapplicationcontractscsproj)
-  - [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Application\Volo.Abp.PermissionManagement.Application.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationvoloabppermissionmanagementapplicationcsproj)
-  - [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Blazor.Server\Volo.Abp.PermissionManagement.Blazor.Server.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorservervoloabppermissionmanagementblazorservercsproj)
-  - [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Blazor.WebAssembly\Volo.Abp.PermissionManagement.Blazor.WebAssembly.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorwebassemblyvoloabppermissionmanagementblazorwebassemblycsproj)
-  - [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Blazor\Volo.Abp.PermissionManagement.Blazor.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorvoloabppermissionmanagementblazorcsproj)
-  - [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Domain.Shared\Volo.Abp.PermissionManagement.Domain.Shared.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainsharedvoloabppermissionmanagementdomainsharedcsproj)
-  - [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Domain\Volo.Abp.PermissionManagement.Domain.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj)
-  - [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.EntityFrameworkCore\Volo.Abp.PermissionManagement.EntityFrameworkCore.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagemententityframeworkcorevoloabppermissionmanagemententityframeworkcorecsproj)
-  - [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.HttpApi.Client\Volo.Abp.PermissionManagement.HttpApi.Client.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementhttpapiclientvoloabppermissionmanagementhttpapiclientcsproj)
-  - [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.HttpApi\Volo.Abp.PermissionManagement.HttpApi.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementhttpapivoloabppermissionmanagementhttpapicsproj)
-  - [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Installer\Volo.Abp.PermissionManagement.Installer.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementinstallervoloabppermissionmanagementinstallercsproj)
-  - [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.MongoDB\Volo.Abp.PermissionManagement.MongoDB.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementmongodbvoloabppermissionmanagementmongodbcsproj)
-  - [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Web\Volo.Abp.PermissionManagement.Web.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementwebvoloabppermissionmanagementwebcsproj)
-  - [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Application.Contracts\Volo.Abp.SettingManagement.Application.Contracts.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationcontractsvoloabpsettingmanagementapplicationcontractscsproj)
-  - [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Application\Volo.Abp.SettingManagement.Application.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationvoloabpsettingmanagementapplicationcsproj)
-  - [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Blazor.Server\Volo.Abp.SettingManagement.Blazor.Server.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorservervoloabpsettingmanagementblazorservercsproj)
-  - [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Blazor.WebAssembly\Volo.Abp.SettingManagement.Blazor.WebAssembly.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorwebassemblyvoloabpsettingmanagementblazorwebassemblycsproj)
-  - [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Blazor\Volo.Abp.SettingManagement.Blazor.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorvoloabpsettingmanagementblazorcsproj)
-  - [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Domain.Shared\Volo.Abp.SettingManagement.Domain.Shared.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainsharedvoloabpsettingmanagementdomainsharedcsproj)
-  - [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Domain\Volo.Abp.SettingManagement.Domain.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainvoloabpsettingmanagementdomaincsproj)
-  - [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.EntityFrameworkCore\Volo.Abp.SettingManagement.EntityFrameworkCore.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagemententityframeworkcorevoloabpsettingmanagemententityframeworkcorecsproj)
-  - [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.HttpApi.Client\Volo.Abp.SettingManagement.HttpApi.Client.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementhttpapiclientvoloabpsettingmanagementhttpapiclientcsproj)
-  - [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.HttpApi\Volo.Abp.SettingManagement.HttpApi.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementhttpapivoloabpsettingmanagementhttpapicsproj)
-  - [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Installer\Volo.Abp.SettingManagement.Installer.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementinstallervoloabpsettingmanagementinstallercsproj)
-  - [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.MongoDB\Volo.Abp.SettingManagement.MongoDB.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementmongodbvoloabpsettingmanagementmongodbcsproj)
-  - [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Web\Volo.Abp.SettingManagement.Web.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementwebvoloabpsettingmanagementwebcsproj)
-  - [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Application.Contracts\Volo.Abp.TenantManagement.Application.Contracts.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationcontractsvoloabptenantmanagementapplicationcontractscsproj)
-  - [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Application\Volo.Abp.TenantManagement.Application.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationvoloabptenantmanagementapplicationcsproj)
-  - [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Blazor.Server\Volo.Abp.TenantManagement.Blazor.Server.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorservervoloabptenantmanagementblazorservercsproj)
-  - [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Blazor.WebAssembly\Volo.Abp.TenantManagement.Blazor.WebAssembly.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorwebassemblyvoloabptenantmanagementblazorwebassemblycsproj)
-  - [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Blazor\Volo.Abp.TenantManagement.Blazor.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorvoloabptenantmanagementblazorcsproj)
-  - [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Domain.Shared\Volo.Abp.TenantManagement.Domain.Shared.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainsharedvoloabptenantmanagementdomainsharedcsproj)
-  - [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Domain\Volo.Abp.TenantManagement.Domain.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainvoloabptenantmanagementdomaincsproj)
-  - [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.EntityFrameworkCore\Volo.Abp.TenantManagement.EntityFrameworkCore.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagemententityframeworkcorevoloabptenantmanagemententityframeworkcorecsproj)
-  - [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.HttpApi.Client\Volo.Abp.TenantManagement.HttpApi.Client.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementhttpapiclientvoloabptenantmanagementhttpapiclientcsproj)
-  - [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.HttpApi\Volo.Abp.TenantManagement.HttpApi.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementhttpapivoloabptenantmanagementhttpapicsproj)
-  - [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Installer\Volo.Abp.TenantManagement.Installer.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementinstallervoloabptenantmanagementinstallercsproj)
-  - [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.MongoDB\Volo.Abp.TenantManagement.MongoDB.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementmongodbvoloabptenantmanagementmongodbcsproj)
-  - [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Web\Volo.Abp.TenantManagement.Web.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementwebvoloabptenantmanagementwebcsproj)
+  - [modules\Nblity.Abp.Account\src\Nblity.Abp.Account.Application.Contracts\Nblity.Abp.Account.Application.Contracts.csproj](#modulesvoloabpaccountsrcvoloabpaccountapplicationcontractsvoloabpaccountapplicationcontractscsproj)
+  - [modules\Nblity.Abp.Account\src\Nblity.Abp.Account.Application\Nblity.Abp.Account.Application.csproj](#modulesvoloabpaccountsrcvoloabpaccountapplicationvoloabpaccountapplicationcsproj)
+  - [modules\Nblity.Abp.Account\src\Nblity.Abp.Account.Blazor\Nblity.Abp.Account.Blazor.csproj](#modulesvoloabpaccountsrcvoloabpaccountblazorvoloabpaccountblazorcsproj)
+  - [modules\Nblity.Abp.Account\src\Nblity.Abp.Account.HttpApi.Client\Nblity.Abp.Account.HttpApi.Client.csproj](#modulesvoloabpaccountsrcvoloabpaccounthttpapiclientvoloabpaccounthttpapiclientcsproj)
+  - [modules\Nblity.Abp.Account\src\Nblity.Abp.Account.HttpApi\Nblity.Abp.Account.HttpApi.csproj](#modulesvoloabpaccountsrcvoloabpaccounthttpapivoloabpaccounthttpapicsproj)
+  - [modules\Nblity.Abp.Account\src\Nblity.Abp.Account.Installer\Nblity.Abp.Account.Installer.csproj](#modulesvoloabpaccountsrcvoloabpaccountinstallervoloabpaccountinstallercsproj)
+  - [modules\Nblity.Abp.Account\src\Nblity.Abp.Account.Web.IdentityServer\Nblity.Abp.Account.Web.IdentityServer.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebidentityservervoloabpaccountwebidentityservercsproj)
+  - [modules\Nblity.Abp.Account\src\Nblity.Abp.Account.Web.OpenIddict\Nblity.Abp.Account.Web.OpenIddict.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebopeniddictvoloabpaccountwebopeniddictcsproj)
+  - [modules\Nblity.Abp.Account\src\Nblity.Abp.Account.Web\Nblity.Abp.Account.Web.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebvoloabpaccountwebcsproj)
+  - [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Application.Contracts\Nblity.Abp.FeatureManagement.Application.Contracts.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationcontractsvoloabpfeaturemanagementapplicationcontractscsproj)
+  - [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Application\Nblity.Abp.FeatureManagement.Application.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationvoloabpfeaturemanagementapplicationcsproj)
+  - [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Blazor.Server\Nblity.Abp.FeatureManagement.Blazor.Server.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorservervoloabpfeaturemanagementblazorservercsproj)
+  - [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Blazor.WebAssembly\Nblity.Abp.FeatureManagement.Blazor.WebAssembly.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorwebassemblyvoloabpfeaturemanagementblazorwebassemblycsproj)
+  - [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Blazor\Nblity.Abp.FeatureManagement.Blazor.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorvoloabpfeaturemanagementblazorcsproj)
+  - [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Domain.Shared\Nblity.Abp.FeatureManagement.Domain.Shared.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainsharedvoloabpfeaturemanagementdomainsharedcsproj)
+  - [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Domain\Nblity.Abp.FeatureManagement.Domain.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainvoloabpfeaturemanagementdomaincsproj)
+  - [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.EntityFrameworkCore\Nblity.Abp.FeatureManagement.EntityFrameworkCore.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagemententityframeworkcorevoloabpfeaturemanagemententityframeworkcorecsproj)
+  - [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.HttpApi.Client\Nblity.Abp.FeatureManagement.HttpApi.Client.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementhttpapiclientvoloabpfeaturemanagementhttpapiclientcsproj)
+  - [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.HttpApi\Nblity.Abp.FeatureManagement.HttpApi.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementhttpapivoloabpfeaturemanagementhttpapicsproj)
+  - [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Installer\Nblity.Abp.FeatureManagement.Installer.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementinstallervoloabpfeaturemanagementinstallercsproj)
+  - [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.MongoDB\Nblity.Abp.FeatureManagement.MongoDB.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementmongodbvoloabpfeaturemanagementmongodbcsproj)
+  - [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Web\Nblity.Abp.FeatureManagement.Web.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementwebvoloabpfeaturemanagementwebcsproj)
+  - [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Application.Contracts\Nblity.Abp.Identity.Application.Contracts.csproj](#modulesvoloabpidentitysrcvoloabpidentityapplicationcontractsvoloabpidentityapplicationcontractscsproj)
+  - [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Application\Nblity.Abp.Identity.Application.csproj](#modulesvoloabpidentitysrcvoloabpidentityapplicationvoloabpidentityapplicationcsproj)
+  - [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.AspNetCore\Nblity.Abp.Identity.AspNetCore.csproj](#modulesvoloabpidentitysrcvoloabpidentityaspnetcorevoloabpidentityaspnetcorecsproj)
+  - [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Blazor.Server\Nblity.Abp.Identity.Blazor.Server.csproj](#modulesvoloabpidentitysrcvoloabpidentityblazorservervoloabpidentityblazorservercsproj)
+  - [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Blazor.WebAssembly\Nblity.Abp.Identity.Blazor.WebAssembly.csproj](#modulesvoloabpidentitysrcvoloabpidentityblazorwebassemblyvoloabpidentityblazorwebassemblycsproj)
+  - [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Blazor\Nblity.Abp.Identity.Blazor.csproj](#modulesvoloabpidentitysrcvoloabpidentityblazorvoloabpidentityblazorcsproj)
+  - [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Domain.Shared\Nblity.Abp.Identity.Domain.Shared.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainsharedvoloabpidentitydomainsharedcsproj)
+  - [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Domain\Nblity.Abp.Identity.Domain.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainvoloabpidentitydomaincsproj)
+  - [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.EntityFrameworkCore\Nblity.Abp.Identity.EntityFrameworkCore.csproj](#modulesvoloabpidentitysrcvoloabpidentityentityframeworkcorevoloabpidentityentityframeworkcorecsproj)
+  - [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.HttpApi.Client\Nblity.Abp.Identity.HttpApi.Client.csproj](#modulesvoloabpidentitysrcvoloabpidentityhttpapiclientvoloabpidentityhttpapiclientcsproj)
+  - [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.HttpApi\Nblity.Abp.Identity.HttpApi.csproj](#modulesvoloabpidentitysrcvoloabpidentityhttpapivoloabpidentityhttpapicsproj)
+  - [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Installer\Nblity.Abp.Identity.Installer.csproj](#modulesvoloabpidentitysrcvoloabpidentityinstallervoloabpidentityinstallercsproj)
+  - [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.MongoDB\Nblity.Abp.Identity.MongoDB.csproj](#modulesvoloabpidentitysrcvoloabpidentitymongodbvoloabpidentitymongodbcsproj)
+  - [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Web\Nblity.Abp.Identity.Web.csproj](#modulesvoloabpidentitysrcvoloabpidentitywebvoloabpidentitywebcsproj)
+  - [modules\Nblity.Abp.Identity\src\Nblity.Abp.PermissionManagement.Domain.Identity\Nblity.Abp.PermissionManagement.Domain.Identity.csproj](#modulesvoloabpidentitysrcvoloabppermissionmanagementdomainidentityvoloabppermissionmanagementdomainidentitycsproj)
+  - [modules\Nblity.Abp.MudblazorTheme\src\Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme\Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentsserverleptonxlitethemevoloabpaspnetcorecomponentsserverleptonxlitethemecsproj)
+  - [modules\Nblity.Abp.MudblazorTheme\src\Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme\Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebleptonxlitethemevoloabpaspnetcorecomponentswebleptonxlitethemecsproj)
+  - [modules\Nblity.Abp.MudblazorTheme\src\Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Bundling\Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Bundling.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebassemblyleptonxlitethemebundlingvoloabpaspnetcorecomponentswebassemblyleptonxlitethemebundlingcsproj)
+  - [modules\Nblity.Abp.MudblazorTheme\src\Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme\Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebassemblyleptonxlitethemevoloabpaspnetcorecomponentswebassemblyleptonxlitethemecsproj)
+  - [modules\Nblity.Abp.MudblazorTheme\src\Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor\Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcoremvcuithemeleptonxlitevoloabpaspnetcoremvcuithemeleptonxlitecsproj)
+  - [modules\Nblity.Abp.MudblazorTheme\src\Nblity.Abp.MudblazorTheme.Installer\Nblity.Abp.MudblazorTheme.Installer.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpleptonxlitethemeinstallervoloabpleptonxlitethemeinstallercsproj)
+  - [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Application.Contracts\Nblity.Abp.PermissionManagement.Application.Contracts.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationcontractsvoloabppermissionmanagementapplicationcontractscsproj)
+  - [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Application\Nblity.Abp.PermissionManagement.Application.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationvoloabppermissionmanagementapplicationcsproj)
+  - [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Blazor.Server\Nblity.Abp.PermissionManagement.Blazor.Server.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorservervoloabppermissionmanagementblazorservercsproj)
+  - [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Blazor.WebAssembly\Nblity.Abp.PermissionManagement.Blazor.WebAssembly.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorwebassemblyvoloabppermissionmanagementblazorwebassemblycsproj)
+  - [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Blazor\Nblity.Abp.PermissionManagement.Blazor.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorvoloabppermissionmanagementblazorcsproj)
+  - [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Domain.Shared\Nblity.Abp.PermissionManagement.Domain.Shared.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainsharedvoloabppermissionmanagementdomainsharedcsproj)
+  - [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Domain\Nblity.Abp.PermissionManagement.Domain.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj)
+  - [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.EntityFrameworkCore\Nblity.Abp.PermissionManagement.EntityFrameworkCore.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagemententityframeworkcorevoloabppermissionmanagemententityframeworkcorecsproj)
+  - [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.HttpApi.Client\Nblity.Abp.PermissionManagement.HttpApi.Client.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementhttpapiclientvoloabppermissionmanagementhttpapiclientcsproj)
+  - [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.HttpApi\Nblity.Abp.PermissionManagement.HttpApi.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementhttpapivoloabppermissionmanagementhttpapicsproj)
+  - [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Installer\Nblity.Abp.PermissionManagement.Installer.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementinstallervoloabppermissionmanagementinstallercsproj)
+  - [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.MongoDB\Nblity.Abp.PermissionManagement.MongoDB.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementmongodbvoloabppermissionmanagementmongodbcsproj)
+  - [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Web\Nblity.Abp.PermissionManagement.Web.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementwebvoloabppermissionmanagementwebcsproj)
+  - [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Application.Contracts\Nblity.Abp.SettingManagement.Application.Contracts.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationcontractsvoloabpsettingmanagementapplicationcontractscsproj)
+  - [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Application\Nblity.Abp.SettingManagement.Application.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationvoloabpsettingmanagementapplicationcsproj)
+  - [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Blazor.Server\Nblity.Abp.SettingManagement.Blazor.Server.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorservervoloabpsettingmanagementblazorservercsproj)
+  - [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Blazor.WebAssembly\Nblity.Abp.SettingManagement.Blazor.WebAssembly.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorwebassemblyvoloabpsettingmanagementblazorwebassemblycsproj)
+  - [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Blazor\Nblity.Abp.SettingManagement.Blazor.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorvoloabpsettingmanagementblazorcsproj)
+  - [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Domain.Shared\Nblity.Abp.SettingManagement.Domain.Shared.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainsharedvoloabpsettingmanagementdomainsharedcsproj)
+  - [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Domain\Nblity.Abp.SettingManagement.Domain.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainvoloabpsettingmanagementdomaincsproj)
+  - [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.EntityFrameworkCore\Nblity.Abp.SettingManagement.EntityFrameworkCore.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagemententityframeworkcorevoloabpsettingmanagemententityframeworkcorecsproj)
+  - [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.HttpApi.Client\Nblity.Abp.SettingManagement.HttpApi.Client.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementhttpapiclientvoloabpsettingmanagementhttpapiclientcsproj)
+  - [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.HttpApi\Nblity.Abp.SettingManagement.HttpApi.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementhttpapivoloabpsettingmanagementhttpapicsproj)
+  - [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Installer\Nblity.Abp.SettingManagement.Installer.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementinstallervoloabpsettingmanagementinstallercsproj)
+  - [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.MongoDB\Nblity.Abp.SettingManagement.MongoDB.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementmongodbvoloabpsettingmanagementmongodbcsproj)
+  - [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Web\Nblity.Abp.SettingManagement.Web.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementwebvoloabpsettingmanagementwebcsproj)
+  - [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Application.Contracts\Nblity.Abp.TenantManagement.Application.Contracts.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationcontractsvoloabptenantmanagementapplicationcontractscsproj)
+  - [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Application\Nblity.Abp.TenantManagement.Application.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationvoloabptenantmanagementapplicationcsproj)
+  - [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Blazor.Server\Nblity.Abp.TenantManagement.Blazor.Server.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorservervoloabptenantmanagementblazorservercsproj)
+  - [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Blazor.WebAssembly\Nblity.Abp.TenantManagement.Blazor.WebAssembly.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorwebassemblyvoloabptenantmanagementblazorwebassemblycsproj)
+  - [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Blazor\Nblity.Abp.TenantManagement.Blazor.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorvoloabptenantmanagementblazorcsproj)
+  - [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Domain.Shared\Nblity.Abp.TenantManagement.Domain.Shared.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainsharedvoloabptenantmanagementdomainsharedcsproj)
+  - [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Domain\Nblity.Abp.TenantManagement.Domain.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainvoloabptenantmanagementdomaincsproj)
+  - [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.EntityFrameworkCore\Nblity.Abp.TenantManagement.EntityFrameworkCore.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagemententityframeworkcorevoloabptenantmanagemententityframeworkcorecsproj)
+  - [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.HttpApi.Client\Nblity.Abp.TenantManagement.HttpApi.Client.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementhttpapiclientvoloabptenantmanagementhttpapiclientcsproj)
+  - [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.HttpApi\Nblity.Abp.TenantManagement.HttpApi.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementhttpapivoloabptenantmanagementhttpapicsproj)
+  - [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Installer\Nblity.Abp.TenantManagement.Installer.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementinstallervoloabptenantmanagementinstallercsproj)
+  - [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.MongoDB\Nblity.Abp.TenantManagement.MongoDB.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementmongodbvoloabptenantmanagementmongodbcsproj)
+  - [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Web\Nblity.Abp.TenantManagement.Web.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementwebvoloabptenantmanagementwebcsproj)
   - [src\Nblity.Application.Contracts\Nblity.Application.Contracts.csproj](#srcnblityapplicationcontractsnblityapplicationcontractscsproj)
   - [src\Nblity.Application\Nblity.Application.csproj](#srcnblityapplicationnblityapplicationcsproj)
   - [src\Nblity.Blazor.Client\Nblity.Blazor.Client.csproj](#srcnblityblazorclientnblityblazorclientcsproj)
@@ -128,88 +128,88 @@ This document provides a comprehensive overview of the projects and their depend
 
 | Project | Target Framework | Difficulty | Package Issues | API Issues | Est. LOC Impact | Description |
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| [modules\Volo.Abp.Account\src\Volo.Abp.Account.Application.Contracts\Volo.Abp.Account.Application.Contracts.csproj](#modulesvoloabpaccountsrcvoloabpaccountapplicationcontractsvoloabpaccountapplicationcontractscsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 1 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.Account\src\Volo.Abp.Account.Application\Volo.Abp.Account.Application.csproj](#modulesvoloabpaccountsrcvoloabpaccountapplicationvoloabpaccountapplicationcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.Account\src\Volo.Abp.Account.Blazor\Volo.Abp.Account.Blazor.csproj](#modulesvoloabpaccountsrcvoloabpaccountblazorvoloabpaccountblazorcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.Account\src\Volo.Abp.Account.HttpApi.Client\Volo.Abp.Account.HttpApi.Client.csproj](#modulesvoloabpaccountsrcvoloabpaccounthttpapiclientvoloabpaccounthttpapiclientcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.Account\src\Volo.Abp.Account.HttpApi\Volo.Abp.Account.HttpApi.csproj](#modulesvoloabpaccountsrcvoloabpaccounthttpapivoloabpaccounthttpapicsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.Account\src\Volo.Abp.Account.Installer\Volo.Abp.Account.Installer.csproj](#modulesvoloabpaccountsrcvoloabpaccountinstallervoloabpaccountinstallercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.Account\src\Volo.Abp.Account.Web.IdentityServer\Volo.Abp.Account.Web.IdentityServer.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebidentityservervoloabpaccountwebidentityservercsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
-| [modules\Volo.Abp.Account\src\Volo.Abp.Account.Web.OpenIddict\Volo.Abp.Account.Web.OpenIddict.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebopeniddictvoloabpaccountwebopeniddictcsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
-| [modules\Volo.Abp.Account\src\Volo.Abp.Account.Web\Volo.Abp.Account.Web.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebvoloabpaccountwebcsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
-| [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Application.Contracts\Volo.Abp.FeatureManagement.Application.Contracts.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationcontractsvoloabpfeaturemanagementapplicationcontractscsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Application\Volo.Abp.FeatureManagement.Application.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationvoloabpfeaturemanagementapplicationcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Blazor.Server\Volo.Abp.FeatureManagement.Blazor.Server.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorservervoloabpfeaturemanagementblazorservercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Blazor.WebAssembly\Volo.Abp.FeatureManagement.Blazor.WebAssembly.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorwebassemblyvoloabpfeaturemanagementblazorwebassemblycsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Blazor\Volo.Abp.FeatureManagement.Blazor.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorvoloabpfeaturemanagementblazorcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Domain.Shared\Volo.Abp.FeatureManagement.Domain.Shared.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainsharedvoloabpfeaturemanagementdomainsharedcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 1 | 6 | 6+ | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Domain\Volo.Abp.FeatureManagement.Domain.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainvoloabpfeaturemanagementdomaincsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 6 | 6+ | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.EntityFrameworkCore\Volo.Abp.FeatureManagement.EntityFrameworkCore.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagemententityframeworkcorevoloabpfeaturemanagemententityframeworkcorecsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.HttpApi.Client\Volo.Abp.FeatureManagement.HttpApi.Client.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementhttpapiclientvoloabpfeaturemanagementhttpapiclientcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.HttpApi\Volo.Abp.FeatureManagement.HttpApi.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementhttpapivoloabpfeaturemanagementhttpapicsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Installer\Volo.Abp.FeatureManagement.Installer.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementinstallervoloabpfeaturemanagementinstallercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.MongoDB\Volo.Abp.FeatureManagement.MongoDB.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementmongodbvoloabpfeaturemanagementmongodbcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Web\Volo.Abp.FeatureManagement.Web.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementwebvoloabpfeaturemanagementwebcsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
-| [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Application.Contracts\Volo.Abp.Identity.Application.Contracts.csproj](#modulesvoloabpidentitysrcvoloabpidentityapplicationcontractsvoloabpidentityapplicationcontractscsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Application\Volo.Abp.Identity.Application.csproj](#modulesvoloabpidentitysrcvoloabpidentityapplicationvoloabpidentityapplicationcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.AspNetCore\Volo.Abp.Identity.AspNetCore.csproj](#modulesvoloabpidentitysrcvoloabpidentityaspnetcorevoloabpidentityaspnetcorecsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
-| [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Blazor.Server\Volo.Abp.Identity.Blazor.Server.csproj](#modulesvoloabpidentitysrcvoloabpidentityblazorservervoloabpidentityblazorservercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Blazor.WebAssembly\Volo.Abp.Identity.Blazor.WebAssembly.csproj](#modulesvoloabpidentitysrcvoloabpidentityblazorwebassemblyvoloabpidentityblazorwebassemblycsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Blazor\Volo.Abp.Identity.Blazor.csproj](#modulesvoloabpidentitysrcvoloabpidentityblazorvoloabpidentityblazorcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Domain.Shared\Volo.Abp.Identity.Domain.Shared.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainsharedvoloabpidentitydomainsharedcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 1 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Domain\Volo.Abp.Identity.Domain.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainvoloabpidentitydomaincsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.EntityFrameworkCore\Volo.Abp.Identity.EntityFrameworkCore.csproj](#modulesvoloabpidentitysrcvoloabpidentityentityframeworkcorevoloabpidentityentityframeworkcorecsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.HttpApi.Client\Volo.Abp.Identity.HttpApi.Client.csproj](#modulesvoloabpidentitysrcvoloabpidentityhttpapiclientvoloabpidentityhttpapiclientcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.HttpApi\Volo.Abp.Identity.HttpApi.csproj](#modulesvoloabpidentitysrcvoloabpidentityhttpapivoloabpidentityhttpapicsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
-| [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Installer\Volo.Abp.Identity.Installer.csproj](#modulesvoloabpidentitysrcvoloabpidentityinstallervoloabpidentityinstallercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.MongoDB\Volo.Abp.Identity.MongoDB.csproj](#modulesvoloabpidentitysrcvoloabpidentitymongodbvoloabpidentitymongodbcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Web\Volo.Abp.Identity.Web.csproj](#modulesvoloabpidentitysrcvoloabpidentitywebvoloabpidentitywebcsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
-| [modules\Volo.Abp.Identity\src\Volo.Abp.PermissionManagement.Domain.Identity\Volo.Abp.PermissionManagement.Domain.Identity.csproj](#modulesvoloabpidentitysrcvoloabppermissionmanagementdomainidentityvoloabppermissionmanagementdomainidentitycsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.LeptonXLiteTheme\src\Volo.Abp.AspNetCore.Components.Server.LeptonXLiteTheme\Volo.Abp.AspNetCore.Components.Server.LeptonXLiteTheme.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentsserverleptonxlitethemevoloabpaspnetcorecomponentsserverleptonxlitethemecsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.LeptonXLiteTheme\src\Volo.Abp.AspNetCore.Components.Web.LeptonXLiteTheme\Volo.Abp.AspNetCore.Components.Web.LeptonXLiteTheme.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebleptonxlitethemevoloabpaspnetcorecomponentswebleptonxlitethemecsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.LeptonXLiteTheme\src\Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling\Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebassemblyleptonxlitethemebundlingvoloabpaspnetcorecomponentswebassemblyleptonxlitethemebundlingcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.LeptonXLiteTheme\src\Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme\Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebassemblyleptonxlitethemevoloabpaspnetcorecomponentswebassemblyleptonxlitethemecsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.LeptonXLiteTheme\src\Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite\Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcoremvcuithemeleptonxlitevoloabpaspnetcoremvcuithemeleptonxlitecsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
-| [modules\Volo.Abp.LeptonXLiteTheme\src\Volo.Abp.LeptonXLiteTheme.Installer\Volo.Abp.LeptonXLiteTheme.Installer.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpleptonxlitethemeinstallervoloabpleptonxlitethemeinstallercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Application.Contracts\Volo.Abp.PermissionManagement.Application.Contracts.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationcontractsvoloabppermissionmanagementapplicationcontractscsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Application\Volo.Abp.PermissionManagement.Application.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationvoloabppermissionmanagementapplicationcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Blazor.Server\Volo.Abp.PermissionManagement.Blazor.Server.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorservervoloabppermissionmanagementblazorservercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Blazor.WebAssembly\Volo.Abp.PermissionManagement.Blazor.WebAssembly.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorwebassemblyvoloabppermissionmanagementblazorwebassemblycsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Blazor\Volo.Abp.PermissionManagement.Blazor.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorvoloabppermissionmanagementblazorcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Domain.Shared\Volo.Abp.PermissionManagement.Domain.Shared.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainsharedvoloabppermissionmanagementdomainsharedcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 1 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Domain\Volo.Abp.PermissionManagement.Domain.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 6 | 6+ | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.EntityFrameworkCore\Volo.Abp.PermissionManagement.EntityFrameworkCore.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagemententityframeworkcorevoloabppermissionmanagemententityframeworkcorecsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.HttpApi.Client\Volo.Abp.PermissionManagement.HttpApi.Client.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementhttpapiclientvoloabppermissionmanagementhttpapiclientcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.HttpApi\Volo.Abp.PermissionManagement.HttpApi.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementhttpapivoloabppermissionmanagementhttpapicsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Installer\Volo.Abp.PermissionManagement.Installer.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementinstallervoloabppermissionmanagementinstallercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.MongoDB\Volo.Abp.PermissionManagement.MongoDB.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementmongodbvoloabppermissionmanagementmongodbcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Web\Volo.Abp.PermissionManagement.Web.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementwebvoloabppermissionmanagementwebcsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
-| [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Application.Contracts\Volo.Abp.SettingManagement.Application.Contracts.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationcontractsvoloabpsettingmanagementapplicationcontractscsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Application\Volo.Abp.SettingManagement.Application.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationvoloabpsettingmanagementapplicationcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Blazor.Server\Volo.Abp.SettingManagement.Blazor.Server.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorservervoloabpsettingmanagementblazorservercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Blazor.WebAssembly\Volo.Abp.SettingManagement.Blazor.WebAssembly.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorwebassemblyvoloabpsettingmanagementblazorwebassemblycsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Blazor\Volo.Abp.SettingManagement.Blazor.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorvoloabpsettingmanagementblazorcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Domain.Shared\Volo.Abp.SettingManagement.Domain.Shared.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainsharedvoloabpsettingmanagementdomainsharedcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 1 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Domain\Volo.Abp.SettingManagement.Domain.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainvoloabpsettingmanagementdomaincsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 6 | 6+ | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.EntityFrameworkCore\Volo.Abp.SettingManagement.EntityFrameworkCore.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagemententityframeworkcorevoloabpsettingmanagemententityframeworkcorecsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.HttpApi.Client\Volo.Abp.SettingManagement.HttpApi.Client.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementhttpapiclientvoloabpsettingmanagementhttpapiclientcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.HttpApi\Volo.Abp.SettingManagement.HttpApi.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementhttpapivoloabpsettingmanagementhttpapicsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Installer\Volo.Abp.SettingManagement.Installer.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementinstallervoloabpsettingmanagementinstallercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.MongoDB\Volo.Abp.SettingManagement.MongoDB.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementmongodbvoloabpsettingmanagementmongodbcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Web\Volo.Abp.SettingManagement.Web.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementwebvoloabpsettingmanagementwebcsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
-| [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Application.Contracts\Volo.Abp.TenantManagement.Application.Contracts.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationcontractsvoloabptenantmanagementapplicationcontractscsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Application\Volo.Abp.TenantManagement.Application.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationvoloabptenantmanagementapplicationcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Blazor.Server\Volo.Abp.TenantManagement.Blazor.Server.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorservervoloabptenantmanagementblazorservercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Blazor.WebAssembly\Volo.Abp.TenantManagement.Blazor.WebAssembly.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorwebassemblyvoloabptenantmanagementblazorwebassemblycsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Blazor\Volo.Abp.TenantManagement.Blazor.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorvoloabptenantmanagementblazorcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Domain.Shared\Volo.Abp.TenantManagement.Domain.Shared.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainsharedvoloabptenantmanagementdomainsharedcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 1 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Domain\Volo.Abp.TenantManagement.Domain.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainvoloabptenantmanagementdomaincsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.EntityFrameworkCore\Volo.Abp.TenantManagement.EntityFrameworkCore.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagemententityframeworkcorevoloabptenantmanagemententityframeworkcorecsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.HttpApi.Client\Volo.Abp.TenantManagement.HttpApi.Client.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementhttpapiclientvoloabptenantmanagementhttpapiclientcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.HttpApi\Volo.Abp.TenantManagement.HttpApi.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementhttpapivoloabptenantmanagementhttpapicsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Installer\Volo.Abp.TenantManagement.Installer.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementinstallervoloabptenantmanagementinstallercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.MongoDB\Volo.Abp.TenantManagement.MongoDB.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementmongodbvoloabptenantmanagementmongodbcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
-| [modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Web\Volo.Abp.TenantManagement.Web.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementwebvoloabptenantmanagementwebcsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
+| [modules\Nblity.Abp.Account\src\Nblity.Abp.Account.Application.Contracts\Nblity.Abp.Account.Application.Contracts.csproj](#modulesvoloabpaccountsrcvoloabpaccountapplicationcontractsvoloabpaccountapplicationcontractscsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 1 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.Account\src\Nblity.Abp.Account.Application\Nblity.Abp.Account.Application.csproj](#modulesvoloabpaccountsrcvoloabpaccountapplicationvoloabpaccountapplicationcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.Account\src\Nblity.Abp.Account.Blazor\Nblity.Abp.Account.Blazor.csproj](#modulesvoloabpaccountsrcvoloabpaccountblazorvoloabpaccountblazorcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.Account\src\Nblity.Abp.Account.HttpApi.Client\Nblity.Abp.Account.HttpApi.Client.csproj](#modulesvoloabpaccountsrcvoloabpaccounthttpapiclientvoloabpaccounthttpapiclientcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.Account\src\Nblity.Abp.Account.HttpApi\Nblity.Abp.Account.HttpApi.csproj](#modulesvoloabpaccountsrcvoloabpaccounthttpapivoloabpaccounthttpapicsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.Account\src\Nblity.Abp.Account.Installer\Nblity.Abp.Account.Installer.csproj](#modulesvoloabpaccountsrcvoloabpaccountinstallervoloabpaccountinstallercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.Account\src\Nblity.Abp.Account.Web.IdentityServer\Nblity.Abp.Account.Web.IdentityServer.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebidentityservervoloabpaccountwebidentityservercsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
+| [modules\Nblity.Abp.Account\src\Nblity.Abp.Account.Web.OpenIddict\Nblity.Abp.Account.Web.OpenIddict.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebopeniddictvoloabpaccountwebopeniddictcsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
+| [modules\Nblity.Abp.Account\src\Nblity.Abp.Account.Web\Nblity.Abp.Account.Web.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebvoloabpaccountwebcsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
+| [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Application.Contracts\Nblity.Abp.FeatureManagement.Application.Contracts.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationcontractsvoloabpfeaturemanagementapplicationcontractscsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Application\Nblity.Abp.FeatureManagement.Application.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationvoloabpfeaturemanagementapplicationcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Blazor.Server\Nblity.Abp.FeatureManagement.Blazor.Server.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorservervoloabpfeaturemanagementblazorservercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Blazor.WebAssembly\Nblity.Abp.FeatureManagement.Blazor.WebAssembly.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorwebassemblyvoloabpfeaturemanagementblazorwebassemblycsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Blazor\Nblity.Abp.FeatureManagement.Blazor.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorvoloabpfeaturemanagementblazorcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Domain.Shared\Nblity.Abp.FeatureManagement.Domain.Shared.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainsharedvoloabpfeaturemanagementdomainsharedcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 1 | 6 | 6+ | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Domain\Nblity.Abp.FeatureManagement.Domain.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainvoloabpfeaturemanagementdomaincsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 6 | 6+ | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.EntityFrameworkCore\Nblity.Abp.FeatureManagement.EntityFrameworkCore.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagemententityframeworkcorevoloabpfeaturemanagemententityframeworkcorecsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.HttpApi.Client\Nblity.Abp.FeatureManagement.HttpApi.Client.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementhttpapiclientvoloabpfeaturemanagementhttpapiclientcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.HttpApi\Nblity.Abp.FeatureManagement.HttpApi.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementhttpapivoloabpfeaturemanagementhttpapicsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Installer\Nblity.Abp.FeatureManagement.Installer.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementinstallervoloabpfeaturemanagementinstallercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.MongoDB\Nblity.Abp.FeatureManagement.MongoDB.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementmongodbvoloabpfeaturemanagementmongodbcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Web\Nblity.Abp.FeatureManagement.Web.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementwebvoloabpfeaturemanagementwebcsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
+| [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Application.Contracts\Nblity.Abp.Identity.Application.Contracts.csproj](#modulesvoloabpidentitysrcvoloabpidentityapplicationcontractsvoloabpidentityapplicationcontractscsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Application\Nblity.Abp.Identity.Application.csproj](#modulesvoloabpidentitysrcvoloabpidentityapplicationvoloabpidentityapplicationcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.AspNetCore\Nblity.Abp.Identity.AspNetCore.csproj](#modulesvoloabpidentitysrcvoloabpidentityaspnetcorevoloabpidentityaspnetcorecsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
+| [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Blazor.Server\Nblity.Abp.Identity.Blazor.Server.csproj](#modulesvoloabpidentitysrcvoloabpidentityblazorservervoloabpidentityblazorservercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Blazor.WebAssembly\Nblity.Abp.Identity.Blazor.WebAssembly.csproj](#modulesvoloabpidentitysrcvoloabpidentityblazorwebassemblyvoloabpidentityblazorwebassemblycsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Blazor\Nblity.Abp.Identity.Blazor.csproj](#modulesvoloabpidentitysrcvoloabpidentityblazorvoloabpidentityblazorcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Domain.Shared\Nblity.Abp.Identity.Domain.Shared.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainsharedvoloabpidentitydomainsharedcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 1 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Domain\Nblity.Abp.Identity.Domain.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainvoloabpidentitydomaincsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.EntityFrameworkCore\Nblity.Abp.Identity.EntityFrameworkCore.csproj](#modulesvoloabpidentitysrcvoloabpidentityentityframeworkcorevoloabpidentityentityframeworkcorecsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.HttpApi.Client\Nblity.Abp.Identity.HttpApi.Client.csproj](#modulesvoloabpidentitysrcvoloabpidentityhttpapiclientvoloabpidentityhttpapiclientcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.HttpApi\Nblity.Abp.Identity.HttpApi.csproj](#modulesvoloabpidentitysrcvoloabpidentityhttpapivoloabpidentityhttpapicsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
+| [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Installer\Nblity.Abp.Identity.Installer.csproj](#modulesvoloabpidentitysrcvoloabpidentityinstallervoloabpidentityinstallercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.MongoDB\Nblity.Abp.Identity.MongoDB.csproj](#modulesvoloabpidentitysrcvoloabpidentitymongodbvoloabpidentitymongodbcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Web\Nblity.Abp.Identity.Web.csproj](#modulesvoloabpidentitysrcvoloabpidentitywebvoloabpidentitywebcsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
+| [modules\Nblity.Abp.Identity\src\Nblity.Abp.PermissionManagement.Domain.Identity\Nblity.Abp.PermissionManagement.Domain.Identity.csproj](#modulesvoloabpidentitysrcvoloabppermissionmanagementdomainidentityvoloabppermissionmanagementdomainidentitycsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.MudblazorTheme\src\Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme\Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentsserverleptonxlitethemevoloabpaspnetcorecomponentsserverleptonxlitethemecsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.MudblazorTheme\src\Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme\Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebleptonxlitethemevoloabpaspnetcorecomponentswebleptonxlitethemecsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.MudblazorTheme\src\Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Bundling\Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Bundling.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebassemblyleptonxlitethemebundlingvoloabpaspnetcorecomponentswebassemblyleptonxlitethemebundlingcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.MudblazorTheme\src\Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme\Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebassemblyleptonxlitethemevoloabpaspnetcorecomponentswebassemblyleptonxlitethemecsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.MudblazorTheme\src\Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor\Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcoremvcuithemeleptonxlitevoloabpaspnetcoremvcuithemeleptonxlitecsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
+| [modules\Nblity.Abp.MudblazorTheme\src\Nblity.Abp.MudblazorTheme.Installer\Nblity.Abp.MudblazorTheme.Installer.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpleptonxlitethemeinstallervoloabpleptonxlitethemeinstallercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Application.Contracts\Nblity.Abp.PermissionManagement.Application.Contracts.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationcontractsvoloabppermissionmanagementapplicationcontractscsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Application\Nblity.Abp.PermissionManagement.Application.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationvoloabppermissionmanagementapplicationcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Blazor.Server\Nblity.Abp.PermissionManagement.Blazor.Server.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorservervoloabppermissionmanagementblazorservercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Blazor.WebAssembly\Nblity.Abp.PermissionManagement.Blazor.WebAssembly.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorwebassemblyvoloabppermissionmanagementblazorwebassemblycsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Blazor\Nblity.Abp.PermissionManagement.Blazor.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorvoloabppermissionmanagementblazorcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Domain.Shared\Nblity.Abp.PermissionManagement.Domain.Shared.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainsharedvoloabppermissionmanagementdomainsharedcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 1 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Domain\Nblity.Abp.PermissionManagement.Domain.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 6 | 6+ | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.EntityFrameworkCore\Nblity.Abp.PermissionManagement.EntityFrameworkCore.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagemententityframeworkcorevoloabppermissionmanagemententityframeworkcorecsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.HttpApi.Client\Nblity.Abp.PermissionManagement.HttpApi.Client.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementhttpapiclientvoloabppermissionmanagementhttpapiclientcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.HttpApi\Nblity.Abp.PermissionManagement.HttpApi.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementhttpapivoloabppermissionmanagementhttpapicsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Installer\Nblity.Abp.PermissionManagement.Installer.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementinstallervoloabppermissionmanagementinstallercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.MongoDB\Nblity.Abp.PermissionManagement.MongoDB.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementmongodbvoloabppermissionmanagementmongodbcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Web\Nblity.Abp.PermissionManagement.Web.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementwebvoloabppermissionmanagementwebcsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
+| [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Application.Contracts\Nblity.Abp.SettingManagement.Application.Contracts.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationcontractsvoloabpsettingmanagementapplicationcontractscsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Application\Nblity.Abp.SettingManagement.Application.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationvoloabpsettingmanagementapplicationcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Blazor.Server\Nblity.Abp.SettingManagement.Blazor.Server.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorservervoloabpsettingmanagementblazorservercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Blazor.WebAssembly\Nblity.Abp.SettingManagement.Blazor.WebAssembly.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorwebassemblyvoloabpsettingmanagementblazorwebassemblycsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Blazor\Nblity.Abp.SettingManagement.Blazor.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorvoloabpsettingmanagementblazorcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Domain.Shared\Nblity.Abp.SettingManagement.Domain.Shared.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainsharedvoloabpsettingmanagementdomainsharedcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 1 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Domain\Nblity.Abp.SettingManagement.Domain.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainvoloabpsettingmanagementdomaincsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 6 | 6+ | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.EntityFrameworkCore\Nblity.Abp.SettingManagement.EntityFrameworkCore.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagemententityframeworkcorevoloabpsettingmanagemententityframeworkcorecsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.HttpApi.Client\Nblity.Abp.SettingManagement.HttpApi.Client.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementhttpapiclientvoloabpsettingmanagementhttpapiclientcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.HttpApi\Nblity.Abp.SettingManagement.HttpApi.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementhttpapivoloabpsettingmanagementhttpapicsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Installer\Nblity.Abp.SettingManagement.Installer.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementinstallervoloabpsettingmanagementinstallercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.MongoDB\Nblity.Abp.SettingManagement.MongoDB.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementmongodbvoloabpsettingmanagementmongodbcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Web\Nblity.Abp.SettingManagement.Web.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementwebvoloabpsettingmanagementwebcsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
+| [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Application.Contracts\Nblity.Abp.TenantManagement.Application.Contracts.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationcontractsvoloabptenantmanagementapplicationcontractscsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Application\Nblity.Abp.TenantManagement.Application.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationvoloabptenantmanagementapplicationcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Blazor.Server\Nblity.Abp.TenantManagement.Blazor.Server.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorservervoloabptenantmanagementblazorservercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Blazor.WebAssembly\Nblity.Abp.TenantManagement.Blazor.WebAssembly.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorwebassemblyvoloabptenantmanagementblazorwebassemblycsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Blazor\Nblity.Abp.TenantManagement.Blazor.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorvoloabptenantmanagementblazorcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Domain.Shared\Nblity.Abp.TenantManagement.Domain.Shared.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainsharedvoloabptenantmanagementdomainsharedcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 1 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Domain\Nblity.Abp.TenantManagement.Domain.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainvoloabptenantmanagementdomaincsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.EntityFrameworkCore\Nblity.Abp.TenantManagement.EntityFrameworkCore.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagemententityframeworkcorevoloabptenantmanagemententityframeworkcorecsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.HttpApi.Client\Nblity.Abp.TenantManagement.HttpApi.Client.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementhttpapiclientvoloabptenantmanagementhttpapiclientcsproj) | netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0 | 🟢 Low | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.HttpApi\Nblity.Abp.TenantManagement.HttpApi.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementhttpapivoloabptenantmanagementhttpapicsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Installer\Nblity.Abp.TenantManagement.Installer.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementinstallervoloabptenantmanagementinstallercsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.MongoDB\Nblity.Abp.TenantManagement.MongoDB.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementmongodbvoloabptenantmanagementmongodbcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
+| [modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Web\Nblity.Abp.TenantManagement.Web.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementwebvoloabptenantmanagementwebcsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
 | [src\Nblity.Application.Contracts\Nblity.Application.Contracts.csproj](#srcnblityapplicationcontractsnblityapplicationcontractscsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
 | [src\Nblity.Application\Nblity.Application.csproj](#srcnblityapplicationnblityapplicationcsproj) | net10.0 | ✅ None | 0 | 0 |  | ClassLibrary, Sdk Style = True |
 | [src\Nblity.Blazor.Client\Nblity.Blazor.Client.csproj](#srcnblityblazorclientnblityblazorclientcsproj) | net10.0 | ✅ None | 0 | 0 |  | AspNetCore, Sdk Style = True |
@@ -258,32 +258,32 @@ This document provides a comprehensive overview of the projects and their depend
 | Microsoft.AspNetCore.Components.WebAssembly | 10.0.2 |  | [Nblity.Blazor.Client.csproj](#srcnblityblazorclientnblityblazorclientcsproj) | ✅Compatible |
 | Microsoft.AspNetCore.Components.WebAssembly.DevServer | 10.0.2 |  | [Nblity.Blazor.Client.csproj](#srcnblityblazorclientnblityblazorclientcsproj) | ✅Compatible |
 | Microsoft.AspNetCore.Components.WebAssembly.Server | 10.0.2 |  | [Nblity.Blazor.csproj](#srcnblityblazornblityblazorcsproj) | ✅Compatible |
-| Microsoft.AspNetCore.WebUtilities | 10.0.2 |  | [Volo.Abp.AspNetCore.Components.Server.LeptonXLiteTheme.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentsserverleptonxlitethemevoloabpaspnetcorecomponentsserverleptonxlitethemecsproj) | ✅Compatible |
+| Microsoft.AspNetCore.WebUtilities | 10.0.2 |  | [Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentsserverleptonxlitethemevoloabpaspnetcorecomponentsserverleptonxlitethemecsproj) | ✅Compatible |
 | Microsoft.EntityFrameworkCore.InMemory | 10.0.2 |  | [Nblity.Blazor.csproj](#srcnblityblazornblityblazorcsproj) | ✅Compatible |
 | Microsoft.EntityFrameworkCore.Tools | 10.0.2 |  | [Nblity.EntityFrameworkCore.csproj](#srcnblityentityframeworkcorenblityentityframeworkcorecsproj) | ✅Compatible |
-| Microsoft.Extensions.FileProviders.Embedded | 10.0.2 | 10.0.3 | [Nblity.Domain.Shared.csproj](#srcnblitydomainsharednblitydomainsharedcsproj)<br/>[Volo.Abp.Account.Application.Contracts.csproj](#modulesvoloabpaccountsrcvoloabpaccountapplicationcontractsvoloabpaccountapplicationcontractscsproj)<br/>[Volo.Abp.Account.Application.csproj](#modulesvoloabpaccountsrcvoloabpaccountapplicationvoloabpaccountapplicationcsproj)<br/>[Volo.Abp.Account.Web.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebvoloabpaccountwebcsproj)<br/>[Volo.Abp.Account.Web.IdentityServer.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebidentityservervoloabpaccountwebidentityservercsproj)<br/>[Volo.Abp.Account.Web.OpenIddict.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebopeniddictvoloabpaccountwebopeniddictcsproj)<br/>[Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcoremvcuithemeleptonxlitevoloabpaspnetcoremvcuithemeleptonxlitecsproj)<br/>[Volo.Abp.FeatureManagement.Domain.Shared.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainsharedvoloabpfeaturemanagementdomainsharedcsproj)<br/>[Volo.Abp.FeatureManagement.Web.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementwebvoloabpfeaturemanagementwebcsproj)<br/>[Volo.Abp.Identity.Domain.Shared.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainsharedvoloabpidentitydomainsharedcsproj)<br/>[Volo.Abp.Identity.Web.csproj](#modulesvoloabpidentitysrcvoloabpidentitywebvoloabpidentitywebcsproj)<br/>[Volo.Abp.PermissionManagement.Domain.Shared.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainsharedvoloabppermissionmanagementdomainsharedcsproj)<br/>[Volo.Abp.PermissionManagement.Web.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementwebvoloabppermissionmanagementwebcsproj)<br/>[Volo.Abp.SettingManagement.Domain.Shared.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainsharedvoloabpsettingmanagementdomainsharedcsproj)<br/>[Volo.Abp.SettingManagement.Web.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementwebvoloabpsettingmanagementwebcsproj)<br/>[Volo.Abp.TenantManagement.Domain.Shared.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainsharedvoloabptenantmanagementdomainsharedcsproj)<br/>[Volo.Abp.TenantManagement.Web.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementwebvoloabptenantmanagementwebcsproj) | 建议升级 NuGet 包 |
+| Microsoft.Extensions.FileProviders.Embedded | 10.0.2 | 10.0.3 | [Nblity.Domain.Shared.csproj](#srcnblitydomainsharednblitydomainsharedcsproj)<br/>[Nblity.Abp.Account.Application.Contracts.csproj](#modulesvoloabpaccountsrcvoloabpaccountapplicationcontractsvoloabpaccountapplicationcontractscsproj)<br/>[Nblity.Abp.Account.Application.csproj](#modulesvoloabpaccountsrcvoloabpaccountapplicationvoloabpaccountapplicationcsproj)<br/>[Nblity.Abp.Account.Web.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebvoloabpaccountwebcsproj)<br/>[Nblity.Abp.Account.Web.IdentityServer.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebidentityservervoloabpaccountwebidentityservercsproj)<br/>[Nblity.Abp.Account.Web.OpenIddict.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebopeniddictvoloabpaccountwebopeniddictcsproj)<br/>[Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcoremvcuithemeleptonxlitevoloabpaspnetcoremvcuithemeleptonxlitecsproj)<br/>[Nblity.Abp.FeatureManagement.Domain.Shared.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainsharedvoloabpfeaturemanagementdomainsharedcsproj)<br/>[Nblity.Abp.FeatureManagement.Web.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementwebvoloabpfeaturemanagementwebcsproj)<br/>[Nblity.Abp.Identity.Domain.Shared.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainsharedvoloabpidentitydomainsharedcsproj)<br/>[Nblity.Abp.Identity.Web.csproj](#modulesvoloabpidentitysrcvoloabpidentitywebvoloabpidentitywebcsproj)<br/>[Nblity.Abp.PermissionManagement.Domain.Shared.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainsharedvoloabppermissionmanagementdomainsharedcsproj)<br/>[Nblity.Abp.PermissionManagement.Web.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementwebvoloabppermissionmanagementwebcsproj)<br/>[Nblity.Abp.SettingManagement.Domain.Shared.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainsharedvoloabpsettingmanagementdomainsharedcsproj)<br/>[Nblity.Abp.SettingManagement.Web.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementwebvoloabpsettingmanagementwebcsproj)<br/>[Nblity.Abp.TenantManagement.Domain.Shared.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainsharedvoloabptenantmanagementdomainsharedcsproj)<br/>[Nblity.Abp.TenantManagement.Web.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementwebvoloabptenantmanagementwebcsproj) | 建议升级 NuGet 包 |
 | Microsoft.Extensions.Hosting | 10.0.2 |  | [Nblity.DbMigrator.csproj](#srcnblitydbmigratornblitydbmigratorcsproj) | ✅Compatible |
-| Microsoft.Extensions.Identity.Core | 10.0.2 |  | [Volo.Abp.Identity.Domain.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainvoloabpidentitydomaincsproj) | ✅Compatible |
-| NETStandard.Library | 2.0.3 |  | [Volo.Abp.Account.Application.Contracts.csproj](#modulesvoloabpaccountsrcvoloabpaccountapplicationcontractsvoloabpaccountapplicationcontractscsproj)<br/>[Volo.Abp.Account.HttpApi.Client.csproj](#modulesvoloabpaccountsrcvoloabpaccounthttpapiclientvoloabpaccounthttpapiclientcsproj)<br/>[Volo.Abp.FeatureManagement.Application.Contracts.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationcontractsvoloabpfeaturemanagementapplicationcontractscsproj)<br/>[Volo.Abp.FeatureManagement.Domain.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainvoloabpfeaturemanagementdomaincsproj)<br/>[Volo.Abp.FeatureManagement.Domain.Shared.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainsharedvoloabpfeaturemanagementdomainsharedcsproj)<br/>[Volo.Abp.FeatureManagement.HttpApi.Client.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementhttpapiclientvoloabpfeaturemanagementhttpapiclientcsproj)<br/>[Volo.Abp.FeatureManagement.MongoDB.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementmongodbvoloabpfeaturemanagementmongodbcsproj)<br/>[Volo.Abp.Identity.Application.Contracts.csproj](#modulesvoloabpidentitysrcvoloabpidentityapplicationcontractsvoloabpidentityapplicationcontractscsproj)<br/>[Volo.Abp.Identity.Domain.Shared.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainsharedvoloabpidentitydomainsharedcsproj)<br/>[Volo.Abp.Identity.HttpApi.Client.csproj](#modulesvoloabpidentitysrcvoloabpidentityhttpapiclientvoloabpidentityhttpapiclientcsproj)<br/>[Volo.Abp.PermissionManagement.Application.Contracts.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationcontractsvoloabppermissionmanagementapplicationcontractscsproj)<br/>[Volo.Abp.PermissionManagement.Domain.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj)<br/>[Volo.Abp.PermissionManagement.Domain.Identity.csproj](#modulesvoloabpidentitysrcvoloabppermissionmanagementdomainidentityvoloabppermissionmanagementdomainidentitycsproj)<br/>[Volo.Abp.PermissionManagement.Domain.Shared.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainsharedvoloabppermissionmanagementdomainsharedcsproj)<br/>[Volo.Abp.PermissionManagement.HttpApi.Client.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementhttpapiclientvoloabppermissionmanagementhttpapiclientcsproj)<br/>[Volo.Abp.PermissionManagement.MongoDB.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementmongodbvoloabppermissionmanagementmongodbcsproj)<br/>[Volo.Abp.SettingManagement.Application.Contracts.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationcontractsvoloabpsettingmanagementapplicationcontractscsproj)<br/>[Volo.Abp.SettingManagement.Domain.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainvoloabpsettingmanagementdomaincsproj)<br/>[Volo.Abp.SettingManagement.Domain.Shared.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainsharedvoloabpsettingmanagementdomainsharedcsproj)<br/>[Volo.Abp.SettingManagement.HttpApi.Client.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementhttpapiclientvoloabpsettingmanagementhttpapiclientcsproj)<br/>[Volo.Abp.SettingManagement.MongoDB.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementmongodbvoloabpsettingmanagementmongodbcsproj)<br/>[Volo.Abp.TenantManagement.Application.Contracts.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationcontractsvoloabptenantmanagementapplicationcontractscsproj)<br/>[Volo.Abp.TenantManagement.Domain.Shared.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainsharedvoloabptenantmanagementdomainsharedcsproj)<br/>[Volo.Abp.TenantManagement.HttpApi.Client.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementhttpapiclientvoloabptenantmanagementhttpapiclientcsproj) | ✅Compatible |
-| Polly | 8.6.3 |  | [Volo.Abp.FeatureManagement.Domain.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainvoloabpfeaturemanagementdomaincsproj)<br/>[Volo.Abp.PermissionManagement.Domain.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj)<br/>[Volo.Abp.SettingManagement.Domain.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainvoloabpsettingmanagementdomaincsproj) | ✅Compatible |
+| Microsoft.Extensions.Identity.Core | 10.0.2 |  | [Nblity.Abp.Identity.Domain.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainvoloabpidentitydomaincsproj) | ✅Compatible |
+| NETStandard.Library | 2.0.3 |  | [Nblity.Abp.Account.Application.Contracts.csproj](#modulesvoloabpaccountsrcvoloabpaccountapplicationcontractsvoloabpaccountapplicationcontractscsproj)<br/>[Nblity.Abp.Account.HttpApi.Client.csproj](#modulesvoloabpaccountsrcvoloabpaccounthttpapiclientvoloabpaccounthttpapiclientcsproj)<br/>[Nblity.Abp.FeatureManagement.Application.Contracts.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationcontractsvoloabpfeaturemanagementapplicationcontractscsproj)<br/>[Nblity.Abp.FeatureManagement.Domain.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainvoloabpfeaturemanagementdomaincsproj)<br/>[Nblity.Abp.FeatureManagement.Domain.Shared.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainsharedvoloabpfeaturemanagementdomainsharedcsproj)<br/>[Nblity.Abp.FeatureManagement.HttpApi.Client.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementhttpapiclientvoloabpfeaturemanagementhttpapiclientcsproj)<br/>[Nblity.Abp.FeatureManagement.MongoDB.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementmongodbvoloabpfeaturemanagementmongodbcsproj)<br/>[Nblity.Abp.Identity.Application.Contracts.csproj](#modulesvoloabpidentitysrcvoloabpidentityapplicationcontractsvoloabpidentityapplicationcontractscsproj)<br/>[Nblity.Abp.Identity.Domain.Shared.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainsharedvoloabpidentitydomainsharedcsproj)<br/>[Nblity.Abp.Identity.HttpApi.Client.csproj](#modulesvoloabpidentitysrcvoloabpidentityhttpapiclientvoloabpidentityhttpapiclientcsproj)<br/>[Nblity.Abp.PermissionManagement.Application.Contracts.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationcontractsvoloabppermissionmanagementapplicationcontractscsproj)<br/>[Nblity.Abp.PermissionManagement.Domain.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj)<br/>[Nblity.Abp.PermissionManagement.Domain.Identity.csproj](#modulesvoloabpidentitysrcvoloabppermissionmanagementdomainidentityvoloabppermissionmanagementdomainidentitycsproj)<br/>[Nblity.Abp.PermissionManagement.Domain.Shared.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainsharedvoloabppermissionmanagementdomainsharedcsproj)<br/>[Nblity.Abp.PermissionManagement.HttpApi.Client.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementhttpapiclientvoloabppermissionmanagementhttpapiclientcsproj)<br/>[Nblity.Abp.PermissionManagement.MongoDB.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementmongodbvoloabppermissionmanagementmongodbcsproj)<br/>[Nblity.Abp.SettingManagement.Application.Contracts.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationcontractsvoloabpsettingmanagementapplicationcontractscsproj)<br/>[Nblity.Abp.SettingManagement.Domain.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainvoloabpsettingmanagementdomaincsproj)<br/>[Nblity.Abp.SettingManagement.Domain.Shared.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainsharedvoloabpsettingmanagementdomainsharedcsproj)<br/>[Nblity.Abp.SettingManagement.HttpApi.Client.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementhttpapiclientvoloabpsettingmanagementhttpapiclientcsproj)<br/>[Nblity.Abp.SettingManagement.MongoDB.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementmongodbvoloabpsettingmanagementmongodbcsproj)<br/>[Nblity.Abp.TenantManagement.Application.Contracts.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationcontractsvoloabptenantmanagementapplicationcontractscsproj)<br/>[Nblity.Abp.TenantManagement.Domain.Shared.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainsharedvoloabptenantmanagementdomainsharedcsproj)<br/>[Nblity.Abp.TenantManagement.HttpApi.Client.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementhttpapiclientvoloabptenantmanagementhttpapiclientcsproj) | ✅Compatible |
+| Polly | 8.6.3 |  | [Nblity.Abp.FeatureManagement.Domain.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainvoloabpfeaturemanagementdomaincsproj)<br/>[Nblity.Abp.PermissionManagement.Domain.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj)<br/>[Nblity.Abp.SettingManagement.Domain.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainvoloabpsettingmanagementdomaincsproj) | ✅Compatible |
 | Serilog.AspNetCore | 9.0.0 |  | [Nblity.Blazor.csproj](#srcnblityblazornblityblazorcsproj)<br/>[Nblity.DbMigrator.csproj](#srcnblitydbmigratornblitydbmigratorcsproj) | ✅Compatible |
 | Serilog.Sinks.Async | 2.1.0 |  | [Nblity.Blazor.csproj](#srcnblityblazornblityblazorcsproj)<br/>[Nblity.DbMigrator.csproj](#srcnblitydbmigratornblitydbmigratorcsproj) | ✅Compatible |
-| System.Security.Principal.Windows | 5.0.0 |  | [Volo.Abp.Account.Web.OpenIddict.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebopeniddictvoloabpaccountwebopeniddictcsproj) | ✅Compatible |
-| Volo.Abp.AspNetCore.Components.Server.Theming | 10.1.0 |  | [Volo.Abp.AspNetCore.Components.Server.LeptonXLiteTheme.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentsserverleptonxlitethemevoloabpaspnetcorecomponentsserverleptonxlitethemecsproj)<br/>[Volo.Abp.FeatureManagement.Blazor.Server.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorservervoloabpfeaturemanagementblazorservercsproj)<br/>[Volo.Abp.PermissionManagement.Blazor.Server.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorservervoloabppermissionmanagementblazorservercsproj)<br/>[Volo.Abp.SettingManagement.Blazor.Server.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorservervoloabpsettingmanagementblazorservercsproj) | ✅Compatible |
-| Volo.Abp.AspNetCore.Components.Web.Theming | 10.1.0 |  | [Volo.Abp.Account.Blazor.csproj](#modulesvoloabpaccountsrcvoloabpaccountblazorvoloabpaccountblazorcsproj)<br/>[Volo.Abp.AspNetCore.Components.Web.LeptonXLiteTheme.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebleptonxlitethemevoloabpaspnetcorecomponentswebleptonxlitethemecsproj)<br/>[Volo.Abp.FeatureManagement.Blazor.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorvoloabpfeaturemanagementblazorcsproj)<br/>[Volo.Abp.PermissionManagement.Blazor.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorvoloabppermissionmanagementblazorcsproj)<br/>[Volo.Abp.SettingManagement.Blazor.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorvoloabpsettingmanagementblazorcsproj) | ✅Compatible |
-| Volo.Abp.AspNetCore.Components.WebAssembly.Theming | 10.1.0 |  | [Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebassemblyleptonxlitethemevoloabpaspnetcorecomponentswebassemblyleptonxlitethemecsproj)<br/>[Volo.Abp.FeatureManagement.Blazor.WebAssembly.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorwebassemblyvoloabpfeaturemanagementblazorwebassemblycsproj)<br/>[Volo.Abp.PermissionManagement.Blazor.WebAssembly.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorwebassemblyvoloabppermissionmanagementblazorwebassemblycsproj)<br/>[Volo.Abp.SettingManagement.Blazor.WebAssembly.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorwebassemblyvoloabpsettingmanagementblazorwebassemblycsproj) | ✅Compatible |
-| Volo.Abp.AspNetCore.Components.WebAssembly.Theming.Bundling | 10.1.0 |  | [Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebassemblyleptonxlitethemebundlingvoloabpaspnetcorecomponentswebassemblyleptonxlitethemebundlingcsproj) | ✅Compatible |
-| Volo.Abp.AspNetCore.Mvc | 10.1.0 |  | [Volo.Abp.Account.HttpApi.csproj](#modulesvoloabpaccountsrcvoloabpaccounthttpapivoloabpaccounthttpapicsproj)<br/>[Volo.Abp.FeatureManagement.HttpApi.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementhttpapivoloabpfeaturemanagementhttpapicsproj)<br/>[Volo.Abp.Identity.HttpApi.csproj](#modulesvoloabpidentitysrcvoloabpidentityhttpapivoloabpidentityhttpapicsproj)<br/>[Volo.Abp.PermissionManagement.HttpApi.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementhttpapivoloabppermissionmanagementhttpapicsproj)<br/>[Volo.Abp.SettingManagement.HttpApi.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementhttpapivoloabpsettingmanagementhttpapicsproj)<br/>[Volo.Abp.TenantManagement.HttpApi.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementhttpapivoloabptenantmanagementhttpapicsproj) | ✅Compatible |
-| Volo.Abp.AspNetCore.Mvc.UI.Bootstrap | 10.1.0 |  | [Volo.Abp.PermissionManagement.Web.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementwebvoloabppermissionmanagementwebcsproj)<br/>[Volo.Abp.TenantManagement.Web.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementwebvoloabptenantmanagementwebcsproj) | ✅Compatible |
-| Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy | 10.1.0 |  | [Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcoremvcuithemeleptonxlitevoloabpaspnetcoremvcuithemeleptonxlitecsproj) | ✅Compatible |
-| Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared | 10.1.0 |  | [Volo.Abp.Account.Web.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebvoloabpaccountwebcsproj)<br/>[Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcoremvcuithemeleptonxlitevoloabpaspnetcoremvcuithemeleptonxlitecsproj)<br/>[Volo.Abp.FeatureManagement.Web.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementwebvoloabpfeaturemanagementwebcsproj)<br/>[Volo.Abp.Identity.Web.csproj](#modulesvoloabpidentitysrcvoloabpidentitywebvoloabpidentitywebcsproj)<br/>[Volo.Abp.SettingManagement.Web.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementwebvoloabpsettingmanagementwebcsproj) | ✅Compatible |
+| System.Security.Principal.Windows | 5.0.0 |  | [Nblity.Abp.Account.Web.OpenIddict.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebopeniddictvoloabpaccountwebopeniddictcsproj) | ✅Compatible |
+| Volo.Abp.AspNetCore.Components.Server.Theming | 10.1.0 |  | [Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentsserverleptonxlitethemevoloabpaspnetcorecomponentsserverleptonxlitethemecsproj)<br/>[Nblity.Abp.FeatureManagement.Blazor.Server.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorservervoloabpfeaturemanagementblazorservercsproj)<br/>[Nblity.Abp.PermissionManagement.Blazor.Server.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorservervoloabppermissionmanagementblazorservercsproj)<br/>[Nblity.Abp.SettingManagement.Blazor.Server.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorservervoloabpsettingmanagementblazorservercsproj) | ✅Compatible |
+| Volo.Abp.AspNetCore.Components.Web.Theming | 10.1.0 |  | [Nblity.Abp.Account.Blazor.csproj](#modulesvoloabpaccountsrcvoloabpaccountblazorvoloabpaccountblazorcsproj)<br/>[Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebleptonxlitethemevoloabpaspnetcorecomponentswebleptonxlitethemecsproj)<br/>[Nblity.Abp.FeatureManagement.Blazor.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorvoloabpfeaturemanagementblazorcsproj)<br/>[Nblity.Abp.PermissionManagement.Blazor.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorvoloabppermissionmanagementblazorcsproj)<br/>[Nblity.Abp.SettingManagement.Blazor.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorvoloabpsettingmanagementblazorcsproj) | ✅Compatible |
+| Volo.Abp.AspNetCore.Components.WebAssembly.Theming | 10.1.0 |  | [Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebassemblyleptonxlitethemevoloabpaspnetcorecomponentswebassemblyleptonxlitethemecsproj)<br/>[Nblity.Abp.FeatureManagement.Blazor.WebAssembly.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorwebassemblyvoloabpfeaturemanagementblazorwebassemblycsproj)<br/>[Nblity.Abp.PermissionManagement.Blazor.WebAssembly.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorwebassemblyvoloabppermissionmanagementblazorwebassemblycsproj)<br/>[Nblity.Abp.SettingManagement.Blazor.WebAssembly.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorwebassemblyvoloabpsettingmanagementblazorwebassemblycsproj) | ✅Compatible |
+| Volo.Abp.AspNetCore.Components.WebAssembly.Theming.Bundling | 10.1.0 |  | [Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Bundling.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebassemblyleptonxlitethemebundlingvoloabpaspnetcorecomponentswebassemblyleptonxlitethemebundlingcsproj) | ✅Compatible |
+| Volo.Abp.AspNetCore.Mvc | 10.1.0 |  | [Nblity.Abp.Account.HttpApi.csproj](#modulesvoloabpaccountsrcvoloabpaccounthttpapivoloabpaccounthttpapicsproj)<br/>[Nblity.Abp.FeatureManagement.HttpApi.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementhttpapivoloabpfeaturemanagementhttpapicsproj)<br/>[Nblity.Abp.Identity.HttpApi.csproj](#modulesvoloabpidentitysrcvoloabpidentityhttpapivoloabpidentityhttpapicsproj)<br/>[Nblity.Abp.PermissionManagement.HttpApi.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementhttpapivoloabppermissionmanagementhttpapicsproj)<br/>[Nblity.Abp.SettingManagement.HttpApi.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementhttpapivoloabpsettingmanagementhttpapicsproj)<br/>[Nblity.Abp.TenantManagement.HttpApi.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementhttpapivoloabptenantmanagementhttpapicsproj) | ✅Compatible |
+| Volo.Abp.AspNetCore.Mvc.UI.Bootstrap | 10.1.0 |  | [Nblity.Abp.PermissionManagement.Web.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementwebvoloabppermissionmanagementwebcsproj)<br/>[Nblity.Abp.TenantManagement.Web.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementwebvoloabptenantmanagementwebcsproj) | ✅Compatible |
+| Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy | 10.1.0 |  | [Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcoremvcuithemeleptonxlitevoloabpaspnetcoremvcuithemeleptonxlitecsproj) | ✅Compatible |
+| Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared | 10.1.0 |  | [Nblity.Abp.Account.Web.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebvoloabpaccountwebcsproj)<br/>[Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcoremvcuithemeleptonxlitevoloabpaspnetcoremvcuithemeleptonxlitecsproj)<br/>[Nblity.Abp.FeatureManagement.Web.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementwebvoloabpfeaturemanagementwebcsproj)<br/>[Nblity.Abp.Identity.Web.csproj](#modulesvoloabpidentitysrcvoloabpidentitywebvoloabpidentitywebcsproj)<br/>[Nblity.Abp.SettingManagement.Web.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementwebvoloabpsettingmanagementwebcsproj) | ✅Compatible |
 | Volo.Abp.AspNetCore.Serilog | 10.1.0 |  | [Nblity.Blazor.csproj](#srcnblityblazornblityblazorcsproj) | ✅Compatible |
-| Volo.Abp.Auditing.Contracts | 10.1.0 |  | [Volo.Abp.Identity.Domain.Shared.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainsharedvoloabpidentitydomainsharedcsproj)<br/>[Volo.Abp.TenantManagement.Domain.Shared.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainsharedvoloabptenantmanagementdomainsharedcsproj) | ✅Compatible |
+| Volo.Abp.Auditing.Contracts | 10.1.0 |  | [Nblity.Abp.Identity.Domain.Shared.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainsharedvoloabpidentitydomainsharedcsproj)<br/>[Nblity.Abp.TenantManagement.Domain.Shared.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainsharedvoloabptenantmanagementdomainsharedcsproj) | ✅Compatible |
 | Volo.Abp.AuditLogging.Domain | 10.1.0 |  | [Nblity.Domain.csproj](#srcnblitydomainnblitydomaincsproj) | ✅Compatible |
 | Volo.Abp.AuditLogging.Domain.Shared | 10.1.0 |  | [Nblity.Domain.Shared.csproj](#srcnblitydomainsharednblitydomainsharedcsproj) | ✅Compatible |
 | Volo.Abp.AuditLogging.EntityFrameworkCore | 10.1.0 |  | [Nblity.EntityFrameworkCore.csproj](#srcnblityentityframeworkcorenblityentityframeworkcorecsproj) | ✅Compatible |
-| Volo.Abp.Authorization | 10.1.0 |  | [Volo.Abp.Identity.Application.Contracts.csproj](#modulesvoloabpidentitysrcvoloabpidentityapplicationcontractsvoloabpidentityapplicationcontractscsproj)<br/>[Volo.Abp.PermissionManagement.Domain.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj) | ✅Compatible |
-| Volo.Abp.Authorization.Abstractions | 10.1.0 |  | [Volo.Abp.FeatureManagement.Application.Contracts.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationcontractsvoloabpfeaturemanagementapplicationcontractscsproj)<br/>[Volo.Abp.PermissionManagement.Application.Contracts.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationcontractsvoloabppermissionmanagementapplicationcontractscsproj)<br/>[Volo.Abp.SettingManagement.Application.Contracts.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationcontractsvoloabpsettingmanagementapplicationcontractscsproj)<br/>[Volo.Abp.TenantManagement.Application.Contracts.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationcontractsvoloabptenantmanagementapplicationcontractscsproj) | ✅Compatible |
+| Volo.Abp.Authorization | 10.1.0 |  | [Nblity.Abp.Identity.Application.Contracts.csproj](#modulesvoloabpidentitysrcvoloabpidentityapplicationcontractsvoloabpidentityapplicationcontractscsproj)<br/>[Nblity.Abp.PermissionManagement.Domain.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj) | ✅Compatible |
+| Volo.Abp.Authorization.Abstractions | 10.1.0 |  | [Nblity.Abp.FeatureManagement.Application.Contracts.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationcontractsvoloabpfeaturemanagementapplicationcontractscsproj)<br/>[Nblity.Abp.PermissionManagement.Application.Contracts.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationcontractsvoloabppermissionmanagementapplicationcontractscsproj)<br/>[Nblity.Abp.SettingManagement.Application.Contracts.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationcontractsvoloabpsettingmanagementapplicationcontractscsproj)<br/>[Nblity.Abp.TenantManagement.Application.Contracts.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationcontractsvoloabptenantmanagementapplicationcontractscsproj) | ✅Compatible |
 | Volo.Abp.Autofac | 10.1.0 |  | [Nblity.Blazor.csproj](#srcnblityblazornblityblazorcsproj)<br/>[Nblity.DbMigrator.csproj](#srcnblitydbmigratornblitydbmigratorcsproj) | ✅Compatible |
 | Volo.Abp.Autofac.WebAssembly | 10.1.0 |  | [Nblity.Blazor.Client.csproj](#srcnblityblazorclientnblityblazorclientcsproj) | ✅Compatible |
 | Volo.Abp.BackgroundJobs.Domain | 10.1.0 |  | [Nblity.Domain.csproj](#srcnblitydomainnblitydomaincsproj) | ✅Compatible |
@@ -292,41 +292,41 @@ This document provides a comprehensive overview of the projects and their depend
 | Volo.Abp.BlobStoring.Database.Domain | 10.1.0 |  | [Nblity.Domain.csproj](#srcnblitydomainnblitydomaincsproj) | ✅Compatible |
 | Volo.Abp.BlobStoring.Database.Domain.Shared | 10.1.0 |  | [Nblity.Domain.Shared.csproj](#srcnblitydomainsharednblitydomainsharedcsproj) | ✅Compatible |
 | Volo.Abp.BlobStoring.Database.EntityFrameworkCore | 10.1.0 |  | [Nblity.EntityFrameworkCore.csproj](#srcnblityentityframeworkcorenblityentityframeworkcorecsproj) | ✅Compatible |
-| Volo.Abp.Caching | 10.1.0 |  | [Nblity.Domain.csproj](#srcnblitydomainnblitydomaincsproj)<br/>[Volo.Abp.FeatureManagement.Domain.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainvoloabpfeaturemanagementdomaincsproj)<br/>[Volo.Abp.PermissionManagement.Domain.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj)<br/>[Volo.Abp.SettingManagement.Domain.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainvoloabpsettingmanagementdomaincsproj)<br/>[Volo.Abp.TenantManagement.Domain.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainvoloabptenantmanagementdomaincsproj) | ✅Compatible |
-| Volo.Abp.Data | 10.1.0 |  | [Volo.Abp.TenantManagement.Domain.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainvoloabptenantmanagementdomaincsproj) | ✅Compatible |
-| Volo.Abp.Ddd.Application | 10.1.0 |  | [Volo.Abp.FeatureManagement.Application.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationvoloabpfeaturemanagementapplicationcsproj)<br/>[Volo.Abp.PermissionManagement.Application.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationvoloabppermissionmanagementapplicationcsproj)<br/>[Volo.Abp.SettingManagement.Application.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationvoloabpsettingmanagementapplicationcsproj)<br/>[Volo.Abp.TenantManagement.Application.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationvoloabptenantmanagementapplicationcsproj) | ✅Compatible |
-| Volo.Abp.Ddd.Application.Contracts | 10.1.0 |  | [Volo.Abp.FeatureManagement.Application.Contracts.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationcontractsvoloabpfeaturemanagementapplicationcontractscsproj)<br/>[Volo.Abp.PermissionManagement.Application.Contracts.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationcontractsvoloabppermissionmanagementapplicationcontractscsproj)<br/>[Volo.Abp.SettingManagement.Application.Contracts.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationcontractsvoloabpsettingmanagementapplicationcontractscsproj)<br/>[Volo.Abp.TenantManagement.Application.Contracts.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationcontractsvoloabptenantmanagementapplicationcontractscsproj) | ✅Compatible |
-| Volo.Abp.Ddd.Domain | 10.1.0 |  | [Volo.Abp.FeatureManagement.Domain.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainvoloabpfeaturemanagementdomaincsproj)<br/>[Volo.Abp.Identity.Domain.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainvoloabpidentitydomaincsproj)<br/>[Volo.Abp.PermissionManagement.Domain.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj)<br/>[Volo.Abp.SettingManagement.Domain.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainvoloabpsettingmanagementdomaincsproj)<br/>[Volo.Abp.TenantManagement.Domain.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainvoloabptenantmanagementdomaincsproj) | ✅Compatible |
-| Volo.Abp.Emailing | 10.1.0 |  | [Nblity.Domain.csproj](#srcnblitydomainnblitydomaincsproj)<br/>[Volo.Abp.Account.Application.csproj](#modulesvoloabpaccountsrcvoloabpaccountapplicationvoloabpaccountapplicationcsproj)<br/>[Volo.Abp.SettingManagement.Application.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationvoloabpsettingmanagementapplicationcsproj) | ✅Compatible |
-| Volo.Abp.EntityFrameworkCore | 10.1.0 |  | [Volo.Abp.FeatureManagement.EntityFrameworkCore.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagemententityframeworkcorevoloabpfeaturemanagemententityframeworkcorecsproj)<br/>[Volo.Abp.PermissionManagement.EntityFrameworkCore.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagemententityframeworkcorevoloabppermissionmanagemententityframeworkcorecsproj)<br/>[Volo.Abp.SettingManagement.EntityFrameworkCore.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagemententityframeworkcorevoloabpsettingmanagemententityframeworkcorecsproj)<br/>[Volo.Abp.TenantManagement.EntityFrameworkCore.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagemententityframeworkcorevoloabptenantmanagemententityframeworkcorecsproj) | ✅Compatible |
+| Volo.Abp.Caching | 10.1.0 |  | [Nblity.Domain.csproj](#srcnblitydomainnblitydomaincsproj)<br/>[Nblity.Abp.FeatureManagement.Domain.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainvoloabpfeaturemanagementdomaincsproj)<br/>[Nblity.Abp.PermissionManagement.Domain.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj)<br/>[Nblity.Abp.SettingManagement.Domain.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainvoloabpsettingmanagementdomaincsproj)<br/>[Nblity.Abp.TenantManagement.Domain.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainvoloabptenantmanagementdomaincsproj) | ✅Compatible |
+| Volo.Abp.Data | 10.1.0 |  | [Nblity.Abp.TenantManagement.Domain.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainvoloabptenantmanagementdomaincsproj) | ✅Compatible |
+| Volo.Abp.Ddd.Application | 10.1.0 |  | [Nblity.Abp.FeatureManagement.Application.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationvoloabpfeaturemanagementapplicationcsproj)<br/>[Nblity.Abp.PermissionManagement.Application.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationvoloabppermissionmanagementapplicationcsproj)<br/>[Nblity.Abp.SettingManagement.Application.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationvoloabpsettingmanagementapplicationcsproj)<br/>[Nblity.Abp.TenantManagement.Application.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationvoloabptenantmanagementapplicationcsproj) | ✅Compatible |
+| Volo.Abp.Ddd.Application.Contracts | 10.1.0 |  | [Nblity.Abp.FeatureManagement.Application.Contracts.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationcontractsvoloabpfeaturemanagementapplicationcontractscsproj)<br/>[Nblity.Abp.PermissionManagement.Application.Contracts.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationcontractsvoloabppermissionmanagementapplicationcontractscsproj)<br/>[Nblity.Abp.SettingManagement.Application.Contracts.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationcontractsvoloabpsettingmanagementapplicationcontractscsproj)<br/>[Nblity.Abp.TenantManagement.Application.Contracts.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationcontractsvoloabptenantmanagementapplicationcontractscsproj) | ✅Compatible |
+| Volo.Abp.Ddd.Domain | 10.1.0 |  | [Nblity.Abp.FeatureManagement.Domain.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainvoloabpfeaturemanagementdomaincsproj)<br/>[Nblity.Abp.Identity.Domain.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainvoloabpidentitydomaincsproj)<br/>[Nblity.Abp.PermissionManagement.Domain.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj)<br/>[Nblity.Abp.SettingManagement.Domain.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainvoloabpsettingmanagementdomaincsproj)<br/>[Nblity.Abp.TenantManagement.Domain.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainvoloabptenantmanagementdomaincsproj) | ✅Compatible |
+| Volo.Abp.Emailing | 10.1.0 |  | [Nblity.Domain.csproj](#srcnblitydomainnblitydomaincsproj)<br/>[Nblity.Abp.Account.Application.csproj](#modulesvoloabpaccountsrcvoloabpaccountapplicationvoloabpaccountapplicationcsproj)<br/>[Nblity.Abp.SettingManagement.Application.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationvoloabpsettingmanagementapplicationcsproj) | ✅Compatible |
+| Volo.Abp.EntityFrameworkCore | 10.1.0 |  | [Nblity.Abp.FeatureManagement.EntityFrameworkCore.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagemententityframeworkcorevoloabpfeaturemanagemententityframeworkcorecsproj)<br/>[Nblity.Abp.PermissionManagement.EntityFrameworkCore.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagemententityframeworkcorevoloabppermissionmanagemententityframeworkcorecsproj)<br/>[Nblity.Abp.SettingManagement.EntityFrameworkCore.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagemententityframeworkcorevoloabpsettingmanagemententityframeworkcorecsproj)<br/>[Nblity.Abp.TenantManagement.EntityFrameworkCore.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagemententityframeworkcorevoloabptenantmanagemententityframeworkcorecsproj) | ✅Compatible |
 | Volo.Abp.EntityFrameworkCore.PostgreSql | 10.1.0 |  | [Nblity.EntityFrameworkCore.csproj](#srcnblityentityframeworkcorenblityentityframeworkcorecsproj) | ✅Compatible |
-| Volo.Abp.Features | 10.1.0 |  | [Volo.Abp.FeatureManagement.Blazor.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorvoloabpfeaturemanagementblazorcsproj)<br/>[Volo.Abp.FeatureManagement.Domain.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainvoloabpfeaturemanagementdomaincsproj)<br/>[Volo.Abp.Identity.Domain.Shared.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainsharedvoloabpidentitydomainsharedcsproj)<br/>[Volo.Abp.SettingManagement.Domain.Shared.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainsharedvoloabpsettingmanagementdomainsharedcsproj) | ✅Compatible |
+| Volo.Abp.Features | 10.1.0 |  | [Nblity.Abp.FeatureManagement.Blazor.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorvoloabpfeaturemanagementblazorcsproj)<br/>[Nblity.Abp.FeatureManagement.Domain.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainvoloabpfeaturemanagementdomaincsproj)<br/>[Nblity.Abp.Identity.Domain.Shared.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainsharedvoloabpidentitydomainsharedcsproj)<br/>[Nblity.Abp.SettingManagement.Domain.Shared.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainsharedvoloabpsettingmanagementdomainsharedcsproj) | ✅Compatible |
 | Volo.Abp.GlobalFeatures | 10.1.0 |  | [Nblity.Domain.Shared.csproj](#srcnblitydomainsharednblitydomainsharedcsproj) | ✅Compatible |
-| Volo.Abp.Http.Client | 10.1.0 |  | [Volo.Abp.Account.HttpApi.Client.csproj](#modulesvoloabpaccountsrcvoloabpaccounthttpapiclientvoloabpaccounthttpapiclientcsproj)<br/>[Volo.Abp.FeatureManagement.HttpApi.Client.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementhttpapiclientvoloabpfeaturemanagementhttpapiclientcsproj)<br/>[Volo.Abp.Identity.HttpApi.Client.csproj](#modulesvoloabpidentitysrcvoloabpidentityhttpapiclientvoloabpidentityhttpapiclientcsproj)<br/>[Volo.Abp.PermissionManagement.HttpApi.Client.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementhttpapiclientvoloabppermissionmanagementhttpapiclientcsproj)<br/>[Volo.Abp.SettingManagement.HttpApi.Client.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementhttpapiclientvoloabpsettingmanagementhttpapiclientcsproj)<br/>[Volo.Abp.TenantManagement.HttpApi.Client.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementhttpapiclientvoloabptenantmanagementhttpapiclientcsproj) | ✅Compatible |
-| Volo.Abp.Http.Client.IdentityModel.WebAssembly | 10.1.0 |  | [Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebassemblyleptonxlitethemevoloabpaspnetcorecomponentswebassemblyleptonxlitethemecsproj) | ✅Compatible |
-| Volo.Abp.IdentityServer.Domain | 10.1.0 |  | [Volo.Abp.Account.Web.IdentityServer.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebidentityservervoloabpaccountwebidentityservercsproj) | ✅Compatible |
-| Volo.Abp.Json | 10.1.0 |  | [Volo.Abp.FeatureManagement.Application.Contracts.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationcontractsvoloabpfeaturemanagementapplicationcontractscsproj)<br/>[Volo.Abp.PermissionManagement.Domain.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj) | ✅Compatible |
-| Volo.Abp.Json.SystemTextJson | 10.1.0 |  | [Volo.Abp.FeatureManagement.Domain.Shared.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainsharedvoloabpfeaturemanagementdomainsharedcsproj) | ✅Compatible |
-| Volo.Abp.Localization | 10.1.0 |  | [Volo.Abp.SettingManagement.Domain.Shared.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainsharedvoloabpsettingmanagementdomainsharedcsproj)<br/>[Volo.Abp.SettingManagement.Web.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementwebvoloabpsettingmanagementwebcsproj) | ✅Compatible |
-| Volo.Abp.Mapperly | 10.1.0 |  | [Volo.Abp.Account.Application.csproj](#modulesvoloabpaccountsrcvoloabpaccountapplicationvoloabpaccountapplicationcsproj)<br/>[Volo.Abp.Account.Blazor.csproj](#modulesvoloabpaccountsrcvoloabpaccountblazorvoloabpaccountblazorcsproj)<br/>[Volo.Abp.Account.Web.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebvoloabpaccountwebcsproj)<br/>[Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcoremvcuithemeleptonxlitevoloabpaspnetcoremvcuithemeleptonxlitecsproj)<br/>[Volo.Abp.Identity.Application.csproj](#modulesvoloabpidentitysrcvoloabpidentityapplicationvoloabpidentityapplicationcsproj)<br/>[Volo.Abp.Identity.Blazor.csproj](#modulesvoloabpidentitysrcvoloabpidentityblazorvoloabpidentityblazorcsproj)<br/>[Volo.Abp.Identity.Domain.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainvoloabpidentitydomaincsproj)<br/>[Volo.Abp.Identity.Web.csproj](#modulesvoloabpidentitysrcvoloabpidentitywebvoloabpidentitywebcsproj)<br/>[Volo.Abp.PermissionManagement.Web.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementwebvoloabppermissionmanagementwebcsproj)<br/>[Volo.Abp.SettingManagement.Blazor.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorvoloabpsettingmanagementblazorcsproj)<br/>[Volo.Abp.SettingManagement.Web.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementwebvoloabpsettingmanagementwebcsproj)<br/>[Volo.Abp.TenantManagement.Blazor.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorvoloabptenantmanagementblazorcsproj)<br/>[Volo.Abp.TenantManagement.Domain.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainvoloabptenantmanagementdomaincsproj)<br/>[Volo.Abp.TenantManagement.Web.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementwebvoloabptenantmanagementwebcsproj) | ✅Compatible |
-| Volo.Abp.MongoDB | 10.1.0 |  | [Volo.Abp.FeatureManagement.MongoDB.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementmongodbvoloabpfeaturemanagementmongodbcsproj)<br/>[Volo.Abp.PermissionManagement.MongoDB.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementmongodbvoloabppermissionmanagementmongodbcsproj)<br/>[Volo.Abp.SettingManagement.MongoDB.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementmongodbvoloabpsettingmanagementmongodbcsproj)<br/>[Volo.Abp.TenantManagement.MongoDB.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementmongodbvoloabptenantmanagementmongodbcsproj) | ✅Compatible |
-| Volo.Abp.MultiTenancy | 10.1.0 |  | [Volo.Abp.TenantManagement.Domain.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainvoloabptenantmanagementdomaincsproj) | ✅Compatible |
-| Volo.Abp.OpenIddict.AspNetCore | 10.1.0 |  | [Volo.Abp.Account.Web.OpenIddict.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebopeniddictvoloabpaccountwebopeniddictcsproj) | ✅Compatible |
+| Volo.Abp.Http.Client | 10.1.0 |  | [Nblity.Abp.Account.HttpApi.Client.csproj](#modulesvoloabpaccountsrcvoloabpaccounthttpapiclientvoloabpaccounthttpapiclientcsproj)<br/>[Nblity.Abp.FeatureManagement.HttpApi.Client.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementhttpapiclientvoloabpfeaturemanagementhttpapiclientcsproj)<br/>[Nblity.Abp.Identity.HttpApi.Client.csproj](#modulesvoloabpidentitysrcvoloabpidentityhttpapiclientvoloabpidentityhttpapiclientcsproj)<br/>[Nblity.Abp.PermissionManagement.HttpApi.Client.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementhttpapiclientvoloabppermissionmanagementhttpapiclientcsproj)<br/>[Nblity.Abp.SettingManagement.HttpApi.Client.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementhttpapiclientvoloabpsettingmanagementhttpapiclientcsproj)<br/>[Nblity.Abp.TenantManagement.HttpApi.Client.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementhttpapiclientvoloabptenantmanagementhttpapiclientcsproj) | ✅Compatible |
+| Volo.Abp.Http.Client.IdentityModel.WebAssembly | 10.1.0 |  | [Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebassemblyleptonxlitethemevoloabpaspnetcorecomponentswebassemblyleptonxlitethemecsproj) | ✅Compatible |
+| Nblity.Abp.IdentityServer.Domain | 10.1.0 |  | [Nblity.Abp.Account.Web.IdentityServer.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebidentityservervoloabpaccountwebidentityservercsproj) | ✅Compatible |
+| Volo.Abp.Json | 10.1.0 |  | [Nblity.Abp.FeatureManagement.Application.Contracts.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationcontractsvoloabpfeaturemanagementapplicationcontractscsproj)<br/>[Nblity.Abp.PermissionManagement.Domain.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj) | ✅Compatible |
+| Volo.Abp.Json.SystemTextJson | 10.1.0 |  | [Nblity.Abp.FeatureManagement.Domain.Shared.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainsharedvoloabpfeaturemanagementdomainsharedcsproj) | ✅Compatible |
+| Volo.Abp.Localization | 10.1.0 |  | [Nblity.Abp.SettingManagement.Domain.Shared.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainsharedvoloabpsettingmanagementdomainsharedcsproj)<br/>[Nblity.Abp.SettingManagement.Web.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementwebvoloabpsettingmanagementwebcsproj) | ✅Compatible |
+| Volo.Abp.Mapperly | 10.1.0 |  | [Nblity.Abp.Account.Application.csproj](#modulesvoloabpaccountsrcvoloabpaccountapplicationvoloabpaccountapplicationcsproj)<br/>[Nblity.Abp.Account.Blazor.csproj](#modulesvoloabpaccountsrcvoloabpaccountblazorvoloabpaccountblazorcsproj)<br/>[Nblity.Abp.Account.Web.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebvoloabpaccountwebcsproj)<br/>[Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcoremvcuithemeleptonxlitevoloabpaspnetcoremvcuithemeleptonxlitecsproj)<br/>[Nblity.Abp.Identity.Application.csproj](#modulesvoloabpidentitysrcvoloabpidentityapplicationvoloabpidentityapplicationcsproj)<br/>[Nblity.Abp.Identity.Blazor.csproj](#modulesvoloabpidentitysrcvoloabpidentityblazorvoloabpidentityblazorcsproj)<br/>[Nblity.Abp.Identity.Domain.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainvoloabpidentitydomaincsproj)<br/>[Nblity.Abp.Identity.Web.csproj](#modulesvoloabpidentitysrcvoloabpidentitywebvoloabpidentitywebcsproj)<br/>[Nblity.Abp.PermissionManagement.Web.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementwebvoloabppermissionmanagementwebcsproj)<br/>[Nblity.Abp.SettingManagement.Blazor.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorvoloabpsettingmanagementblazorcsproj)<br/>[Nblity.Abp.SettingManagement.Web.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementwebvoloabpsettingmanagementwebcsproj)<br/>[Nblity.Abp.TenantManagement.Blazor.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorvoloabptenantmanagementblazorcsproj)<br/>[Nblity.Abp.TenantManagement.Domain.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainvoloabptenantmanagementdomaincsproj)<br/>[Nblity.Abp.TenantManagement.Web.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementwebvoloabptenantmanagementwebcsproj) | ✅Compatible |
+| Volo.Abp.MongoDB | 10.1.0 |  | [Nblity.Abp.FeatureManagement.MongoDB.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementmongodbvoloabpfeaturemanagementmongodbcsproj)<br/>[Nblity.Abp.PermissionManagement.MongoDB.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementmongodbvoloabppermissionmanagementmongodbcsproj)<br/>[Nblity.Abp.SettingManagement.MongoDB.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementmongodbvoloabpsettingmanagementmongodbcsproj)<br/>[Nblity.Abp.TenantManagement.MongoDB.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementmongodbvoloabptenantmanagementmongodbcsproj) | ✅Compatible |
+| Volo.Abp.MultiTenancy | 10.1.0 |  | [Nblity.Abp.TenantManagement.Domain.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainvoloabptenantmanagementdomaincsproj) | ✅Compatible |
+| Volo.Abp.OpenIddict.AspNetCore | 10.1.0 |  | [Nblity.Abp.Account.Web.OpenIddict.csproj](#modulesvoloabpaccountsrcvoloabpaccountwebopeniddictvoloabpaccountwebopeniddictcsproj) | ✅Compatible |
 | Volo.Abp.OpenIddict.Domain | 10.1.0 |  | [Nblity.Domain.csproj](#srcnblitydomainnblitydomaincsproj) | ✅Compatible |
 | Volo.Abp.OpenIddict.Domain.Shared | 10.1.0 |  | [Nblity.Domain.Shared.csproj](#srcnblitydomainsharednblitydomainsharedcsproj) | ✅Compatible |
 | Volo.Abp.OpenIddict.EntityFrameworkCore | 10.1.0 |  | [Nblity.EntityFrameworkCore.csproj](#srcnblityentityframeworkcorenblityentityframeworkcorecsproj) | ✅Compatible |
-| Volo.Abp.PermissionManagement.Domain.OpenIddict | 10.1.0 |  | [Nblity.Domain.csproj](#srcnblitydomainnblitydomaincsproj) | ✅Compatible |
-| Volo.Abp.Settings | 10.1.0 |  | [Volo.Abp.SettingManagement.Domain.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainvoloabpsettingmanagementdomaincsproj) | ✅Compatible |
+| Nblity.Abp.PermissionManagement.Domain.OpenIddict | 10.1.0 |  | [Nblity.Domain.csproj](#srcnblitydomainnblitydomaincsproj) | ✅Compatible |
+| Volo.Abp.Settings | 10.1.0 |  | [Nblity.Abp.SettingManagement.Domain.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainvoloabpsettingmanagementdomaincsproj) | ✅Compatible |
 | Volo.Abp.Studio.Client.AspNetCore | 2.2.1 |  | [Nblity.Blazor.csproj](#srcnblityblazornblityblazorcsproj) | ✅Compatible |
 | Volo.Abp.Swashbuckle | 10.1.0 |  | [Nblity.Blazor.csproj](#srcnblityblazornblityblazorcsproj) | ✅Compatible |
-| Volo.Abp.UI.Navigation | 10.1.0 |  | [Volo.Abp.Account.Application.csproj](#modulesvoloabpaccountsrcvoloabpaccountapplicationvoloabpaccountapplicationcsproj) | ✅Compatible |
-| Volo.Abp.Users.Abstractions | 10.1.0 |  | [Volo.Abp.Identity.Application.Contracts.csproj](#modulesvoloabpidentitysrcvoloabpidentityapplicationcontractsvoloabpidentityapplicationcontractscsproj)<br/>[Volo.Abp.PermissionManagement.Domain.Identity.csproj](#modulesvoloabpidentitysrcvoloabppermissionmanagementdomainidentityvoloabppermissionmanagementdomainidentitycsproj)<br/>[Volo.Abp.SettingManagement.Application.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationvoloabpsettingmanagementapplicationcsproj) | ✅Compatible |
-| Volo.Abp.Users.Domain | 10.1.0 |  | [Volo.Abp.Identity.Domain.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainvoloabpidentitydomaincsproj) | ✅Compatible |
-| Volo.Abp.Users.Domain.Shared | 10.1.0 |  | [Volo.Abp.Identity.Domain.Shared.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainsharedvoloabpidentitydomainsharedcsproj) | ✅Compatible |
-| Volo.Abp.Users.EntityFrameworkCore | 10.1.0 |  | [Volo.Abp.Identity.EntityFrameworkCore.csproj](#modulesvoloabpidentitysrcvoloabpidentityentityframeworkcorevoloabpidentityentityframeworkcorecsproj) | ✅Compatible |
-| Volo.Abp.Users.MongoDB | 10.1.0 |  | [Volo.Abp.Identity.MongoDB.csproj](#modulesvoloabpidentitysrcvoloabpidentitymongodbvoloabpidentitymongodbcsproj) | ✅Compatible |
-| Volo.Abp.Validation | 10.1.0 |  | [Volo.Abp.FeatureManagement.Domain.Shared.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainsharedvoloabpfeaturemanagementdomainsharedcsproj)<br/>[Volo.Abp.Identity.Domain.Shared.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainsharedvoloabpidentitydomainsharedcsproj)<br/>[Volo.Abp.PermissionManagement.Domain.Shared.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainsharedvoloabppermissionmanagementdomainsharedcsproj)<br/>[Volo.Abp.SettingManagement.Domain.Shared.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainsharedvoloabpsettingmanagementdomainsharedcsproj)<br/>[Volo.Abp.TenantManagement.Domain.Shared.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainsharedvoloabptenantmanagementdomainsharedcsproj) | ✅Compatible |
-| Volo.Abp.VirtualFileSystem | 10.1.0 |  | [Volo.Abp.Account.Installer.csproj](#modulesvoloabpaccountsrcvoloabpaccountinstallervoloabpaccountinstallercsproj)<br/>[Volo.Abp.FeatureManagement.Installer.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementinstallervoloabpfeaturemanagementinstallercsproj)<br/>[Volo.Abp.Identity.Installer.csproj](#modulesvoloabpidentitysrcvoloabpidentityinstallervoloabpidentityinstallercsproj)<br/>[Volo.Abp.LeptonXLiteTheme.Installer.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpleptonxlitethemeinstallervoloabpleptonxlitethemeinstallercsproj)<br/>[Volo.Abp.PermissionManagement.Installer.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementinstallervoloabppermissionmanagementinstallercsproj)<br/>[Volo.Abp.SettingManagement.Installer.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementinstallervoloabpsettingmanagementinstallercsproj)<br/>[Volo.Abp.TenantManagement.Installer.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementinstallervoloabptenantmanagementinstallercsproj) | ✅Compatible |
+| Volo.Abp.UI.Navigation | 10.1.0 |  | [Nblity.Abp.Account.Application.csproj](#modulesvoloabpaccountsrcvoloabpaccountapplicationvoloabpaccountapplicationcsproj) | ✅Compatible |
+| Volo.Abp.Users.Abstractions | 10.1.0 |  | [Nblity.Abp.Identity.Application.Contracts.csproj](#modulesvoloabpidentitysrcvoloabpidentityapplicationcontractsvoloabpidentityapplicationcontractscsproj)<br/>[Nblity.Abp.PermissionManagement.Domain.Identity.csproj](#modulesvoloabpidentitysrcvoloabppermissionmanagementdomainidentityvoloabppermissionmanagementdomainidentitycsproj)<br/>[Nblity.Abp.SettingManagement.Application.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationvoloabpsettingmanagementapplicationcsproj) | ✅Compatible |
+| Volo.Abp.Users.Domain | 10.1.0 |  | [Nblity.Abp.Identity.Domain.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainvoloabpidentitydomaincsproj) | ✅Compatible |
+| Volo.Abp.Users.Domain.Shared | 10.1.0 |  | [Nblity.Abp.Identity.Domain.Shared.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainsharedvoloabpidentitydomainsharedcsproj) | ✅Compatible |
+| Volo.Abp.Users.EntityFrameworkCore | 10.1.0 |  | [Nblity.Abp.Identity.EntityFrameworkCore.csproj](#modulesvoloabpidentitysrcvoloabpidentityentityframeworkcorevoloabpidentityentityframeworkcorecsproj) | ✅Compatible |
+| Volo.Abp.Users.MongoDB | 10.1.0 |  | [Nblity.Abp.Identity.MongoDB.csproj](#modulesvoloabpidentitysrcvoloabpidentitymongodbvoloabpidentitymongodbcsproj) | ✅Compatible |
+| Volo.Abp.Validation | 10.1.0 |  | [Nblity.Abp.FeatureManagement.Domain.Shared.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainsharedvoloabpfeaturemanagementdomainsharedcsproj)<br/>[Nblity.Abp.Identity.Domain.Shared.csproj](#modulesvoloabpidentitysrcvoloabpidentitydomainsharedvoloabpidentitydomainsharedcsproj)<br/>[Nblity.Abp.PermissionManagement.Domain.Shared.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainsharedvoloabppermissionmanagementdomainsharedcsproj)<br/>[Nblity.Abp.SettingManagement.Domain.Shared.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainsharedvoloabpsettingmanagementdomainsharedcsproj)<br/>[Nblity.Abp.TenantManagement.Domain.Shared.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainsharedvoloabptenantmanagementdomainsharedcsproj) | ✅Compatible |
+| Volo.Abp.VirtualFileSystem | 10.1.0 |  | [Nblity.Abp.Account.Installer.csproj](#modulesvoloabpaccountsrcvoloabpaccountinstallervoloabpaccountinstallercsproj)<br/>[Nblity.Abp.FeatureManagement.Installer.csproj](#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementinstallervoloabpfeaturemanagementinstallercsproj)<br/>[Nblity.Abp.Identity.Installer.csproj](#modulesvoloabpidentitysrcvoloabpidentityinstallervoloabpidentityinstallercsproj)<br/>[Nblity.Abp.MudblazorTheme.Installer.csproj](#modulesvoloabpleptonxlitethemesrcvoloabpleptonxlitethemeinstallervoloabpleptonxlitethemeinstallercsproj)<br/>[Nblity.Abp.PermissionManagement.Installer.csproj](#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementinstallervoloabppermissionmanagementinstallercsproj)<br/>[Nblity.Abp.SettingManagement.Installer.csproj](#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementinstallervoloabpsettingmanagementinstallercsproj)<br/>[Nblity.Abp.TenantManagement.Installer.csproj](#modulesvoloabptenantmanagementsrcvoloabptenantmanagementinstallervoloabptenantmanagementinstallercsproj) | ✅Compatible |
 
 ## Top API Migration Challenges
 
@@ -352,88 +352,88 @@ Legend:
 
 ```mermaid
 flowchart LR
-    P1["<b>📦&nbsp;Volo.Abp.Account.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P2["<b>📦&nbsp;Volo.Abp.Account.Application.csproj</b><br/><small>net10.0</small>"]
-    P3["<b>📦&nbsp;Volo.Abp.Account.Blazor.csproj</b><br/><small>net10.0</small>"]
-    P4["<b>📦&nbsp;Volo.Abp.Account.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P5["<b>📦&nbsp;Volo.Abp.Account.HttpApi.csproj</b><br/><small>net10.0</small>"]
-    P6["<b>📦&nbsp;Volo.Abp.Account.Installer.csproj</b><br/><small>net10.0</small>"]
-    P7["<b>📦&nbsp;Volo.Abp.Account.Web.IdentityServer.csproj</b><br/><small>net10.0</small>"]
-    P8["<b>📦&nbsp;Volo.Abp.Account.Web.OpenIddict.csproj</b><br/><small>net10.0</small>"]
-    P9["<b>📦&nbsp;Volo.Abp.Account.Web.csproj</b><br/><small>net10.0</small>"]
-    P10["<b>📦&nbsp;Volo.Abp.FeatureManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P11["<b>📦&nbsp;Volo.Abp.FeatureManagement.Application.csproj</b><br/><small>net10.0</small>"]
-    P12["<b>📦&nbsp;Volo.Abp.FeatureManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
-    P13["<b>📦&nbsp;Volo.Abp.FeatureManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
-    P14["<b>📦&nbsp;Volo.Abp.FeatureManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
-    P15["<b>📦&nbsp;Volo.Abp.FeatureManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P16["<b>📦&nbsp;Volo.Abp.FeatureManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P17["<b>📦&nbsp;Volo.Abp.FeatureManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
-    P18["<b>📦&nbsp;Volo.Abp.FeatureManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P19["<b>📦&nbsp;Volo.Abp.FeatureManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
-    P20["<b>📦&nbsp;Volo.Abp.FeatureManagement.Installer.csproj</b><br/><small>net10.0</small>"]
-    P21["<b>📦&nbsp;Volo.Abp.FeatureManagement.MongoDB.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P22["<b>📦&nbsp;Volo.Abp.FeatureManagement.Web.csproj</b><br/><small>net10.0</small>"]
-    P23["<b>📦&nbsp;Volo.Abp.Identity.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P24["<b>📦&nbsp;Volo.Abp.Identity.Application.csproj</b><br/><small>net10.0</small>"]
-    P25["<b>📦&nbsp;Volo.Abp.Identity.AspNetCore.csproj</b><br/><small>net10.0</small>"]
-    P26["<b>📦&nbsp;Volo.Abp.Identity.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
-    P27["<b>📦&nbsp;Volo.Abp.Identity.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
-    P28["<b>📦&nbsp;Volo.Abp.Identity.Blazor.csproj</b><br/><small>net10.0</small>"]
-    P29["<b>📦&nbsp;Volo.Abp.Identity.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P30["<b>📦&nbsp;Volo.Abp.Identity.Domain.csproj</b><br/><small>net10.0</small>"]
-    P31["<b>📦&nbsp;Volo.Abp.Identity.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
-    P32["<b>📦&nbsp;Volo.Abp.Identity.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P33["<b>📦&nbsp;Volo.Abp.Identity.HttpApi.csproj</b><br/><small>net10.0</small>"]
-    P34["<b>📦&nbsp;Volo.Abp.Identity.Installer.csproj</b><br/><small>net10.0</small>"]
-    P35["<b>📦&nbsp;Volo.Abp.Identity.MongoDB.csproj</b><br/><small>net10.0</small>"]
-    P36["<b>📦&nbsp;Volo.Abp.Identity.Web.csproj</b><br/><small>net10.0</small>"]
-    P37["<b>📦&nbsp;Volo.Abp.PermissionManagement.Domain.Identity.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P38["<b>📦&nbsp;Volo.Abp.AspNetCore.Components.Server.LeptonXLiteTheme.csproj</b><br/><small>net10.0</small>"]
-    P39["<b>📦&nbsp;Volo.Abp.AspNetCore.Components.Web.LeptonXLiteTheme.csproj</b><br/><small>net10.0</small>"]
-    P40["<b>📦&nbsp;Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling.csproj</b><br/><small>net10.0</small>"]
-    P41["<b>📦&nbsp;Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.csproj</b><br/><small>net10.0</small>"]
-    P42["<b>📦&nbsp;Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite.csproj</b><br/><small>net10.0</small>"]
-    P43["<b>📦&nbsp;Volo.Abp.LeptonXLiteTheme.Installer.csproj</b><br/><small>net10.0</small>"]
-    P44["<b>📦&nbsp;Volo.Abp.PermissionManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P45["<b>📦&nbsp;Volo.Abp.PermissionManagement.Application.csproj</b><br/><small>net10.0</small>"]
-    P46["<b>📦&nbsp;Volo.Abp.PermissionManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
-    P47["<b>📦&nbsp;Volo.Abp.PermissionManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
-    P48["<b>📦&nbsp;Volo.Abp.PermissionManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
-    P49["<b>📦&nbsp;Volo.Abp.PermissionManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P50["<b>📦&nbsp;Volo.Abp.PermissionManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P51["<b>📦&nbsp;Volo.Abp.PermissionManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
-    P52["<b>📦&nbsp;Volo.Abp.PermissionManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P53["<b>📦&nbsp;Volo.Abp.PermissionManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
-    P54["<b>📦&nbsp;Volo.Abp.PermissionManagement.Installer.csproj</b><br/><small>net10.0</small>"]
-    P55["<b>📦&nbsp;Volo.Abp.PermissionManagement.MongoDB.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P56["<b>📦&nbsp;Volo.Abp.PermissionManagement.Web.csproj</b><br/><small>net10.0</small>"]
-    P57["<b>📦&nbsp;Volo.Abp.SettingManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P58["<b>📦&nbsp;Volo.Abp.SettingManagement.Application.csproj</b><br/><small>net10.0</small>"]
-    P59["<b>📦&nbsp;Volo.Abp.SettingManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
-    P60["<b>📦&nbsp;Volo.Abp.SettingManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
-    P61["<b>📦&nbsp;Volo.Abp.SettingManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
-    P62["<b>📦&nbsp;Volo.Abp.SettingManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P63["<b>📦&nbsp;Volo.Abp.SettingManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P64["<b>📦&nbsp;Volo.Abp.SettingManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
-    P65["<b>📦&nbsp;Volo.Abp.SettingManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P66["<b>📦&nbsp;Volo.Abp.SettingManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
-    P67["<b>📦&nbsp;Volo.Abp.SettingManagement.Installer.csproj</b><br/><small>net10.0</small>"]
-    P68["<b>📦&nbsp;Volo.Abp.SettingManagement.MongoDB.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P69["<b>📦&nbsp;Volo.Abp.SettingManagement.Web.csproj</b><br/><small>net10.0</small>"]
-    P70["<b>📦&nbsp;Volo.Abp.TenantManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P71["<b>📦&nbsp;Volo.Abp.TenantManagement.Application.csproj</b><br/><small>net10.0</small>"]
-    P72["<b>📦&nbsp;Volo.Abp.TenantManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
-    P73["<b>📦&nbsp;Volo.Abp.TenantManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
-    P74["<b>📦&nbsp;Volo.Abp.TenantManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
-    P75["<b>📦&nbsp;Volo.Abp.TenantManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P76["<b>📦&nbsp;Volo.Abp.TenantManagement.Domain.csproj</b><br/><small>net10.0</small>"]
-    P77["<b>📦&nbsp;Volo.Abp.TenantManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
-    P78["<b>📦&nbsp;Volo.Abp.TenantManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-    P79["<b>📦&nbsp;Volo.Abp.TenantManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
-    P80["<b>📦&nbsp;Volo.Abp.TenantManagement.Installer.csproj</b><br/><small>net10.0</small>"]
-    P81["<b>📦&nbsp;Volo.Abp.TenantManagement.MongoDB.csproj</b><br/><small>net10.0</small>"]
-    P82["<b>📦&nbsp;Volo.Abp.TenantManagement.Web.csproj</b><br/><small>net10.0</small>"]
+    P1["<b>📦&nbsp;Nblity.Abp.Account.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P2["<b>📦&nbsp;Nblity.Abp.Account.Application.csproj</b><br/><small>net10.0</small>"]
+    P3["<b>📦&nbsp;Nblity.Abp.Account.Blazor.csproj</b><br/><small>net10.0</small>"]
+    P4["<b>📦&nbsp;Nblity.Abp.Account.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P5["<b>📦&nbsp;Nblity.Abp.Account.HttpApi.csproj</b><br/><small>net10.0</small>"]
+    P6["<b>📦&nbsp;Nblity.Abp.Account.Installer.csproj</b><br/><small>net10.0</small>"]
+    P7["<b>📦&nbsp;Nblity.Abp.Account.Web.IdentityServer.csproj</b><br/><small>net10.0</small>"]
+    P8["<b>📦&nbsp;Nblity.Abp.Account.Web.OpenIddict.csproj</b><br/><small>net10.0</small>"]
+    P9["<b>📦&nbsp;Nblity.Abp.Account.Web.csproj</b><br/><small>net10.0</small>"]
+    P10["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P11["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Application.csproj</b><br/><small>net10.0</small>"]
+    P12["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
+    P13["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+    P14["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+    P15["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P16["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P17["<b>📦&nbsp;Nblity.Abp.FeatureManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
+    P18["<b>📦&nbsp;Nblity.Abp.FeatureManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P19["<b>📦&nbsp;Nblity.Abp.FeatureManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
+    P20["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Installer.csproj</b><br/><small>net10.0</small>"]
+    P21["<b>📦&nbsp;Nblity.Abp.FeatureManagement.MongoDB.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P22["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Web.csproj</b><br/><small>net10.0</small>"]
+    P23["<b>📦&nbsp;Nblity.Abp.Identity.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P24["<b>📦&nbsp;Nblity.Abp.Identity.Application.csproj</b><br/><small>net10.0</small>"]
+    P25["<b>📦&nbsp;Nblity.Abp.Identity.AspNetCore.csproj</b><br/><small>net10.0</small>"]
+    P26["<b>📦&nbsp;Nblity.Abp.Identity.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
+    P27["<b>📦&nbsp;Nblity.Abp.Identity.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+    P28["<b>📦&nbsp;Nblity.Abp.Identity.Blazor.csproj</b><br/><small>net10.0</small>"]
+    P29["<b>📦&nbsp;Nblity.Abp.Identity.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P30["<b>📦&nbsp;Nblity.Abp.Identity.Domain.csproj</b><br/><small>net10.0</small>"]
+    P31["<b>📦&nbsp;Nblity.Abp.Identity.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
+    P32["<b>📦&nbsp;Nblity.Abp.Identity.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P33["<b>📦&nbsp;Nblity.Abp.Identity.HttpApi.csproj</b><br/><small>net10.0</small>"]
+    P34["<b>📦&nbsp;Nblity.Abp.Identity.Installer.csproj</b><br/><small>net10.0</small>"]
+    P35["<b>📦&nbsp;Nblity.Abp.Identity.MongoDB.csproj</b><br/><small>net10.0</small>"]
+    P36["<b>📦&nbsp;Nblity.Abp.Identity.Web.csproj</b><br/><small>net10.0</small>"]
+    P37["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Domain.Identity.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P38["<b>📦&nbsp;Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme.csproj</b><br/><small>net10.0</small>"]
+    P39["<b>📦&nbsp;Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme.csproj</b><br/><small>net10.0</small>"]
+    P40["<b>📦&nbsp;Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Bundling.csproj</b><br/><small>net10.0</small>"]
+    P41["<b>📦&nbsp;Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.csproj</b><br/><small>net10.0</small>"]
+    P42["<b>📦&nbsp;Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor.csproj</b><br/><small>net10.0</small>"]
+    P43["<b>📦&nbsp;Nblity.Abp.MudblazorTheme.Installer.csproj</b><br/><small>net10.0</small>"]
+    P44["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P45["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Application.csproj</b><br/><small>net10.0</small>"]
+    P46["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
+    P47["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+    P48["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+    P49["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P50["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P51["<b>📦&nbsp;Nblity.Abp.PermissionManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
+    P52["<b>📦&nbsp;Nblity.Abp.PermissionManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P53["<b>📦&nbsp;Nblity.Abp.PermissionManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
+    P54["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Installer.csproj</b><br/><small>net10.0</small>"]
+    P55["<b>📦&nbsp;Nblity.Abp.PermissionManagement.MongoDB.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P56["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Web.csproj</b><br/><small>net10.0</small>"]
+    P57["<b>📦&nbsp;Nblity.Abp.SettingManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P58["<b>📦&nbsp;Nblity.Abp.SettingManagement.Application.csproj</b><br/><small>net10.0</small>"]
+    P59["<b>📦&nbsp;Nblity.Abp.SettingManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
+    P60["<b>📦&nbsp;Nblity.Abp.SettingManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+    P61["<b>📦&nbsp;Nblity.Abp.SettingManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+    P62["<b>📦&nbsp;Nblity.Abp.SettingManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P63["<b>📦&nbsp;Nblity.Abp.SettingManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P64["<b>📦&nbsp;Nblity.Abp.SettingManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
+    P65["<b>📦&nbsp;Nblity.Abp.SettingManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P66["<b>📦&nbsp;Nblity.Abp.SettingManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
+    P67["<b>📦&nbsp;Nblity.Abp.SettingManagement.Installer.csproj</b><br/><small>net10.0</small>"]
+    P68["<b>📦&nbsp;Nblity.Abp.SettingManagement.MongoDB.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P69["<b>📦&nbsp;Nblity.Abp.SettingManagement.Web.csproj</b><br/><small>net10.0</small>"]
+    P70["<b>📦&nbsp;Nblity.Abp.TenantManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P71["<b>📦&nbsp;Nblity.Abp.TenantManagement.Application.csproj</b><br/><small>net10.0</small>"]
+    P72["<b>📦&nbsp;Nblity.Abp.TenantManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
+    P73["<b>📦&nbsp;Nblity.Abp.TenantManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+    P74["<b>📦&nbsp;Nblity.Abp.TenantManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+    P75["<b>📦&nbsp;Nblity.Abp.TenantManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P76["<b>📦&nbsp;Nblity.Abp.TenantManagement.Domain.csproj</b><br/><small>net10.0</small>"]
+    P77["<b>📦&nbsp;Nblity.Abp.TenantManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
+    P78["<b>📦&nbsp;Nblity.Abp.TenantManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    P79["<b>📦&nbsp;Nblity.Abp.TenantManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
+    P80["<b>📦&nbsp;Nblity.Abp.TenantManagement.Installer.csproj</b><br/><small>net10.0</small>"]
+    P81["<b>📦&nbsp;Nblity.Abp.TenantManagement.MongoDB.csproj</b><br/><small>net10.0</small>"]
+    P82["<b>📦&nbsp;Nblity.Abp.TenantManagement.Web.csproj</b><br/><small>net10.0</small>"]
     P83["<b>📦&nbsp;Nblity.Application.Contracts.csproj</b><br/><small>net10.0</small>"]
     P84["<b>📦&nbsp;Nblity.Application.csproj</b><br/><small>net10.0</small>"]
     P85["<b>📦&nbsp;Nblity.Blazor.Client.csproj</b><br/><small>net10.0</small>"]
@@ -702,7 +702,7 @@ flowchart LR
 ## Project Details
 
 <a id="modulesvoloabpaccountsrcvoloabpaccountapplicationcontractsvoloabpaccountapplicationcontractscsproj"></a>
-### modules\Volo.Abp.Account\src\Volo.Abp.Account.Application.Contracts\Volo.Abp.Account.Application.Contracts.csproj
+### modules\Nblity.Abp.Account\src\Nblity.Abp.Account.Application.Contracts\Nblity.Abp.Account.Application.Contracts.csproj
 
 #### Project Info
 
@@ -726,11 +726,11 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (6)"]
-        P2["<b>📦&nbsp;Volo.Abp.Account.Application.csproj</b><br/><small>net10.0</small>"]
-        P3["<b>📦&nbsp;Volo.Abp.Account.Blazor.csproj</b><br/><small>net10.0</small>"]
-        P4["<b>📦&nbsp;Volo.Abp.Account.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P5["<b>📦&nbsp;Volo.Abp.Account.HttpApi.csproj</b><br/><small>net10.0</small>"]
-        P9["<b>📦&nbsp;Volo.Abp.Account.Web.csproj</b><br/><small>net10.0</small>"]
+        P2["<b>📦&nbsp;Nblity.Abp.Account.Application.csproj</b><br/><small>net10.0</small>"]
+        P3["<b>📦&nbsp;Nblity.Abp.Account.Blazor.csproj</b><br/><small>net10.0</small>"]
+        P4["<b>📦&nbsp;Nblity.Abp.Account.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P5["<b>📦&nbsp;Nblity.Abp.Account.HttpApi.csproj</b><br/><small>net10.0</small>"]
+        P9["<b>📦&nbsp;Nblity.Abp.Account.Web.csproj</b><br/><small>net10.0</small>"]
         P83["<b>📦&nbsp;Nblity.Application.Contracts.csproj</b><br/><small>net10.0</small>"]
         click P2 "#modulesvoloabpaccountsrcvoloabpaccountapplicationvoloabpaccountapplicationcsproj"
         click P3 "#modulesvoloabpaccountsrcvoloabpaccountblazorvoloabpaccountblazorcsproj"
@@ -739,12 +739,12 @@ flowchart TB
         click P9 "#modulesvoloabpaccountsrcvoloabpaccountwebvoloabpaccountwebcsproj"
         click P83 "#srcnblityapplicationcontractsnblityapplicationcontractscsproj"
     end
-    subgraph current["Volo.Abp.Account.Application.Contracts.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Account.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.Account.Application.Contracts.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Account.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabpaccountsrcvoloabpaccountapplicationcontractsvoloabpaccountapplicationcontractscsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P23["<b>📦&nbsp;Volo.Abp.Identity.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P23["<b>📦&nbsp;Nblity.Abp.Identity.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P23 "#modulesvoloabpidentitysrcvoloabpidentityapplicationcontractsvoloabpidentityapplicationcontractscsproj"
     end
     P2 --> MAIN
@@ -768,7 +768,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***254*** |  |
 
 <a id="modulesvoloabpaccountsrcvoloabpaccountapplicationvoloabpaccountapplicationcsproj"></a>
-### modules\Volo.Abp.Account\src\Volo.Abp.Account.Application\Volo.Abp.Account.Application.csproj
+### modules\Nblity.Abp.Account\src\Nblity.Abp.Account.Application\Nblity.Abp.Account.Application.csproj
 
 #### Project Info
 
@@ -793,13 +793,13 @@ flowchart TB
         P84["<b>📦&nbsp;Nblity.Application.csproj</b><br/><small>net10.0</small>"]
         click P84 "#srcnblityapplicationnblityapplicationcsproj"
     end
-    subgraph current["Volo.Abp.Account.Application.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Account.Application.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.Account.Application.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Account.Application.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpaccountsrcvoloabpaccountapplicationvoloabpaccountapplicationcsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P24["<b>📦&nbsp;Volo.Abp.Identity.Application.csproj</b><br/><small>net10.0</small>"]
-        P1["<b>📦&nbsp;Volo.Abp.Account.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P24["<b>📦&nbsp;Nblity.Abp.Identity.Application.csproj</b><br/><small>net10.0</small>"]
+        P1["<b>📦&nbsp;Nblity.Abp.Account.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P24 "#modulesvoloabpidentitysrcvoloabpidentityapplicationvoloabpidentityapplicationcsproj"
         click P1 "#modulesvoloabpaccountsrcvoloabpaccountapplicationcontractsvoloabpaccountapplicationcontractscsproj"
     end
@@ -820,7 +820,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpaccountsrcvoloabpaccountblazorvoloabpaccountblazorcsproj"></a>
-### modules\Volo.Abp.Account\src\Volo.Abp.Account.Blazor\Volo.Abp.Account.Blazor.csproj
+### modules\Nblity.Abp.Account\src\Nblity.Abp.Account.Blazor\Nblity.Abp.Account.Blazor.csproj
 
 #### Project Info
 
@@ -841,12 +841,12 @@ Legend:
 
 ```mermaid
 flowchart TB
-    subgraph current["Volo.Abp.Account.Blazor.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Account.Blazor.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.Account.Blazor.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Account.Blazor.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpaccountsrcvoloabpaccountblazorvoloabpaccountblazorcsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P1["<b>📦&nbsp;Volo.Abp.Account.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P1["<b>📦&nbsp;Nblity.Abp.Account.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P1 "#modulesvoloabpaccountsrcvoloabpaccountapplicationcontractsvoloabpaccountapplicationcontractscsproj"
     end
     MAIN --> P1
@@ -864,7 +864,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpaccountsrcvoloabpaccounthttpapiclientvoloabpaccounthttpapiclientcsproj"></a>
-### modules\Volo.Abp.Account\src\Volo.Abp.Account.HttpApi.Client\Volo.Abp.Account.HttpApi.Client.csproj
+### modules\Nblity.Abp.Account\src\Nblity.Abp.Account.HttpApi.Client\Nblity.Abp.Account.HttpApi.Client.csproj
 
 #### Project Info
 
@@ -891,12 +891,12 @@ flowchart TB
         P91["<b>📦&nbsp;Nblity.HttpApi.Client.csproj</b><br/><small>net10.0</small>"]
         click P91 "#srcnblityhttpapiclientnblityhttpapiclientcsproj"
     end
-    subgraph current["Volo.Abp.Account.HttpApi.Client.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Account.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.Account.HttpApi.Client.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Account.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabpaccountsrcvoloabpaccounthttpapiclientvoloabpaccounthttpapiclientcsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P1["<b>📦&nbsp;Volo.Abp.Account.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P1["<b>📦&nbsp;Nblity.Abp.Account.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P1 "#modulesvoloabpaccountsrcvoloabpaccountapplicationcontractsvoloabpaccountapplicationcontractscsproj"
     end
     P91 --> MAIN
@@ -915,7 +915,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***81*** |  |
 
 <a id="modulesvoloabpaccountsrcvoloabpaccounthttpapivoloabpaccounthttpapicsproj"></a>
-### modules\Volo.Abp.Account\src\Volo.Abp.Account.HttpApi\Volo.Abp.Account.HttpApi.csproj
+### modules\Nblity.Abp.Account\src\Nblity.Abp.Account.HttpApi\Nblity.Abp.Account.HttpApi.csproj
 
 #### Project Info
 
@@ -940,13 +940,13 @@ flowchart TB
         P92["<b>📦&nbsp;Nblity.HttpApi.csproj</b><br/><small>net10.0</small>"]
         click P92 "#srcnblityhttpapinblityhttpapicsproj"
     end
-    subgraph current["Volo.Abp.Account.HttpApi.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Account.HttpApi.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.Account.HttpApi.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Account.HttpApi.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpaccountsrcvoloabpaccounthttpapivoloabpaccounthttpapicsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P1["<b>📦&nbsp;Volo.Abp.Account.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P33["<b>📦&nbsp;Volo.Abp.Identity.HttpApi.csproj</b><br/><small>net10.0</small>"]
+        P1["<b>📦&nbsp;Nblity.Abp.Account.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P33["<b>📦&nbsp;Nblity.Abp.Identity.HttpApi.csproj</b><br/><small>net10.0</small>"]
         click P1 "#modulesvoloabpaccountsrcvoloabpaccountapplicationcontractsvoloabpaccountapplicationcontractscsproj"
         click P33 "#modulesvoloabpidentitysrcvoloabpidentityhttpapivoloabpidentityhttpapicsproj"
     end
@@ -967,7 +967,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpaccountsrcvoloabpaccountinstallervoloabpaccountinstallercsproj"></a>
-### modules\Volo.Abp.Account\src\Volo.Abp.Account.Installer\Volo.Abp.Account.Installer.csproj
+### modules\Nblity.Abp.Account\src\Nblity.Abp.Account.Installer\Nblity.Abp.Account.Installer.csproj
 
 #### Project Info
 
@@ -988,8 +988,8 @@ Legend:
 
 ```mermaid
 flowchart TB
-    subgraph current["Volo.Abp.Account.Installer.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Account.Installer.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.Account.Installer.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Account.Installer.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpaccountsrcvoloabpaccountinstallervoloabpaccountinstallercsproj"
     end
 
@@ -1006,7 +1006,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpaccountsrcvoloabpaccountwebidentityservervoloabpaccountwebidentityservercsproj"></a>
-### modules\Volo.Abp.Account\src\Volo.Abp.Account.Web.IdentityServer\Volo.Abp.Account.Web.IdentityServer.csproj
+### modules\Nblity.Abp.Account\src\Nblity.Abp.Account.Web.IdentityServer\Nblity.Abp.Account.Web.IdentityServer.csproj
 
 #### Project Info
 
@@ -1027,12 +1027,12 @@ Legend:
 
 ```mermaid
 flowchart TB
-    subgraph current["Volo.Abp.Account.Web.IdentityServer.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Account.Web.IdentityServer.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.Account.Web.IdentityServer.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Account.Web.IdentityServer.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpaccountsrcvoloabpaccountwebidentityservervoloabpaccountwebidentityservercsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P9["<b>📦&nbsp;Volo.Abp.Account.Web.csproj</b><br/><small>net10.0</small>"]
+        P9["<b>📦&nbsp;Nblity.Abp.Account.Web.csproj</b><br/><small>net10.0</small>"]
         click P9 "#modulesvoloabpaccountsrcvoloabpaccountwebvoloabpaccountwebcsproj"
     end
     MAIN --> P9
@@ -1050,7 +1050,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpaccountsrcvoloabpaccountwebopeniddictvoloabpaccountwebopeniddictcsproj"></a>
-### modules\Volo.Abp.Account\src\Volo.Abp.Account.Web.OpenIddict\Volo.Abp.Account.Web.OpenIddict.csproj
+### modules\Nblity.Abp.Account\src\Nblity.Abp.Account.Web.OpenIddict\Nblity.Abp.Account.Web.OpenIddict.csproj
 
 #### Project Info
 
@@ -1075,12 +1075,12 @@ flowchart TB
         P86["<b>📦&nbsp;Nblity.Blazor.csproj</b><br/><small>net10.0</small>"]
         click P86 "#srcnblityblazornblityblazorcsproj"
     end
-    subgraph current["Volo.Abp.Account.Web.OpenIddict.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Account.Web.OpenIddict.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.Account.Web.OpenIddict.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Account.Web.OpenIddict.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpaccountsrcvoloabpaccountwebopeniddictvoloabpaccountwebopeniddictcsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P9["<b>📦&nbsp;Volo.Abp.Account.Web.csproj</b><br/><small>net10.0</small>"]
+        P9["<b>📦&nbsp;Nblity.Abp.Account.Web.csproj</b><br/><small>net10.0</small>"]
         click P9 "#modulesvoloabpaccountsrcvoloabpaccountwebvoloabpaccountwebcsproj"
     end
     P86 --> MAIN
@@ -1099,7 +1099,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpaccountsrcvoloabpaccountwebvoloabpaccountwebcsproj"></a>
-### modules\Volo.Abp.Account\src\Volo.Abp.Account.Web\Volo.Abp.Account.Web.csproj
+### modules\Nblity.Abp.Account\src\Nblity.Abp.Account.Web\Nblity.Abp.Account.Web.csproj
 
 #### Project Info
 
@@ -1121,18 +1121,18 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (2)"]
-        P7["<b>📦&nbsp;Volo.Abp.Account.Web.IdentityServer.csproj</b><br/><small>net10.0</small>"]
-        P8["<b>📦&nbsp;Volo.Abp.Account.Web.OpenIddict.csproj</b><br/><small>net10.0</small>"]
+        P7["<b>📦&nbsp;Nblity.Abp.Account.Web.IdentityServer.csproj</b><br/><small>net10.0</small>"]
+        P8["<b>📦&nbsp;Nblity.Abp.Account.Web.OpenIddict.csproj</b><br/><small>net10.0</small>"]
         click P7 "#modulesvoloabpaccountsrcvoloabpaccountwebidentityservervoloabpaccountwebidentityservercsproj"
         click P8 "#modulesvoloabpaccountsrcvoloabpaccountwebopeniddictvoloabpaccountwebopeniddictcsproj"
     end
-    subgraph current["Volo.Abp.Account.Web.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Account.Web.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.Account.Web.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Account.Web.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpaccountsrcvoloabpaccountwebvoloabpaccountwebcsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P25["<b>📦&nbsp;Volo.Abp.Identity.AspNetCore.csproj</b><br/><small>net10.0</small>"]
-        P1["<b>📦&nbsp;Volo.Abp.Account.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P25["<b>📦&nbsp;Nblity.Abp.Identity.AspNetCore.csproj</b><br/><small>net10.0</small>"]
+        P1["<b>📦&nbsp;Nblity.Abp.Account.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P25 "#modulesvoloabpidentitysrcvoloabpidentityaspnetcorevoloabpidentityaspnetcorecsproj"
         click P1 "#modulesvoloabpaccountsrcvoloabpaccountapplicationcontractsvoloabpaccountapplicationcontractscsproj"
     end
@@ -1154,7 +1154,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationcontractsvoloabpfeaturemanagementapplicationcontractscsproj"></a>
-### modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Application.Contracts\Volo.Abp.FeatureManagement.Application.Contracts.csproj
+### modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Application.Contracts\Nblity.Abp.FeatureManagement.Application.Contracts.csproj
 
 #### Project Info
 
@@ -1178,11 +1178,11 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (6)"]
-        P11["<b>📦&nbsp;Volo.Abp.FeatureManagement.Application.csproj</b><br/><small>net10.0</small>"]
-        P14["<b>📦&nbsp;Volo.Abp.FeatureManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
-        P18["<b>📦&nbsp;Volo.Abp.FeatureManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P19["<b>📦&nbsp;Volo.Abp.FeatureManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
-        P22["<b>📦&nbsp;Volo.Abp.FeatureManagement.Web.csproj</b><br/><small>net10.0</small>"]
+        P11["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Application.csproj</b><br/><small>net10.0</small>"]
+        P14["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+        P18["<b>📦&nbsp;Nblity.Abp.FeatureManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P19["<b>📦&nbsp;Nblity.Abp.FeatureManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
+        P22["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Web.csproj</b><br/><small>net10.0</small>"]
         P83["<b>📦&nbsp;Nblity.Application.Contracts.csproj</b><br/><small>net10.0</small>"]
         click P11 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationvoloabpfeaturemanagementapplicationcsproj"
         click P14 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorvoloabpfeaturemanagementblazorcsproj"
@@ -1191,12 +1191,12 @@ flowchart TB
         click P22 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementwebvoloabpfeaturemanagementwebcsproj"
         click P83 "#srcnblityapplicationcontractsnblityapplicationcontractscsproj"
     end
-    subgraph current["Volo.Abp.FeatureManagement.Application.Contracts.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.FeatureManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.FeatureManagement.Application.Contracts.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationcontractsvoloabpfeaturemanagementapplicationcontractscsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P15["<b>📦&nbsp;Volo.Abp.FeatureManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P15["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P15 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainsharedvoloabpfeaturemanagementdomainsharedcsproj"
     end
     P11 --> MAIN
@@ -1220,7 +1220,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***124*** |  |
 
 <a id="modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationvoloabpfeaturemanagementapplicationcsproj"></a>
-### modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Application\Volo.Abp.FeatureManagement.Application.csproj
+### modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Application\Nblity.Abp.FeatureManagement.Application.csproj
 
 #### Project Info
 
@@ -1245,13 +1245,13 @@ flowchart TB
         P84["<b>📦&nbsp;Nblity.Application.csproj</b><br/><small>net10.0</small>"]
         click P84 "#srcnblityapplicationnblityapplicationcsproj"
     end
-    subgraph current["Volo.Abp.FeatureManagement.Application.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.FeatureManagement.Application.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.FeatureManagement.Application.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Application.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationvoloabpfeaturemanagementapplicationcsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P10["<b>📦&nbsp;Volo.Abp.FeatureManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P16["<b>📦&nbsp;Volo.Abp.FeatureManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P10["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P16["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P10 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationcontractsvoloabpfeaturemanagementapplicationcontractscsproj"
         click P16 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainvoloabpfeaturemanagementdomaincsproj"
     end
@@ -1272,7 +1272,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorservervoloabpfeaturemanagementblazorservercsproj"></a>
-### modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Blazor.Server\Volo.Abp.FeatureManagement.Blazor.Server.csproj
+### modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Blazor.Server\Nblity.Abp.FeatureManagement.Blazor.Server.csproj
 
 #### Project Info
 
@@ -1294,15 +1294,15 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (1)"]
-        P72["<b>📦&nbsp;Volo.Abp.TenantManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
+        P72["<b>📦&nbsp;Nblity.Abp.TenantManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
         click P72 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorservervoloabptenantmanagementblazorservercsproj"
     end
-    subgraph current["Volo.Abp.FeatureManagement.Blazor.Server.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.FeatureManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.FeatureManagement.Blazor.Server.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorservervoloabpfeaturemanagementblazorservercsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P14["<b>📦&nbsp;Volo.Abp.FeatureManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+        P14["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
         click P14 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorvoloabpfeaturemanagementblazorcsproj"
     end
     P72 --> MAIN
@@ -1321,7 +1321,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorwebassemblyvoloabpfeaturemanagementblazorwebassemblycsproj"></a>
-### modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Blazor.WebAssembly\Volo.Abp.FeatureManagement.Blazor.WebAssembly.csproj
+### modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Blazor.WebAssembly\Nblity.Abp.FeatureManagement.Blazor.WebAssembly.csproj
 
 #### Project Info
 
@@ -1343,18 +1343,18 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (2)"]
-        P73["<b>📦&nbsp;Volo.Abp.TenantManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+        P73["<b>📦&nbsp;Nblity.Abp.TenantManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
         P85["<b>📦&nbsp;Nblity.Blazor.Client.csproj</b><br/><small>net10.0</small>"]
         click P73 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorwebassemblyvoloabptenantmanagementblazorwebassemblycsproj"
         click P85 "#srcnblityblazorclientnblityblazorclientcsproj"
     end
-    subgraph current["Volo.Abp.FeatureManagement.Blazor.WebAssembly.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.FeatureManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.FeatureManagement.Blazor.WebAssembly.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorwebassemblyvoloabpfeaturemanagementblazorwebassemblycsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P14["<b>📦&nbsp;Volo.Abp.FeatureManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
-        P18["<b>📦&nbsp;Volo.Abp.FeatureManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P14["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+        P18["<b>📦&nbsp;Nblity.Abp.FeatureManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P14 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorvoloabpfeaturemanagementblazorcsproj"
         click P18 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementhttpapiclientvoloabpfeaturemanagementhttpapiclientcsproj"
     end
@@ -1376,7 +1376,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorvoloabpfeaturemanagementblazorcsproj"></a>
-### modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Blazor\Volo.Abp.FeatureManagement.Blazor.csproj
+### modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Blazor\Nblity.Abp.FeatureManagement.Blazor.csproj
 
 #### Project Info
 
@@ -1398,20 +1398,20 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (3)"]
-        P12["<b>📦&nbsp;Volo.Abp.FeatureManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
-        P13["<b>📦&nbsp;Volo.Abp.FeatureManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
-        P74["<b>📦&nbsp;Volo.Abp.TenantManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+        P12["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
+        P13["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+        P74["<b>📦&nbsp;Nblity.Abp.TenantManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
         click P12 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorservervoloabpfeaturemanagementblazorservercsproj"
         click P13 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorwebassemblyvoloabpfeaturemanagementblazorwebassemblycsproj"
         click P74 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorvoloabptenantmanagementblazorcsproj"
     end
-    subgraph current["Volo.Abp.FeatureManagement.Blazor.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.FeatureManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.FeatureManagement.Blazor.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorvoloabpfeaturemanagementblazorcsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P61["<b>📦&nbsp;Volo.Abp.SettingManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
-        P10["<b>📦&nbsp;Volo.Abp.FeatureManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P61["<b>📦&nbsp;Nblity.Abp.SettingManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+        P10["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P61 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorvoloabpsettingmanagementblazorcsproj"
         click P10 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationcontractsvoloabpfeaturemanagementapplicationcontractscsproj"
     end
@@ -1434,7 +1434,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainsharedvoloabpfeaturemanagementdomainsharedcsproj"></a>
-### modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Domain.Shared\Volo.Abp.FeatureManagement.Domain.Shared.csproj
+### modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Domain.Shared\Nblity.Abp.FeatureManagement.Domain.Shared.csproj
 
 #### Project Info
 
@@ -1458,15 +1458,15 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (3)"]
-        P10["<b>📦&nbsp;Volo.Abp.FeatureManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P16["<b>📦&nbsp;Volo.Abp.FeatureManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P10["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P16["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         P88["<b>📦&nbsp;Nblity.Domain.Shared.csproj</b><br/><small>net10.0</small>"]
         click P10 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationcontractsvoloabpfeaturemanagementapplicationcontractscsproj"
         click P16 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainvoloabpfeaturemanagementdomaincsproj"
         click P88 "#srcnblitydomainsharednblitydomainsharedcsproj"
     end
-    subgraph current["Volo.Abp.FeatureManagement.Domain.Shared.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.FeatureManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.FeatureManagement.Domain.Shared.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainsharedvoloabpfeaturemanagementdomainsharedcsproj"
     end
     P10 --> MAIN
@@ -1486,7 +1486,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***421*** |  |
 
 <a id="modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainvoloabpfeaturemanagementdomaincsproj"></a>
-### modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Domain\Volo.Abp.FeatureManagement.Domain.csproj
+### modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Domain\Nblity.Abp.FeatureManagement.Domain.csproj
 
 #### Project Info
 
@@ -1510,21 +1510,21 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (4)"]
-        P11["<b>📦&nbsp;Volo.Abp.FeatureManagement.Application.csproj</b><br/><small>net10.0</small>"]
-        P17["<b>📦&nbsp;Volo.Abp.FeatureManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
-        P21["<b>📦&nbsp;Volo.Abp.FeatureManagement.MongoDB.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P11["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Application.csproj</b><br/><small>net10.0</small>"]
+        P17["<b>📦&nbsp;Nblity.Abp.FeatureManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
+        P21["<b>📦&nbsp;Nblity.Abp.FeatureManagement.MongoDB.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         P89["<b>📦&nbsp;Nblity.Domain.csproj</b><br/><small>net10.0</small>"]
         click P11 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationvoloabpfeaturemanagementapplicationcsproj"
         click P17 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagemententityframeworkcorevoloabpfeaturemanagemententityframeworkcorecsproj"
         click P21 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementmongodbvoloabpfeaturemanagementmongodbcsproj"
         click P89 "#srcnblitydomainnblitydomaincsproj"
     end
-    subgraph current["Volo.Abp.FeatureManagement.Domain.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.FeatureManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.FeatureManagement.Domain.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainvoloabpfeaturemanagementdomaincsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P15["<b>📦&nbsp;Volo.Abp.FeatureManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P15["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P15 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainsharedvoloabpfeaturemanagementdomainsharedcsproj"
     end
     P11 --> MAIN
@@ -1546,7 +1546,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***2668*** |  |
 
 <a id="modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagemententityframeworkcorevoloabpfeaturemanagemententityframeworkcorecsproj"></a>
-### modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.EntityFrameworkCore\Volo.Abp.FeatureManagement.EntityFrameworkCore.csproj
+### modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.EntityFrameworkCore\Nblity.Abp.FeatureManagement.EntityFrameworkCore.csproj
 
 #### Project Info
 
@@ -1571,12 +1571,12 @@ flowchart TB
         P90["<b>📦&nbsp;Nblity.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
         click P90 "#srcnblityentityframeworkcorenblityentityframeworkcorecsproj"
     end
-    subgraph current["Volo.Abp.FeatureManagement.EntityFrameworkCore.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.FeatureManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.FeatureManagement.EntityFrameworkCore.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.FeatureManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagemententityframeworkcorevoloabpfeaturemanagemententityframeworkcorecsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P16["<b>📦&nbsp;Volo.Abp.FeatureManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P16["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P16 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainvoloabpfeaturemanagementdomaincsproj"
     end
     P90 --> MAIN
@@ -1595,7 +1595,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementhttpapiclientvoloabpfeaturemanagementhttpapiclientcsproj"></a>
-### modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.HttpApi.Client\Volo.Abp.FeatureManagement.HttpApi.Client.csproj
+### modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.HttpApi.Client\Nblity.Abp.FeatureManagement.HttpApi.Client.csproj
 
 #### Project Info
 
@@ -1619,17 +1619,17 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (2)"]
-        P13["<b>📦&nbsp;Volo.Abp.FeatureManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+        P13["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
         P91["<b>📦&nbsp;Nblity.HttpApi.Client.csproj</b><br/><small>net10.0</small>"]
         click P13 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorwebassemblyvoloabpfeaturemanagementblazorwebassemblycsproj"
         click P91 "#srcnblityhttpapiclientnblityhttpapiclientcsproj"
     end
-    subgraph current["Volo.Abp.FeatureManagement.HttpApi.Client.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.FeatureManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.FeatureManagement.HttpApi.Client.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.FeatureManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementhttpapiclientvoloabpfeaturemanagementhttpapiclientcsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P10["<b>📦&nbsp;Volo.Abp.FeatureManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P10["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P10 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationcontractsvoloabpfeaturemanagementapplicationcontractscsproj"
     end
     P13 --> MAIN
@@ -1649,7 +1649,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***60*** |  |
 
 <a id="modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementhttpapivoloabpfeaturemanagementhttpapicsproj"></a>
-### modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.HttpApi\Volo.Abp.FeatureManagement.HttpApi.csproj
+### modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.HttpApi\Nblity.Abp.FeatureManagement.HttpApi.csproj
 
 #### Project Info
 
@@ -1671,17 +1671,17 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (2)"]
-        P79["<b>📦&nbsp;Volo.Abp.TenantManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
+        P79["<b>📦&nbsp;Nblity.Abp.TenantManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
         P92["<b>📦&nbsp;Nblity.HttpApi.csproj</b><br/><small>net10.0</small>"]
         click P79 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementhttpapivoloabptenantmanagementhttpapicsproj"
         click P92 "#srcnblityhttpapinblityhttpapicsproj"
     end
-    subgraph current["Volo.Abp.FeatureManagement.HttpApi.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.FeatureManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.FeatureManagement.HttpApi.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.FeatureManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementhttpapivoloabpfeaturemanagementhttpapicsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P10["<b>📦&nbsp;Volo.Abp.FeatureManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P10["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P10 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationcontractsvoloabpfeaturemanagementapplicationcontractscsproj"
     end
     P79 --> MAIN
@@ -1701,7 +1701,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementinstallervoloabpfeaturemanagementinstallercsproj"></a>
-### modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Installer\Volo.Abp.FeatureManagement.Installer.csproj
+### modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Installer\Nblity.Abp.FeatureManagement.Installer.csproj
 
 #### Project Info
 
@@ -1722,8 +1722,8 @@ Legend:
 
 ```mermaid
 flowchart TB
-    subgraph current["Volo.Abp.FeatureManagement.Installer.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.FeatureManagement.Installer.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.FeatureManagement.Installer.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Installer.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementinstallervoloabpfeaturemanagementinstallercsproj"
     end
 
@@ -1740,7 +1740,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementmongodbvoloabpfeaturemanagementmongodbcsproj"></a>
-### modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.MongoDB\Volo.Abp.FeatureManagement.MongoDB.csproj
+### modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.MongoDB\Nblity.Abp.FeatureManagement.MongoDB.csproj
 
 #### Project Info
 
@@ -1763,12 +1763,12 @@ Legend:
 
 ```mermaid
 flowchart TB
-    subgraph current["Volo.Abp.FeatureManagement.MongoDB.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.FeatureManagement.MongoDB.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.FeatureManagement.MongoDB.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.FeatureManagement.MongoDB.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementmongodbvoloabpfeaturemanagementmongodbcsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P16["<b>📦&nbsp;Volo.Abp.FeatureManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P16["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P16 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainvoloabpfeaturemanagementdomaincsproj"
     end
     MAIN --> P16
@@ -1786,7 +1786,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***181*** |  |
 
 <a id="modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementwebvoloabpfeaturemanagementwebcsproj"></a>
-### modules\Volo.Abp.FeatureManagement\src\Volo.Abp.FeatureManagement.Web\Volo.Abp.FeatureManagement.Web.csproj
+### modules\Nblity.Abp.FeatureManagement\src\Nblity.Abp.FeatureManagement.Web\Nblity.Abp.FeatureManagement.Web.csproj
 
 #### Project Info
 
@@ -1808,16 +1808,16 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (1)"]
-        P82["<b>📦&nbsp;Volo.Abp.TenantManagement.Web.csproj</b><br/><small>net10.0</small>"]
+        P82["<b>📦&nbsp;Nblity.Abp.TenantManagement.Web.csproj</b><br/><small>net10.0</small>"]
         click P82 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementwebvoloabptenantmanagementwebcsproj"
     end
-    subgraph current["Volo.Abp.FeatureManagement.Web.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.FeatureManagement.Web.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.FeatureManagement.Web.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Web.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementwebvoloabpfeaturemanagementwebcsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P10["<b>📦&nbsp;Volo.Abp.FeatureManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P69["<b>📦&nbsp;Volo.Abp.SettingManagement.Web.csproj</b><br/><small>net10.0</small>"]
+        P10["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P69["<b>📦&nbsp;Nblity.Abp.SettingManagement.Web.csproj</b><br/><small>net10.0</small>"]
         click P10 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationcontractsvoloabpfeaturemanagementapplicationcontractscsproj"
         click P69 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementwebvoloabpsettingmanagementwebcsproj"
     end
@@ -1838,7 +1838,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpidentitysrcvoloabpidentityapplicationcontractsvoloabpidentityapplicationcontractscsproj"></a>
-### modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Application.Contracts\Volo.Abp.Identity.Application.Contracts.csproj
+### modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Application.Contracts\Nblity.Abp.Identity.Application.Contracts.csproj
 
 #### Project Info
 
@@ -1862,12 +1862,12 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (7)"]
-        P1["<b>📦&nbsp;Volo.Abp.Account.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P24["<b>📦&nbsp;Volo.Abp.Identity.Application.csproj</b><br/><small>net10.0</small>"]
-        P28["<b>📦&nbsp;Volo.Abp.Identity.Blazor.csproj</b><br/><small>net10.0</small>"]
-        P32["<b>📦&nbsp;Volo.Abp.Identity.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P33["<b>📦&nbsp;Volo.Abp.Identity.HttpApi.csproj</b><br/><small>net10.0</small>"]
-        P36["<b>📦&nbsp;Volo.Abp.Identity.Web.csproj</b><br/><small>net10.0</small>"]
+        P1["<b>📦&nbsp;Nblity.Abp.Account.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P24["<b>📦&nbsp;Nblity.Abp.Identity.Application.csproj</b><br/><small>net10.0</small>"]
+        P28["<b>📦&nbsp;Nblity.Abp.Identity.Blazor.csproj</b><br/><small>net10.0</small>"]
+        P32["<b>📦&nbsp;Nblity.Abp.Identity.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P33["<b>📦&nbsp;Nblity.Abp.Identity.HttpApi.csproj</b><br/><small>net10.0</small>"]
+        P36["<b>📦&nbsp;Nblity.Abp.Identity.Web.csproj</b><br/><small>net10.0</small>"]
         P83["<b>📦&nbsp;Nblity.Application.Contracts.csproj</b><br/><small>net10.0</small>"]
         click P1 "#modulesvoloabpaccountsrcvoloabpaccountapplicationcontractsvoloabpaccountapplicationcontractscsproj"
         click P24 "#modulesvoloabpidentitysrcvoloabpidentityapplicationvoloabpidentityapplicationcsproj"
@@ -1877,13 +1877,13 @@ flowchart TB
         click P36 "#modulesvoloabpidentitysrcvoloabpidentitywebvoloabpidentitywebcsproj"
         click P83 "#srcnblityapplicationcontractsnblityapplicationcontractscsproj"
     end
-    subgraph current["Volo.Abp.Identity.Application.Contracts.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Identity.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.Identity.Application.Contracts.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Identity.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabpidentitysrcvoloabpidentityapplicationcontractsvoloabpidentityapplicationcontractscsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P29["<b>📦&nbsp;Volo.Abp.Identity.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P44["<b>📦&nbsp;Volo.Abp.PermissionManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P29["<b>📦&nbsp;Nblity.Abp.Identity.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P44["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P29 "#modulesvoloabpidentitysrcvoloabpidentitydomainsharedvoloabpidentitydomainsharedcsproj"
         click P44 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationcontractsvoloabppermissionmanagementapplicationcontractscsproj"
     end
@@ -1910,7 +1910,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***358*** |  |
 
 <a id="modulesvoloabpidentitysrcvoloabpidentityapplicationvoloabpidentityapplicationcsproj"></a>
-### modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Application\Volo.Abp.Identity.Application.csproj
+### modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Application\Nblity.Abp.Identity.Application.csproj
 
 #### Project Info
 
@@ -1932,19 +1932,19 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (2)"]
-        P2["<b>📦&nbsp;Volo.Abp.Account.Application.csproj</b><br/><small>net10.0</small>"]
+        P2["<b>📦&nbsp;Nblity.Abp.Account.Application.csproj</b><br/><small>net10.0</small>"]
         P84["<b>📦&nbsp;Nblity.Application.csproj</b><br/><small>net10.0</small>"]
         click P2 "#modulesvoloabpaccountsrcvoloabpaccountapplicationvoloabpaccountapplicationcsproj"
         click P84 "#srcnblityapplicationnblityapplicationcsproj"
     end
-    subgraph current["Volo.Abp.Identity.Application.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Identity.Application.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.Identity.Application.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Identity.Application.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpidentitysrcvoloabpidentityapplicationvoloabpidentityapplicationcsproj"
     end
     subgraph downstream["Dependencies (3"]
-        P23["<b>📦&nbsp;Volo.Abp.Identity.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P30["<b>📦&nbsp;Volo.Abp.Identity.Domain.csproj</b><br/><small>net10.0</small>"]
-        P45["<b>📦&nbsp;Volo.Abp.PermissionManagement.Application.csproj</b><br/><small>net10.0</small>"]
+        P23["<b>📦&nbsp;Nblity.Abp.Identity.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P30["<b>📦&nbsp;Nblity.Abp.Identity.Domain.csproj</b><br/><small>net10.0</small>"]
+        P45["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Application.csproj</b><br/><small>net10.0</small>"]
         click P23 "#modulesvoloabpidentitysrcvoloabpidentityapplicationcontractsvoloabpidentityapplicationcontractscsproj"
         click P30 "#modulesvoloabpidentitysrcvoloabpidentitydomainvoloabpidentitydomaincsproj"
         click P45 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationvoloabppermissionmanagementapplicationcsproj"
@@ -1968,7 +1968,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpidentitysrcvoloabpidentityaspnetcorevoloabpidentityaspnetcorecsproj"></a>
-### modules\Volo.Abp.Identity\src\Volo.Abp.Identity.AspNetCore\Volo.Abp.Identity.AspNetCore.csproj
+### modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.AspNetCore\Nblity.Abp.Identity.AspNetCore.csproj
 
 #### Project Info
 
@@ -1990,15 +1990,15 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (1)"]
-        P9["<b>📦&nbsp;Volo.Abp.Account.Web.csproj</b><br/><small>net10.0</small>"]
+        P9["<b>📦&nbsp;Nblity.Abp.Account.Web.csproj</b><br/><small>net10.0</small>"]
         click P9 "#modulesvoloabpaccountsrcvoloabpaccountwebvoloabpaccountwebcsproj"
     end
-    subgraph current["Volo.Abp.Identity.AspNetCore.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Identity.AspNetCore.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.Identity.AspNetCore.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Identity.AspNetCore.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpidentitysrcvoloabpidentityaspnetcorevoloabpidentityaspnetcorecsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P30["<b>📦&nbsp;Volo.Abp.Identity.Domain.csproj</b><br/><small>net10.0</small>"]
+        P30["<b>📦&nbsp;Nblity.Abp.Identity.Domain.csproj</b><br/><small>net10.0</small>"]
         click P30 "#modulesvoloabpidentitysrcvoloabpidentitydomainvoloabpidentitydomaincsproj"
     end
     P9 --> MAIN
@@ -2017,7 +2017,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpidentitysrcvoloabpidentityblazorservervoloabpidentityblazorservercsproj"></a>
-### modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Blazor.Server\Volo.Abp.Identity.Blazor.Server.csproj
+### modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Blazor.Server\Nblity.Abp.Identity.Blazor.Server.csproj
 
 #### Project Info
 
@@ -2042,13 +2042,13 @@ flowchart TB
         P86["<b>📦&nbsp;Nblity.Blazor.csproj</b><br/><small>net10.0</small>"]
         click P86 "#srcnblityblazornblityblazorcsproj"
     end
-    subgraph current["Volo.Abp.Identity.Blazor.Server.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Identity.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.Identity.Blazor.Server.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Identity.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpidentitysrcvoloabpidentityblazorservervoloabpidentityblazorservercsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P28["<b>📦&nbsp;Volo.Abp.Identity.Blazor.csproj</b><br/><small>net10.0</small>"]
-        P46["<b>📦&nbsp;Volo.Abp.PermissionManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
+        P28["<b>📦&nbsp;Nblity.Abp.Identity.Blazor.csproj</b><br/><small>net10.0</small>"]
+        P46["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
         click P28 "#modulesvoloabpidentitysrcvoloabpidentityblazorvoloabpidentityblazorcsproj"
         click P46 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorservervoloabppermissionmanagementblazorservercsproj"
     end
@@ -2069,7 +2069,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpidentitysrcvoloabpidentityblazorwebassemblyvoloabpidentityblazorwebassemblycsproj"></a>
-### modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Blazor.WebAssembly\Volo.Abp.Identity.Blazor.WebAssembly.csproj
+### modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Blazor.WebAssembly\Nblity.Abp.Identity.Blazor.WebAssembly.csproj
 
 #### Project Info
 
@@ -2094,14 +2094,14 @@ flowchart TB
         P85["<b>📦&nbsp;Nblity.Blazor.Client.csproj</b><br/><small>net10.0</small>"]
         click P85 "#srcnblityblazorclientnblityblazorclientcsproj"
     end
-    subgraph current["Volo.Abp.Identity.Blazor.WebAssembly.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Identity.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.Identity.Blazor.WebAssembly.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Identity.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpidentitysrcvoloabpidentityblazorwebassemblyvoloabpidentityblazorwebassemblycsproj"
     end
     subgraph downstream["Dependencies (3"]
-        P47["<b>📦&nbsp;Volo.Abp.PermissionManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
-        P28["<b>📦&nbsp;Volo.Abp.Identity.Blazor.csproj</b><br/><small>net10.0</small>"]
-        P32["<b>📦&nbsp;Volo.Abp.Identity.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P47["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+        P28["<b>📦&nbsp;Nblity.Abp.Identity.Blazor.csproj</b><br/><small>net10.0</small>"]
+        P32["<b>📦&nbsp;Nblity.Abp.Identity.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P47 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorwebassemblyvoloabppermissionmanagementblazorwebassemblycsproj"
         click P28 "#modulesvoloabpidentitysrcvoloabpidentityblazorvoloabpidentityblazorcsproj"
         click P32 "#modulesvoloabpidentitysrcvoloabpidentityhttpapiclientvoloabpidentityhttpapiclientcsproj"
@@ -2124,7 +2124,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpidentitysrcvoloabpidentityblazorvoloabpidentityblazorcsproj"></a>
-### modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Blazor\Volo.Abp.Identity.Blazor.csproj
+### modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Blazor\Nblity.Abp.Identity.Blazor.csproj
 
 #### Project Info
 
@@ -2146,18 +2146,18 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (2)"]
-        P26["<b>📦&nbsp;Volo.Abp.Identity.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
-        P27["<b>📦&nbsp;Volo.Abp.Identity.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+        P26["<b>📦&nbsp;Nblity.Abp.Identity.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
+        P27["<b>📦&nbsp;Nblity.Abp.Identity.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
         click P26 "#modulesvoloabpidentitysrcvoloabpidentityblazorservervoloabpidentityblazorservercsproj"
         click P27 "#modulesvoloabpidentitysrcvoloabpidentityblazorwebassemblyvoloabpidentityblazorwebassemblycsproj"
     end
-    subgraph current["Volo.Abp.Identity.Blazor.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Identity.Blazor.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.Identity.Blazor.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Identity.Blazor.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpidentitysrcvoloabpidentityblazorvoloabpidentityblazorcsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P48["<b>📦&nbsp;Volo.Abp.PermissionManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
-        P23["<b>📦&nbsp;Volo.Abp.Identity.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P48["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+        P23["<b>📦&nbsp;Nblity.Abp.Identity.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P48 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorvoloabppermissionmanagementblazorcsproj"
         click P23 "#modulesvoloabpidentitysrcvoloabpidentityapplicationcontractsvoloabpidentityapplicationcontractscsproj"
     end
@@ -2179,7 +2179,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpidentitysrcvoloabpidentitydomainsharedvoloabpidentitydomainsharedcsproj"></a>
-### modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Domain.Shared\Volo.Abp.Identity.Domain.Shared.csproj
+### modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Domain.Shared\Nblity.Abp.Identity.Domain.Shared.csproj
 
 #### Project Info
 
@@ -2203,17 +2203,17 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (4)"]
-        P23["<b>📦&nbsp;Volo.Abp.Identity.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P30["<b>📦&nbsp;Volo.Abp.Identity.Domain.csproj</b><br/><small>net10.0</small>"]
-        P37["<b>📦&nbsp;Volo.Abp.PermissionManagement.Domain.Identity.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P23["<b>📦&nbsp;Nblity.Abp.Identity.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P30["<b>📦&nbsp;Nblity.Abp.Identity.Domain.csproj</b><br/><small>net10.0</small>"]
+        P37["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Domain.Identity.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         P88["<b>📦&nbsp;Nblity.Domain.Shared.csproj</b><br/><small>net10.0</small>"]
         click P23 "#modulesvoloabpidentitysrcvoloabpidentityapplicationcontractsvoloabpidentityapplicationcontractscsproj"
         click P30 "#modulesvoloabpidentitysrcvoloabpidentitydomainvoloabpidentitydomaincsproj"
         click P37 "#modulesvoloabpidentitysrcvoloabppermissionmanagementdomainidentityvoloabppermissionmanagementdomainidentitycsproj"
         click P88 "#srcnblitydomainsharednblitydomainsharedcsproj"
     end
-    subgraph current["Volo.Abp.Identity.Domain.Shared.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Identity.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.Identity.Domain.Shared.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Identity.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabpidentitysrcvoloabpidentitydomainsharedvoloabpidentitydomainsharedcsproj"
     end
     P23 --> MAIN
@@ -2234,7 +2234,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***514*** |  |
 
 <a id="modulesvoloabpidentitysrcvoloabpidentitydomainvoloabpidentitydomaincsproj"></a>
-### modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Domain\Volo.Abp.Identity.Domain.csproj
+### modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Domain\Nblity.Abp.Identity.Domain.csproj
 
 #### Project Info
 
@@ -2256,10 +2256,10 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (5)"]
-        P24["<b>📦&nbsp;Volo.Abp.Identity.Application.csproj</b><br/><small>net10.0</small>"]
-        P25["<b>📦&nbsp;Volo.Abp.Identity.AspNetCore.csproj</b><br/><small>net10.0</small>"]
-        P31["<b>📦&nbsp;Volo.Abp.Identity.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
-        P35["<b>📦&nbsp;Volo.Abp.Identity.MongoDB.csproj</b><br/><small>net10.0</small>"]
+        P24["<b>📦&nbsp;Nblity.Abp.Identity.Application.csproj</b><br/><small>net10.0</small>"]
+        P25["<b>📦&nbsp;Nblity.Abp.Identity.AspNetCore.csproj</b><br/><small>net10.0</small>"]
+        P31["<b>📦&nbsp;Nblity.Abp.Identity.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
+        P35["<b>📦&nbsp;Nblity.Abp.Identity.MongoDB.csproj</b><br/><small>net10.0</small>"]
         P89["<b>📦&nbsp;Nblity.Domain.csproj</b><br/><small>net10.0</small>"]
         click P24 "#modulesvoloabpidentitysrcvoloabpidentityapplicationvoloabpidentityapplicationcsproj"
         click P25 "#modulesvoloabpidentitysrcvoloabpidentityaspnetcorevoloabpidentityaspnetcorecsproj"
@@ -2267,12 +2267,12 @@ flowchart TB
         click P35 "#modulesvoloabpidentitysrcvoloabpidentitymongodbvoloabpidentitymongodbcsproj"
         click P89 "#srcnblitydomainnblitydomaincsproj"
     end
-    subgraph current["Volo.Abp.Identity.Domain.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Identity.Domain.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.Identity.Domain.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Identity.Domain.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpidentitysrcvoloabpidentitydomainvoloabpidentitydomaincsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P29["<b>📦&nbsp;Volo.Abp.Identity.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P29["<b>📦&nbsp;Nblity.Abp.Identity.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P29 "#modulesvoloabpidentitysrcvoloabpidentitydomainsharedvoloabpidentitydomainsharedcsproj"
     end
     P24 --> MAIN
@@ -2295,7 +2295,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpidentitysrcvoloabpidentityentityframeworkcorevoloabpidentityentityframeworkcorecsproj"></a>
-### modules\Volo.Abp.Identity\src\Volo.Abp.Identity.EntityFrameworkCore\Volo.Abp.Identity.EntityFrameworkCore.csproj
+### modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.EntityFrameworkCore\Nblity.Abp.Identity.EntityFrameworkCore.csproj
 
 #### Project Info
 
@@ -2320,12 +2320,12 @@ flowchart TB
         P90["<b>📦&nbsp;Nblity.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
         click P90 "#srcnblityentityframeworkcorenblityentityframeworkcorecsproj"
     end
-    subgraph current["Volo.Abp.Identity.EntityFrameworkCore.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Identity.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.Identity.EntityFrameworkCore.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Identity.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpidentitysrcvoloabpidentityentityframeworkcorevoloabpidentityentityframeworkcorecsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P30["<b>📦&nbsp;Volo.Abp.Identity.Domain.csproj</b><br/><small>net10.0</small>"]
+        P30["<b>📦&nbsp;Nblity.Abp.Identity.Domain.csproj</b><br/><small>net10.0</small>"]
         click P30 "#modulesvoloabpidentitysrcvoloabpidentitydomainvoloabpidentitydomaincsproj"
     end
     P90 --> MAIN
@@ -2344,7 +2344,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpidentitysrcvoloabpidentityhttpapiclientvoloabpidentityhttpapiclientcsproj"></a>
-### modules\Volo.Abp.Identity\src\Volo.Abp.Identity.HttpApi.Client\Volo.Abp.Identity.HttpApi.Client.csproj
+### modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.HttpApi.Client\Nblity.Abp.Identity.HttpApi.Client.csproj
 
 #### Project Info
 
@@ -2368,17 +2368,17 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (2)"]
-        P27["<b>📦&nbsp;Volo.Abp.Identity.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+        P27["<b>📦&nbsp;Nblity.Abp.Identity.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
         P91["<b>📦&nbsp;Nblity.HttpApi.Client.csproj</b><br/><small>net10.0</small>"]
         click P27 "#modulesvoloabpidentitysrcvoloabpidentityblazorwebassemblyvoloabpidentityblazorwebassemblycsproj"
         click P91 "#srcnblityhttpapiclientnblityhttpapiclientcsproj"
     end
-    subgraph current["Volo.Abp.Identity.HttpApi.Client.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Identity.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.Identity.HttpApi.Client.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Identity.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabpidentitysrcvoloabpidentityhttpapiclientvoloabpidentityhttpapiclientcsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P23["<b>📦&nbsp;Volo.Abp.Identity.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P23["<b>📦&nbsp;Nblity.Abp.Identity.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P23 "#modulesvoloabpidentitysrcvoloabpidentityapplicationcontractsvoloabpidentityapplicationcontractscsproj"
     end
     P27 --> MAIN
@@ -2398,7 +2398,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***429*** |  |
 
 <a id="modulesvoloabpidentitysrcvoloabpidentityhttpapivoloabpidentityhttpapicsproj"></a>
-### modules\Volo.Abp.Identity\src\Volo.Abp.Identity.HttpApi\Volo.Abp.Identity.HttpApi.csproj
+### modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.HttpApi\Nblity.Abp.Identity.HttpApi.csproj
 
 #### Project Info
 
@@ -2420,17 +2420,17 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (2)"]
-        P5["<b>📦&nbsp;Volo.Abp.Account.HttpApi.csproj</b><br/><small>net10.0</small>"]
+        P5["<b>📦&nbsp;Nblity.Abp.Account.HttpApi.csproj</b><br/><small>net10.0</small>"]
         P92["<b>📦&nbsp;Nblity.HttpApi.csproj</b><br/><small>net10.0</small>"]
         click P5 "#modulesvoloabpaccountsrcvoloabpaccounthttpapivoloabpaccounthttpapicsproj"
         click P92 "#srcnblityhttpapinblityhttpapicsproj"
     end
-    subgraph current["Volo.Abp.Identity.HttpApi.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Identity.HttpApi.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.Identity.HttpApi.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Identity.HttpApi.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpidentitysrcvoloabpidentityhttpapivoloabpidentityhttpapicsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P23["<b>📦&nbsp;Volo.Abp.Identity.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P23["<b>📦&nbsp;Nblity.Abp.Identity.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P23 "#modulesvoloabpidentitysrcvoloabpidentityapplicationcontractsvoloabpidentityapplicationcontractscsproj"
     end
     P5 --> MAIN
@@ -2450,7 +2450,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpidentitysrcvoloabpidentityinstallervoloabpidentityinstallercsproj"></a>
-### modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Installer\Volo.Abp.Identity.Installer.csproj
+### modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Installer\Nblity.Abp.Identity.Installer.csproj
 
 #### Project Info
 
@@ -2471,8 +2471,8 @@ Legend:
 
 ```mermaid
 flowchart TB
-    subgraph current["Volo.Abp.Identity.Installer.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Identity.Installer.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.Identity.Installer.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Identity.Installer.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpidentitysrcvoloabpidentityinstallervoloabpidentityinstallercsproj"
     end
 
@@ -2489,7 +2489,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpidentitysrcvoloabpidentitymongodbvoloabpidentitymongodbcsproj"></a>
-### modules\Volo.Abp.Identity\src\Volo.Abp.Identity.MongoDB\Volo.Abp.Identity.MongoDB.csproj
+### modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.MongoDB\Nblity.Abp.Identity.MongoDB.csproj
 
 #### Project Info
 
@@ -2510,12 +2510,12 @@ Legend:
 
 ```mermaid
 flowchart TB
-    subgraph current["Volo.Abp.Identity.MongoDB.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Identity.MongoDB.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.Identity.MongoDB.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Identity.MongoDB.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpidentitysrcvoloabpidentitymongodbvoloabpidentitymongodbcsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P30["<b>📦&nbsp;Volo.Abp.Identity.Domain.csproj</b><br/><small>net10.0</small>"]
+        P30["<b>📦&nbsp;Nblity.Abp.Identity.Domain.csproj</b><br/><small>net10.0</small>"]
         click P30 "#modulesvoloabpidentitysrcvoloabpidentitydomainvoloabpidentitydomaincsproj"
     end
     MAIN --> P30
@@ -2533,7 +2533,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpidentitysrcvoloabpidentitywebvoloabpidentitywebcsproj"></a>
-### modules\Volo.Abp.Identity\src\Volo.Abp.Identity.Web\Volo.Abp.Identity.Web.csproj
+### modules\Nblity.Abp.Identity\src\Nblity.Abp.Identity.Web\Nblity.Abp.Identity.Web.csproj
 
 #### Project Info
 
@@ -2554,13 +2554,13 @@ Legend:
 
 ```mermaid
 flowchart TB
-    subgraph current["Volo.Abp.Identity.Web.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.Identity.Web.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.Identity.Web.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.Identity.Web.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpidentitysrcvoloabpidentitywebvoloabpidentitywebcsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P56["<b>📦&nbsp;Volo.Abp.PermissionManagement.Web.csproj</b><br/><small>net10.0</small>"]
-        P23["<b>📦&nbsp;Volo.Abp.Identity.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P56["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Web.csproj</b><br/><small>net10.0</small>"]
+        P23["<b>📦&nbsp;Nblity.Abp.Identity.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P56 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementwebvoloabppermissionmanagementwebcsproj"
         click P23 "#modulesvoloabpidentitysrcvoloabpidentityapplicationcontractsvoloabpidentityapplicationcontractscsproj"
     end
@@ -2580,7 +2580,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpidentitysrcvoloabppermissionmanagementdomainidentityvoloabppermissionmanagementdomainidentitycsproj"></a>
-### modules\Volo.Abp.Identity\src\Volo.Abp.PermissionManagement.Domain.Identity\Volo.Abp.PermissionManagement.Domain.Identity.csproj
+### modules\Nblity.Abp.Identity\src\Nblity.Abp.PermissionManagement.Domain.Identity\Nblity.Abp.PermissionManagement.Domain.Identity.csproj
 
 #### Project Info
 
@@ -2607,13 +2607,13 @@ flowchart TB
         P89["<b>📦&nbsp;Nblity.Domain.csproj</b><br/><small>net10.0</small>"]
         click P89 "#srcnblitydomainnblitydomaincsproj"
     end
-    subgraph current["Volo.Abp.PermissionManagement.Domain.Identity.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.PermissionManagement.Domain.Identity.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.PermissionManagement.Domain.Identity.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Domain.Identity.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabpidentitysrcvoloabppermissionmanagementdomainidentityvoloabppermissionmanagementdomainidentitycsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P29["<b>📦&nbsp;Volo.Abp.Identity.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P50["<b>📦&nbsp;Volo.Abp.PermissionManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P29["<b>📦&nbsp;Nblity.Abp.Identity.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P50["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P29 "#modulesvoloabpidentitysrcvoloabpidentitydomainsharedvoloabpidentitydomainsharedcsproj"
         click P50 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj"
     end
@@ -2634,7 +2634,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***546*** |  |
 
 <a id="modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentsserverleptonxlitethemevoloabpaspnetcorecomponentsserverleptonxlitethemecsproj"></a>
-### modules\Volo.Abp.LeptonXLiteTheme\src\Volo.Abp.AspNetCore.Components.Server.LeptonXLiteTheme\Volo.Abp.AspNetCore.Components.Server.LeptonXLiteTheme.csproj
+### modules\Nblity.Abp.MudblazorTheme\src\Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme\Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme.csproj
 
 #### Project Info
 
@@ -2659,12 +2659,12 @@ flowchart TB
         P86["<b>📦&nbsp;Nblity.Blazor.csproj</b><br/><small>net10.0</small>"]
         click P86 "#srcnblityblazornblityblazorcsproj"
     end
-    subgraph current["Volo.Abp.AspNetCore.Components.Server.LeptonXLiteTheme.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.AspNetCore.Components.Server.LeptonXLiteTheme.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentsserverleptonxlitethemevoloabpaspnetcorecomponentsserverleptonxlitethemecsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P39["<b>📦&nbsp;Volo.Abp.AspNetCore.Components.Web.LeptonXLiteTheme.csproj</b><br/><small>net10.0</small>"]
+        P39["<b>📦&nbsp;Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme.csproj</b><br/><small>net10.0</small>"]
         click P39 "#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebleptonxlitethemevoloabpaspnetcorecomponentswebleptonxlitethemecsproj"
     end
     P86 --> MAIN
@@ -2683,7 +2683,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebleptonxlitethemevoloabpaspnetcorecomponentswebleptonxlitethemecsproj"></a>
-### modules\Volo.Abp.LeptonXLiteTheme\src\Volo.Abp.AspNetCore.Components.Web.LeptonXLiteTheme\Volo.Abp.AspNetCore.Components.Web.LeptonXLiteTheme.csproj
+### modules\Nblity.Abp.MudblazorTheme\src\Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme\Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme.csproj
 
 #### Project Info
 
@@ -2705,13 +2705,13 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (2)"]
-        P38["<b>📦&nbsp;Volo.Abp.AspNetCore.Components.Server.LeptonXLiteTheme.csproj</b><br/><small>net10.0</small>"]
-        P41["<b>📦&nbsp;Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.csproj</b><br/><small>net10.0</small>"]
+        P38["<b>📦&nbsp;Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme.csproj</b><br/><small>net10.0</small>"]
+        P41["<b>📦&nbsp;Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.csproj</b><br/><small>net10.0</small>"]
         click P38 "#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentsserverleptonxlitethemevoloabpaspnetcorecomponentsserverleptonxlitethemecsproj"
         click P41 "#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebassemblyleptonxlitethemevoloabpaspnetcorecomponentswebassemblyleptonxlitethemecsproj"
     end
-    subgraph current["Volo.Abp.AspNetCore.Components.Web.LeptonXLiteTheme.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.AspNetCore.Components.Web.LeptonXLiteTheme.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebleptonxlitethemevoloabpaspnetcorecomponentswebleptonxlitethemecsproj"
     end
     P38 --> MAIN
@@ -2730,7 +2730,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebassemblyleptonxlitethemebundlingvoloabpaspnetcorecomponentswebassemblyleptonxlitethemebundlingcsproj"></a>
-### modules\Volo.Abp.LeptonXLiteTheme\src\Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling\Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling.csproj
+### modules\Nblity.Abp.MudblazorTheme\src\Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Bundling\Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Bundling.csproj
 
 #### Project Info
 
@@ -2752,13 +2752,13 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (2)"]
-        P41["<b>📦&nbsp;Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.csproj</b><br/><small>net10.0</small>"]
+        P41["<b>📦&nbsp;Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.csproj</b><br/><small>net10.0</small>"]
         P86["<b>📦&nbsp;Nblity.Blazor.csproj</b><br/><small>net10.0</small>"]
         click P41 "#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebassemblyleptonxlitethemevoloabpaspnetcorecomponentswebassemblyleptonxlitethemecsproj"
         click P86 "#srcnblityblazornblityblazorcsproj"
     end
-    subgraph current["Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Bundling.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Bundling.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebassemblyleptonxlitethemebundlingvoloabpaspnetcorecomponentswebassemblyleptonxlitethemebundlingcsproj"
     end
     P41 --> MAIN
@@ -2777,7 +2777,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebassemblyleptonxlitethemevoloabpaspnetcorecomponentswebassemblyleptonxlitethemecsproj"></a>
-### modules\Volo.Abp.LeptonXLiteTheme\src\Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme\Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.csproj
+### modules\Nblity.Abp.MudblazorTheme\src\Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme\Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.csproj
 
 #### Project Info
 
@@ -2802,13 +2802,13 @@ flowchart TB
         P85["<b>📦&nbsp;Nblity.Blazor.Client.csproj</b><br/><small>net10.0</small>"]
         click P85 "#srcnblityblazorclientnblityblazorclientcsproj"
     end
-    subgraph current["Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebassemblyleptonxlitethemevoloabpaspnetcorecomponentswebassemblyleptonxlitethemecsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P39["<b>📦&nbsp;Volo.Abp.AspNetCore.Components.Web.LeptonXLiteTheme.csproj</b><br/><small>net10.0</small>"]
-        P40["<b>📦&nbsp;Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling.csproj</b><br/><small>net10.0</small>"]
+        P39["<b>📦&nbsp;Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme.csproj</b><br/><small>net10.0</small>"]
+        P40["<b>📦&nbsp;Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Bundling.csproj</b><br/><small>net10.0</small>"]
         click P39 "#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebleptonxlitethemevoloabpaspnetcorecomponentswebleptonxlitethemecsproj"
         click P40 "#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebassemblyleptonxlitethemebundlingvoloabpaspnetcorecomponentswebassemblyleptonxlitethemebundlingcsproj"
     end
@@ -2829,7 +2829,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpleptonxlitethemesrcvoloabpaspnetcoremvcuithemeleptonxlitevoloabpaspnetcoremvcuithemeleptonxlitecsproj"></a>
-### modules\Volo.Abp.LeptonXLiteTheme\src\Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite\Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite.csproj
+### modules\Nblity.Abp.MudblazorTheme\src\Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor\Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor.csproj
 
 #### Project Info
 
@@ -2854,8 +2854,8 @@ flowchart TB
         P86["<b>📦&nbsp;Nblity.Blazor.csproj</b><br/><small>net10.0</small>"]
         click P86 "#srcnblityblazornblityblazorcsproj"
     end
-    subgraph current["Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcoremvcuithemeleptonxlitevoloabpaspnetcoremvcuithemeleptonxlitecsproj"
     end
     P86 --> MAIN
@@ -2873,7 +2873,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpleptonxlitethemesrcvoloabpleptonxlitethemeinstallervoloabpleptonxlitethemeinstallercsproj"></a>
-### modules\Volo.Abp.LeptonXLiteTheme\src\Volo.Abp.LeptonXLiteTheme.Installer\Volo.Abp.LeptonXLiteTheme.Installer.csproj
+### modules\Nblity.Abp.MudblazorTheme\src\Nblity.Abp.MudblazorTheme.Installer\Nblity.Abp.MudblazorTheme.Installer.csproj
 
 #### Project Info
 
@@ -2894,8 +2894,8 @@ Legend:
 
 ```mermaid
 flowchart TB
-    subgraph current["Volo.Abp.LeptonXLiteTheme.Installer.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.LeptonXLiteTheme.Installer.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.MudblazorTheme.Installer.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.MudblazorTheme.Installer.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpleptonxlitethemesrcvoloabpleptonxlitethemeinstallervoloabpleptonxlitethemeinstallercsproj"
     end
 
@@ -2912,7 +2912,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationcontractsvoloabppermissionmanagementapplicationcontractscsproj"></a>
-### modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Application.Contracts\Volo.Abp.PermissionManagement.Application.Contracts.csproj
+### modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Application.Contracts\Nblity.Abp.PermissionManagement.Application.Contracts.csproj
 
 #### Project Info
 
@@ -2936,12 +2936,12 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (7)"]
-        P23["<b>📦&nbsp;Volo.Abp.Identity.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P45["<b>📦&nbsp;Volo.Abp.PermissionManagement.Application.csproj</b><br/><small>net10.0</small>"]
-        P48["<b>📦&nbsp;Volo.Abp.PermissionManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
-        P52["<b>📦&nbsp;Volo.Abp.PermissionManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P53["<b>📦&nbsp;Volo.Abp.PermissionManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
-        P56["<b>📦&nbsp;Volo.Abp.PermissionManagement.Web.csproj</b><br/><small>net10.0</small>"]
+        P23["<b>📦&nbsp;Nblity.Abp.Identity.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P45["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Application.csproj</b><br/><small>net10.0</small>"]
+        P48["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+        P52["<b>📦&nbsp;Nblity.Abp.PermissionManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P53["<b>📦&nbsp;Nblity.Abp.PermissionManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
+        P56["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Web.csproj</b><br/><small>net10.0</small>"]
         P83["<b>📦&nbsp;Nblity.Application.Contracts.csproj</b><br/><small>net10.0</small>"]
         click P23 "#modulesvoloabpidentitysrcvoloabpidentityapplicationcontractsvoloabpidentityapplicationcontractscsproj"
         click P45 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationvoloabppermissionmanagementapplicationcsproj"
@@ -2951,12 +2951,12 @@ flowchart TB
         click P56 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementwebvoloabppermissionmanagementwebcsproj"
         click P83 "#srcnblityapplicationcontractsnblityapplicationcontractscsproj"
     end
-    subgraph current["Volo.Abp.PermissionManagement.Application.Contracts.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.PermissionManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.PermissionManagement.Application.Contracts.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationcontractsvoloabppermissionmanagementapplicationcontractscsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P49["<b>📦&nbsp;Volo.Abp.PermissionManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P49["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P49 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainsharedvoloabppermissionmanagementdomainsharedcsproj"
     end
     P23 --> MAIN
@@ -2981,7 +2981,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***260*** |  |
 
 <a id="modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationvoloabppermissionmanagementapplicationcsproj"></a>
-### modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Application\Volo.Abp.PermissionManagement.Application.csproj
+### modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Application\Nblity.Abp.PermissionManagement.Application.csproj
 
 #### Project Info
 
@@ -3003,18 +3003,18 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (2)"]
-        P24["<b>📦&nbsp;Volo.Abp.Identity.Application.csproj</b><br/><small>net10.0</small>"]
+        P24["<b>📦&nbsp;Nblity.Abp.Identity.Application.csproj</b><br/><small>net10.0</small>"]
         P84["<b>📦&nbsp;Nblity.Application.csproj</b><br/><small>net10.0</small>"]
         click P24 "#modulesvoloabpidentitysrcvoloabpidentityapplicationvoloabpidentityapplicationcsproj"
         click P84 "#srcnblityapplicationnblityapplicationcsproj"
     end
-    subgraph current["Volo.Abp.PermissionManagement.Application.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.PermissionManagement.Application.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.PermissionManagement.Application.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Application.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationvoloabppermissionmanagementapplicationcsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P50["<b>📦&nbsp;Volo.Abp.PermissionManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P44["<b>📦&nbsp;Volo.Abp.PermissionManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P50["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P44["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P50 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj"
         click P44 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationcontractsvoloabppermissionmanagementapplicationcontractscsproj"
     end
@@ -3036,7 +3036,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorservervoloabppermissionmanagementblazorservercsproj"></a>
-### modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Blazor.Server\Volo.Abp.PermissionManagement.Blazor.Server.csproj
+### modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Blazor.Server\Nblity.Abp.PermissionManagement.Blazor.Server.csproj
 
 #### Project Info
 
@@ -3058,15 +3058,15 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (1)"]
-        P26["<b>📦&nbsp;Volo.Abp.Identity.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
+        P26["<b>📦&nbsp;Nblity.Abp.Identity.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
         click P26 "#modulesvoloabpidentitysrcvoloabpidentityblazorservervoloabpidentityblazorservercsproj"
     end
-    subgraph current["Volo.Abp.PermissionManagement.Blazor.Server.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.PermissionManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.PermissionManagement.Blazor.Server.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorservervoloabppermissionmanagementblazorservercsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P48["<b>📦&nbsp;Volo.Abp.PermissionManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+        P48["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
         click P48 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorvoloabppermissionmanagementblazorcsproj"
     end
     P26 --> MAIN
@@ -3085,7 +3085,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorwebassemblyvoloabppermissionmanagementblazorwebassemblycsproj"></a>
-### modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Blazor.WebAssembly\Volo.Abp.PermissionManagement.Blazor.WebAssembly.csproj
+### modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Blazor.WebAssembly\Nblity.Abp.PermissionManagement.Blazor.WebAssembly.csproj
 
 #### Project Info
 
@@ -3107,16 +3107,16 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (1)"]
-        P27["<b>📦&nbsp;Volo.Abp.Identity.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+        P27["<b>📦&nbsp;Nblity.Abp.Identity.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
         click P27 "#modulesvoloabpidentitysrcvoloabpidentityblazorwebassemblyvoloabpidentityblazorwebassemblycsproj"
     end
-    subgraph current["Volo.Abp.PermissionManagement.Blazor.WebAssembly.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.PermissionManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.PermissionManagement.Blazor.WebAssembly.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorwebassemblyvoloabppermissionmanagementblazorwebassemblycsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P48["<b>📦&nbsp;Volo.Abp.PermissionManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
-        P52["<b>📦&nbsp;Volo.Abp.PermissionManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P48["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+        P52["<b>📦&nbsp;Nblity.Abp.PermissionManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P48 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorvoloabppermissionmanagementblazorcsproj"
         click P52 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementhttpapiclientvoloabppermissionmanagementhttpapiclientcsproj"
     end
@@ -3137,7 +3137,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorvoloabppermissionmanagementblazorcsproj"></a>
-### modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Blazor\Volo.Abp.PermissionManagement.Blazor.csproj
+### modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Blazor\Nblity.Abp.PermissionManagement.Blazor.csproj
 
 #### Project Info
 
@@ -3159,19 +3159,19 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (3)"]
-        P28["<b>📦&nbsp;Volo.Abp.Identity.Blazor.csproj</b><br/><small>net10.0</small>"]
-        P46["<b>📦&nbsp;Volo.Abp.PermissionManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
-        P47["<b>📦&nbsp;Volo.Abp.PermissionManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+        P28["<b>📦&nbsp;Nblity.Abp.Identity.Blazor.csproj</b><br/><small>net10.0</small>"]
+        P46["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
+        P47["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
         click P28 "#modulesvoloabpidentitysrcvoloabpidentityblazorvoloabpidentityblazorcsproj"
         click P46 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorservervoloabppermissionmanagementblazorservercsproj"
         click P47 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorwebassemblyvoloabppermissionmanagementblazorwebassemblycsproj"
     end
-    subgraph current["Volo.Abp.PermissionManagement.Blazor.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.PermissionManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.PermissionManagement.Blazor.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorvoloabppermissionmanagementblazorcsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P44["<b>📦&nbsp;Volo.Abp.PermissionManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P44["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P44 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationcontractsvoloabppermissionmanagementapplicationcontractscsproj"
     end
     P28 --> MAIN
@@ -3192,7 +3192,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainsharedvoloabppermissionmanagementdomainsharedcsproj"></a>
-### modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Domain.Shared\Volo.Abp.PermissionManagement.Domain.Shared.csproj
+### modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Domain.Shared\Nblity.Abp.PermissionManagement.Domain.Shared.csproj
 
 #### Project Info
 
@@ -3216,15 +3216,15 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (3)"]
-        P44["<b>📦&nbsp;Volo.Abp.PermissionManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P50["<b>📦&nbsp;Volo.Abp.PermissionManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P44["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P50["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         P88["<b>📦&nbsp;Nblity.Domain.Shared.csproj</b><br/><small>net10.0</small>"]
         click P44 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationcontractsvoloabppermissionmanagementapplicationcontractscsproj"
         click P50 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj"
         click P88 "#srcnblitydomainsharednblitydomainsharedcsproj"
     end
-    subgraph current["Volo.Abp.PermissionManagement.Domain.Shared.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.PermissionManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.PermissionManagement.Domain.Shared.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainsharedvoloabppermissionmanagementdomainsharedcsproj"
     end
     P44 --> MAIN
@@ -3244,7 +3244,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***125*** |  |
 
 <a id="modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj"></a>
-### modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Domain\Volo.Abp.PermissionManagement.Domain.csproj
+### modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Domain\Nblity.Abp.PermissionManagement.Domain.csproj
 
 #### Project Info
 
@@ -3268,21 +3268,21 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (4)"]
-        P37["<b>📦&nbsp;Volo.Abp.PermissionManagement.Domain.Identity.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P45["<b>📦&nbsp;Volo.Abp.PermissionManagement.Application.csproj</b><br/><small>net10.0</small>"]
-        P51["<b>📦&nbsp;Volo.Abp.PermissionManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
-        P55["<b>📦&nbsp;Volo.Abp.PermissionManagement.MongoDB.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P37["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Domain.Identity.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P45["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Application.csproj</b><br/><small>net10.0</small>"]
+        P51["<b>📦&nbsp;Nblity.Abp.PermissionManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
+        P55["<b>📦&nbsp;Nblity.Abp.PermissionManagement.MongoDB.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P37 "#modulesvoloabpidentitysrcvoloabppermissionmanagementdomainidentityvoloabppermissionmanagementdomainidentitycsproj"
         click P45 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationvoloabppermissionmanagementapplicationcsproj"
         click P51 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagemententityframeworkcorevoloabppermissionmanagemententityframeworkcorecsproj"
         click P55 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementmongodbvoloabppermissionmanagementmongodbcsproj"
     end
-    subgraph current["Volo.Abp.PermissionManagement.Domain.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.PermissionManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.PermissionManagement.Domain.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P49["<b>📦&nbsp;Volo.Abp.PermissionManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P49["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P49 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainsharedvoloabppermissionmanagementdomainsharedcsproj"
     end
     P37 --> MAIN
@@ -3304,7 +3304,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***4254*** |  |
 
 <a id="modulesvoloabppermissionmanagementsrcvoloabppermissionmanagemententityframeworkcorevoloabppermissionmanagemententityframeworkcorecsproj"></a>
-### modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.EntityFrameworkCore\Volo.Abp.PermissionManagement.EntityFrameworkCore.csproj
+### modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.EntityFrameworkCore\Nblity.Abp.PermissionManagement.EntityFrameworkCore.csproj
 
 #### Project Info
 
@@ -3329,12 +3329,12 @@ flowchart TB
         P90["<b>📦&nbsp;Nblity.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
         click P90 "#srcnblityentityframeworkcorenblityentityframeworkcorecsproj"
     end
-    subgraph current["Volo.Abp.PermissionManagement.EntityFrameworkCore.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.PermissionManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.PermissionManagement.EntityFrameworkCore.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.PermissionManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagemententityframeworkcorevoloabppermissionmanagemententityframeworkcorecsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P50["<b>📦&nbsp;Volo.Abp.PermissionManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P50["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P50 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj"
     end
     P90 --> MAIN
@@ -3353,7 +3353,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementhttpapiclientvoloabppermissionmanagementhttpapiclientcsproj"></a>
-### modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.HttpApi.Client\Volo.Abp.PermissionManagement.HttpApi.Client.csproj
+### modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.HttpApi.Client\Nblity.Abp.PermissionManagement.HttpApi.Client.csproj
 
 #### Project Info
 
@@ -3377,17 +3377,17 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (2)"]
-        P47["<b>📦&nbsp;Volo.Abp.PermissionManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+        P47["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
         P91["<b>📦&nbsp;Nblity.HttpApi.Client.csproj</b><br/><small>net10.0</small>"]
         click P47 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementblazorwebassemblyvoloabppermissionmanagementblazorwebassemblycsproj"
         click P91 "#srcnblityhttpapiclientnblityhttpapiclientcsproj"
     end
-    subgraph current["Volo.Abp.PermissionManagement.HttpApi.Client.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.PermissionManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.PermissionManagement.HttpApi.Client.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.PermissionManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementhttpapiclientvoloabppermissionmanagementhttpapiclientcsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P44["<b>📦&nbsp;Volo.Abp.PermissionManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P44["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P44 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationcontractsvoloabppermissionmanagementapplicationcontractscsproj"
     end
     P47 --> MAIN
@@ -3407,7 +3407,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***186*** |  |
 
 <a id="modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementhttpapivoloabppermissionmanagementhttpapicsproj"></a>
-### modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.HttpApi\Volo.Abp.PermissionManagement.HttpApi.csproj
+### modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.HttpApi\Nblity.Abp.PermissionManagement.HttpApi.csproj
 
 #### Project Info
 
@@ -3432,12 +3432,12 @@ flowchart TB
         P92["<b>📦&nbsp;Nblity.HttpApi.csproj</b><br/><small>net10.0</small>"]
         click P92 "#srcnblityhttpapinblityhttpapicsproj"
     end
-    subgraph current["Volo.Abp.PermissionManagement.HttpApi.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.PermissionManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.PermissionManagement.HttpApi.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.PermissionManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementhttpapivoloabppermissionmanagementhttpapicsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P44["<b>📦&nbsp;Volo.Abp.PermissionManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P44["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P44 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationcontractsvoloabppermissionmanagementapplicationcontractscsproj"
     end
     P92 --> MAIN
@@ -3456,7 +3456,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementinstallervoloabppermissionmanagementinstallercsproj"></a>
-### modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Installer\Volo.Abp.PermissionManagement.Installer.csproj
+### modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Installer\Nblity.Abp.PermissionManagement.Installer.csproj
 
 #### Project Info
 
@@ -3477,8 +3477,8 @@ Legend:
 
 ```mermaid
 flowchart TB
-    subgraph current["Volo.Abp.PermissionManagement.Installer.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.PermissionManagement.Installer.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.PermissionManagement.Installer.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Installer.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementinstallervoloabppermissionmanagementinstallercsproj"
     end
 
@@ -3495,7 +3495,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementmongodbvoloabppermissionmanagementmongodbcsproj"></a>
-### modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.MongoDB\Volo.Abp.PermissionManagement.MongoDB.csproj
+### modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.MongoDB\Nblity.Abp.PermissionManagement.MongoDB.csproj
 
 #### Project Info
 
@@ -3518,12 +3518,12 @@ Legend:
 
 ```mermaid
 flowchart TB
-    subgraph current["Volo.Abp.PermissionManagement.MongoDB.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.PermissionManagement.MongoDB.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.PermissionManagement.MongoDB.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.PermissionManagement.MongoDB.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementmongodbvoloabppermissionmanagementmongodbcsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P50["<b>📦&nbsp;Volo.Abp.PermissionManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P50["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P50 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementdomainvoloabppermissionmanagementdomaincsproj"
     end
     MAIN --> P50
@@ -3541,7 +3541,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***308*** |  |
 
 <a id="modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementwebvoloabppermissionmanagementwebcsproj"></a>
-### modules\Volo.Abp.PermissionManagement\src\Volo.Abp.PermissionManagement.Web\Volo.Abp.PermissionManagement.Web.csproj
+### modules\Nblity.Abp.PermissionManagement\src\Nblity.Abp.PermissionManagement.Web\Nblity.Abp.PermissionManagement.Web.csproj
 
 #### Project Info
 
@@ -3563,15 +3563,15 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (1)"]
-        P36["<b>📦&nbsp;Volo.Abp.Identity.Web.csproj</b><br/><small>net10.0</small>"]
+        P36["<b>📦&nbsp;Nblity.Abp.Identity.Web.csproj</b><br/><small>net10.0</small>"]
         click P36 "#modulesvoloabpidentitysrcvoloabpidentitywebvoloabpidentitywebcsproj"
     end
-    subgraph current["Volo.Abp.PermissionManagement.Web.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.PermissionManagement.Web.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.PermissionManagement.Web.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Web.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementwebvoloabppermissionmanagementwebcsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P44["<b>📦&nbsp;Volo.Abp.PermissionManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P44["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P44 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementapplicationcontractsvoloabppermissionmanagementapplicationcontractscsproj"
     end
     P36 --> MAIN
@@ -3590,7 +3590,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationcontractsvoloabpsettingmanagementapplicationcontractscsproj"></a>
-### modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Application.Contracts\Volo.Abp.SettingManagement.Application.Contracts.csproj
+### modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Application.Contracts\Nblity.Abp.SettingManagement.Application.Contracts.csproj
 
 #### Project Info
 
@@ -3614,11 +3614,11 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (6)"]
-        P58["<b>📦&nbsp;Volo.Abp.SettingManagement.Application.csproj</b><br/><small>net10.0</small>"]
-        P61["<b>📦&nbsp;Volo.Abp.SettingManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
-        P65["<b>📦&nbsp;Volo.Abp.SettingManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P66["<b>📦&nbsp;Volo.Abp.SettingManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
-        P69["<b>📦&nbsp;Volo.Abp.SettingManagement.Web.csproj</b><br/><small>net10.0</small>"]
+        P58["<b>📦&nbsp;Nblity.Abp.SettingManagement.Application.csproj</b><br/><small>net10.0</small>"]
+        P61["<b>📦&nbsp;Nblity.Abp.SettingManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+        P65["<b>📦&nbsp;Nblity.Abp.SettingManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P66["<b>📦&nbsp;Nblity.Abp.SettingManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
+        P69["<b>📦&nbsp;Nblity.Abp.SettingManagement.Web.csproj</b><br/><small>net10.0</small>"]
         P83["<b>📦&nbsp;Nblity.Application.Contracts.csproj</b><br/><small>net10.0</small>"]
         click P58 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationvoloabpsettingmanagementapplicationcsproj"
         click P61 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorvoloabpsettingmanagementblazorcsproj"
@@ -3627,12 +3627,12 @@ flowchart TB
         click P69 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementwebvoloabpsettingmanagementwebcsproj"
         click P83 "#srcnblityapplicationcontractsnblityapplicationcontractscsproj"
     end
-    subgraph current["Volo.Abp.SettingManagement.Application.Contracts.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.SettingManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.SettingManagement.Application.Contracts.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.SettingManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationcontractsvoloabpsettingmanagementapplicationcontractscsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P62["<b>📦&nbsp;Volo.Abp.SettingManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P62["<b>📦&nbsp;Nblity.Abp.SettingManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P62 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainsharedvoloabpsettingmanagementdomainsharedcsproj"
     end
     P58 --> MAIN
@@ -3656,7 +3656,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***183*** |  |
 
 <a id="modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationvoloabpsettingmanagementapplicationcsproj"></a>
-### modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Application\Volo.Abp.SettingManagement.Application.csproj
+### modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Application\Nblity.Abp.SettingManagement.Application.csproj
 
 #### Project Info
 
@@ -3681,13 +3681,13 @@ flowchart TB
         P84["<b>📦&nbsp;Nblity.Application.csproj</b><br/><small>net10.0</small>"]
         click P84 "#srcnblityapplicationnblityapplicationcsproj"
     end
-    subgraph current["Volo.Abp.SettingManagement.Application.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.SettingManagement.Application.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.SettingManagement.Application.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.SettingManagement.Application.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationvoloabpsettingmanagementapplicationcsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P63["<b>📦&nbsp;Volo.Abp.SettingManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P57["<b>📦&nbsp;Volo.Abp.SettingManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P63["<b>📦&nbsp;Nblity.Abp.SettingManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P57["<b>📦&nbsp;Nblity.Abp.SettingManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P63 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainvoloabpsettingmanagementdomaincsproj"
         click P57 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationcontractsvoloabpsettingmanagementapplicationcontractscsproj"
     end
@@ -3708,7 +3708,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorservervoloabpsettingmanagementblazorservercsproj"></a>
-### modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Blazor.Server\Volo.Abp.SettingManagement.Blazor.Server.csproj
+### modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Blazor.Server\Nblity.Abp.SettingManagement.Blazor.Server.csproj
 
 #### Project Info
 
@@ -3729,12 +3729,12 @@ Legend:
 
 ```mermaid
 flowchart TB
-    subgraph current["Volo.Abp.SettingManagement.Blazor.Server.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.SettingManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.SettingManagement.Blazor.Server.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.SettingManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorservervoloabpsettingmanagementblazorservercsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P61["<b>📦&nbsp;Volo.Abp.SettingManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+        P61["<b>📦&nbsp;Nblity.Abp.SettingManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
         click P61 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorvoloabpsettingmanagementblazorcsproj"
     end
     MAIN --> P61
@@ -3752,7 +3752,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorwebassemblyvoloabpsettingmanagementblazorwebassemblycsproj"></a>
-### modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Blazor.WebAssembly\Volo.Abp.SettingManagement.Blazor.WebAssembly.csproj
+### modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Blazor.WebAssembly\Nblity.Abp.SettingManagement.Blazor.WebAssembly.csproj
 
 #### Project Info
 
@@ -3777,13 +3777,13 @@ flowchart TB
         P85["<b>📦&nbsp;Nblity.Blazor.Client.csproj</b><br/><small>net10.0</small>"]
         click P85 "#srcnblityblazorclientnblityblazorclientcsproj"
     end
-    subgraph current["Volo.Abp.SettingManagement.Blazor.WebAssembly.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.SettingManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.SettingManagement.Blazor.WebAssembly.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.SettingManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorwebassemblyvoloabpsettingmanagementblazorwebassemblycsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P61["<b>📦&nbsp;Volo.Abp.SettingManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
-        P65["<b>📦&nbsp;Volo.Abp.SettingManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P61["<b>📦&nbsp;Nblity.Abp.SettingManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+        P65["<b>📦&nbsp;Nblity.Abp.SettingManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P61 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorvoloabpsettingmanagementblazorcsproj"
         click P65 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementhttpapiclientvoloabpsettingmanagementhttpapiclientcsproj"
     end
@@ -3804,7 +3804,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorvoloabpsettingmanagementblazorcsproj"></a>
-### modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Blazor\Volo.Abp.SettingManagement.Blazor.csproj
+### modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Blazor\Nblity.Abp.SettingManagement.Blazor.csproj
 
 #### Project Info
 
@@ -3826,19 +3826,19 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (3)"]
-        P14["<b>📦&nbsp;Volo.Abp.FeatureManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
-        P59["<b>📦&nbsp;Volo.Abp.SettingManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
-        P60["<b>📦&nbsp;Volo.Abp.SettingManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+        P14["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+        P59["<b>📦&nbsp;Nblity.Abp.SettingManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
+        P60["<b>📦&nbsp;Nblity.Abp.SettingManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
         click P14 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorvoloabpfeaturemanagementblazorcsproj"
         click P59 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorservervoloabpsettingmanagementblazorservercsproj"
         click P60 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorwebassemblyvoloabpsettingmanagementblazorwebassemblycsproj"
     end
-    subgraph current["Volo.Abp.SettingManagement.Blazor.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.SettingManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.SettingManagement.Blazor.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.SettingManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorvoloabpsettingmanagementblazorcsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P57["<b>📦&nbsp;Volo.Abp.SettingManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P57["<b>📦&nbsp;Nblity.Abp.SettingManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P57 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationcontractsvoloabpsettingmanagementapplicationcontractscsproj"
     end
     P14 --> MAIN
@@ -3859,7 +3859,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainsharedvoloabpsettingmanagementdomainsharedcsproj"></a>
-### modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Domain.Shared\Volo.Abp.SettingManagement.Domain.Shared.csproj
+### modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Domain.Shared\Nblity.Abp.SettingManagement.Domain.Shared.csproj
 
 #### Project Info
 
@@ -3883,17 +3883,17 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (4)"]
-        P57["<b>📦&nbsp;Volo.Abp.SettingManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P63["<b>📦&nbsp;Volo.Abp.SettingManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P69["<b>📦&nbsp;Volo.Abp.SettingManagement.Web.csproj</b><br/><small>net10.0</small>"]
+        P57["<b>📦&nbsp;Nblity.Abp.SettingManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P63["<b>📦&nbsp;Nblity.Abp.SettingManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P69["<b>📦&nbsp;Nblity.Abp.SettingManagement.Web.csproj</b><br/><small>net10.0</small>"]
         P88["<b>📦&nbsp;Nblity.Domain.Shared.csproj</b><br/><small>net10.0</small>"]
         click P57 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationcontractsvoloabpsettingmanagementapplicationcontractscsproj"
         click P63 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainvoloabpsettingmanagementdomaincsproj"
         click P69 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementwebvoloabpsettingmanagementwebcsproj"
         click P88 "#srcnblitydomainsharednblitydomainsharedcsproj"
     end
-    subgraph current["Volo.Abp.SettingManagement.Domain.Shared.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.SettingManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.SettingManagement.Domain.Shared.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.SettingManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainsharedvoloabpsettingmanagementdomainsharedcsproj"
     end
     P57 --> MAIN
@@ -3914,7 +3914,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***96*** |  |
 
 <a id="modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainvoloabpsettingmanagementdomaincsproj"></a>
-### modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Domain\Volo.Abp.SettingManagement.Domain.csproj
+### modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Domain\Nblity.Abp.SettingManagement.Domain.csproj
 
 #### Project Info
 
@@ -3938,21 +3938,21 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (4)"]
-        P58["<b>📦&nbsp;Volo.Abp.SettingManagement.Application.csproj</b><br/><small>net10.0</small>"]
-        P64["<b>📦&nbsp;Volo.Abp.SettingManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
-        P68["<b>📦&nbsp;Volo.Abp.SettingManagement.MongoDB.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P58["<b>📦&nbsp;Nblity.Abp.SettingManagement.Application.csproj</b><br/><small>net10.0</small>"]
+        P64["<b>📦&nbsp;Nblity.Abp.SettingManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
+        P68["<b>📦&nbsp;Nblity.Abp.SettingManagement.MongoDB.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         P89["<b>📦&nbsp;Nblity.Domain.csproj</b><br/><small>net10.0</small>"]
         click P58 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationvoloabpsettingmanagementapplicationcsproj"
         click P64 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagemententityframeworkcorevoloabpsettingmanagemententityframeworkcorecsproj"
         click P68 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementmongodbvoloabpsettingmanagementmongodbcsproj"
         click P89 "#srcnblitydomainnblitydomaincsproj"
     end
-    subgraph current["Volo.Abp.SettingManagement.Domain.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.SettingManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.SettingManagement.Domain.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.SettingManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainvoloabpsettingmanagementdomaincsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P62["<b>📦&nbsp;Volo.Abp.SettingManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P62["<b>📦&nbsp;Nblity.Abp.SettingManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P62 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainsharedvoloabpsettingmanagementdomainsharedcsproj"
     end
     P58 --> MAIN
@@ -3974,7 +3974,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***2170*** |  |
 
 <a id="modulesvoloabpsettingmanagementsrcvoloabpsettingmanagemententityframeworkcorevoloabpsettingmanagemententityframeworkcorecsproj"></a>
-### modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.EntityFrameworkCore\Volo.Abp.SettingManagement.EntityFrameworkCore.csproj
+### modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.EntityFrameworkCore\Nblity.Abp.SettingManagement.EntityFrameworkCore.csproj
 
 #### Project Info
 
@@ -3999,12 +3999,12 @@ flowchart TB
         P90["<b>📦&nbsp;Nblity.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
         click P90 "#srcnblityentityframeworkcorenblityentityframeworkcorecsproj"
     end
-    subgraph current["Volo.Abp.SettingManagement.EntityFrameworkCore.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.SettingManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.SettingManagement.EntityFrameworkCore.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.SettingManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagemententityframeworkcorevoloabpsettingmanagemententityframeworkcorecsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P63["<b>📦&nbsp;Volo.Abp.SettingManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P63["<b>📦&nbsp;Nblity.Abp.SettingManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P63 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainvoloabpsettingmanagementdomaincsproj"
     end
     P90 --> MAIN
@@ -4023,7 +4023,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementhttpapiclientvoloabpsettingmanagementhttpapiclientcsproj"></a>
-### modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.HttpApi.Client\Volo.Abp.SettingManagement.HttpApi.Client.csproj
+### modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.HttpApi.Client\Nblity.Abp.SettingManagement.HttpApi.Client.csproj
 
 #### Project Info
 
@@ -4047,17 +4047,17 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (2)"]
-        P60["<b>📦&nbsp;Volo.Abp.SettingManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+        P60["<b>📦&nbsp;Nblity.Abp.SettingManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
         P91["<b>📦&nbsp;Nblity.HttpApi.Client.csproj</b><br/><small>net10.0</small>"]
         click P60 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementblazorwebassemblyvoloabpsettingmanagementblazorwebassemblycsproj"
         click P91 "#srcnblityhttpapiclientnblityhttpapiclientcsproj"
     end
-    subgraph current["Volo.Abp.SettingManagement.HttpApi.Client.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.SettingManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.SettingManagement.HttpApi.Client.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.SettingManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementhttpapiclientvoloabpsettingmanagementhttpapiclientcsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P57["<b>📦&nbsp;Volo.Abp.SettingManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P57["<b>📦&nbsp;Nblity.Abp.SettingManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P57 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationcontractsvoloabpsettingmanagementapplicationcontractscsproj"
     end
     P60 --> MAIN
@@ -4077,7 +4077,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***60*** |  |
 
 <a id="modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementhttpapivoloabpsettingmanagementhttpapicsproj"></a>
-### modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.HttpApi\Volo.Abp.SettingManagement.HttpApi.csproj
+### modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.HttpApi\Nblity.Abp.SettingManagement.HttpApi.csproj
 
 #### Project Info
 
@@ -4102,12 +4102,12 @@ flowchart TB
         P92["<b>📦&nbsp;Nblity.HttpApi.csproj</b><br/><small>net10.0</small>"]
         click P92 "#srcnblityhttpapinblityhttpapicsproj"
     end
-    subgraph current["Volo.Abp.SettingManagement.HttpApi.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.SettingManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.SettingManagement.HttpApi.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.SettingManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementhttpapivoloabpsettingmanagementhttpapicsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P57["<b>📦&nbsp;Volo.Abp.SettingManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P57["<b>📦&nbsp;Nblity.Abp.SettingManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P57 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationcontractsvoloabpsettingmanagementapplicationcontractscsproj"
     end
     P92 --> MAIN
@@ -4126,7 +4126,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementinstallervoloabpsettingmanagementinstallercsproj"></a>
-### modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Installer\Volo.Abp.SettingManagement.Installer.csproj
+### modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Installer\Nblity.Abp.SettingManagement.Installer.csproj
 
 #### Project Info
 
@@ -4147,8 +4147,8 @@ Legend:
 
 ```mermaid
 flowchart TB
-    subgraph current["Volo.Abp.SettingManagement.Installer.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.SettingManagement.Installer.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.SettingManagement.Installer.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.SettingManagement.Installer.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementinstallervoloabpsettingmanagementinstallercsproj"
     end
 
@@ -4165,7 +4165,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementmongodbvoloabpsettingmanagementmongodbcsproj"></a>
-### modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.MongoDB\Volo.Abp.SettingManagement.MongoDB.csproj
+### modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.MongoDB\Nblity.Abp.SettingManagement.MongoDB.csproj
 
 #### Project Info
 
@@ -4188,12 +4188,12 @@ Legend:
 
 ```mermaid
 flowchart TB
-    subgraph current["Volo.Abp.SettingManagement.MongoDB.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.SettingManagement.MongoDB.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.SettingManagement.MongoDB.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.SettingManagement.MongoDB.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementmongodbvoloabpsettingmanagementmongodbcsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P63["<b>📦&nbsp;Volo.Abp.SettingManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P63["<b>📦&nbsp;Nblity.Abp.SettingManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P63 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainvoloabpsettingmanagementdomaincsproj"
     end
     MAIN --> P63
@@ -4211,7 +4211,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***151*** |  |
 
 <a id="modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementwebvoloabpsettingmanagementwebcsproj"></a>
-### modules\Volo.Abp.SettingManagement\src\Volo.Abp.SettingManagement.Web\Volo.Abp.SettingManagement.Web.csproj
+### modules\Nblity.Abp.SettingManagement\src\Nblity.Abp.SettingManagement.Web\Nblity.Abp.SettingManagement.Web.csproj
 
 #### Project Info
 
@@ -4233,16 +4233,16 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (1)"]
-        P22["<b>📦&nbsp;Volo.Abp.FeatureManagement.Web.csproj</b><br/><small>net10.0</small>"]
+        P22["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Web.csproj</b><br/><small>net10.0</small>"]
         click P22 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementwebvoloabpfeaturemanagementwebcsproj"
     end
-    subgraph current["Volo.Abp.SettingManagement.Web.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.SettingManagement.Web.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.SettingManagement.Web.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.SettingManagement.Web.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementwebvoloabpsettingmanagementwebcsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P57["<b>📦&nbsp;Volo.Abp.SettingManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P62["<b>📦&nbsp;Volo.Abp.SettingManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P57["<b>📦&nbsp;Nblity.Abp.SettingManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P62["<b>📦&nbsp;Nblity.Abp.SettingManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P57 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationcontractsvoloabpsettingmanagementapplicationcontractscsproj"
         click P62 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementdomainsharedvoloabpsettingmanagementdomainsharedcsproj"
     end
@@ -4263,7 +4263,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationcontractsvoloabptenantmanagementapplicationcontractscsproj"></a>
-### modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Application.Contracts\Volo.Abp.TenantManagement.Application.Contracts.csproj
+### modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Application.Contracts\Nblity.Abp.TenantManagement.Application.Contracts.csproj
 
 #### Project Info
 
@@ -4287,11 +4287,11 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (6)"]
-        P71["<b>📦&nbsp;Volo.Abp.TenantManagement.Application.csproj</b><br/><small>net10.0</small>"]
-        P74["<b>📦&nbsp;Volo.Abp.TenantManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
-        P78["<b>📦&nbsp;Volo.Abp.TenantManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P79["<b>📦&nbsp;Volo.Abp.TenantManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
-        P82["<b>📦&nbsp;Volo.Abp.TenantManagement.Web.csproj</b><br/><small>net10.0</small>"]
+        P71["<b>📦&nbsp;Nblity.Abp.TenantManagement.Application.csproj</b><br/><small>net10.0</small>"]
+        P74["<b>📦&nbsp;Nblity.Abp.TenantManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+        P78["<b>📦&nbsp;Nblity.Abp.TenantManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P79["<b>📦&nbsp;Nblity.Abp.TenantManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
+        P82["<b>📦&nbsp;Nblity.Abp.TenantManagement.Web.csproj</b><br/><small>net10.0</small>"]
         P83["<b>📦&nbsp;Nblity.Application.Contracts.csproj</b><br/><small>net10.0</small>"]
         click P71 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationvoloabptenantmanagementapplicationcsproj"
         click P74 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorvoloabptenantmanagementblazorcsproj"
@@ -4300,12 +4300,12 @@ flowchart TB
         click P82 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementwebvoloabptenantmanagementwebcsproj"
         click P83 "#srcnblityapplicationcontractsnblityapplicationcontractscsproj"
     end
-    subgraph current["Volo.Abp.TenantManagement.Application.Contracts.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.TenantManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.TenantManagement.Application.Contracts.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.TenantManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationcontractsvoloabptenantmanagementapplicationcontractscsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P75["<b>📦&nbsp;Volo.Abp.TenantManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P75["<b>📦&nbsp;Nblity.Abp.TenantManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P75 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainsharedvoloabptenantmanagementdomainsharedcsproj"
     end
     P71 --> MAIN
@@ -4329,7 +4329,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***139*** |  |
 
 <a id="modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationvoloabptenantmanagementapplicationcsproj"></a>
-### modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Application\Volo.Abp.TenantManagement.Application.csproj
+### modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Application\Nblity.Abp.TenantManagement.Application.csproj
 
 #### Project Info
 
@@ -4354,13 +4354,13 @@ flowchart TB
         P84["<b>📦&nbsp;Nblity.Application.csproj</b><br/><small>net10.0</small>"]
         click P84 "#srcnblityapplicationnblityapplicationcsproj"
     end
-    subgraph current["Volo.Abp.TenantManagement.Application.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.TenantManagement.Application.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.TenantManagement.Application.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.TenantManagement.Application.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationvoloabptenantmanagementapplicationcsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P76["<b>📦&nbsp;Volo.Abp.TenantManagement.Domain.csproj</b><br/><small>net10.0</small>"]
-        P70["<b>📦&nbsp;Volo.Abp.TenantManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P76["<b>📦&nbsp;Nblity.Abp.TenantManagement.Domain.csproj</b><br/><small>net10.0</small>"]
+        P70["<b>📦&nbsp;Nblity.Abp.TenantManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P76 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainvoloabptenantmanagementdomaincsproj"
         click P70 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationcontractsvoloabptenantmanagementapplicationcontractscsproj"
     end
@@ -4381,7 +4381,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorservervoloabptenantmanagementblazorservercsproj"></a>
-### modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Blazor.Server\Volo.Abp.TenantManagement.Blazor.Server.csproj
+### modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Blazor.Server\Nblity.Abp.TenantManagement.Blazor.Server.csproj
 
 #### Project Info
 
@@ -4406,13 +4406,13 @@ flowchart TB
         P86["<b>📦&nbsp;Nblity.Blazor.csproj</b><br/><small>net10.0</small>"]
         click P86 "#srcnblityblazornblityblazorcsproj"
     end
-    subgraph current["Volo.Abp.TenantManagement.Blazor.Server.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.TenantManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.TenantManagement.Blazor.Server.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.TenantManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorservervoloabptenantmanagementblazorservercsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P74["<b>📦&nbsp;Volo.Abp.TenantManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
-        P12["<b>📦&nbsp;Volo.Abp.FeatureManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
+        P74["<b>📦&nbsp;Nblity.Abp.TenantManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+        P12["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
         click P74 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorvoloabptenantmanagementblazorcsproj"
         click P12 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorservervoloabpfeaturemanagementblazorservercsproj"
     end
@@ -4433,7 +4433,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorwebassemblyvoloabptenantmanagementblazorwebassemblycsproj"></a>
-### modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Blazor.WebAssembly\Volo.Abp.TenantManagement.Blazor.WebAssembly.csproj
+### modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Blazor.WebAssembly\Nblity.Abp.TenantManagement.Blazor.WebAssembly.csproj
 
 #### Project Info
 
@@ -4458,14 +4458,14 @@ flowchart TB
         P85["<b>📦&nbsp;Nblity.Blazor.Client.csproj</b><br/><small>net10.0</small>"]
         click P85 "#srcnblityblazorclientnblityblazorclientcsproj"
     end
-    subgraph current["Volo.Abp.TenantManagement.Blazor.WebAssembly.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.TenantManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.TenantManagement.Blazor.WebAssembly.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.TenantManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorwebassemblyvoloabptenantmanagementblazorwebassemblycsproj"
     end
     subgraph downstream["Dependencies (3"]
-        P13["<b>📦&nbsp;Volo.Abp.FeatureManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
-        P78["<b>📦&nbsp;Volo.Abp.TenantManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P74["<b>📦&nbsp;Volo.Abp.TenantManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+        P13["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+        P78["<b>📦&nbsp;Nblity.Abp.TenantManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P74["<b>📦&nbsp;Nblity.Abp.TenantManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
         click P13 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorwebassemblyvoloabpfeaturemanagementblazorwebassemblycsproj"
         click P78 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementhttpapiclientvoloabptenantmanagementhttpapiclientcsproj"
         click P74 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorvoloabptenantmanagementblazorcsproj"
@@ -4488,7 +4488,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorvoloabptenantmanagementblazorcsproj"></a>
-### modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Blazor\Volo.Abp.TenantManagement.Blazor.csproj
+### modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Blazor\Nblity.Abp.TenantManagement.Blazor.csproj
 
 #### Project Info
 
@@ -4510,18 +4510,18 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (2)"]
-        P72["<b>📦&nbsp;Volo.Abp.TenantManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
-        P73["<b>📦&nbsp;Volo.Abp.TenantManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+        P72["<b>📦&nbsp;Nblity.Abp.TenantManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
+        P73["<b>📦&nbsp;Nblity.Abp.TenantManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
         click P72 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorservervoloabptenantmanagementblazorservercsproj"
         click P73 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorwebassemblyvoloabptenantmanagementblazorwebassemblycsproj"
     end
-    subgraph current["Volo.Abp.TenantManagement.Blazor.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.TenantManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.TenantManagement.Blazor.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.TenantManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorvoloabptenantmanagementblazorcsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P70["<b>📦&nbsp;Volo.Abp.TenantManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P14["<b>📦&nbsp;Volo.Abp.FeatureManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
+        P70["<b>📦&nbsp;Nblity.Abp.TenantManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P14["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Blazor.csproj</b><br/><small>net10.0</small>"]
         click P70 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationcontractsvoloabptenantmanagementapplicationcontractscsproj"
         click P14 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementblazorvoloabpfeaturemanagementblazorcsproj"
     end
@@ -4543,7 +4543,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainsharedvoloabptenantmanagementdomainsharedcsproj"></a>
-### modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Domain.Shared\Volo.Abp.TenantManagement.Domain.Shared.csproj
+### modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Domain.Shared\Nblity.Abp.TenantManagement.Domain.Shared.csproj
 
 #### Project Info
 
@@ -4567,15 +4567,15 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (3)"]
-        P70["<b>📦&nbsp;Volo.Abp.TenantManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P76["<b>📦&nbsp;Volo.Abp.TenantManagement.Domain.csproj</b><br/><small>net10.0</small>"]
+        P70["<b>📦&nbsp;Nblity.Abp.TenantManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P76["<b>📦&nbsp;Nblity.Abp.TenantManagement.Domain.csproj</b><br/><small>net10.0</small>"]
         P88["<b>📦&nbsp;Nblity.Domain.Shared.csproj</b><br/><small>net10.0</small>"]
         click P70 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationcontractsvoloabptenantmanagementapplicationcontractscsproj"
         click P76 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainvoloabptenantmanagementdomaincsproj"
         click P88 "#srcnblitydomainsharednblitydomainsharedcsproj"
     end
-    subgraph current["Volo.Abp.TenantManagement.Domain.Shared.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.TenantManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.TenantManagement.Domain.Shared.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.TenantManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainsharedvoloabptenantmanagementdomainsharedcsproj"
     end
     P70 --> MAIN
@@ -4595,7 +4595,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***80*** |  |
 
 <a id="modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainvoloabptenantmanagementdomaincsproj"></a>
-### modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Domain\Volo.Abp.TenantManagement.Domain.csproj
+### modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Domain\Nblity.Abp.TenantManagement.Domain.csproj
 
 #### Project Info
 
@@ -4617,21 +4617,21 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (4)"]
-        P71["<b>📦&nbsp;Volo.Abp.TenantManagement.Application.csproj</b><br/><small>net10.0</small>"]
-        P77["<b>📦&nbsp;Volo.Abp.TenantManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
-        P81["<b>📦&nbsp;Volo.Abp.TenantManagement.MongoDB.csproj</b><br/><small>net10.0</small>"]
+        P71["<b>📦&nbsp;Nblity.Abp.TenantManagement.Application.csproj</b><br/><small>net10.0</small>"]
+        P77["<b>📦&nbsp;Nblity.Abp.TenantManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
+        P81["<b>📦&nbsp;Nblity.Abp.TenantManagement.MongoDB.csproj</b><br/><small>net10.0</small>"]
         P89["<b>📦&nbsp;Nblity.Domain.csproj</b><br/><small>net10.0</small>"]
         click P71 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationvoloabptenantmanagementapplicationcsproj"
         click P77 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagemententityframeworkcorevoloabptenantmanagemententityframeworkcorecsproj"
         click P81 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementmongodbvoloabptenantmanagementmongodbcsproj"
         click P89 "#srcnblitydomainnblitydomaincsproj"
     end
-    subgraph current["Volo.Abp.TenantManagement.Domain.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.TenantManagement.Domain.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.TenantManagement.Domain.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.TenantManagement.Domain.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainvoloabptenantmanagementdomaincsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P75["<b>📦&nbsp;Volo.Abp.TenantManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P75["<b>📦&nbsp;Nblity.Abp.TenantManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P75 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainsharedvoloabptenantmanagementdomainsharedcsproj"
     end
     P71 --> MAIN
@@ -4653,7 +4653,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabptenantmanagementsrcvoloabptenantmanagemententityframeworkcorevoloabptenantmanagemententityframeworkcorecsproj"></a>
-### modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.EntityFrameworkCore\Volo.Abp.TenantManagement.EntityFrameworkCore.csproj
+### modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.EntityFrameworkCore\Nblity.Abp.TenantManagement.EntityFrameworkCore.csproj
 
 #### Project Info
 
@@ -4678,12 +4678,12 @@ flowchart TB
         P90["<b>📦&nbsp;Nblity.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
         click P90 "#srcnblityentityframeworkcorenblityentityframeworkcorecsproj"
     end
-    subgraph current["Volo.Abp.TenantManagement.EntityFrameworkCore.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.TenantManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.TenantManagement.EntityFrameworkCore.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.TenantManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabptenantmanagementsrcvoloabptenantmanagemententityframeworkcorevoloabptenantmanagemententityframeworkcorecsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P76["<b>📦&nbsp;Volo.Abp.TenantManagement.Domain.csproj</b><br/><small>net10.0</small>"]
+        P76["<b>📦&nbsp;Nblity.Abp.TenantManagement.Domain.csproj</b><br/><small>net10.0</small>"]
         click P76 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainvoloabptenantmanagementdomaincsproj"
     end
     P90 --> MAIN
@@ -4702,7 +4702,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabptenantmanagementsrcvoloabptenantmanagementhttpapiclientvoloabptenantmanagementhttpapiclientcsproj"></a>
-### modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.HttpApi.Client\Volo.Abp.TenantManagement.HttpApi.Client.csproj
+### modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.HttpApi.Client\Nblity.Abp.TenantManagement.HttpApi.Client.csproj
 
 #### Project Info
 
@@ -4726,17 +4726,17 @@ Legend:
 ```mermaid
 flowchart TB
     subgraph upstream["Dependants (2)"]
-        P73["<b>📦&nbsp;Volo.Abp.TenantManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+        P73["<b>📦&nbsp;Nblity.Abp.TenantManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
         P91["<b>📦&nbsp;Nblity.HttpApi.Client.csproj</b><br/><small>net10.0</small>"]
         click P73 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementblazorwebassemblyvoloabptenantmanagementblazorwebassemblycsproj"
         click P91 "#srcnblityhttpapiclientnblityhttpapiclientcsproj"
     end
-    subgraph current["Volo.Abp.TenantManagement.HttpApi.Client.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.TenantManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+    subgraph current["Nblity.Abp.TenantManagement.HttpApi.Client.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.TenantManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click MAIN "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementhttpapiclientvoloabptenantmanagementhttpapiclientcsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P70["<b>📦&nbsp;Volo.Abp.TenantManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P70["<b>📦&nbsp;Nblity.Abp.TenantManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P70 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationcontractsvoloabptenantmanagementapplicationcontractscsproj"
     end
     P73 --> MAIN
@@ -4756,7 +4756,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***92*** |  |
 
 <a id="modulesvoloabptenantmanagementsrcvoloabptenantmanagementhttpapivoloabptenantmanagementhttpapicsproj"></a>
-### modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.HttpApi\Volo.Abp.TenantManagement.HttpApi.csproj
+### modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.HttpApi\Nblity.Abp.TenantManagement.HttpApi.csproj
 
 #### Project Info
 
@@ -4781,13 +4781,13 @@ flowchart TB
         P92["<b>📦&nbsp;Nblity.HttpApi.csproj</b><br/><small>net10.0</small>"]
         click P92 "#srcnblityhttpapinblityhttpapicsproj"
     end
-    subgraph current["Volo.Abp.TenantManagement.HttpApi.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.TenantManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.TenantManagement.HttpApi.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.TenantManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementhttpapivoloabptenantmanagementhttpapicsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P19["<b>📦&nbsp;Volo.Abp.FeatureManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
-        P70["<b>📦&nbsp;Volo.Abp.TenantManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P19["<b>📦&nbsp;Nblity.Abp.FeatureManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
+        P70["<b>📦&nbsp;Nblity.Abp.TenantManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P19 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementhttpapivoloabpfeaturemanagementhttpapicsproj"
         click P70 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationcontractsvoloabptenantmanagementapplicationcontractscsproj"
     end
@@ -4808,7 +4808,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabptenantmanagementsrcvoloabptenantmanagementinstallervoloabptenantmanagementinstallercsproj"></a>
-### modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Installer\Volo.Abp.TenantManagement.Installer.csproj
+### modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Installer\Nblity.Abp.TenantManagement.Installer.csproj
 
 #### Project Info
 
@@ -4829,8 +4829,8 @@ Legend:
 
 ```mermaid
 flowchart TB
-    subgraph current["Volo.Abp.TenantManagement.Installer.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.TenantManagement.Installer.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.TenantManagement.Installer.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.TenantManagement.Installer.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementinstallervoloabptenantmanagementinstallercsproj"
     end
 
@@ -4847,7 +4847,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabptenantmanagementsrcvoloabptenantmanagementmongodbvoloabptenantmanagementmongodbcsproj"></a>
-### modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.MongoDB\Volo.Abp.TenantManagement.MongoDB.csproj
+### modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.MongoDB\Nblity.Abp.TenantManagement.MongoDB.csproj
 
 #### Project Info
 
@@ -4868,12 +4868,12 @@ Legend:
 
 ```mermaid
 flowchart TB
-    subgraph current["Volo.Abp.TenantManagement.MongoDB.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.TenantManagement.MongoDB.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.TenantManagement.MongoDB.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.TenantManagement.MongoDB.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementmongodbvoloabptenantmanagementmongodbcsproj"
     end
     subgraph downstream["Dependencies (1"]
-        P76["<b>📦&nbsp;Volo.Abp.TenantManagement.Domain.csproj</b><br/><small>net10.0</small>"]
+        P76["<b>📦&nbsp;Nblity.Abp.TenantManagement.Domain.csproj</b><br/><small>net10.0</small>"]
         click P76 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainvoloabptenantmanagementdomaincsproj"
     end
     MAIN --> P76
@@ -4891,7 +4891,7 @@ flowchart TB
 | ***Total APIs Analyzed*** | ***0*** |  |
 
 <a id="modulesvoloabptenantmanagementsrcvoloabptenantmanagementwebvoloabptenantmanagementwebcsproj"></a>
-### modules\Volo.Abp.TenantManagement\src\Volo.Abp.TenantManagement.Web\Volo.Abp.TenantManagement.Web.csproj
+### modules\Nblity.Abp.TenantManagement\src\Nblity.Abp.TenantManagement.Web\Nblity.Abp.TenantManagement.Web.csproj
 
 #### Project Info
 
@@ -4912,13 +4912,13 @@ Legend:
 
 ```mermaid
 flowchart TB
-    subgraph current["Volo.Abp.TenantManagement.Web.csproj"]
-        MAIN["<b>📦&nbsp;Volo.Abp.TenantManagement.Web.csproj</b><br/><small>net10.0</small>"]
+    subgraph current["Nblity.Abp.TenantManagement.Web.csproj"]
+        MAIN["<b>📦&nbsp;Nblity.Abp.TenantManagement.Web.csproj</b><br/><small>net10.0</small>"]
         click MAIN "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementwebvoloabptenantmanagementwebcsproj"
     end
     subgraph downstream["Dependencies (2"]
-        P70["<b>📦&nbsp;Volo.Abp.TenantManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P22["<b>📦&nbsp;Volo.Abp.FeatureManagement.Web.csproj</b><br/><small>net10.0</small>"]
+        P70["<b>📦&nbsp;Nblity.Abp.TenantManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P22["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Web.csproj</b><br/><small>net10.0</small>"]
         click P70 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationcontractsvoloabptenantmanagementapplicationcontractscsproj"
         click P22 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementwebvoloabpfeaturemanagementwebcsproj"
     end
@@ -4975,12 +4975,12 @@ flowchart TB
     end
     subgraph downstream["Dependencies (7"]
         P88["<b>📦&nbsp;Nblity.Domain.Shared.csproj</b><br/><small>net10.0</small>"]
-        P10["<b>📦&nbsp;Volo.Abp.FeatureManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P23["<b>📦&nbsp;Volo.Abp.Identity.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P57["<b>📦&nbsp;Volo.Abp.SettingManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P70["<b>📦&nbsp;Volo.Abp.TenantManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P1["<b>📦&nbsp;Volo.Abp.Account.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P44["<b>📦&nbsp;Volo.Abp.PermissionManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P10["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P23["<b>📦&nbsp;Nblity.Abp.Identity.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P57["<b>📦&nbsp;Nblity.Abp.SettingManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P70["<b>📦&nbsp;Nblity.Abp.TenantManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P1["<b>📦&nbsp;Nblity.Abp.Account.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P44["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Application.Contracts.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P88 "#srcnblitydomainsharednblitydomainsharedcsproj"
         click P10 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementapplicationcontractsvoloabpfeaturemanagementapplicationcontractscsproj"
         click P23 "#modulesvoloabpidentitysrcvoloabpidentityapplicationcontractsvoloabpidentityapplicationcontractscsproj"
@@ -5045,13 +5045,13 @@ flowchart TB
     end
     subgraph downstream["Dependencies (8"]
         P89["<b>📦&nbsp;Nblity.Domain.csproj</b><br/><small>net10.0</small>"]
-        P58["<b>📦&nbsp;Volo.Abp.SettingManagement.Application.csproj</b><br/><small>net10.0</small>"]
-        P71["<b>📦&nbsp;Volo.Abp.TenantManagement.Application.csproj</b><br/><small>net10.0</small>"]
+        P58["<b>📦&nbsp;Nblity.Abp.SettingManagement.Application.csproj</b><br/><small>net10.0</small>"]
+        P71["<b>📦&nbsp;Nblity.Abp.TenantManagement.Application.csproj</b><br/><small>net10.0</small>"]
         P83["<b>📦&nbsp;Nblity.Application.Contracts.csproj</b><br/><small>net10.0</small>"]
-        P11["<b>📦&nbsp;Volo.Abp.FeatureManagement.Application.csproj</b><br/><small>net10.0</small>"]
-        P2["<b>📦&nbsp;Volo.Abp.Account.Application.csproj</b><br/><small>net10.0</small>"]
-        P45["<b>📦&nbsp;Volo.Abp.PermissionManagement.Application.csproj</b><br/><small>net10.0</small>"]
-        P24["<b>📦&nbsp;Volo.Abp.Identity.Application.csproj</b><br/><small>net10.0</small>"]
+        P11["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Application.csproj</b><br/><small>net10.0</small>"]
+        P2["<b>📦&nbsp;Nblity.Abp.Account.Application.csproj</b><br/><small>net10.0</small>"]
+        P45["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Application.csproj</b><br/><small>net10.0</small>"]
+        P24["<b>📦&nbsp;Nblity.Abp.Identity.Application.csproj</b><br/><small>net10.0</small>"]
         click P89 "#srcnblitydomainnblitydomaincsproj"
         click P58 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementapplicationvoloabpsettingmanagementapplicationcsproj"
         click P71 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementapplicationvoloabptenantmanagementapplicationcsproj"
@@ -5115,11 +5115,11 @@ flowchart TB
     end
     subgraph downstream["Dependencies (6"]
         P91["<b>📦&nbsp;Nblity.HttpApi.Client.csproj</b><br/><small>net10.0</small>"]
-        P27["<b>📦&nbsp;Volo.Abp.Identity.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
-        P41["<b>📦&nbsp;Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.csproj</b><br/><small>net10.0</small>"]
-        P73["<b>📦&nbsp;Volo.Abp.TenantManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
-        P60["<b>📦&nbsp;Volo.Abp.SettingManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
-        P13["<b>📦&nbsp;Volo.Abp.FeatureManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+        P27["<b>📦&nbsp;Nblity.Abp.Identity.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+        P41["<b>📦&nbsp;Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.csproj</b><br/><small>net10.0</small>"]
+        P73["<b>📦&nbsp;Nblity.Abp.TenantManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+        P60["<b>📦&nbsp;Nblity.Abp.SettingManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
+        P13["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Blazor.WebAssembly.csproj</b><br/><small>net10.0</small>"]
         click P91 "#srcnblityhttpapiclientnblityhttpapiclientcsproj"
         click P27 "#modulesvoloabpidentitysrcvoloabpidentityblazorwebassemblyvoloabpidentityblazorwebassemblycsproj"
         click P41 "#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentswebassemblyleptonxlitethemevoloabpaspnetcorecomponentswebassemblyleptonxlitethemecsproj"
@@ -5176,14 +5176,14 @@ flowchart TB
     subgraph downstream["Dependencies (10"]
         P92["<b>📦&nbsp;Nblity.HttpApi.csproj</b><br/><small>net10.0</small>"]
         P85["<b>📦&nbsp;Nblity.Blazor.Client.csproj</b><br/><small>net10.0</small>"]
-        P38["<b>📦&nbsp;Volo.Abp.AspNetCore.Components.Server.LeptonXLiteTheme.csproj</b><br/><small>net10.0</small>"]
+        P38["<b>📦&nbsp;Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme.csproj</b><br/><small>net10.0</small>"]
         P84["<b>📦&nbsp;Nblity.Application.csproj</b><br/><small>net10.0</small>"]
         P90["<b>📦&nbsp;Nblity.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
-        P8["<b>📦&nbsp;Volo.Abp.Account.Web.OpenIddict.csproj</b><br/><small>net10.0</small>"]
-        P40["<b>📦&nbsp;Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling.csproj</b><br/><small>net10.0</small>"]
-        P72["<b>📦&nbsp;Volo.Abp.TenantManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
-        P26["<b>📦&nbsp;Volo.Abp.Identity.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
-        P42["<b>📦&nbsp;Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite.csproj</b><br/><small>net10.0</small>"]
+        P8["<b>📦&nbsp;Nblity.Abp.Account.Web.OpenIddict.csproj</b><br/><small>net10.0</small>"]
+        P40["<b>📦&nbsp;Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Bundling.csproj</b><br/><small>net10.0</small>"]
+        P72["<b>📦&nbsp;Nblity.Abp.TenantManagement.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
+        P26["<b>📦&nbsp;Nblity.Abp.Identity.Blazor.Server.csproj</b><br/><small>net10.0</small>"]
+        P42["<b>📦&nbsp;Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor.csproj</b><br/><small>net10.0</small>"]
         click P92 "#srcnblityhttpapinblityhttpapicsproj"
         click P85 "#srcnblityblazorclientnblityblazorclientcsproj"
         click P38 "#modulesvoloabpleptonxlitethemesrcvoloabpaspnetcorecomponentsserverleptonxlitethemevoloabpaspnetcorecomponentsserverleptonxlitethemecsproj"
@@ -5298,11 +5298,11 @@ flowchart TB
         click MAIN "#srcnblitydomainsharednblitydomainsharedcsproj"
     end
     subgraph downstream["Dependencies (5"]
-        P29["<b>📦&nbsp;Volo.Abp.Identity.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P15["<b>📦&nbsp;Volo.Abp.FeatureManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P75["<b>📦&nbsp;Volo.Abp.TenantManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P62["<b>📦&nbsp;Volo.Abp.SettingManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P49["<b>📦&nbsp;Volo.Abp.PermissionManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P29["<b>📦&nbsp;Nblity.Abp.Identity.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P15["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P75["<b>📦&nbsp;Nblity.Abp.TenantManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P62["<b>📦&nbsp;Nblity.Abp.SettingManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P49["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Domain.Shared.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P29 "#modulesvoloabpidentitysrcvoloabpidentitydomainsharedvoloabpidentitydomainsharedcsproj"
         click P15 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementdomainsharedvoloabpfeaturemanagementdomainsharedcsproj"
         click P75 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainsharedvoloabptenantmanagementdomainsharedcsproj"
@@ -5363,11 +5363,11 @@ flowchart TB
     end
     subgraph downstream["Dependencies (6"]
         P88["<b>📦&nbsp;Nblity.Domain.Shared.csproj</b><br/><small>net10.0</small>"]
-        P30["<b>📦&nbsp;Volo.Abp.Identity.Domain.csproj</b><br/><small>net10.0</small>"]
-        P76["<b>📦&nbsp;Volo.Abp.TenantManagement.Domain.csproj</b><br/><small>net10.0</small>"]
-        P37["<b>📦&nbsp;Volo.Abp.PermissionManagement.Domain.Identity.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P16["<b>📦&nbsp;Volo.Abp.FeatureManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P63["<b>📦&nbsp;Volo.Abp.SettingManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P30["<b>📦&nbsp;Nblity.Abp.Identity.Domain.csproj</b><br/><small>net10.0</small>"]
+        P76["<b>📦&nbsp;Nblity.Abp.TenantManagement.Domain.csproj</b><br/><small>net10.0</small>"]
+        P37["<b>📦&nbsp;Nblity.Abp.PermissionManagement.Domain.Identity.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P16["<b>📦&nbsp;Nblity.Abp.FeatureManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P63["<b>📦&nbsp;Nblity.Abp.SettingManagement.Domain.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P88 "#srcnblitydomainsharednblitydomainsharedcsproj"
         click P30 "#modulesvoloabpidentitysrcvoloabpidentitydomainvoloabpidentitydomaincsproj"
         click P76 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementdomainvoloabptenantmanagementdomaincsproj"
@@ -5429,12 +5429,12 @@ flowchart TB
         click MAIN "#srcnblityentityframeworkcorenblityentityframeworkcorecsproj"
     end
     subgraph downstream["Dependencies (6"]
-        P51["<b>📦&nbsp;Volo.Abp.PermissionManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
-        P17["<b>📦&nbsp;Volo.Abp.FeatureManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
+        P51["<b>📦&nbsp;Nblity.Abp.PermissionManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
+        P17["<b>📦&nbsp;Nblity.Abp.FeatureManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
         P89["<b>📦&nbsp;Nblity.Domain.csproj</b><br/><small>net10.0</small>"]
-        P64["<b>📦&nbsp;Volo.Abp.SettingManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
-        P77["<b>📦&nbsp;Volo.Abp.TenantManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
-        P31["<b>📦&nbsp;Volo.Abp.Identity.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
+        P64["<b>📦&nbsp;Nblity.Abp.SettingManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
+        P77["<b>📦&nbsp;Nblity.Abp.TenantManagement.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
+        P31["<b>📦&nbsp;Nblity.Abp.Identity.EntityFrameworkCore.csproj</b><br/><small>net10.0</small>"]
         click P51 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagemententityframeworkcorevoloabppermissionmanagemententityframeworkcorecsproj"
         click P17 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagemententityframeworkcorevoloabpfeaturemanagemententityframeworkcorecsproj"
         click P89 "#srcnblitydomainnblitydomaincsproj"
@@ -5494,13 +5494,13 @@ flowchart TB
         click MAIN "#srcnblityhttpapiclientnblityhttpapiclientcsproj"
     end
     subgraph downstream["Dependencies (7"]
-        P78["<b>📦&nbsp;Volo.Abp.TenantManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P18["<b>📦&nbsp;Volo.Abp.FeatureManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P65["<b>📦&nbsp;Volo.Abp.SettingManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P4["<b>📦&nbsp;Volo.Abp.Account.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P78["<b>📦&nbsp;Nblity.Abp.TenantManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P18["<b>📦&nbsp;Nblity.Abp.FeatureManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P65["<b>📦&nbsp;Nblity.Abp.SettingManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P4["<b>📦&nbsp;Nblity.Abp.Account.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         P83["<b>📦&nbsp;Nblity.Application.Contracts.csproj</b><br/><small>net10.0</small>"]
-        P52["<b>📦&nbsp;Volo.Abp.PermissionManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
-        P32["<b>📦&nbsp;Volo.Abp.Identity.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P52["<b>📦&nbsp;Nblity.Abp.PermissionManagement.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
+        P32["<b>📦&nbsp;Nblity.Abp.Identity.HttpApi.Client.csproj</b><br/><small>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</small>"]
         click P78 "#modulesvoloabptenantmanagementsrcvoloabptenantmanagementhttpapiclientvoloabptenantmanagementhttpapiclientcsproj"
         click P18 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementhttpapiclientvoloabpfeaturemanagementhttpapiclientcsproj"
         click P65 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementhttpapiclientvoloabpsettingmanagementhttpapiclientcsproj"
@@ -5561,13 +5561,13 @@ flowchart TB
         click MAIN "#srcnblityhttpapinblityhttpapicsproj"
     end
     subgraph downstream["Dependencies (7"]
-        P66["<b>📦&nbsp;Volo.Abp.SettingManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
-        P53["<b>📦&nbsp;Volo.Abp.PermissionManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
-        P19["<b>📦&nbsp;Volo.Abp.FeatureManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
-        P79["<b>📦&nbsp;Volo.Abp.TenantManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
+        P66["<b>📦&nbsp;Nblity.Abp.SettingManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
+        P53["<b>📦&nbsp;Nblity.Abp.PermissionManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
+        P19["<b>📦&nbsp;Nblity.Abp.FeatureManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
+        P79["<b>📦&nbsp;Nblity.Abp.TenantManagement.HttpApi.csproj</b><br/><small>net10.0</small>"]
         P83["<b>📦&nbsp;Nblity.Application.Contracts.csproj</b><br/><small>net10.0</small>"]
-        P33["<b>📦&nbsp;Volo.Abp.Identity.HttpApi.csproj</b><br/><small>net10.0</small>"]
-        P5["<b>📦&nbsp;Volo.Abp.Account.HttpApi.csproj</b><br/><small>net10.0</small>"]
+        P33["<b>📦&nbsp;Nblity.Abp.Identity.HttpApi.csproj</b><br/><small>net10.0</small>"]
+        P5["<b>📦&nbsp;Nblity.Abp.Account.HttpApi.csproj</b><br/><small>net10.0</small>"]
         click P66 "#modulesvoloabpsettingmanagementsrcvoloabpsettingmanagementhttpapivoloabpsettingmanagementhttpapicsproj"
         click P53 "#modulesvoloabppermissionmanagementsrcvoloabppermissionmanagementhttpapivoloabppermissionmanagementhttpapicsproj"
         click P19 "#modulesvoloabpfeaturemanagementsrcvoloabpfeaturemanagementhttpapivoloabpfeaturemanagementhttpapicsproj"

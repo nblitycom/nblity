@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Nblity.Abp.Account.Application.Contracts/Nblity.Abp.Account.Application.Contracts.csproj" />
+    <Project Path="src/Nblity.Abp.Account.Application/Nblity.Abp.Account.Application.csproj" />
+    <Project Path="src/Nblity.Abp.Account.Blazor/Nblity.Abp.Account.Blazor.csproj" />
+    <Project Path="src/Nblity.Abp.Account.HttpApi.Client/Nblity.Abp.Account.HttpApi.Client.csproj" />
+    <Project Path="src/Nblity.Abp.Account.HttpApi/Nblity.Abp.Account.HttpApi.csproj" />
+    <Project Path="src/Nblity.Abp.Account.Installer/Nblity.Abp.Account.Installer.csproj" />
+    <Project Path="src/Nblity.Abp.Account.Web.IdentityServer/Nblity.Abp.Account.Web.IdentityServer.csproj" />
+    <Project Path="src/Nblity.Abp.Account.Web.OpenIddict/Nblity.Abp.Account.Web.OpenIddict.csproj" />
+    <Project Path="src/Nblity.Abp.Account.Web/Nblity.Abp.Account.Web.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/Nblity.Abp.Account.Application.Tests/Nblity.Abp.Account.Application.Tests.csproj" />
+  </Folder>
+</Solution>

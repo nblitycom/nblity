@@ -1,0 +1,26 @@
+{
+  "folders": {
+    "items": {
+      "src": {}
+    }
+  },
+  "packages": {
+    "Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme": {
+      "path": "src/Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme/Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme": {
+      "path": "src/Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme/Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme": {
+      "path": "src/Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme/Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor": {
+      "path": "src/Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor/Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor.abppkg",
+      "folder": "src"
+    }
+  },
+  "moduleId": "3a1d3306-b5eb-368a-6ad2-ed8e7c3b4357"
+}

@@ -6,14 +6,14 @@ using Volo.Abp.Data;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.EntityFrameworkCore;
 using Volo.Abp.EntityFrameworkCore.Modeling;
-using Volo.Abp.FeatureManagement.EntityFrameworkCore;
-using Volo.Abp.Identity;
-using Volo.Abp.Identity.EntityFrameworkCore;
-using Volo.Abp.PermissionManagement.EntityFrameworkCore;
-using Volo.Abp.SettingManagement.EntityFrameworkCore;
+using Nblity.Abp.FeatureManagement.EntityFrameworkCore;
+using Nblity.Abp.Identity;
+using Nblity.Abp.Identity.EntityFrameworkCore;
+using Nblity.Abp.PermissionManagement.EntityFrameworkCore;
+using Nblity.Abp.SettingManagement.EntityFrameworkCore;
 using Volo.Abp.OpenIddict.EntityFrameworkCore;
-using Volo.Abp.TenantManagement;
-using Volo.Abp.TenantManagement.EntityFrameworkCore;
+using Nblity.Abp.TenantManagement;
+using Nblity.Abp.TenantManagement.EntityFrameworkCore;
 
 namespace Nblity.EntityFrameworkCore;
 

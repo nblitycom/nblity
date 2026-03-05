@@ -323,12 +323,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Account\\src\\Volo.Abp.Account.Application.Contracts\\Volo.Abp.Account.Application.Contracts.csproj",
+      "path": "modules\\Nblity.Abp.Account\\src\\Nblity.Abp.Account.Application.Contracts\\Nblity.Abp.Account.Application.Contracts.csproj",
       "startingProject": true,
       "issues": 2,
       "storyPoints": 2,
       "properties": {
-        "appName": "Volo.Abp.Account.Application.Contracts",
+        "appName": "Nblity.Abp.Account.Application.Contracts",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -356,7 +356,7 @@
         {
           "incidentId": "105fa322-7f76-4871-9e18-f89132827134",
           "ruleId": "NuGet.0002",
-          "projectPath": "modules\\Volo.Abp.Account\\src\\Volo.Abp.Account.Application.Contracts\\Volo.Abp.Account.Application.Contracts.csproj",
+          "projectPath": "modules\\Nblity.Abp.Account\\src\\Nblity.Abp.Account.Application.Contracts\\Nblity.Abp.Account.Application.Contracts.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -364,7 +364,7 @@
               "protected": "Microsoft.Extensions.FileProviders.Embedded, 10.0.2\n\n\u5EFA\u8BAE:\n\nRemove Microsoft.Extensions.FileProviders.Embedded, and replace with new package Microsoft.Extensions.FileProviders.Embedded 10.0.3"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.Account\\src\\Volo.Abp.Account.Application.Contracts\\Volo.Abp.Account.Application.Contracts.csproj",
+            "path": "modules\\Nblity.Abp.Account\\src\\Nblity.Abp.Account.Application.Contracts\\Nblity.Abp.Account.Application.Contracts.csproj",
             "snippet": "Microsoft.Extensions.FileProviders.Embedded, 10.0.2\n\n\u5EFA\u8BAE:\n\nRemove Microsoft.Extensions.FileProviders.Embedded, and replace with new package Microsoft.Extensions.FileProviders.Embedded 10.0.3",
             "protectedSnippet": "Microsoft.Extensions.FileProviders.Embedded, 10.0.2\n\n\u5EFA\u8BAE:\n\nRemove Microsoft.Extensions.FileProviders.Embedded, and replace with new package Microsoft.Extensions.FileProviders.Embedded 10.0.3",
             "label": "Microsoft.Extensions.FileProviders.Embedded 10.0.2",
@@ -379,7 +379,7 @@
         {
           "incidentId": "ad7629f6-b553-4873-acdc-3f3af3e17b62",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.Account\\src\\Volo.Abp.Account.Application.Contracts\\Volo.Abp.Account.Application.Contracts.csproj",
+          "projectPath": "modules\\Nblity.Abp.Account\\src\\Nblity.Abp.Account.Application.Contracts\\Nblity.Abp.Account.Application.Contracts.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -387,7 +387,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.Account\\src\\Volo.Abp.Account.Application.Contracts\\Volo.Abp.Account.Application.Contracts.csproj",
+            "path": "modules\\Nblity.Abp.Account\\src\\Nblity.Abp.Account.Application.Contracts\\Nblity.Abp.Account.Application.Contracts.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -400,12 +400,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Account\\src\\Volo.Abp.Account.Application\\Volo.Abp.Account.Application.csproj",
+      "path": "modules\\Nblity.Abp.Account\\src\\Nblity.Abp.Account.Application\\Nblity.Abp.Account.Application.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.Account.Application",
+        "appName": "Nblity.Abp.Account.Application",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -429,12 +429,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Account\\src\\Volo.Abp.Account.Blazor\\Volo.Abp.Account.Blazor.csproj",
+      "path": "modules\\Nblity.Abp.Account\\src\\Nblity.Abp.Account.Blazor\\Nblity.Abp.Account.Blazor.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.Account.Blazor",
+        "appName": "Nblity.Abp.Account.Blazor",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -458,12 +458,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Account\\src\\Volo.Abp.Account.HttpApi.Client\\Volo.Abp.Account.HttpApi.Client.csproj",
+      "path": "modules\\Nblity.Abp.Account\\src\\Nblity.Abp.Account.HttpApi.Client\\Nblity.Abp.Account.HttpApi.Client.csproj",
       "startingProject": true,
       "issues": 1,
       "storyPoints": 1,
       "properties": {
-        "appName": "Volo.Abp.Account.HttpApi.Client",
+        "appName": "Nblity.Abp.Account.HttpApi.Client",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -491,7 +491,7 @@
         {
           "incidentId": "8ec17c3c-016b-493e-bfc1-b1a37e12a4c6",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.Account\\src\\Volo.Abp.Account.HttpApi.Client\\Volo.Abp.Account.HttpApi.Client.csproj",
+          "projectPath": "modules\\Nblity.Abp.Account\\src\\Nblity.Abp.Account.HttpApi.Client\\Nblity.Abp.Account.HttpApi.Client.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -499,7 +499,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.Account\\src\\Volo.Abp.Account.HttpApi.Client\\Volo.Abp.Account.HttpApi.Client.csproj",
+            "path": "modules\\Nblity.Abp.Account\\src\\Nblity.Abp.Account.HttpApi.Client\\Nblity.Abp.Account.HttpApi.Client.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -512,12 +512,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Account\\src\\Volo.Abp.Account.HttpApi\\Volo.Abp.Account.HttpApi.csproj",
+      "path": "modules\\Nblity.Abp.Account\\src\\Nblity.Abp.Account.HttpApi\\Nblity.Abp.Account.HttpApi.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.Account.HttpApi",
+        "appName": "Nblity.Abp.Account.HttpApi",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -541,12 +541,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Account\\src\\Volo.Abp.Account.Installer\\Volo.Abp.Account.Installer.csproj",
+      "path": "modules\\Nblity.Abp.Account\\src\\Nblity.Abp.Account.Installer\\Nblity.Abp.Account.Installer.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.Account.Installer",
+        "appName": "Nblity.Abp.Account.Installer",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -570,12 +570,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Account\\src\\Volo.Abp.Account.Web\\Volo.Abp.Account.Web.csproj",
+      "path": "modules\\Nblity.Abp.Account\\src\\Nblity.Abp.Account.Web\\Nblity.Abp.Account.Web.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.Account.Web",
+        "appName": "Nblity.Abp.Account.Web",
         "projectKind": "AspNetCore",
         "frameworks": [
           "net10.0"
@@ -599,12 +599,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Account\\src\\Volo.Abp.Account.Web.IdentityServer\\Volo.Abp.Account.Web.IdentityServer.csproj",
+      "path": "modules\\Nblity.Abp.Account\\src\\Nblity.Abp.Account.Web.IdentityServer\\Nblity.Abp.Account.Web.IdentityServer.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.Account.Web.IdentityServer",
+        "appName": "Nblity.Abp.Account.Web.IdentityServer",
         "projectKind": "AspNetCore",
         "frameworks": [
           "net10.0"
@@ -628,12 +628,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Account\\src\\Volo.Abp.Account.Web.OpenIddict\\Volo.Abp.Account.Web.OpenIddict.csproj",
+      "path": "modules\\Nblity.Abp.Account\\src\\Nblity.Abp.Account.Web.OpenIddict\\Nblity.Abp.Account.Web.OpenIddict.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.Account.Web.OpenIddict",
+        "appName": "Nblity.Abp.Account.Web.OpenIddict",
         "projectKind": "AspNetCore",
         "frameworks": [
           "net10.0"
@@ -657,12 +657,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.LeptonXLiteTheme\\src\\Volo.Abp.AspNetCore.Components.Server.LeptonXLiteTheme\\Volo.Abp.AspNetCore.Components.Server.LeptonXLiteTheme.csproj",
+      "path": "modules\\Nblity.Abp.MudblazorTheme\\src\\Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme\\Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.AspNetCore.Components.Server.LeptonXLiteTheme",
+        "appName": "Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -686,12 +686,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.LeptonXLiteTheme\\src\\Volo.Abp.AspNetCore.Components.Web.LeptonXLiteTheme\\Volo.Abp.AspNetCore.Components.Web.LeptonXLiteTheme.csproj",
+      "path": "modules\\Nblity.Abp.MudblazorTheme\\src\\Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme\\Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.AspNetCore.Components.Web.LeptonXLiteTheme",
+        "appName": "Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -715,12 +715,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.LeptonXLiteTheme\\src\\Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling\\Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling.csproj",
+      "path": "modules\\Nblity.Abp.MudblazorTheme\\src\\Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Bundling\\Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Bundling.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling",
+        "appName": "Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Bundling",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -744,12 +744,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.LeptonXLiteTheme\\src\\Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme\\Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.csproj",
+      "path": "modules\\Nblity.Abp.MudblazorTheme\\src\\Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme\\Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme",
+        "appName": "Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -773,12 +773,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.LeptonXLiteTheme\\src\\Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite\\Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite.csproj",
+      "path": "modules\\Nblity.Abp.MudblazorTheme\\src\\Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor\\Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite",
+        "appName": "Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor",
         "projectKind": "AspNetCore",
         "frameworks": [
           "net10.0"
@@ -802,12 +802,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Application.Contracts\\Volo.Abp.FeatureManagement.Application.Contracts.csproj",
+      "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Application.Contracts\\Nblity.Abp.FeatureManagement.Application.Contracts.csproj",
       "startingProject": true,
       "issues": 1,
       "storyPoints": 1,
       "properties": {
-        "appName": "Volo.Abp.FeatureManagement.Application.Contracts",
+        "appName": "Nblity.Abp.FeatureManagement.Application.Contracts",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -835,7 +835,7 @@
         {
           "incidentId": "c0580db2-6aea-42c5-831c-0d3a0a1c2711",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Application.Contracts\\Volo.Abp.FeatureManagement.Application.Contracts.csproj",
+          "projectPath": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Application.Contracts\\Nblity.Abp.FeatureManagement.Application.Contracts.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -843,7 +843,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Application.Contracts\\Volo.Abp.FeatureManagement.Application.Contracts.csproj",
+            "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Application.Contracts\\Nblity.Abp.FeatureManagement.Application.Contracts.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -856,12 +856,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Application\\Volo.Abp.FeatureManagement.Application.csproj",
+      "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Application\\Nblity.Abp.FeatureManagement.Application.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.FeatureManagement.Application",
+        "appName": "Nblity.Abp.FeatureManagement.Application",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -885,12 +885,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Blazor\\Volo.Abp.FeatureManagement.Blazor.csproj",
+      "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Blazor\\Nblity.Abp.FeatureManagement.Blazor.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.FeatureManagement.Blazor",
+        "appName": "Nblity.Abp.FeatureManagement.Blazor",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -914,12 +914,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Blazor.Server\\Volo.Abp.FeatureManagement.Blazor.Server.csproj",
+      "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Blazor.Server\\Nblity.Abp.FeatureManagement.Blazor.Server.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.FeatureManagement.Blazor.Server",
+        "appName": "Nblity.Abp.FeatureManagement.Blazor.Server",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -943,12 +943,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Blazor.WebAssembly\\Volo.Abp.FeatureManagement.Blazor.WebAssembly.csproj",
+      "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Blazor.WebAssembly\\Nblity.Abp.FeatureManagement.Blazor.WebAssembly.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.FeatureManagement.Blazor.WebAssembly",
+        "appName": "Nblity.Abp.FeatureManagement.Blazor.WebAssembly",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -972,12 +972,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain\\Volo.Abp.FeatureManagement.Domain.csproj",
+      "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain\\Nblity.Abp.FeatureManagement.Domain.csproj",
       "startingProject": true,
       "issues": 2,
       "storyPoints": 7,
       "properties": {
-        "appName": "Volo.Abp.FeatureManagement.Domain",
+        "appName": "Nblity.Abp.FeatureManagement.Domain",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -1005,7 +1005,7 @@
         {
           "incidentId": "b074b2f4-c0c2-4ac5-867f-ccfe6259d6ff",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain\\Volo.Abp.FeatureManagement.Domain.csproj",
+          "projectPath": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain\\Nblity.Abp.FeatureManagement.Domain.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -1013,7 +1013,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain\\Volo.Abp.FeatureManagement.Domain.csproj",
+            "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain\\Nblity.Abp.FeatureManagement.Domain.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -1026,7 +1026,7 @@
           "incidentId": "14f67ca8-695b-44da-8c8d-0f65ae87ae41",
           "ruleId": "Api.0002",
           "description": "Breaking change: New TimeSpan.From*() overloads that take integers ",
-          "projectPath": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain\\Volo.Abp.FeatureManagement.Domain.csproj",
+          "projectPath": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain\\Nblity.Abp.FeatureManagement.Domain.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -1034,7 +1034,7 @@
               "protected": "M:System.TimeSpan.FromSeconds(System.Double)"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain\\Volo\\Abp\\FeatureManagement\\FeatureDynamicInitializer.cs",
+            "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain\\Volo\\Abp\\FeatureManagement\\FeatureDynamicInitializer.cs",
             "snippet": "await Policy\r\n            .Handle\u003CException\u003E()\r\n            .WaitAndRetryAsync(\r\n                8,\r\n                retryAttempt =\u003E TimeSpan.FromSeconds(\r\n                    Volo.Abp.RandomHelper.GetRandom(\r\n                        (int)Math.Pow(2, retryAttempt) * 8,\r\n                        (int)Math.Pow(2, retryAttempt) * 12)\r\n                )\r\n            )\r\n            .ExecuteAsync(async _ =\u003E\r\n            {\r\n                try\r\n                {\r\n                    await staticFeatureSaver.SaveAsync();\r\n                }\r\n                catch (Exception ex)\r\n                {\r\n                    Logger.LogException(ex);\r\n                    throw; // Polly will catch it\r\n                }\r\n            }, cancellationToken);",
             "protectedSnippet": "M:System.TimeSpan.FromSeconds(System.Double)",
             "label": "M:System.TimeSpan.FromSeconds(System.Double)",
@@ -1053,7 +1053,7 @@
           "incidentId": "71cc33a7-3630-418f-a76f-b631c769a0cf",
           "ruleId": "Api.0002",
           "description": "Breaking change: New TimeSpan.From*() overloads that take integers ",
-          "projectPath": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain\\Volo.Abp.FeatureManagement.Domain.csproj",
+          "projectPath": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain\\Nblity.Abp.FeatureManagement.Domain.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -1061,7 +1061,7 @@
               "protected": "M:System.TimeSpan.FromDays(System.Double)"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain\\Volo\\Abp\\FeatureManagement\\StaticFeatureSaver.cs",
+            "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain\\Volo\\Abp\\FeatureManagement\\StaticFeatureSaver.cs",
             "snippet": "await Cache.SetStringAsync(\r\n            cacheKey,\r\n            currentHash,\r\n            new DistributedCacheEntryOptions {\r\n                SlidingExpiration = TimeSpan.FromDays(30) //TODO: Make it configurable?\r\n            },\r\n            CancellationTokenProvider.Token\r\n        );",
             "protectedSnippet": "M:System.TimeSpan.FromDays(System.Double)",
             "label": "M:System.TimeSpan.FromDays(System.Double)",
@@ -1080,7 +1080,7 @@
           "incidentId": "84961b2b-1022-45fd-9825-7e95472f00ca",
           "ruleId": "Api.0002",
           "description": "Breaking change: New TimeSpan.From*() overloads that take integers ",
-          "projectPath": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain\\Volo.Abp.FeatureManagement.Domain.csproj",
+          "projectPath": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain\\Nblity.Abp.FeatureManagement.Domain.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -1088,7 +1088,7 @@
               "protected": "M:System.TimeSpan.FromDays(System.Double)"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain\\Volo\\Abp\\FeatureManagement\\StaticFeatureSaver.cs",
+            "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain\\Volo\\Abp\\FeatureManagement\\StaticFeatureSaver.cs",
             "snippet": "await Cache.SetStringAsync(\r\n                            GetCommonStampCacheKey(),\r\n                            Guid.NewGuid().ToString(),\r\n                            new DistributedCacheEntryOptions {\r\n                                SlidingExpiration = TimeSpan.FromDays(30) //TODO: Make it configurable?\r\n                            },\r\n                            CancellationTokenProvider.Token\r\n                        );",
             "protectedSnippet": "M:System.TimeSpan.FromDays(System.Double)",
             "label": "M:System.TimeSpan.FromDays(System.Double)",
@@ -1107,7 +1107,7 @@
           "incidentId": "532c8a90-8385-42ac-b42a-2fb09cd04289",
           "ruleId": "Api.0002",
           "description": "Breaking change: New TimeSpan.From*() overloads that take integers ",
-          "projectPath": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain\\Volo.Abp.FeatureManagement.Domain.csproj",
+          "projectPath": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain\\Nblity.Abp.FeatureManagement.Domain.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -1115,7 +1115,7 @@
               "protected": "M:System.TimeSpan.FromMinutes(System.Double)"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain\\Volo\\Abp\\FeatureManagement\\StaticFeatureSaver.cs",
+            "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain\\Volo\\Abp\\FeatureManagement\\StaticFeatureSaver.cs",
             "snippet": "await using (var commonLockHandle = await DistributedLock.TryAcquireAsync(\r\n                         GetCommonDistributedLockKey(),\r\n                         TimeSpan.FromMinutes(5)))\r\n        {\r\n            if (commonLockHandle == null)\r\n            {\r\n                /* It will re-try */\r\n                throw new AbpException(\u0022Could not acquire distributed lock for saving static features!\u0022);\r\n            }\r\n\r\n            using (var unitOfWork = UnitOfWorkManager.Begin(requiresNew: true, isTransactional: true))\r\n            {\r\n                try\r\n                {\r\n                    var hasChangesInGroups = await UpdateChangedFeatureGroupsAsync(featureGroupRecords);\r\n                    var hasChangesInFeatures = await UpdateChangedFeaturesAsync(featureRecords);\r\n\r\n                    if (hasChangesInGroups ||hasChangesInFeatures)\r\n                    {\r\n                        await Cache.SetStringAsync(\r\n                            GetCommonStampCacheKey(),\r\n                            Guid.NewGuid().ToString(),\r\n                            new DistributedCacheEntryOptions {\r\n                                SlidingExpiration = TimeSpan.FromDays(30) //TODO: Make it configurable?\r\n                            },\r\n                            CancellationTokenProvider.Token\r\n                        );\r\n                    }\r\n                }\r\n                catch\r\n                {\r\n                    try\r\n                    {\r\n                        await unitOfWork.RollbackAsync();\r\n                    }\r\n                    catch\r\n                    {\r\n                        /* ignored */\r\n                    }\r\n                    \r\n                    throw;\r\n                }\r\n\r\n                await unitOfWork.CompleteAsync();\r\n            }\r\n        }",
             "protectedSnippet": "M:System.TimeSpan.FromMinutes(System.Double)",
             "label": "M:System.TimeSpan.FromMinutes(System.Double)",
@@ -1134,7 +1134,7 @@
           "incidentId": "001d1be8-576d-49c5-b22c-bacadb371714",
           "ruleId": "Api.0002",
           "description": "Breaking change: New TimeSpan.From*() overloads that take integers ",
-          "projectPath": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain\\Volo.Abp.FeatureManagement.Domain.csproj",
+          "projectPath": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain\\Nblity.Abp.FeatureManagement.Domain.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -1142,7 +1142,7 @@
               "protected": "M:System.TimeSpan.FromDays(System.Double)"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain\\Volo\\Abp\\FeatureManagement\\DynamicFeatureDefinitionStore.cs",
+            "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain\\Volo\\Abp\\FeatureManagement\\DynamicFeatureDefinitionStore.cs",
             "snippet": "await DistributedCache.SetStringAsync(\r\n                cacheKey,\r\n                stampInDistributedCache,\r\n                new DistributedCacheEntryOptions\r\n                {\r\n                    SlidingExpiration = TimeSpan.FromDays(30) //TODO: Make it configurable?\r\n                }\r\n            );",
             "protectedSnippet": "M:System.TimeSpan.FromDays(System.Double)",
             "label": "M:System.TimeSpan.FromDays(System.Double)",
@@ -1161,7 +1161,7 @@
           "incidentId": "c8148c5d-4530-46e2-97dd-d0f4909313b5",
           "ruleId": "Api.0002",
           "description": "Breaking change: New TimeSpan.From*() overloads that take integers ",
-          "projectPath": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain\\Volo.Abp.FeatureManagement.Domain.csproj",
+          "projectPath": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain\\Nblity.Abp.FeatureManagement.Domain.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -1169,7 +1169,7 @@
               "protected": "M:System.TimeSpan.FromMinutes(System.Double)"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain\\Volo\\Abp\\FeatureManagement\\DynamicFeatureDefinitionStore.cs",
+            "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain\\Volo\\Abp\\FeatureManagement\\DynamicFeatureDefinitionStore.cs",
             "snippet": "await using (var commonLockHandle = await DistributedLock\r\n                         .TryAcquireAsync(GetCommonDistributedLockKey(), TimeSpan.FromMinutes(2)))\r\n        {\r\n            if (commonLockHandle == null)\r\n            {\r\n                /* This request will fail */\r\n                throw new AbpException(\r\n                    \u0022Could not acquire distributed lock for feature definition common stamp check!\u0022\r\n                );\r\n            }\r\n\r\n            stampInDistributedCache = await DistributedCache.GetStringAsync(cacheKey);\r\n            if (stampInDistributedCache != null)\r\n            {\r\n                return stampInDistributedCache;\r\n            }\r\n\r\n            stampInDistributedCache = Guid.NewGuid().ToString();\r\n\r\n            await DistributedCache.SetStringAsync(\r\n                cacheKey,\r\n                stampInDistributedCache,\r\n                new DistributedCacheEntryOptions\r\n                {\r\n                    SlidingExpiration = TimeSpan.FromDays(30) //TODO: Make it configurable?\r\n                }\r\n            );\r\n        }",
             "protectedSnippet": "M:System.TimeSpan.FromMinutes(System.Double)",
             "label": "M:System.TimeSpan.FromMinutes(System.Double)",
@@ -1188,12 +1188,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain.Shared\\Volo.Abp.FeatureManagement.Domain.Shared.csproj",
+      "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain.Shared\\Nblity.Abp.FeatureManagement.Domain.Shared.csproj",
       "startingProject": true,
       "issues": 3,
       "storyPoints": 8,
       "properties": {
-        "appName": "Volo.Abp.FeatureManagement.Domain.Shared",
+        "appName": "Nblity.Abp.FeatureManagement.Domain.Shared",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -1221,7 +1221,7 @@
         {
           "incidentId": "e3de750e-0010-4eb6-9227-58b54b732b7a",
           "ruleId": "NuGet.0002",
-          "projectPath": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain.Shared\\Volo.Abp.FeatureManagement.Domain.Shared.csproj",
+          "projectPath": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain.Shared\\Nblity.Abp.FeatureManagement.Domain.Shared.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -1229,7 +1229,7 @@
               "protected": "Microsoft.Extensions.FileProviders.Embedded, 10.0.2\n\n\u5EFA\u8BAE:\n\nRemove Microsoft.Extensions.FileProviders.Embedded, and replace with new package Microsoft.Extensions.FileProviders.Embedded 10.0.3"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain.Shared\\Volo.Abp.FeatureManagement.Domain.Shared.csproj",
+            "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain.Shared\\Nblity.Abp.FeatureManagement.Domain.Shared.csproj",
             "snippet": "Microsoft.Extensions.FileProviders.Embedded, 10.0.2\n\n\u5EFA\u8BAE:\n\nRemove Microsoft.Extensions.FileProviders.Embedded, and replace with new package Microsoft.Extensions.FileProviders.Embedded 10.0.3",
             "protectedSnippet": "Microsoft.Extensions.FileProviders.Embedded, 10.0.2\n\n\u5EFA\u8BAE:\n\nRemove Microsoft.Extensions.FileProviders.Embedded, and replace with new package Microsoft.Extensions.FileProviders.Embedded 10.0.3",
             "label": "Microsoft.Extensions.FileProviders.Embedded 10.0.2",
@@ -1244,7 +1244,7 @@
         {
           "incidentId": "3bef28e8-5c0f-4e10-abdb-fc6dc9b78b2c",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain.Shared\\Volo.Abp.FeatureManagement.Domain.Shared.csproj",
+          "projectPath": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain.Shared\\Nblity.Abp.FeatureManagement.Domain.Shared.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -1252,7 +1252,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain.Shared\\Volo.Abp.FeatureManagement.Domain.Shared.csproj",
+            "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain.Shared\\Nblity.Abp.FeatureManagement.Domain.Shared.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -1265,7 +1265,7 @@
           "incidentId": "5884c992-ba65-47f2-9b17-d40427f7a672",
           "ruleId": "Api.0003",
           "description": "Nullable JsonDocument properties deserialize to JsonValueKind.Null ",
-          "projectPath": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain.Shared\\Volo.Abp.FeatureManagement.Domain.Shared.csproj",
+          "projectPath": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain.Shared\\Nblity.Abp.FeatureManagement.Domain.Shared.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -1273,7 +1273,7 @@
               "protected": "T:System.Text.Json.JsonDocument"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain.Shared\\Volo\\Abp\\FeatureManagement\\JsonConverters\\SelectionStringValueItemSourceJsonConverter.cs",
+            "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain.Shared\\Volo\\Abp\\FeatureManagement\\JsonConverters\\SelectionStringValueItemSourceJsonConverter.cs",
             "snippet": "var rootElement = JsonDocument.ParseValue(ref reader).RootElement;",
             "protectedSnippet": "T:System.Text.Json.JsonDocument",
             "label": "T:System.Text.Json.JsonDocument",
@@ -1292,7 +1292,7 @@
           "incidentId": "cfc47d5e-ff61-4a59-9be7-92664bd36569",
           "ruleId": "Api.0003",
           "description": "Nullable JsonDocument properties deserialize to JsonValueKind.Null ",
-          "projectPath": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain.Shared\\Volo.Abp.FeatureManagement.Domain.Shared.csproj",
+          "projectPath": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain.Shared\\Nblity.Abp.FeatureManagement.Domain.Shared.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -1300,7 +1300,7 @@
               "protected": "T:System.Text.Json.JsonDocument"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain.Shared\\Volo\\Abp\\FeatureManagement\\JsonConverters\\SelectionStringValueItemSourceJsonConverter.cs",
+            "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain.Shared\\Volo\\Abp\\FeatureManagement\\JsonConverters\\SelectionStringValueItemSourceJsonConverter.cs",
             "snippet": "var rootElement = JsonDocument.ParseValue(ref reader).RootElement;",
             "protectedSnippet": "T:System.Text.Json.JsonDocument",
             "label": "T:System.Text.Json.JsonDocument",
@@ -1319,7 +1319,7 @@
           "incidentId": "402eba49-d9af-4403-b3b1-231a35f11ca4",
           "ruleId": "Api.0003",
           "description": "Nullable JsonDocument properties deserialize to JsonValueKind.Null ",
-          "projectPath": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain.Shared\\Volo.Abp.FeatureManagement.Domain.Shared.csproj",
+          "projectPath": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain.Shared\\Nblity.Abp.FeatureManagement.Domain.Shared.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -1327,7 +1327,7 @@
               "protected": "T:System.Text.Json.JsonDocument"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain.Shared\\Volo\\Abp\\FeatureManagement\\JsonConverters\\StringValueTypeJsonConverter.cs",
+            "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain.Shared\\Volo\\Abp\\FeatureManagement\\JsonConverters\\StringValueTypeJsonConverter.cs",
             "snippet": "var rootElement = JsonDocument.ParseValue(ref reader).RootElement;",
             "protectedSnippet": "T:System.Text.Json.JsonDocument",
             "label": "T:System.Text.Json.JsonDocument",
@@ -1346,7 +1346,7 @@
           "incidentId": "c6c8f36c-e2e3-4d4a-aa25-81ac23ce5e94",
           "ruleId": "Api.0003",
           "description": "Nullable JsonDocument properties deserialize to JsonValueKind.Null ",
-          "projectPath": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain.Shared\\Volo.Abp.FeatureManagement.Domain.Shared.csproj",
+          "projectPath": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain.Shared\\Nblity.Abp.FeatureManagement.Domain.Shared.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -1354,7 +1354,7 @@
               "protected": "T:System.Text.Json.JsonDocument"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain.Shared\\Volo\\Abp\\FeatureManagement\\JsonConverters\\StringValueTypeJsonConverter.cs",
+            "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain.Shared\\Volo\\Abp\\FeatureManagement\\JsonConverters\\StringValueTypeJsonConverter.cs",
             "snippet": "var rootElement = JsonDocument.ParseValue(ref reader).RootElement;",
             "protectedSnippet": "T:System.Text.Json.JsonDocument",
             "label": "T:System.Text.Json.JsonDocument",
@@ -1373,7 +1373,7 @@
           "incidentId": "9f4f1c93-dcfb-4314-b421-777fac62eae5",
           "ruleId": "Api.0003",
           "description": "Nullable JsonDocument properties deserialize to JsonValueKind.Null ",
-          "projectPath": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain.Shared\\Volo.Abp.FeatureManagement.Domain.Shared.csproj",
+          "projectPath": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain.Shared\\Nblity.Abp.FeatureManagement.Domain.Shared.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -1381,7 +1381,7 @@
               "protected": "T:System.Text.Json.JsonDocument"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain.Shared\\Volo\\Abp\\FeatureManagement\\JsonConverters\\ValueValidatorJsonConverter.cs",
+            "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain.Shared\\Volo\\Abp\\FeatureManagement\\JsonConverters\\ValueValidatorJsonConverter.cs",
             "snippet": "var rootElement = JsonDocument.ParseValue(ref reader).RootElement;",
             "protectedSnippet": "T:System.Text.Json.JsonDocument",
             "label": "T:System.Text.Json.JsonDocument",
@@ -1400,7 +1400,7 @@
           "incidentId": "26104b7d-6eb1-4739-8cd7-784c3c39ee34",
           "ruleId": "Api.0003",
           "description": "Nullable JsonDocument properties deserialize to JsonValueKind.Null ",
-          "projectPath": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain.Shared\\Volo.Abp.FeatureManagement.Domain.Shared.csproj",
+          "projectPath": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain.Shared\\Nblity.Abp.FeatureManagement.Domain.Shared.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -1408,7 +1408,7 @@
               "protected": "T:System.Text.Json.JsonDocument"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Domain.Shared\\Volo\\Abp\\FeatureManagement\\JsonConverters\\ValueValidatorJsonConverter.cs",
+            "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Domain.Shared\\Volo\\Abp\\FeatureManagement\\JsonConverters\\ValueValidatorJsonConverter.cs",
             "snippet": "var rootElement = JsonDocument.ParseValue(ref reader).RootElement;",
             "protectedSnippet": "T:System.Text.Json.JsonDocument",
             "label": "T:System.Text.Json.JsonDocument",
@@ -1427,12 +1427,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.EntityFrameworkCore\\Volo.Abp.FeatureManagement.EntityFrameworkCore.csproj",
+      "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.EntityFrameworkCore\\Nblity.Abp.FeatureManagement.EntityFrameworkCore.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.FeatureManagement.EntityFrameworkCore",
+        "appName": "Nblity.Abp.FeatureManagement.EntityFrameworkCore",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -1456,12 +1456,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.HttpApi.Client\\Volo.Abp.FeatureManagement.HttpApi.Client.csproj",
+      "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.HttpApi.Client\\Nblity.Abp.FeatureManagement.HttpApi.Client.csproj",
       "startingProject": true,
       "issues": 1,
       "storyPoints": 1,
       "properties": {
-        "appName": "Volo.Abp.FeatureManagement.HttpApi.Client",
+        "appName": "Nblity.Abp.FeatureManagement.HttpApi.Client",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -1489,7 +1489,7 @@
         {
           "incidentId": "3fbf27ea-3d9b-44e2-830b-2d5db1035ee8",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.HttpApi.Client\\Volo.Abp.FeatureManagement.HttpApi.Client.csproj",
+          "projectPath": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.HttpApi.Client\\Nblity.Abp.FeatureManagement.HttpApi.Client.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -1497,7 +1497,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.HttpApi.Client\\Volo.Abp.FeatureManagement.HttpApi.Client.csproj",
+            "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.HttpApi.Client\\Nblity.Abp.FeatureManagement.HttpApi.Client.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -1510,12 +1510,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.HttpApi\\Volo.Abp.FeatureManagement.HttpApi.csproj",
+      "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.HttpApi\\Nblity.Abp.FeatureManagement.HttpApi.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.FeatureManagement.HttpApi",
+        "appName": "Nblity.Abp.FeatureManagement.HttpApi",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -1539,12 +1539,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Installer\\Volo.Abp.FeatureManagement.Installer.csproj",
+      "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Installer\\Nblity.Abp.FeatureManagement.Installer.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.FeatureManagement.Installer",
+        "appName": "Nblity.Abp.FeatureManagement.Installer",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -1568,12 +1568,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.MongoDB\\Volo.Abp.FeatureManagement.MongoDB.csproj",
+      "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.MongoDB\\Nblity.Abp.FeatureManagement.MongoDB.csproj",
       "startingProject": true,
       "issues": 1,
       "storyPoints": 1,
       "properties": {
-        "appName": "Volo.Abp.FeatureManagement.MongoDB",
+        "appName": "Nblity.Abp.FeatureManagement.MongoDB",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -1601,7 +1601,7 @@
         {
           "incidentId": "066f4920-fb92-4161-abbf-f57a3a1f22ff",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.MongoDB\\Volo.Abp.FeatureManagement.MongoDB.csproj",
+          "projectPath": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.MongoDB\\Nblity.Abp.FeatureManagement.MongoDB.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -1609,7 +1609,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.MongoDB\\Volo.Abp.FeatureManagement.MongoDB.csproj",
+            "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.MongoDB\\Nblity.Abp.FeatureManagement.MongoDB.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -1622,12 +1622,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.FeatureManagement\\src\\Volo.Abp.FeatureManagement.Web\\Volo.Abp.FeatureManagement.Web.csproj",
+      "path": "modules\\Nblity.Abp.FeatureManagement\\src\\Nblity.Abp.FeatureManagement.Web\\Nblity.Abp.FeatureManagement.Web.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.FeatureManagement.Web",
+        "appName": "Nblity.Abp.FeatureManagement.Web",
         "projectKind": "AspNetCore",
         "frameworks": [
           "net10.0"
@@ -1651,12 +1651,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.Identity.Application.Contracts\\Volo.Abp.Identity.Application.Contracts.csproj",
+      "path": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.Identity.Application.Contracts\\Nblity.Abp.Identity.Application.Contracts.csproj",
       "startingProject": true,
       "issues": 1,
       "storyPoints": 1,
       "properties": {
-        "appName": "Volo.Abp.Identity.Application.Contracts",
+        "appName": "Nblity.Abp.Identity.Application.Contracts",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -1684,7 +1684,7 @@
         {
           "incidentId": "780d8e9c-4350-4a8d-8498-4f46e47d53f8",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.Identity.Application.Contracts\\Volo.Abp.Identity.Application.Contracts.csproj",
+          "projectPath": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.Identity.Application.Contracts\\Nblity.Abp.Identity.Application.Contracts.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -1692,7 +1692,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.Identity.Application.Contracts\\Volo.Abp.Identity.Application.Contracts.csproj",
+            "path": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.Identity.Application.Contracts\\Nblity.Abp.Identity.Application.Contracts.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -1705,12 +1705,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.Identity.Application\\Volo.Abp.Identity.Application.csproj",
+      "path": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.Identity.Application\\Nblity.Abp.Identity.Application.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.Identity.Application",
+        "appName": "Nblity.Abp.Identity.Application",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -1734,12 +1734,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.Identity.AspNetCore\\Volo.Abp.Identity.AspNetCore.csproj",
+      "path": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.Identity.AspNetCore\\Nblity.Abp.Identity.AspNetCore.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.Identity.AspNetCore",
+        "appName": "Nblity.Abp.Identity.AspNetCore",
         "projectKind": "AspNetCore",
         "frameworks": [
           "net10.0"
@@ -1763,12 +1763,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.Identity.Blazor\\Volo.Abp.Identity.Blazor.csproj",
+      "path": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.Identity.Blazor\\Nblity.Abp.Identity.Blazor.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.Identity.Blazor",
+        "appName": "Nblity.Abp.Identity.Blazor",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -1792,12 +1792,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.Identity.Blazor.Server\\Volo.Abp.Identity.Blazor.Server.csproj",
+      "path": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.Identity.Blazor.Server\\Nblity.Abp.Identity.Blazor.Server.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.Identity.Blazor.Server",
+        "appName": "Nblity.Abp.Identity.Blazor.Server",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -1821,12 +1821,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.Identity.Blazor.WebAssembly\\Volo.Abp.Identity.Blazor.WebAssembly.csproj",
+      "path": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.Identity.Blazor.WebAssembly\\Nblity.Abp.Identity.Blazor.WebAssembly.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.Identity.Blazor.WebAssembly",
+        "appName": "Nblity.Abp.Identity.Blazor.WebAssembly",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -1850,12 +1850,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.Identity.Domain\\Volo.Abp.Identity.Domain.csproj",
+      "path": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.Identity.Domain\\Nblity.Abp.Identity.Domain.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.Identity.Domain",
+        "appName": "Nblity.Abp.Identity.Domain",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -1879,12 +1879,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.Identity.Domain.Shared\\Volo.Abp.Identity.Domain.Shared.csproj",
+      "path": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.Identity.Domain.Shared\\Nblity.Abp.Identity.Domain.Shared.csproj",
       "startingProject": true,
       "issues": 2,
       "storyPoints": 2,
       "properties": {
-        "appName": "Volo.Abp.Identity.Domain.Shared",
+        "appName": "Nblity.Abp.Identity.Domain.Shared",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -1912,7 +1912,7 @@
         {
           "incidentId": "26d9df3b-eb75-4fcc-ba0a-5bcbc36a304b",
           "ruleId": "NuGet.0002",
-          "projectPath": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.Identity.Domain.Shared\\Volo.Abp.Identity.Domain.Shared.csproj",
+          "projectPath": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.Identity.Domain.Shared\\Nblity.Abp.Identity.Domain.Shared.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -1920,7 +1920,7 @@
               "protected": "Microsoft.Extensions.FileProviders.Embedded, 10.0.2\n\n\u5EFA\u8BAE:\n\nRemove Microsoft.Extensions.FileProviders.Embedded, and replace with new package Microsoft.Extensions.FileProviders.Embedded 10.0.3"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.Identity.Domain.Shared\\Volo.Abp.Identity.Domain.Shared.csproj",
+            "path": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.Identity.Domain.Shared\\Nblity.Abp.Identity.Domain.Shared.csproj",
             "snippet": "Microsoft.Extensions.FileProviders.Embedded, 10.0.2\n\n\u5EFA\u8BAE:\n\nRemove Microsoft.Extensions.FileProviders.Embedded, and replace with new package Microsoft.Extensions.FileProviders.Embedded 10.0.3",
             "protectedSnippet": "Microsoft.Extensions.FileProviders.Embedded, 10.0.2\n\n\u5EFA\u8BAE:\n\nRemove Microsoft.Extensions.FileProviders.Embedded, and replace with new package Microsoft.Extensions.FileProviders.Embedded 10.0.3",
             "label": "Microsoft.Extensions.FileProviders.Embedded 10.0.2",
@@ -1935,7 +1935,7 @@
         {
           "incidentId": "fa94df44-25b0-445c-a2bf-c762be056d0d",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.Identity.Domain.Shared\\Volo.Abp.Identity.Domain.Shared.csproj",
+          "projectPath": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.Identity.Domain.Shared\\Nblity.Abp.Identity.Domain.Shared.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -1943,7 +1943,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.Identity.Domain.Shared\\Volo.Abp.Identity.Domain.Shared.csproj",
+            "path": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.Identity.Domain.Shared\\Nblity.Abp.Identity.Domain.Shared.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -1956,12 +1956,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.Identity.EntityFrameworkCore\\Volo.Abp.Identity.EntityFrameworkCore.csproj",
+      "path": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.Identity.EntityFrameworkCore\\Nblity.Abp.Identity.EntityFrameworkCore.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.Identity.EntityFrameworkCore",
+        "appName": "Nblity.Abp.Identity.EntityFrameworkCore",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -1985,12 +1985,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.Identity.HttpApi.Client\\Volo.Abp.Identity.HttpApi.Client.csproj",
+      "path": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.Identity.HttpApi.Client\\Nblity.Abp.Identity.HttpApi.Client.csproj",
       "startingProject": true,
       "issues": 1,
       "storyPoints": 1,
       "properties": {
-        "appName": "Volo.Abp.Identity.HttpApi.Client",
+        "appName": "Nblity.Abp.Identity.HttpApi.Client",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -2018,7 +2018,7 @@
         {
           "incidentId": "6b45caef-36bd-419b-80f1-320823ddcffa",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.Identity.HttpApi.Client\\Volo.Abp.Identity.HttpApi.Client.csproj",
+          "projectPath": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.Identity.HttpApi.Client\\Nblity.Abp.Identity.HttpApi.Client.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -2026,7 +2026,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.Identity.HttpApi.Client\\Volo.Abp.Identity.HttpApi.Client.csproj",
+            "path": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.Identity.HttpApi.Client\\Nblity.Abp.Identity.HttpApi.Client.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -2039,12 +2039,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.Identity.HttpApi\\Volo.Abp.Identity.HttpApi.csproj",
+      "path": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.Identity.HttpApi\\Nblity.Abp.Identity.HttpApi.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.Identity.HttpApi",
+        "appName": "Nblity.Abp.Identity.HttpApi",
         "projectKind": "AspNetCore",
         "frameworks": [
           "net10.0"
@@ -2068,12 +2068,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.Identity.Installer\\Volo.Abp.Identity.Installer.csproj",
+      "path": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.Identity.Installer\\Nblity.Abp.Identity.Installer.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.Identity.Installer",
+        "appName": "Nblity.Abp.Identity.Installer",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -2097,12 +2097,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.Identity.MongoDB\\Volo.Abp.Identity.MongoDB.csproj",
+      "path": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.Identity.MongoDB\\Nblity.Abp.Identity.MongoDB.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.Identity.MongoDB",
+        "appName": "Nblity.Abp.Identity.MongoDB",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -2126,12 +2126,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.Identity.Web\\Volo.Abp.Identity.Web.csproj",
+      "path": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.Identity.Web\\Nblity.Abp.Identity.Web.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.Identity.Web",
+        "appName": "Nblity.Abp.Identity.Web",
         "projectKind": "AspNetCore",
         "frameworks": [
           "net10.0"
@@ -2155,12 +2155,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.LeptonXLiteTheme\\src\\Volo.Abp.LeptonXLiteTheme.Installer\\Volo.Abp.LeptonXLiteTheme.Installer.csproj",
+      "path": "modules\\Nblity.Abp.MudblazorTheme\\src\\Nblity.Abp.MudblazorTheme.Installer\\Nblity.Abp.MudblazorTheme.Installer.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.LeptonXLiteTheme.Installer",
+        "appName": "Nblity.Abp.MudblazorTheme.Installer",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -2184,12 +2184,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Application.Contracts\\Volo.Abp.PermissionManagement.Application.Contracts.csproj",
+      "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Application.Contracts\\Nblity.Abp.PermissionManagement.Application.Contracts.csproj",
       "startingProject": true,
       "issues": 1,
       "storyPoints": 1,
       "properties": {
-        "appName": "Volo.Abp.PermissionManagement.Application.Contracts",
+        "appName": "Nblity.Abp.PermissionManagement.Application.Contracts",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -2217,7 +2217,7 @@
         {
           "incidentId": "39bd1b5c-77bd-445e-8b4e-8073fb9da085",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Application.Contracts\\Volo.Abp.PermissionManagement.Application.Contracts.csproj",
+          "projectPath": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Application.Contracts\\Nblity.Abp.PermissionManagement.Application.Contracts.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -2225,7 +2225,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Application.Contracts\\Volo.Abp.PermissionManagement.Application.Contracts.csproj",
+            "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Application.Contracts\\Nblity.Abp.PermissionManagement.Application.Contracts.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -2238,12 +2238,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Application\\Volo.Abp.PermissionManagement.Application.csproj",
+      "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Application\\Nblity.Abp.PermissionManagement.Application.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.PermissionManagement.Application",
+        "appName": "Nblity.Abp.PermissionManagement.Application",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -2267,12 +2267,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Blazor\\Volo.Abp.PermissionManagement.Blazor.csproj",
+      "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Blazor\\Nblity.Abp.PermissionManagement.Blazor.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.PermissionManagement.Blazor",
+        "appName": "Nblity.Abp.PermissionManagement.Blazor",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -2296,12 +2296,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Blazor.Server\\Volo.Abp.PermissionManagement.Blazor.Server.csproj",
+      "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Blazor.Server\\Nblity.Abp.PermissionManagement.Blazor.Server.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.PermissionManagement.Blazor.Server",
+        "appName": "Nblity.Abp.PermissionManagement.Blazor.Server",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -2325,12 +2325,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Blazor.WebAssembly\\Volo.Abp.PermissionManagement.Blazor.WebAssembly.csproj",
+      "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Blazor.WebAssembly\\Nblity.Abp.PermissionManagement.Blazor.WebAssembly.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.PermissionManagement.Blazor.WebAssembly",
+        "appName": "Nblity.Abp.PermissionManagement.Blazor.WebAssembly",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -2354,12 +2354,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Domain\\Volo.Abp.PermissionManagement.Domain.csproj",
+      "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Domain\\Nblity.Abp.PermissionManagement.Domain.csproj",
       "startingProject": true,
       "issues": 2,
       "storyPoints": 7,
       "properties": {
-        "appName": "Volo.Abp.PermissionManagement.Domain",
+        "appName": "Nblity.Abp.PermissionManagement.Domain",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -2387,7 +2387,7 @@
         {
           "incidentId": "bfb599b8-3742-4290-a143-db9ccfdb56fb",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Domain\\Volo.Abp.PermissionManagement.Domain.csproj",
+          "projectPath": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Domain\\Nblity.Abp.PermissionManagement.Domain.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -2395,7 +2395,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Domain\\Volo.Abp.PermissionManagement.Domain.csproj",
+            "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Domain\\Nblity.Abp.PermissionManagement.Domain.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -2408,7 +2408,7 @@
           "incidentId": "c8be7006-66e0-4d18-8200-35cc284b6350",
           "ruleId": "Api.0002",
           "description": "Breaking change: New TimeSpan.From*() overloads that take integers ",
-          "projectPath": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Domain\\Volo.Abp.PermissionManagement.Domain.csproj",
+          "projectPath": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Domain\\Nblity.Abp.PermissionManagement.Domain.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -2416,7 +2416,7 @@
               "protected": "M:System.TimeSpan.FromDays(System.Double)"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Domain\\Volo\\Abp\\PermissionManagement\\DynamicPermissionDefinitionStore.cs",
+            "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Domain\\Volo\\Abp\\PermissionManagement\\DynamicPermissionDefinitionStore.cs",
             "snippet": "await DistributedCache.SetStringAsync(\r\n                cacheKey,\r\n                stampInDistributedCache,\r\n                new DistributedCacheEntryOptions\r\n                {\r\n                    SlidingExpiration = TimeSpan.FromDays(30) //TODO: Make it configurable?\r\n                }\r\n            );",
             "protectedSnippet": "M:System.TimeSpan.FromDays(System.Double)",
             "label": "M:System.TimeSpan.FromDays(System.Double)",
@@ -2435,7 +2435,7 @@
           "incidentId": "3867add9-4f96-4bd2-b5c9-18d170fc9e0f",
           "ruleId": "Api.0002",
           "description": "Breaking change: New TimeSpan.From*() overloads that take integers ",
-          "projectPath": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Domain\\Volo.Abp.PermissionManagement.Domain.csproj",
+          "projectPath": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Domain\\Nblity.Abp.PermissionManagement.Domain.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -2443,7 +2443,7 @@
               "protected": "M:System.TimeSpan.FromMinutes(System.Double)"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Domain\\Volo\\Abp\\PermissionManagement\\DynamicPermissionDefinitionStore.cs",
+            "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Domain\\Volo\\Abp\\PermissionManagement\\DynamicPermissionDefinitionStore.cs",
             "snippet": "await using (var commonLockHandle = await DistributedLock\r\n                         .TryAcquireAsync(GetCommonDistributedLockKey(), TimeSpan.FromMinutes(2)))\r\n        {\r\n            if (commonLockHandle == null)\r\n            {\r\n                /* This request will fail */\r\n                throw new AbpException(\r\n                    \u0022Could not acquire distributed lock for permission definition common stamp check!\u0022\r\n                );\r\n            }\r\n\r\n            stampInDistributedCache = await DistributedCache.GetStringAsync(cacheKey);\r\n            if (stampInDistributedCache != null)\r\n            {\r\n                return stampInDistributedCache;\r\n            }\r\n\r\n            stampInDistributedCache = Guid.NewGuid().ToString();\r\n\r\n            await DistributedCache.SetStringAsync(\r\n                cacheKey,\r\n                stampInDistributedCache,\r\n                new DistributedCacheEntryOptions\r\n                {\r\n                    SlidingExpiration = TimeSpan.FromDays(30) //TODO: Make it configurable?\r\n                }\r\n            );\r\n        }",
             "protectedSnippet": "M:System.TimeSpan.FromMinutes(System.Double)",
             "label": "M:System.TimeSpan.FromMinutes(System.Double)",
@@ -2462,7 +2462,7 @@
           "incidentId": "fc697b24-cb93-4433-b335-05ce9b6ac76b",
           "ruleId": "Api.0002",
           "description": "Breaking change: New TimeSpan.From*() overloads that take integers ",
-          "projectPath": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Domain\\Volo.Abp.PermissionManagement.Domain.csproj",
+          "projectPath": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Domain\\Nblity.Abp.PermissionManagement.Domain.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -2470,7 +2470,7 @@
               "protected": "M:System.TimeSpan.FromSeconds(System.Double)"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Domain\\Volo\\Abp\\PermissionManagement\\PermissionDynamicInitializer.cs",
+            "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Domain\\Volo\\Abp\\PermissionManagement\\PermissionDynamicInitializer.cs",
             "snippet": "await Policy\r\n            .Handle\u003CException\u003E()\r\n            .WaitAndRetryAsync(\r\n                8,\r\n                retryAttempt =\u003E TimeSpan.FromSeconds(\r\n                    Volo.Abp.RandomHelper.GetRandom(\r\n                        (int)Math.Pow(2, retryAttempt) * 8,\r\n                        (int)Math.Pow(2, retryAttempt) * 12)\r\n                )\r\n            )\r\n            .ExecuteAsync(async _ =\u003E\r\n            {\r\n                try\r\n                {\r\n                    await staticPermissionSaver.SaveAsync();\r\n                }\r\n                catch (Exception ex)\r\n                {\r\n                    Logger.LogException(ex);\r\n\r\n                    throw; // Polly will catch it\r\n                }\r\n            }, cancellationToken);",
             "protectedSnippet": "M:System.TimeSpan.FromSeconds(System.Double)",
             "label": "M:System.TimeSpan.FromSeconds(System.Double)",
@@ -2489,7 +2489,7 @@
           "incidentId": "00994e9b-9988-4db2-bea6-8c360b4272be",
           "ruleId": "Api.0002",
           "description": "Breaking change: New TimeSpan.From*() overloads that take integers ",
-          "projectPath": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Domain\\Volo.Abp.PermissionManagement.Domain.csproj",
+          "projectPath": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Domain\\Nblity.Abp.PermissionManagement.Domain.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -2497,7 +2497,7 @@
               "protected": "M:System.TimeSpan.FromDays(System.Double)"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Domain\\Volo\\Abp\\PermissionManagement\\StaticPermissionSaver.cs",
+            "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Domain\\Volo\\Abp\\PermissionManagement\\StaticPermissionSaver.cs",
             "snippet": "await Cache.SetStringAsync(\r\n            cacheKey,\r\n            currentHash,\r\n            new DistributedCacheEntryOptions {\r\n                SlidingExpiration = TimeSpan.FromDays(30) //TODO: Make it configurable?\r\n            },\r\n            CancellationTokenProvider.Token\r\n        );",
             "protectedSnippet": "M:System.TimeSpan.FromDays(System.Double)",
             "label": "M:System.TimeSpan.FromDays(System.Double)",
@@ -2516,7 +2516,7 @@
           "incidentId": "5a1deb3f-2d7e-42b8-ae9f-3bc2ecd4f032",
           "ruleId": "Api.0002",
           "description": "Breaking change: New TimeSpan.From*() overloads that take integers ",
-          "projectPath": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Domain\\Volo.Abp.PermissionManagement.Domain.csproj",
+          "projectPath": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Domain\\Nblity.Abp.PermissionManagement.Domain.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -2524,7 +2524,7 @@
               "protected": "M:System.TimeSpan.FromDays(System.Double)"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Domain\\Volo\\Abp\\PermissionManagement\\StaticPermissionSaver.cs",
+            "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Domain\\Volo\\Abp\\PermissionManagement\\StaticPermissionSaver.cs",
             "snippet": "await Cache.SetStringAsync(\r\n                            GetCommonStampCacheKey(),\r\n                            Guid.NewGuid().ToString(),\r\n                            new DistributedCacheEntryOptions {\r\n                                SlidingExpiration = TimeSpan.FromDays(30) //TODO: Make it configurable?\r\n                            },\r\n                            CancellationTokenProvider.Token\r\n                        );",
             "protectedSnippet": "M:System.TimeSpan.FromDays(System.Double)",
             "label": "M:System.TimeSpan.FromDays(System.Double)",
@@ -2543,7 +2543,7 @@
           "incidentId": "eadec67b-85ed-49d6-9d73-edcc44a6ceda",
           "ruleId": "Api.0002",
           "description": "Breaking change: New TimeSpan.From*() overloads that take integers ",
-          "projectPath": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Domain\\Volo.Abp.PermissionManagement.Domain.csproj",
+          "projectPath": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Domain\\Nblity.Abp.PermissionManagement.Domain.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -2551,7 +2551,7 @@
               "protected": "M:System.TimeSpan.FromMinutes(System.Double)"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Domain\\Volo\\Abp\\PermissionManagement\\StaticPermissionSaver.cs",
+            "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Domain\\Volo\\Abp\\PermissionManagement\\StaticPermissionSaver.cs",
             "snippet": "await using (var commonLockHandle = await DistributedLock.TryAcquireAsync(\r\n                         GetCommonDistributedLockKey(),\r\n                         TimeSpan.FromMinutes(5)))\r\n        {\r\n            if (commonLockHandle == null)\r\n            {\r\n                /* It will re-try */\r\n                throw new AbpException(\u0022Could not acquire distributed lock for saving static permissions!\u0022);\r\n            }\r\n\r\n            var newOrChangedPermissions = new List\u003Cstring\u003E();\r\n            using (var unitOfWork = UnitOfWorkManager.Begin(requiresNew: true, isTransactional: true))\r\n            {\r\n                try\r\n                {\r\n                    var hasChangesInGroups = await UpdateChangedPermissionGroupsAsync(permissionGroupRecords);\r\n                    var hasChangesInPermissions = await UpdateChangedPermissionsAsync(permissionRecords, newOrChangedPermissions);\r\n\r\n                    if (hasChangesInGroups || hasChangesInPermissions)\r\n                    {\r\n                        await Cache.SetStringAsync(\r\n                            GetCommonStampCacheKey(),\r\n                            Guid.NewGuid().ToString(),\r\n                            new DistributedCacheEntryOptions {\r\n                                SlidingExpiration = TimeSpan.FromDays(30) //TODO: Make it configurable?\r\n                            },\r\n                            CancellationTokenProvider.Token\r\n                        );\r\n                    }\r\n                }\r\n                catch\r\n                {\r\n                    try\r\n                    {\r\n                        await unitOfWork.RollbackAsync();\r\n                    }\r\n                    catch\r\n                    {\r\n                        /* ignored */\r\n                    }\r\n\r\n                    throw;\r\n                }\r\n\r\n                if (newOrChangedPermissions.Any())\r\n                {\r\n                    await DistributedEventBus.PublishAsync(new DynamicPermissionDefinitionsChangedEto\r\n                    {\r\n                        Permissions = newOrChangedPermissions.Distinct().ToList()\r\n                    });\r\n                }\r\n\r\n                await unitOfWork.CompleteAsync();\r\n            }\r\n        }",
             "protectedSnippet": "M:System.TimeSpan.FromMinutes(System.Double)",
             "label": "M:System.TimeSpan.FromMinutes(System.Double)",
@@ -2570,12 +2570,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.PermissionManagement.Domain.Identity\\Volo.Abp.PermissionManagement.Domain.Identity.csproj",
+      "path": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.PermissionManagement.Domain.Identity\\Nblity.Abp.PermissionManagement.Domain.Identity.csproj",
       "startingProject": true,
       "issues": 1,
       "storyPoints": 1,
       "properties": {
-        "appName": "Volo.Abp.PermissionManagement.Domain.Identity",
+        "appName": "Nblity.Abp.PermissionManagement.Domain.Identity",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -2603,7 +2603,7 @@
         {
           "incidentId": "dc73437e-f4b4-4b6f-9554-70ea3fc5644d",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.PermissionManagement.Domain.Identity\\Volo.Abp.PermissionManagement.Domain.Identity.csproj",
+          "projectPath": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.PermissionManagement.Domain.Identity\\Nblity.Abp.PermissionManagement.Domain.Identity.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -2611,7 +2611,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.Identity\\src\\Volo.Abp.PermissionManagement.Domain.Identity\\Volo.Abp.PermissionManagement.Domain.Identity.csproj",
+            "path": "modules\\Nblity.Abp.Identity\\src\\Nblity.Abp.PermissionManagement.Domain.Identity\\Nblity.Abp.PermissionManagement.Domain.Identity.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -2624,12 +2624,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Domain.Shared\\Volo.Abp.PermissionManagement.Domain.Shared.csproj",
+      "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Domain.Shared\\Nblity.Abp.PermissionManagement.Domain.Shared.csproj",
       "startingProject": true,
       "issues": 2,
       "storyPoints": 2,
       "properties": {
-        "appName": "Volo.Abp.PermissionManagement.Domain.Shared",
+        "appName": "Nblity.Abp.PermissionManagement.Domain.Shared",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -2657,7 +2657,7 @@
         {
           "incidentId": "e396d27b-9dc8-4f30-b043-52aef3b8c4fe",
           "ruleId": "NuGet.0002",
-          "projectPath": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Domain.Shared\\Volo.Abp.PermissionManagement.Domain.Shared.csproj",
+          "projectPath": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Domain.Shared\\Nblity.Abp.PermissionManagement.Domain.Shared.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -2665,7 +2665,7 @@
               "protected": "Microsoft.Extensions.FileProviders.Embedded, 10.0.2\n\n\u5EFA\u8BAE:\n\nRemove Microsoft.Extensions.FileProviders.Embedded, and replace with new package Microsoft.Extensions.FileProviders.Embedded 10.0.3"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Domain.Shared\\Volo.Abp.PermissionManagement.Domain.Shared.csproj",
+            "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Domain.Shared\\Nblity.Abp.PermissionManagement.Domain.Shared.csproj",
             "snippet": "Microsoft.Extensions.FileProviders.Embedded, 10.0.2\n\n\u5EFA\u8BAE:\n\nRemove Microsoft.Extensions.FileProviders.Embedded, and replace with new package Microsoft.Extensions.FileProviders.Embedded 10.0.3",
             "protectedSnippet": "Microsoft.Extensions.FileProviders.Embedded, 10.0.2\n\n\u5EFA\u8BAE:\n\nRemove Microsoft.Extensions.FileProviders.Embedded, and replace with new package Microsoft.Extensions.FileProviders.Embedded 10.0.3",
             "label": "Microsoft.Extensions.FileProviders.Embedded 10.0.2",
@@ -2680,7 +2680,7 @@
         {
           "incidentId": "60e8f6f3-b8c5-46aa-b85f-755ee453621f",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Domain.Shared\\Volo.Abp.PermissionManagement.Domain.Shared.csproj",
+          "projectPath": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Domain.Shared\\Nblity.Abp.PermissionManagement.Domain.Shared.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -2688,7 +2688,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Domain.Shared\\Volo.Abp.PermissionManagement.Domain.Shared.csproj",
+            "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Domain.Shared\\Nblity.Abp.PermissionManagement.Domain.Shared.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -2701,12 +2701,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.EntityFrameworkCore\\Volo.Abp.PermissionManagement.EntityFrameworkCore.csproj",
+      "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.EntityFrameworkCore\\Nblity.Abp.PermissionManagement.EntityFrameworkCore.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.PermissionManagement.EntityFrameworkCore",
+        "appName": "Nblity.Abp.PermissionManagement.EntityFrameworkCore",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -2730,12 +2730,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.HttpApi.Client\\Volo.Abp.PermissionManagement.HttpApi.Client.csproj",
+      "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.HttpApi.Client\\Nblity.Abp.PermissionManagement.HttpApi.Client.csproj",
       "startingProject": true,
       "issues": 1,
       "storyPoints": 1,
       "properties": {
-        "appName": "Volo.Abp.PermissionManagement.HttpApi.Client",
+        "appName": "Nblity.Abp.PermissionManagement.HttpApi.Client",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -2763,7 +2763,7 @@
         {
           "incidentId": "70e08800-1277-4997-8586-c89980b0bb90",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.HttpApi.Client\\Volo.Abp.PermissionManagement.HttpApi.Client.csproj",
+          "projectPath": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.HttpApi.Client\\Nblity.Abp.PermissionManagement.HttpApi.Client.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -2771,7 +2771,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.HttpApi.Client\\Volo.Abp.PermissionManagement.HttpApi.Client.csproj",
+            "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.HttpApi.Client\\Nblity.Abp.PermissionManagement.HttpApi.Client.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -2784,12 +2784,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.HttpApi\\Volo.Abp.PermissionManagement.HttpApi.csproj",
+      "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.HttpApi\\Nblity.Abp.PermissionManagement.HttpApi.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.PermissionManagement.HttpApi",
+        "appName": "Nblity.Abp.PermissionManagement.HttpApi",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -2813,12 +2813,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Installer\\Volo.Abp.PermissionManagement.Installer.csproj",
+      "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Installer\\Nblity.Abp.PermissionManagement.Installer.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.PermissionManagement.Installer",
+        "appName": "Nblity.Abp.PermissionManagement.Installer",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -2842,12 +2842,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.MongoDB\\Volo.Abp.PermissionManagement.MongoDB.csproj",
+      "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.MongoDB\\Nblity.Abp.PermissionManagement.MongoDB.csproj",
       "startingProject": true,
       "issues": 1,
       "storyPoints": 1,
       "properties": {
-        "appName": "Volo.Abp.PermissionManagement.MongoDB",
+        "appName": "Nblity.Abp.PermissionManagement.MongoDB",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -2875,7 +2875,7 @@
         {
           "incidentId": "cccf5776-6585-42d5-92cb-eca607265854",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.MongoDB\\Volo.Abp.PermissionManagement.MongoDB.csproj",
+          "projectPath": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.MongoDB\\Nblity.Abp.PermissionManagement.MongoDB.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -2883,7 +2883,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.MongoDB\\Volo.Abp.PermissionManagement.MongoDB.csproj",
+            "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.MongoDB\\Nblity.Abp.PermissionManagement.MongoDB.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -2896,12 +2896,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.PermissionManagement\\src\\Volo.Abp.PermissionManagement.Web\\Volo.Abp.PermissionManagement.Web.csproj",
+      "path": "modules\\Nblity.Abp.PermissionManagement\\src\\Nblity.Abp.PermissionManagement.Web\\Nblity.Abp.PermissionManagement.Web.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.PermissionManagement.Web",
+        "appName": "Nblity.Abp.PermissionManagement.Web",
         "projectKind": "AspNetCore",
         "frameworks": [
           "net10.0"
@@ -2925,12 +2925,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Application.Contracts\\Volo.Abp.SettingManagement.Application.Contracts.csproj",
+      "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Application.Contracts\\Nblity.Abp.SettingManagement.Application.Contracts.csproj",
       "startingProject": true,
       "issues": 1,
       "storyPoints": 1,
       "properties": {
-        "appName": "Volo.Abp.SettingManagement.Application.Contracts",
+        "appName": "Nblity.Abp.SettingManagement.Application.Contracts",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -2958,7 +2958,7 @@
         {
           "incidentId": "e66f6023-c836-431a-88e0-6aacfa117b0a",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Application.Contracts\\Volo.Abp.SettingManagement.Application.Contracts.csproj",
+          "projectPath": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Application.Contracts\\Nblity.Abp.SettingManagement.Application.Contracts.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -2966,7 +2966,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Application.Contracts\\Volo.Abp.SettingManagement.Application.Contracts.csproj",
+            "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Application.Contracts\\Nblity.Abp.SettingManagement.Application.Contracts.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -2979,12 +2979,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Application\\Volo.Abp.SettingManagement.Application.csproj",
+      "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Application\\Nblity.Abp.SettingManagement.Application.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.SettingManagement.Application",
+        "appName": "Nblity.Abp.SettingManagement.Application",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -3008,12 +3008,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Blazor\\Volo.Abp.SettingManagement.Blazor.csproj",
+      "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Blazor\\Nblity.Abp.SettingManagement.Blazor.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.SettingManagement.Blazor",
+        "appName": "Nblity.Abp.SettingManagement.Blazor",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -3037,12 +3037,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Blazor.Server\\Volo.Abp.SettingManagement.Blazor.Server.csproj",
+      "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Blazor.Server\\Nblity.Abp.SettingManagement.Blazor.Server.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.SettingManagement.Blazor.Server",
+        "appName": "Nblity.Abp.SettingManagement.Blazor.Server",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -3066,12 +3066,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Blazor.WebAssembly\\Volo.Abp.SettingManagement.Blazor.WebAssembly.csproj",
+      "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Blazor.WebAssembly\\Nblity.Abp.SettingManagement.Blazor.WebAssembly.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.SettingManagement.Blazor.WebAssembly",
+        "appName": "Nblity.Abp.SettingManagement.Blazor.WebAssembly",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -3095,12 +3095,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Domain\\Volo.Abp.SettingManagement.Domain.csproj",
+      "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Domain\\Nblity.Abp.SettingManagement.Domain.csproj",
       "startingProject": true,
       "issues": 2,
       "storyPoints": 7,
       "properties": {
-        "appName": "Volo.Abp.SettingManagement.Domain",
+        "appName": "Nblity.Abp.SettingManagement.Domain",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -3128,7 +3128,7 @@
         {
           "incidentId": "a4d50e67-b8c1-4e8b-b7f9-24f74be12ed0",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Domain\\Volo.Abp.SettingManagement.Domain.csproj",
+          "projectPath": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Domain\\Nblity.Abp.SettingManagement.Domain.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -3136,7 +3136,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Domain\\Volo.Abp.SettingManagement.Domain.csproj",
+            "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Domain\\Nblity.Abp.SettingManagement.Domain.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -3149,7 +3149,7 @@
           "incidentId": "fc96dbc2-ab08-4a2d-a57b-218eb8e012d4",
           "ruleId": "Api.0002",
           "description": "Breaking change: New TimeSpan.From*() overloads that take integers ",
-          "projectPath": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Domain\\Volo.Abp.SettingManagement.Domain.csproj",
+          "projectPath": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Domain\\Nblity.Abp.SettingManagement.Domain.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -3157,7 +3157,7 @@
               "protected": "M:System.TimeSpan.FromDays(System.Double)"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Domain\\Volo\\Abp\\SettingManagement\\DynamicSettingDefinitionStore.cs",
+            "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Domain\\Volo\\Abp\\SettingManagement\\DynamicSettingDefinitionStore.cs",
             "snippet": "await DistributedCache.SetStringAsync(\r\n                cacheKey,\r\n                stampInDistributedCache,\r\n                new DistributedCacheEntryOptions\r\n                {\r\n                    SlidingExpiration = TimeSpan.FromDays(30) //TODO: Make it configurable?\r\n                }\r\n            );",
             "protectedSnippet": "M:System.TimeSpan.FromDays(System.Double)",
             "label": "M:System.TimeSpan.FromDays(System.Double)",
@@ -3176,7 +3176,7 @@
           "incidentId": "c89fd123-7516-41bc-8531-2352fdc6bf84",
           "ruleId": "Api.0002",
           "description": "Breaking change: New TimeSpan.From*() overloads that take integers ",
-          "projectPath": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Domain\\Volo.Abp.SettingManagement.Domain.csproj",
+          "projectPath": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Domain\\Nblity.Abp.SettingManagement.Domain.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -3184,7 +3184,7 @@
               "protected": "M:System.TimeSpan.FromMinutes(System.Double)"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Domain\\Volo\\Abp\\SettingManagement\\DynamicSettingDefinitionStore.cs",
+            "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Domain\\Volo\\Abp\\SettingManagement\\DynamicSettingDefinitionStore.cs",
             "snippet": "await using (var commonLockHandle = await DistributedLock.TryAcquireAsync(GetCommonDistributedLockKey(), TimeSpan.FromMinutes(2)))\r\n        {\r\n            if (commonLockHandle == null)\r\n            {\r\n                /* This request will fail */\r\n                throw new AbpException(\r\n                    \u0022Could not acquire distributed lock for setting definition common stamp check!\u0022\r\n                );\r\n            }\r\n\r\n            stampInDistributedCache = await DistributedCache.GetStringAsync(cacheKey);\r\n            if (stampInDistributedCache != null)\r\n            {\r\n                return stampInDistributedCache;\r\n            }\r\n\r\n            stampInDistributedCache = Guid.NewGuid().ToString();\r\n\r\n            await DistributedCache.SetStringAsync(\r\n                cacheKey,\r\n                stampInDistributedCache,\r\n                new DistributedCacheEntryOptions\r\n                {\r\n                    SlidingExpiration = TimeSpan.FromDays(30) //TODO: Make it configurable?\r\n                }\r\n            );\r\n        }",
             "protectedSnippet": "M:System.TimeSpan.FromMinutes(System.Double)",
             "label": "M:System.TimeSpan.FromMinutes(System.Double)",
@@ -3203,7 +3203,7 @@
           "incidentId": "e06e3005-e6cd-47a5-af60-c9ccf20babb1",
           "ruleId": "Api.0002",
           "description": "Breaking change: New TimeSpan.From*() overloads that take integers ",
-          "projectPath": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Domain\\Volo.Abp.SettingManagement.Domain.csproj",
+          "projectPath": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Domain\\Nblity.Abp.SettingManagement.Domain.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -3211,7 +3211,7 @@
               "protected": "M:System.TimeSpan.FromSeconds(System.Double)"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Domain\\Volo\\Abp\\SettingManagement\\SettingDynamicInitializer.cs",
+            "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Domain\\Volo\\Abp\\SettingManagement\\SettingDynamicInitializer.cs",
             "snippet": "await Policy\r\n            .Handle\u003CException\u003E()\r\n            .WaitAndRetryAsync(\r\n                8,\r\n                retryAttempt =\u003E TimeSpan.FromSeconds(\r\n                    Volo.Abp.RandomHelper.GetRandom(\r\n                        (int)Math.Pow(2, retryAttempt) * 8,\r\n                        (int)Math.Pow(2, retryAttempt) * 12)\r\n                )\r\n            )\r\n            .ExecuteAsync(async _ =\u003E\r\n            {\r\n                try\r\n                {\r\n                    await staticSettingSaver.SaveAsync();\r\n                }\r\n                catch (Exception ex)\r\n                {\r\n                    Logger.LogException(ex);\r\n                    throw; // Polly will catch it\r\n                }\r\n            }, cancellationToken);",
             "protectedSnippet": "M:System.TimeSpan.FromSeconds(System.Double)",
             "label": "M:System.TimeSpan.FromSeconds(System.Double)",
@@ -3230,7 +3230,7 @@
           "incidentId": "38bef9d7-d01e-4654-8446-6dd8f1868780",
           "ruleId": "Api.0002",
           "description": "Breaking change: New TimeSpan.From*() overloads that take integers ",
-          "projectPath": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Domain\\Volo.Abp.SettingManagement.Domain.csproj",
+          "projectPath": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Domain\\Nblity.Abp.SettingManagement.Domain.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -3238,7 +3238,7 @@
               "protected": "M:System.TimeSpan.FromDays(System.Double)"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Domain\\Volo\\Abp\\SettingManagement\\StaticSettingSaver.cs",
+            "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Domain\\Volo\\Abp\\SettingManagement\\StaticSettingSaver.cs",
             "snippet": "await Cache.SetStringAsync(\r\n            cacheKey,\r\n            currentHash,\r\n            new DistributedCacheEntryOptions {\r\n                SlidingExpiration = TimeSpan.FromDays(30) //TODO: Make it configurable?\r\n            },\r\n            CancellationTokenProvider.Token\r\n        );",
             "protectedSnippet": "M:System.TimeSpan.FromDays(System.Double)",
             "label": "M:System.TimeSpan.FromDays(System.Double)",
@@ -3257,7 +3257,7 @@
           "incidentId": "6d66d90b-c7a5-4080-bbb7-89a55a487624",
           "ruleId": "Api.0002",
           "description": "Breaking change: New TimeSpan.From*() overloads that take integers ",
-          "projectPath": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Domain\\Volo.Abp.SettingManagement.Domain.csproj",
+          "projectPath": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Domain\\Nblity.Abp.SettingManagement.Domain.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -3265,7 +3265,7 @@
               "protected": "M:System.TimeSpan.FromDays(System.Double)"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Domain\\Volo\\Abp\\SettingManagement\\StaticSettingSaver.cs",
+            "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Domain\\Volo\\Abp\\SettingManagement\\StaticSettingSaver.cs",
             "snippet": "await Cache.SetStringAsync(\r\n                            GetCommonStampCacheKey(),\r\n                            Guid.NewGuid().ToString(),\r\n                            new DistributedCacheEntryOptions {\r\n                                SlidingExpiration = TimeSpan.FromDays(30) //TODO: Make it configurable?\r\n                            },\r\n                            CancellationTokenProvider.Token\r\n                        );",
             "protectedSnippet": "M:System.TimeSpan.FromDays(System.Double)",
             "label": "M:System.TimeSpan.FromDays(System.Double)",
@@ -3284,7 +3284,7 @@
           "incidentId": "fa04c60d-fd5f-49b2-89ea-3ccc7b017c75",
           "ruleId": "Api.0002",
           "description": "Breaking change: New TimeSpan.From*() overloads that take integers ",
-          "projectPath": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Domain\\Volo.Abp.SettingManagement.Domain.csproj",
+          "projectPath": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Domain\\Nblity.Abp.SettingManagement.Domain.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -3292,7 +3292,7 @@
               "protected": "M:System.TimeSpan.FromMinutes(System.Double)"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Domain\\Volo\\Abp\\SettingManagement\\StaticSettingSaver.cs",
+            "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Domain\\Volo\\Abp\\SettingManagement\\StaticSettingSaver.cs",
             "snippet": "await using (var commonLockHandle = await DistributedLock.TryAcquireAsync(\r\n                         GetCommonDistributedLockKey(),\r\n                         TimeSpan.FromMinutes(5)))\r\n        {\r\n            if (commonLockHandle == null)\r\n            {\r\n                /* It will re-try */\r\n                throw new AbpException(\u0022Could not acquire distributed lock for saving static Settings!\u0022);\r\n            }\r\n\r\n            using (var unitOfWork = UnitOfWorkManager.Begin(requiresNew: true, isTransactional: true))\r\n            {\r\n                try\r\n                {\r\n                    var hasChangesInSettings = await UpdateChangedSettingsAsync(settingRecords);\r\n\r\n                    if (hasChangesInSettings)\r\n                    {\r\n                        await Cache.SetStringAsync(\r\n                            GetCommonStampCacheKey(),\r\n                            Guid.NewGuid().ToString(),\r\n                            new DistributedCacheEntryOptions {\r\n                                SlidingExpiration = TimeSpan.FromDays(30) //TODO: Make it configurable?\r\n                            },\r\n                            CancellationTokenProvider.Token\r\n                        );\r\n                    }\r\n                }\r\n                catch\r\n                {\r\n                    try\r\n                    {\r\n                        await unitOfWork.RollbackAsync();\r\n                    }\r\n                    catch\r\n                    {\r\n                        /* ignored */\r\n                    }\r\n\r\n                    throw;\r\n                }\r\n\r\n                await unitOfWork.CompleteAsync();\r\n            }\r\n        }",
             "protectedSnippet": "M:System.TimeSpan.FromMinutes(System.Double)",
             "label": "M:System.TimeSpan.FromMinutes(System.Double)",
@@ -3311,12 +3311,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Domain.Shared\\Volo.Abp.SettingManagement.Domain.Shared.csproj",
+      "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Domain.Shared\\Nblity.Abp.SettingManagement.Domain.Shared.csproj",
       "startingProject": true,
       "issues": 2,
       "storyPoints": 2,
       "properties": {
-        "appName": "Volo.Abp.SettingManagement.Domain.Shared",
+        "appName": "Nblity.Abp.SettingManagement.Domain.Shared",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -3344,7 +3344,7 @@
         {
           "incidentId": "91e48e86-85c3-4ab5-8bb3-c0c2a016e6d0",
           "ruleId": "NuGet.0002",
-          "projectPath": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Domain.Shared\\Volo.Abp.SettingManagement.Domain.Shared.csproj",
+          "projectPath": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Domain.Shared\\Nblity.Abp.SettingManagement.Domain.Shared.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -3352,7 +3352,7 @@
               "protected": "Microsoft.Extensions.FileProviders.Embedded, 10.0.2\n\n\u5EFA\u8BAE:\n\nRemove Microsoft.Extensions.FileProviders.Embedded, and replace with new package Microsoft.Extensions.FileProviders.Embedded 10.0.3"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Domain.Shared\\Volo.Abp.SettingManagement.Domain.Shared.csproj",
+            "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Domain.Shared\\Nblity.Abp.SettingManagement.Domain.Shared.csproj",
             "snippet": "Microsoft.Extensions.FileProviders.Embedded, 10.0.2\n\n\u5EFA\u8BAE:\n\nRemove Microsoft.Extensions.FileProviders.Embedded, and replace with new package Microsoft.Extensions.FileProviders.Embedded 10.0.3",
             "protectedSnippet": "Microsoft.Extensions.FileProviders.Embedded, 10.0.2\n\n\u5EFA\u8BAE:\n\nRemove Microsoft.Extensions.FileProviders.Embedded, and replace with new package Microsoft.Extensions.FileProviders.Embedded 10.0.3",
             "label": "Microsoft.Extensions.FileProviders.Embedded 10.0.2",
@@ -3367,7 +3367,7 @@
         {
           "incidentId": "815642eb-2d01-4830-b0d4-330c2b770e66",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Domain.Shared\\Volo.Abp.SettingManagement.Domain.Shared.csproj",
+          "projectPath": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Domain.Shared\\Nblity.Abp.SettingManagement.Domain.Shared.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -3375,7 +3375,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Domain.Shared\\Volo.Abp.SettingManagement.Domain.Shared.csproj",
+            "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Domain.Shared\\Nblity.Abp.SettingManagement.Domain.Shared.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -3388,12 +3388,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.EntityFrameworkCore\\Volo.Abp.SettingManagement.EntityFrameworkCore.csproj",
+      "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.EntityFrameworkCore\\Nblity.Abp.SettingManagement.EntityFrameworkCore.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.SettingManagement.EntityFrameworkCore",
+        "appName": "Nblity.Abp.SettingManagement.EntityFrameworkCore",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -3417,12 +3417,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.HttpApi.Client\\Volo.Abp.SettingManagement.HttpApi.Client.csproj",
+      "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.HttpApi.Client\\Nblity.Abp.SettingManagement.HttpApi.Client.csproj",
       "startingProject": true,
       "issues": 1,
       "storyPoints": 1,
       "properties": {
-        "appName": "Volo.Abp.SettingManagement.HttpApi.Client",
+        "appName": "Nblity.Abp.SettingManagement.HttpApi.Client",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -3450,7 +3450,7 @@
         {
           "incidentId": "b406fe18-6307-4c65-bee9-4c6bc77da08e",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.HttpApi.Client\\Volo.Abp.SettingManagement.HttpApi.Client.csproj",
+          "projectPath": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.HttpApi.Client\\Nblity.Abp.SettingManagement.HttpApi.Client.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -3458,7 +3458,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.HttpApi.Client\\Volo.Abp.SettingManagement.HttpApi.Client.csproj",
+            "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.HttpApi.Client\\Nblity.Abp.SettingManagement.HttpApi.Client.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -3471,12 +3471,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.HttpApi\\Volo.Abp.SettingManagement.HttpApi.csproj",
+      "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.HttpApi\\Nblity.Abp.SettingManagement.HttpApi.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.SettingManagement.HttpApi",
+        "appName": "Nblity.Abp.SettingManagement.HttpApi",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -3500,12 +3500,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Installer\\Volo.Abp.SettingManagement.Installer.csproj",
+      "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Installer\\Nblity.Abp.SettingManagement.Installer.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.SettingManagement.Installer",
+        "appName": "Nblity.Abp.SettingManagement.Installer",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -3529,12 +3529,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.MongoDB\\Volo.Abp.SettingManagement.MongoDB.csproj",
+      "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.MongoDB\\Nblity.Abp.SettingManagement.MongoDB.csproj",
       "startingProject": true,
       "issues": 1,
       "storyPoints": 1,
       "properties": {
-        "appName": "Volo.Abp.SettingManagement.MongoDB",
+        "appName": "Nblity.Abp.SettingManagement.MongoDB",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -3562,7 +3562,7 @@
         {
           "incidentId": "bbb2b849-7ea8-4cdb-baa9-7dbe5339999a",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.MongoDB\\Volo.Abp.SettingManagement.MongoDB.csproj",
+          "projectPath": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.MongoDB\\Nblity.Abp.SettingManagement.MongoDB.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -3570,7 +3570,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.MongoDB\\Volo.Abp.SettingManagement.MongoDB.csproj",
+            "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.MongoDB\\Nblity.Abp.SettingManagement.MongoDB.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -3583,12 +3583,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.SettingManagement\\src\\Volo.Abp.SettingManagement.Web\\Volo.Abp.SettingManagement.Web.csproj",
+      "path": "modules\\Nblity.Abp.SettingManagement\\src\\Nblity.Abp.SettingManagement.Web\\Nblity.Abp.SettingManagement.Web.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.SettingManagement.Web",
+        "appName": "Nblity.Abp.SettingManagement.Web",
         "projectKind": "AspNetCore",
         "frameworks": [
           "net10.0"
@@ -3612,12 +3612,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.TenantManagement\\src\\Volo.Abp.TenantManagement.Application.Contracts\\Volo.Abp.TenantManagement.Application.Contracts.csproj",
+      "path": "modules\\Nblity.Abp.TenantManagement\\src\\Nblity.Abp.TenantManagement.Application.Contracts\\Nblity.Abp.TenantManagement.Application.Contracts.csproj",
       "startingProject": true,
       "issues": 1,
       "storyPoints": 1,
       "properties": {
-        "appName": "Volo.Abp.TenantManagement.Application.Contracts",
+        "appName": "Nblity.Abp.TenantManagement.Application.Contracts",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -3645,7 +3645,7 @@
         {
           "incidentId": "b5b432c5-0a1a-40ce-b80f-1dc589c9005b",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.TenantManagement\\src\\Volo.Abp.TenantManagement.Application.Contracts\\Volo.Abp.TenantManagement.Application.Contracts.csproj",
+          "projectPath": "modules\\Nblity.Abp.TenantManagement\\src\\Nblity.Abp.TenantManagement.Application.Contracts\\Nblity.Abp.TenantManagement.Application.Contracts.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -3653,7 +3653,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.TenantManagement\\src\\Volo.Abp.TenantManagement.Application.Contracts\\Volo.Abp.TenantManagement.Application.Contracts.csproj",
+            "path": "modules\\Nblity.Abp.TenantManagement\\src\\Nblity.Abp.TenantManagement.Application.Contracts\\Nblity.Abp.TenantManagement.Application.Contracts.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -3666,12 +3666,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.TenantManagement\\src\\Volo.Abp.TenantManagement.Application\\Volo.Abp.TenantManagement.Application.csproj",
+      "path": "modules\\Nblity.Abp.TenantManagement\\src\\Nblity.Abp.TenantManagement.Application\\Nblity.Abp.TenantManagement.Application.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.TenantManagement.Application",
+        "appName": "Nblity.Abp.TenantManagement.Application",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -3695,12 +3695,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.TenantManagement\\src\\Volo.Abp.TenantManagement.Blazor\\Volo.Abp.TenantManagement.Blazor.csproj",
+      "path": "modules\\Nblity.Abp.TenantManagement\\src\\Nblity.Abp.TenantManagement.Blazor\\Nblity.Abp.TenantManagement.Blazor.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.TenantManagement.Blazor",
+        "appName": "Nblity.Abp.TenantManagement.Blazor",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -3724,12 +3724,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.TenantManagement\\src\\Volo.Abp.TenantManagement.Blazor.Server\\Volo.Abp.TenantManagement.Blazor.Server.csproj",
+      "path": "modules\\Nblity.Abp.TenantManagement\\src\\Nblity.Abp.TenantManagement.Blazor.Server\\Nblity.Abp.TenantManagement.Blazor.Server.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.TenantManagement.Blazor.Server",
+        "appName": "Nblity.Abp.TenantManagement.Blazor.Server",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -3753,12 +3753,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.TenantManagement\\src\\Volo.Abp.TenantManagement.Blazor.WebAssembly\\Volo.Abp.TenantManagement.Blazor.WebAssembly.csproj",
+      "path": "modules\\Nblity.Abp.TenantManagement\\src\\Nblity.Abp.TenantManagement.Blazor.WebAssembly\\Nblity.Abp.TenantManagement.Blazor.WebAssembly.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.TenantManagement.Blazor.WebAssembly",
+        "appName": "Nblity.Abp.TenantManagement.Blazor.WebAssembly",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -3782,12 +3782,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.TenantManagement\\src\\Volo.Abp.TenantManagement.Domain\\Volo.Abp.TenantManagement.Domain.csproj",
+      "path": "modules\\Nblity.Abp.TenantManagement\\src\\Nblity.Abp.TenantManagement.Domain\\Nblity.Abp.TenantManagement.Domain.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.TenantManagement.Domain",
+        "appName": "Nblity.Abp.TenantManagement.Domain",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -3811,12 +3811,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.TenantManagement\\src\\Volo.Abp.TenantManagement.Domain.Shared\\Volo.Abp.TenantManagement.Domain.Shared.csproj",
+      "path": "modules\\Nblity.Abp.TenantManagement\\src\\Nblity.Abp.TenantManagement.Domain.Shared\\Nblity.Abp.TenantManagement.Domain.Shared.csproj",
       "startingProject": true,
       "issues": 2,
       "storyPoints": 2,
       "properties": {
-        "appName": "Volo.Abp.TenantManagement.Domain.Shared",
+        "appName": "Nblity.Abp.TenantManagement.Domain.Shared",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -3844,7 +3844,7 @@
         {
           "incidentId": "0e03a847-45c8-4624-92b3-524a44e5cdda",
           "ruleId": "NuGet.0002",
-          "projectPath": "modules\\Volo.Abp.TenantManagement\\src\\Volo.Abp.TenantManagement.Domain.Shared\\Volo.Abp.TenantManagement.Domain.Shared.csproj",
+          "projectPath": "modules\\Nblity.Abp.TenantManagement\\src\\Nblity.Abp.TenantManagement.Domain.Shared\\Nblity.Abp.TenantManagement.Domain.Shared.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -3852,7 +3852,7 @@
               "protected": "Microsoft.Extensions.FileProviders.Embedded, 10.0.2\n\n\u5EFA\u8BAE:\n\nRemove Microsoft.Extensions.FileProviders.Embedded, and replace with new package Microsoft.Extensions.FileProviders.Embedded 10.0.3"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.TenantManagement\\src\\Volo.Abp.TenantManagement.Domain.Shared\\Volo.Abp.TenantManagement.Domain.Shared.csproj",
+            "path": "modules\\Nblity.Abp.TenantManagement\\src\\Nblity.Abp.TenantManagement.Domain.Shared\\Nblity.Abp.TenantManagement.Domain.Shared.csproj",
             "snippet": "Microsoft.Extensions.FileProviders.Embedded, 10.0.2\n\n\u5EFA\u8BAE:\n\nRemove Microsoft.Extensions.FileProviders.Embedded, and replace with new package Microsoft.Extensions.FileProviders.Embedded 10.0.3",
             "protectedSnippet": "Microsoft.Extensions.FileProviders.Embedded, 10.0.2\n\n\u5EFA\u8BAE:\n\nRemove Microsoft.Extensions.FileProviders.Embedded, and replace with new package Microsoft.Extensions.FileProviders.Embedded 10.0.3",
             "label": "Microsoft.Extensions.FileProviders.Embedded 10.0.2",
@@ -3867,7 +3867,7 @@
         {
           "incidentId": "b97253d8-8d74-45c7-a8a1-964775eea0b1",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.TenantManagement\\src\\Volo.Abp.TenantManagement.Domain.Shared\\Volo.Abp.TenantManagement.Domain.Shared.csproj",
+          "projectPath": "modules\\Nblity.Abp.TenantManagement\\src\\Nblity.Abp.TenantManagement.Domain.Shared\\Nblity.Abp.TenantManagement.Domain.Shared.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -3875,7 +3875,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.TenantManagement\\src\\Volo.Abp.TenantManagement.Domain.Shared\\Volo.Abp.TenantManagement.Domain.Shared.csproj",
+            "path": "modules\\Nblity.Abp.TenantManagement\\src\\Nblity.Abp.TenantManagement.Domain.Shared\\Nblity.Abp.TenantManagement.Domain.Shared.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -3888,12 +3888,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.TenantManagement\\src\\Volo.Abp.TenantManagement.EntityFrameworkCore\\Volo.Abp.TenantManagement.EntityFrameworkCore.csproj",
+      "path": "modules\\Nblity.Abp.TenantManagement\\src\\Nblity.Abp.TenantManagement.EntityFrameworkCore\\Nblity.Abp.TenantManagement.EntityFrameworkCore.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.TenantManagement.EntityFrameworkCore",
+        "appName": "Nblity.Abp.TenantManagement.EntityFrameworkCore",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -3917,12 +3917,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.TenantManagement\\src\\Volo.Abp.TenantManagement.HttpApi.Client\\Volo.Abp.TenantManagement.HttpApi.Client.csproj",
+      "path": "modules\\Nblity.Abp.TenantManagement\\src\\Nblity.Abp.TenantManagement.HttpApi.Client\\Nblity.Abp.TenantManagement.HttpApi.Client.csproj",
       "startingProject": true,
       "issues": 1,
       "storyPoints": 1,
       "properties": {
-        "appName": "Volo.Abp.TenantManagement.HttpApi.Client",
+        "appName": "Nblity.Abp.TenantManagement.HttpApi.Client",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "netstandard2.0",
@@ -3950,7 +3950,7 @@
         {
           "incidentId": "e1148794-7c43-4095-abf0-235fbffdd707",
           "ruleId": "Project.0002",
-          "projectPath": "modules\\Volo.Abp.TenantManagement\\src\\Volo.Abp.TenantManagement.HttpApi.Client\\Volo.Abp.TenantManagement.HttpApi.Client.csproj",
+          "projectPath": "modules\\Nblity.Abp.TenantManagement\\src\\Nblity.Abp.TenantManagement.HttpApi.Client\\Nblity.Abp.TenantManagement.HttpApi.Client.csproj",
           "state": "Active",
           "location": {
             "snippetModel": {
@@ -3958,7 +3958,7 @@
               "protected": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0"
             },
             "kind": "File",
-            "path": "modules\\Volo.Abp.TenantManagement\\src\\Volo.Abp.TenantManagement.HttpApi.Client\\Volo.Abp.TenantManagement.HttpApi.Client.csproj",
+            "path": "modules\\Nblity.Abp.TenantManagement\\src\\Nblity.Abp.TenantManagement.HttpApi.Client\\Nblity.Abp.TenantManagement.HttpApi.Client.csproj",
             "snippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "protectedSnippet": "\u5F53\u524D\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0\n\u5EFA\u8BAE\u7684\u76EE\u6807\u6846\u67B6: netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0;net10.0",
             "properties": {
@@ -3971,12 +3971,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.TenantManagement\\src\\Volo.Abp.TenantManagement.HttpApi\\Volo.Abp.TenantManagement.HttpApi.csproj",
+      "path": "modules\\Nblity.Abp.TenantManagement\\src\\Nblity.Abp.TenantManagement.HttpApi\\Nblity.Abp.TenantManagement.HttpApi.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.TenantManagement.HttpApi",
+        "appName": "Nblity.Abp.TenantManagement.HttpApi",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -4000,12 +4000,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.TenantManagement\\src\\Volo.Abp.TenantManagement.Installer\\Volo.Abp.TenantManagement.Installer.csproj",
+      "path": "modules\\Nblity.Abp.TenantManagement\\src\\Nblity.Abp.TenantManagement.Installer\\Nblity.Abp.TenantManagement.Installer.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.TenantManagement.Installer",
+        "appName": "Nblity.Abp.TenantManagement.Installer",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -4029,12 +4029,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.TenantManagement\\src\\Volo.Abp.TenantManagement.MongoDB\\Volo.Abp.TenantManagement.MongoDB.csproj",
+      "path": "modules\\Nblity.Abp.TenantManagement\\src\\Nblity.Abp.TenantManagement.MongoDB\\Nblity.Abp.TenantManagement.MongoDB.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.TenantManagement.MongoDB",
+        "appName": "Nblity.Abp.TenantManagement.MongoDB",
         "projectKind": "ClassLibrary",
         "frameworks": [
           "net10.0"
@@ -4058,12 +4058,12 @@
       "features": []
     },
     {
-      "path": "modules\\Volo.Abp.TenantManagement\\src\\Volo.Abp.TenantManagement.Web\\Volo.Abp.TenantManagement.Web.csproj",
+      "path": "modules\\Nblity.Abp.TenantManagement\\src\\Nblity.Abp.TenantManagement.Web\\Nblity.Abp.TenantManagement.Web.csproj",
       "startingProject": true,
       "issues": 0,
       "storyPoints": 0,
       "properties": {
-        "appName": "Volo.Abp.TenantManagement.Web",
+        "appName": "Nblity.Abp.TenantManagement.Web",
         "projectKind": "AspNetCore",
         "frameworks": [
           "net10.0"

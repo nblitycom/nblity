@@ -40,7 +40,7 @@ public class NblityStyleBundleContributor : BundleContributor
             }
 
             // Remove Bootstrap Icons, Bootstrap Datepicker, and Chart.js CSS
-            // bundled by BlazorLeptonXLiteThemeStyleContributor (not needed with MudBlazor)
+            // bundled by BlazorMudblazorThemeStyleContributor (not needed with MudBlazor)
             if (fileName.Contains("/bootstrap-icons/", System.StringComparison.OrdinalIgnoreCase) ||
                 fileName.Contains("/bootstrap-datepicker/", System.StringComparison.OrdinalIgnoreCase) ||
                 fileName.Contains("/chart.js/", System.StringComparison.OrdinalIgnoreCase))

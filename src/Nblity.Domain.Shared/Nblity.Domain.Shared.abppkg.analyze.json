@@ -16,23 +16,23 @@
           "name": "AbpBackgroundJobsDomainSharedModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.FeatureManagement.Domain.Shared",
-          "namespace": "Volo.Abp.FeatureManagement",
+          "declaringAssemblyName": "Nblity.Abp.FeatureManagement.Domain.Shared",
+          "namespace": "Nblity.Abp.FeatureManagement",
           "name": "AbpFeatureManagementDomainSharedModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.PermissionManagement.Domain.Shared",
-          "namespace": "Volo.Abp.PermissionManagement",
+          "declaringAssemblyName": "Nblity.Abp.PermissionManagement.Domain.Shared",
+          "namespace": "Nblity.Abp.PermissionManagement",
           "name": "AbpPermissionManagementDomainSharedModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.SettingManagement.Domain.Shared",
-          "namespace": "Volo.Abp.SettingManagement",
+          "declaringAssemblyName": "Nblity.Abp.SettingManagement.Domain.Shared",
+          "namespace": "Nblity.Abp.SettingManagement",
           "name": "AbpSettingManagementDomainSharedModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.Identity.Pro.Domain.Shared",
-          "namespace": "Volo.Abp.Identity",
+          "declaringAssemblyName": "Nblity.Abp.Identity.Pro.Domain.Shared",
+          "namespace": "Nblity.Abp.Identity",
           "name": "AbpIdentityProDomainSharedModule"
         },
         {
