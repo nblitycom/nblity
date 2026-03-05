@@ -8,7 +8,6 @@ using Volo.Abp.Modularity;
 using Volo.Abp.Validation;
 using Volo.Abp.Validation.Localization;
 using Volo.Abp.VirtualFileSystem;
-using Volo.Abp;
 
 namespace Nblity.Abp.FeatureManagement;
 

@@ -54,8 +54,15 @@ public class AbpIdentityDomainModule : AbpModule
             options.User.RequireUniqueEmail = true;
         });
 
-        context.Services.AddObjectAccessor(identityBuilder);
         context.Services.ExecutePreConfiguredActions(identityBuilder);
+
+        // Clear pre-configured actions so that Volo.Abp.Identity.AbpIdentityDomainModule
+        // (loaded transitively via Volo.Abp.OpenIddict.Domain) doesn't try to apply
+        // custom-typed actions to its incompatible Volo-typed IdentityBuilder.
+        context.Services.GetPreConfigureActions<IdentityBuilder>().Clear();
+
+        // Note: AddObjectAccessor is intentionally omitted here - the original
+        // Volo.Abp.Identity.AbpIdentityDomainModule handles this registration.
 
         Configure<IdentityOptions>(options =>
         {
