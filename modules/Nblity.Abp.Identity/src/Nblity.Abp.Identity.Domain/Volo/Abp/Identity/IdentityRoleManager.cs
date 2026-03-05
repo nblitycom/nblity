@@ -12,6 +12,7 @@ using Volo.Abp.Domain.Services;
 using Nblity.Abp.Identity.Localization;
 using Volo.Abp.Security.Claims;
 using Volo.Abp.Threading;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity;
 

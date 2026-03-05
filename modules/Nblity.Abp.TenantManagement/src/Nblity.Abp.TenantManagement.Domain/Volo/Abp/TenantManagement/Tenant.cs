@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
+using Volo.Abp;
 using Volo.Abp.Auditing;
 using Volo.Abp.Domain.Entities.Auditing;
 
@@ -34,7 +35,7 @@ public class Tenant : FullAuditedAggregateRoot<Guid>, IHasEntityVersion
     [CanBeNull]
     public virtual string FindDefaultConnectionString()
     {
-        return FindConnectionString(Data.ConnectionStrings.DefaultConnectionStringName);
+        return FindConnectionString(Volo.Abp.Data.ConnectionStrings.DefaultConnectionStringName);
     }
 
     [CanBeNull]
@@ -45,7 +46,7 @@ public class Tenant : FullAuditedAggregateRoot<Guid>, IHasEntityVersion
 
     public virtual void SetDefaultConnectionString(string connectionString)
     {
-        SetConnectionString(Data.ConnectionStrings.DefaultConnectionStringName, connectionString);
+        SetConnectionString(Volo.Abp.Data.ConnectionStrings.DefaultConnectionStringName, connectionString);
     }
 
     public virtual void SetConnectionString(string name, string connectionString)
@@ -64,7 +65,7 @@ public class Tenant : FullAuditedAggregateRoot<Guid>, IHasEntityVersion
 
     public virtual void RemoveDefaultConnectionString()
     {
-        RemoveConnectionString(Data.ConnectionStrings.DefaultConnectionStringName);
+        RemoveConnectionString(Volo.Abp.Data.ConnectionStrings.DefaultConnectionStringName);
     }
 
     public virtual void RemoveConnectionString(string name)

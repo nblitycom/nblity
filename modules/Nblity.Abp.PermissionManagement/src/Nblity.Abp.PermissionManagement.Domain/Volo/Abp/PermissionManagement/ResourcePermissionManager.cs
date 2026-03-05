@@ -10,6 +10,7 @@ using Volo.Abp.DependencyInjection;
 using Volo.Abp.Guids;
 using Volo.Abp.MultiTenancy;
 using Volo.Abp.SimpleStateChecking;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement;
 

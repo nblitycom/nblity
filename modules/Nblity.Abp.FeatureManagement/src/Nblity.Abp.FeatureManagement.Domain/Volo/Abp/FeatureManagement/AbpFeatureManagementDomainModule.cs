@@ -14,6 +14,7 @@ using Volo.Abp.Features;
 using Volo.Abp.Localization.ExceptionHandling;
 using Volo.Abp.Modularity;
 using Volo.Abp.Threading;
+using Volo.Abp;
 
 namespace Nblity.Abp.FeatureManagement;
 

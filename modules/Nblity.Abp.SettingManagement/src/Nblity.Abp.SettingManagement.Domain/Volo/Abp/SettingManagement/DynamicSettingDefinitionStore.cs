@@ -9,6 +9,7 @@ using Volo.Abp.DependencyInjection;
 using Volo.Abp.DistributedLocking;
 using Volo.Abp.Settings;
 using Volo.Abp.Threading;
+using Volo.Abp;
 
 namespace Nblity.Abp.SettingManagement;
 

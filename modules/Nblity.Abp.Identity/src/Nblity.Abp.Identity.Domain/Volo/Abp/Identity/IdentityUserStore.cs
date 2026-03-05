@@ -13,6 +13,7 @@ using Volo.Abp.DependencyInjection;
 using Volo.Abp.Domain.Repositories;
 using Volo.Abp.Guids;
 using Volo.Abp.Timing;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity;
 

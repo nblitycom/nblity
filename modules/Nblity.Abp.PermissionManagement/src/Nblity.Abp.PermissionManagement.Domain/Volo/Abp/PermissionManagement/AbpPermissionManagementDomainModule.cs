@@ -7,6 +7,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Polly;
+using Volo.Abp;
 using Volo.Abp.Authorization;
 using Volo.Abp.Authorization.Permissions;
 using Volo.Abp.Caching;

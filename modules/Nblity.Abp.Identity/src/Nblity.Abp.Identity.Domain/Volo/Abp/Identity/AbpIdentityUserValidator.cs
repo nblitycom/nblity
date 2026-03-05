@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Localization;
 using Nblity.Abp.Identity.Localization;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity
 {

@@ -5,6 +5,7 @@ using System.Linq;
 using Volo.Abp.Auditing;
 using Volo.Abp.Domain.Entities.Auditing;
 using Volo.Abp.MultiTenancy;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity;
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using JetBrains.Annotations;
+using Volo.Abp;
 using Volo.Abp.Caching;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.MultiTenancy;

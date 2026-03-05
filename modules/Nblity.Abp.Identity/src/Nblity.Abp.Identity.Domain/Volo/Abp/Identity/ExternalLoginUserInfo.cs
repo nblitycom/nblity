@@ -1,3 +1,4 @@
+using Volo.Abp;
 ﻿using JetBrains.Annotations;
 
 namespace Nblity.Abp.Identity;

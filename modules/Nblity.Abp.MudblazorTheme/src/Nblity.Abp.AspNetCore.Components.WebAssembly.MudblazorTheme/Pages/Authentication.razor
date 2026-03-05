@@ -1,5 +1,7 @@
 ﻿@page "/authentication/{action}"
 @using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using Volo.Abp.AspNetCore.Components
+@using Volo.Abp.AspNetCore.Components.WebAssembly
 @using global::Localization.Resources.AbpUi
 
 <RemoteAuthenticatorView Action="@Action" OnLogInSucceeded="OnLogInSucceeded" OnLogOutSucceeded="OnLogOutSucceeded">

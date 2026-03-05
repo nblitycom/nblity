@@ -8,6 +8,7 @@ using Volo.Abp.Authorization.Permissions;
 using Volo.Abp.Caching;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.Domain.Repositories;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement;
 

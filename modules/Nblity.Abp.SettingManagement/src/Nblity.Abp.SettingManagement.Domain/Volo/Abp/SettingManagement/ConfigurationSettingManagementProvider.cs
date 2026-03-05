@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.Settings;
+using Volo.Abp;
 
 namespace Nblity.Abp.SettingManagement;
 
