@@ -21,6 +21,7 @@ namespace Nblity.Abp.Account.Web.Areas.Account.Controllers;
 [AllowAnonymous]
 [Route("auth")]
 [ApiExplorerSettings(IgnoreApi = true)]
+[IgnoreAntiforgeryToken]
 public class AccountFormAuthController : AbpControllerBase
 {
     protected SignInManager<IdentityUser> SignInManager { get; }
@@ -52,7 +53,6 @@ public class AccountFormAuthController : AbpControllerBase
     }
 
     [HttpPost("login")]
-    [ValidateAntiForgeryToken]
     public virtual async Task<IActionResult> Login(
         [FromForm] string userNameOrEmailAddress,
         [FromForm] string password,
@@ -151,7 +151,6 @@ public class AccountFormAuthController : AbpControllerBase
     }
 
     [HttpPost("register")]
-    [ValidateAntiForgeryToken]
     public virtual async Task<IActionResult> Register(
         [FromForm] string userName,
         [FromForm] string emailAddress,
@@ -199,7 +198,6 @@ public class AccountFormAuthController : AbpControllerBase
     }
 
     [HttpPost("forgot-password")]
-    [ValidateAntiForgeryToken]
     public virtual async Task<IActionResult> ForgotPassword(
         [FromForm] string email,
         [FromForm] string returnUrl,
@@ -228,7 +226,6 @@ public class AccountFormAuthController : AbpControllerBase
     }
 
     [HttpPost("reset-password")]
-    [ValidateAntiForgeryToken]
     public virtual async Task<IActionResult> ResetPassword(
         [FromForm] Guid userId,
         [FromForm] string resetToken,
@@ -269,7 +266,6 @@ public class AccountFormAuthController : AbpControllerBase
     }
 
     [HttpPost("external-login")]
-    [ValidateAntiForgeryToken]
     public virtual Task<IActionResult> ExternalLogin(
         [FromForm] string provider,
         [FromForm] string returnUrl,
@@ -372,16 +368,13 @@ public class AccountFormAuthController : AbpControllerBase
 
     private IActionResult RedirectSafely(string returnUrl, string returnUrlHash)
     {
-        if (!string.IsNullOrWhiteSpace(returnUrl))
+        if (!string.IsNullOrWhiteSpace(returnUrl) && Url.IsLocalUrl(returnUrl))
         {
-            if (Url.IsLocalUrl(returnUrl) || returnUrl.StartsWith("/"))
+            if (!string.IsNullOrWhiteSpace(returnUrlHash))
             {
-                if (!string.IsNullOrWhiteSpace(returnUrlHash))
-                {
-                    return Redirect(returnUrl + returnUrlHash);
-                }
-                return Redirect(returnUrl);
+                return Redirect(returnUrl + returnUrlHash);
             }
+            return Redirect(returnUrl);
         }
 
         return Redirect("/");

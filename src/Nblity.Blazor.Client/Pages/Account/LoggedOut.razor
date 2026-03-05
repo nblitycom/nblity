@@ -1,0 +1,57 @@
+@page "/Account/LoggedOut"
+@page "/account/loggedout"
+@attribute [AllowAnonymous]
+@inject NavigationManager Navigation
+
+<MudContainer MaxWidth="MaxWidth.Small">
+    <MudPaper Elevation="4" Class="pa-8 mt-16">
+        <MudText Typo="Typo.h4" GutterBottom="true" Align="Align.Center">Logged Out</MudText>
+
+        <MudAlert Severity="Severity.Info" Class="mb-4">
+            You have been successfully logged out.
+        </MudAlert>
+
+        @if (!string.IsNullOrWhiteSpace(PostLogoutRedirectUri))
+        {
+            <MudButton Variant="Variant.Filled"
+                       Color="Color.Primary"
+                       FullWidth="true"
+                       Size="Size.Large"
+                       Href="@PostLogoutRedirectUri"
+                       Class="mb-4">
+                @if (!string.IsNullOrWhiteSpace(ClientName))
+                {
+                    @($"Return to {ClientName}")
+                }
+                else
+                {
+                    @("Return to Application")
+                }
+            </MudButton>
+        }
+
+        <MudButton Variant="Variant.Outlined"
+                   Color="Color.Primary"
+                   FullWidth="true"
+                   Size="Size.Large"
+                   Href="/Account/Login">
+            Sign In Again
+        </MudButton>
+
+        @if (!string.IsNullOrWhiteSpace(SignOutIframeUrl))
+        {
+            <iframe src="@SignOutIframeUrl" width="0" height="0" hidden></iframe>
+        }
+    </MudPaper>
+</MudContainer>
+
+@code {
+    [SupplyParameterFromQuery(Name = "clientName")]
+    public string ClientName { get; set; }
+
+    [SupplyParameterFromQuery(Name = "signOutIframeUrl")]
+    public string SignOutIframeUrl { get; set; }
+
+    [SupplyParameterFromQuery(Name = "postLogoutRedirectUri")]
+    public string PostLogoutRedirectUri { get; set; }
+}

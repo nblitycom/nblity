@@ -1,0 +1,40 @@
+@page "/Account/AccessDenied"
+@page "/account/accessdenied"
+@attribute [AllowAnonymous]
+@inject NavigationManager Navigation
+
+<MudContainer MaxWidth="MaxWidth.Small">
+    <MudPaper Elevation="4" Class="pa-8 mt-16">
+        <MudText Typo="Typo.h4" GutterBottom="true" Align="Align.Center" Color="Color.Error">
+            Access Denied
+        </MudText>
+
+        <MudAlert Severity="Severity.Warning" Class="mb-4">
+            You do not have permission to access this resource.
+        </MudAlert>
+
+        <MudButton Variant="Variant.Filled"
+                   Color="Color.Primary"
+                   FullWidth="true"
+                   Size="Size.Large"
+                   Href="@GetLoginUrl()">
+            Back to Login
+        </MudButton>
+    </MudPaper>
+</MudContainer>
+
+@code {
+    [SupplyParameterFromQuery(Name = "returnUrl")]
+    public string ReturnUrl { get; set; }
+
+    [SupplyParameterFromQuery(Name = "returnUrlHash")]
+    public string ReturnUrlHash { get; set; }
+
+    private string GetLoginUrl()
+    {
+        var url = "/Account/Login";
+        if (!string.IsNullOrWhiteSpace(ReturnUrl))
+            url += $"?returnUrl={Uri.EscapeDataString(ReturnUrl)}";
+        return url;
+    }
+}
