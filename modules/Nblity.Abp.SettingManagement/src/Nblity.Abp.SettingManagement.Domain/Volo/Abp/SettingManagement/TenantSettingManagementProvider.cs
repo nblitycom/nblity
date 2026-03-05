@@ -1,6 +1,7 @@
 ﻿using Volo.Abp.DependencyInjection;
 using Volo.Abp.MultiTenancy;
 using Volo.Abp.Settings;
+using Volo.Abp;
 
 namespace Nblity.Abp.SettingManagement;
 

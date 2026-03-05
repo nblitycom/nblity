@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Volo.Abp.Modularity;
 using Volo.Abp.Users.EntityFrameworkCore;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity.EntityFrameworkCore;
 

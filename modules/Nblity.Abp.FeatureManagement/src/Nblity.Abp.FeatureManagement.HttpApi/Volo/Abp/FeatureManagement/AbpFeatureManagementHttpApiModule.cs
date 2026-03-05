@@ -7,6 +7,7 @@ using Volo.Abp.Localization;
 using Volo.Abp.Modularity;
 using Microsoft.Extensions.DependencyInjection;
 using Nblity.Abp.FeatureManagement.JsonConverters;
+using Volo.Abp;
 
 namespace Nblity.Abp.FeatureManagement;
 

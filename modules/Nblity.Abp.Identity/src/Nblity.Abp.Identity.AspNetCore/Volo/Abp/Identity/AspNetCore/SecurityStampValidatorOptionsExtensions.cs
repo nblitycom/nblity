@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using static Nblity.Abp.Identity.AspNetCore.AbpSecurityStampValidatorCallback;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity.AspNetCore;
 

@@ -6,6 +6,7 @@ using Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme;
 using Volo.Abp.AspNetCore.Components.Web.Theming.Toolbars;
 using Volo.Abp.AspNetCore.Mvc.UI.Bundling;
 using Volo.Abp.Modularity;
+using Volo.Abp;
 
 namespace Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme;
 

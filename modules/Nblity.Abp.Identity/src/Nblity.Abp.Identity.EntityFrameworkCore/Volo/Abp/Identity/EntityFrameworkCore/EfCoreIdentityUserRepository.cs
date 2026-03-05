@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using Volo.Abp.Domain.Entities;
 using Volo.Abp.Domain.Repositories.EntityFrameworkCore;
 using Volo.Abp.EntityFrameworkCore;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity.EntityFrameworkCore;
 

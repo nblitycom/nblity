@@ -10,6 +10,7 @@ using Polly;
 using Volo.Abp.Authorization.Permissions;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.Threading;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement;
 

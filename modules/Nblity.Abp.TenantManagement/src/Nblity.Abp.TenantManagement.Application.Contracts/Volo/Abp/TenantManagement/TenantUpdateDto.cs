@@ -1,3 +1,4 @@
+using Volo.Abp;
 ﻿using Volo.Abp.Domain.Entities;
 
 namespace Nblity.Abp.TenantManagement;

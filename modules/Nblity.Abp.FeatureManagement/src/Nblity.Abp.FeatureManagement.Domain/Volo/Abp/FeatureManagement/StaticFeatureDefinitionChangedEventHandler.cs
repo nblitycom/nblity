@@ -5,6 +5,7 @@ using Volo.Abp.EventBus;
 using Volo.Abp.Features;
 using Volo.Abp.StaticDefinitions;
 using Volo.Abp.Threading;
+using Volo.Abp;
 
 namespace Nblity.Abp.FeatureManagement;
 

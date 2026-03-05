@@ -1,5 +1,6 @@
 using System;
 using System.Diagnostics;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -72,7 +73,7 @@ public class AccountFormAuthController : AbpControllerBase
                 return BuildErrorRedirect("/Account/Login", "InvalidInput", returnUrl, returnUrlHash);
             }
 
-            await ReplaceEmailToUsernameIfNeeded(ref userNameOrEmailAddress);
+            userNameOrEmailAddress = await ReplaceEmailToUsernameIfNeeded(userNameOrEmailAddress);
 
             await IdentityOptions.SetAsync();
 
@@ -394,25 +395,25 @@ public class AccountFormAuthController : AbpControllerBase
         return Redirect(url);
     }
 
-    private async Task ReplaceEmailToUsernameIfNeeded(ref string userNameOrEmailAddress)
+    private async Task<string> ReplaceEmailToUsernameIfNeeded(string userNameOrEmailAddress)
     {
         if (!ValidationHelper.IsValidEmailAddress(userNameOrEmailAddress))
         {
-            return;
+            return userNameOrEmailAddress;
         }
 
         var userByUsername = await UserManager.FindByNameAsync(userNameOrEmailAddress);
         if (userByUsername != null)
         {
-            return;
+            return userNameOrEmailAddress;
         }
 
         var userByEmail = await UserManager.FindByEmailAsync(userNameOrEmailAddress);
         if (userByEmail == null)
         {
-            return;
+            return userNameOrEmailAddress;
         }
 
-        userNameOrEmailAddress = userByEmail.UserName;
+        return userByEmail.UserName;
     }
 }

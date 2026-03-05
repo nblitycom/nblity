@@ -4,6 +4,7 @@ using Volo.Abp.AspNetCore.Mvc.UI.Layout;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.ObjectMapping;
 using Volo.Abp.UI.Navigation;
+using Volo.Abp;
 
 namespace Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor.Themes.Mudblazor.Components.Menu;
 

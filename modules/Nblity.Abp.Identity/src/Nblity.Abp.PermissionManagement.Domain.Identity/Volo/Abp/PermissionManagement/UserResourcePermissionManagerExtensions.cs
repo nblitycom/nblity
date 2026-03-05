@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using JetBrains.Annotations;
 using Volo.Abp.Authorization.Permissions.Resources;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement;
 

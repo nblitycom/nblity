@@ -3,6 +3,7 @@ using Volo.Abp.VirtualFileSystem;
 using Volo.Abp.AspNetCore.Components.WebAssembly.Theming;
 using Nblity.Abp.FeatureManagement.Blazor.WebAssembly;
 using Volo.Abp.Modularity;
+using Volo.Abp;
 
 namespace Nblity.Abp.TenantManagement.Blazor.WebAssembly;
 

@@ -1,6 +1,7 @@
 ﻿using JetBrains.Annotations;
 using System;
 using Volo.Abp.UI.Navigation;
+using Volo.Abp;
 
 namespace Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme.Navigation;
 public static class MudblazorThemeNavigationExtensions

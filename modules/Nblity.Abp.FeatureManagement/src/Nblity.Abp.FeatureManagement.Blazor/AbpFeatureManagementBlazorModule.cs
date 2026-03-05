@@ -8,6 +8,7 @@ using Volo.Abp.Features;
 using Volo.Abp.Localization;
 using Volo.Abp.Modularity;
 using Nblity.Abp.SettingManagement.Blazor;
+using Volo.Abp;
 
 namespace Nblity.Abp.FeatureManagement.Blazor;
 

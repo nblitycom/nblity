@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Volo.Abp.Authorization.Permissions;
 using Volo.Abp.EntityFrameworkCore.Modeling;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement.EntityFrameworkCore;
 

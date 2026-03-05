@@ -5,6 +5,7 @@ using Microsoft.Extensions.Options;
 using Nblity.Abp.Identity.Settings;
 using Volo.Abp.Options;
 using Volo.Abp.Settings;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity;
 

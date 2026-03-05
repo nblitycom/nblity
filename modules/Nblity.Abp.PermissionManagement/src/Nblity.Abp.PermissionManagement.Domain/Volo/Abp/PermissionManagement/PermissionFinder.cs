@@ -3,6 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Volo.Abp.Authorization.Permissions;
 using Volo.Abp.DependencyInjection;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement;
 

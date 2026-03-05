@@ -10,6 +10,7 @@ using Volo.Abp.Localization;
 using Volo.Abp.MultiTenancy;
 using Volo.Abp.SimpleStateChecking;
 using Nblity.Abp.PermissionManagement.Localization;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement;
 

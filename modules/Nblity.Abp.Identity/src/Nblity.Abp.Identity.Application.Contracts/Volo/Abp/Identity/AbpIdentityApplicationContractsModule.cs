@@ -7,6 +7,7 @@ using Volo.Abp.ObjectExtending.Modularity;
 using Nblity.Abp.PermissionManagement;
 using Volo.Abp.Users;
 using Volo.Abp.Threading;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity;
 

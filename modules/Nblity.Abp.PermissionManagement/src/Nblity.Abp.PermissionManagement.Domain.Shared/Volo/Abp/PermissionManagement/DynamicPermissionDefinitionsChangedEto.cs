@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using Volo.Abp.EventBus;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement;
 

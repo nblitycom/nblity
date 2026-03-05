@@ -1,5 +1,6 @@
 using System;
 using Volo.Abp.Ui.Branding;
+using Volo.Abp;
 
 namespace Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor;
 

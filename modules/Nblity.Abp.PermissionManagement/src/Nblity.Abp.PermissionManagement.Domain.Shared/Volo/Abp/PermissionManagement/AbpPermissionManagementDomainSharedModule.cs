@@ -4,6 +4,7 @@ using Nblity.Abp.PermissionManagement.Localization;
 using Volo.Abp.Validation;
 using Volo.Abp.Validation.Localization;
 using Volo.Abp.VirtualFileSystem;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement;
 

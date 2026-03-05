@@ -6,6 +6,7 @@ using Volo.Abp.Domain.Entities.Events.Distributed;
 using Volo.Abp.EventBus.Distributed;
 using Volo.Abp.Uow;
 using Volo.Abp.Users;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement.Identity;
 

@@ -1,6 +1,7 @@
 ﻿using Volo.Abp.Authorization.Permissions;
 using Volo.Abp.Localization;
 using Nblity.Abp.SettingManagement.Localization;
+using Volo.Abp;
 
 namespace Nblity.Abp.SettingManagement;
 

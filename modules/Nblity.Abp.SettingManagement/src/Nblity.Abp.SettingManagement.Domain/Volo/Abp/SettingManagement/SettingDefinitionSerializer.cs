@@ -7,6 +7,7 @@ using Volo.Abp.DependencyInjection;
 using Volo.Abp.Guids;
 using Volo.Abp.Localization;
 using Volo.Abp.Settings;
+using Volo.Abp;
 
 namespace Nblity.Abp.SettingManagement;
 

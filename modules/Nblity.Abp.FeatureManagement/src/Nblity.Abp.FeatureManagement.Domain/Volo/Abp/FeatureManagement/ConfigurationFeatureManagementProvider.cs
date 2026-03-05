@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.Features;
+using Volo.Abp;
 
 namespace Nblity.Abp.FeatureManagement;
 

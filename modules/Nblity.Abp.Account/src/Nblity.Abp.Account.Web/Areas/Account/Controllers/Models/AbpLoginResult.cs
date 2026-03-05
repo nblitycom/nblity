@@ -1,3 +1,4 @@
+using Volo.Abp;
 ﻿namespace Nblity.Abp.Account.Web.Areas.Account.Controllers.Models;
 
 public class AbpLoginResult

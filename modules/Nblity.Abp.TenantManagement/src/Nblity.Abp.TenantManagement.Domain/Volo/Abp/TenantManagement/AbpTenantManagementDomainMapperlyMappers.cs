@@ -4,6 +4,7 @@ using Riok.Mapperly.Abstractions;
 using Volo.Abp.Data;
 using Volo.Abp.Mapperly;
 using Volo.Abp.MultiTenancy;
+using Volo.Abp;
 
 namespace Nblity.Abp.TenantManagement.Domain.Nblity.Abp.TenantManagement;
 

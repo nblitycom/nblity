@@ -1,6 +1,7 @@
 ﻿using Volo.Abp.Application;
 using Volo.Abp.Authorization;
 using Volo.Abp.Modularity;
+using Volo.Abp;
 
 namespace Nblity.Abp.SettingManagement;
 

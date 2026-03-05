@@ -12,6 +12,7 @@ using Nblity.Abp.Identity;
 using Volo.Abp.MultiTenancy;
 using Volo.Abp.TextTemplating;
 using Volo.Abp.UI.Navigation.Urls;
+using Volo.Abp;
 
 namespace Nblity.Abp.Account.Emailing;
 

@@ -4,6 +4,7 @@ using Volo.Abp.Authorization.Permissions.Resources;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.EventBus.Distributed;
 using Nblity.Abp.Identity;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement.Identity;
 

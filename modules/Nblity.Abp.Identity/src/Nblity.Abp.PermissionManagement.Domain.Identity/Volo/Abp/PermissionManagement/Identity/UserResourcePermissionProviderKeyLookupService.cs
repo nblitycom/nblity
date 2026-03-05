@@ -8,6 +8,7 @@ using Volo.Abp.DependencyInjection;
 using Nblity.Abp.Identity;
 using Nblity.Abp.Identity.Localization;
 using Volo.Abp.Localization;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement.Identity;
 

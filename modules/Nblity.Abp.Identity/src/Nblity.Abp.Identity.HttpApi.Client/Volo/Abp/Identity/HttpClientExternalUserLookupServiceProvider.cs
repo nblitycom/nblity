@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Volo.Abp.DependencyInjection;
 using Nblity.Abp.Identity.Integration;
 using Volo.Abp.Users;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity;
 

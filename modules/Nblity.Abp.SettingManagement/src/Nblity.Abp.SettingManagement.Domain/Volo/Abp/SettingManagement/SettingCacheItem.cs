@@ -2,6 +2,7 @@
 using System.Linq;
 using Volo.Abp.MultiTenancy;
 using Volo.Abp.Text.Formatting;
+using Volo.Abp;
 
 namespace Nblity.Abp.SettingManagement;
 

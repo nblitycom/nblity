@@ -8,6 +8,7 @@ using Volo.Abp.AspNetCore.Components.Web.Configuration;
 using Volo.Abp.Auditing;
 using Volo.Abp.Authorization.Permissions;
 using Nblity.Abp.SettingManagement.Localization;
+using Volo.Abp;
 
 namespace Nblity.Abp.SettingManagement.Blazor.Pages.SettingManagement.EmailSettingGroup;
 

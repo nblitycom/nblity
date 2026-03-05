@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using Microsoft.EntityFrameworkCore;
+using Volo.Abp;
 
 namespace Nblity.Abp.TenantManagement.EntityFrameworkCore;
 

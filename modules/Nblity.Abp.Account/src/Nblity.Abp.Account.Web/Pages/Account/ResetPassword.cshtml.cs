@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Volo.Abp.Auditing;
 using Nblity.Abp.Identity;
 using Volo.Abp.Validation;
+using Volo.Abp;
 
 namespace Nblity.Abp.Account.Web.Pages.Account;
 

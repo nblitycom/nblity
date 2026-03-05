@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.Features;
 using Volo.Abp.Localization;
+using Volo.Abp;
 
 namespace Nblity.Abp.FeatureManagement;
 

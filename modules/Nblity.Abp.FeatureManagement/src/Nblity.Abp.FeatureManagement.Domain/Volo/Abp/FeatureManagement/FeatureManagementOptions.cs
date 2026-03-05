@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using Volo.Abp.Collections;
+using Volo.Abp;
 
 namespace Nblity.Abp.FeatureManagement;
 

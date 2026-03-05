@@ -2,6 +2,7 @@ using System;
 using System.Text.Json.Serialization;
 using Volo.Abp.Data;
 using Volo.Abp.Domain.Entities;
+using Volo.Abp;
 
 namespace Nblity.Abp.FeatureManagement;
 

@@ -2,6 +2,7 @@
 using Volo.Abp.Emailing.Templates;
 using Volo.Abp.Localization;
 using Volo.Abp.TextTemplating;
+using Volo.Abp;
 
 namespace Nblity.Abp.Account.Emailing.Templates;
 

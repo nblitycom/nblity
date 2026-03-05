@@ -1,6 +1,7 @@
 ﻿using Volo.Abp.AspNetCore.Components.WebAssembly.Theming.Bundling;
 using Volo.Abp.AspNetCore.Mvc.UI.Bundling;
 using Volo.Abp.Modularity;
+using Volo.Abp;
 
 namespace Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Bundling;
 

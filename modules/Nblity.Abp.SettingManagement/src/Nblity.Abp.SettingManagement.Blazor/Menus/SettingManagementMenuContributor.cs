@@ -5,6 +5,7 @@ using Microsoft.Extensions.Options;
 using Volo.Abp.Features;
 using Nblity.Abp.SettingManagement.Localization;
 using Volo.Abp.UI.Navigation;
+using Volo.Abp;
 
 namespace Nblity.Abp.SettingManagement.Blazor.Menus;
 

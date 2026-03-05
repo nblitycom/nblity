@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
 using JetBrains.Annotations;
 using Volo.Abp.Settings;
+using Volo.Abp;
 
 namespace Nblity.Abp.SettingManagement;
 

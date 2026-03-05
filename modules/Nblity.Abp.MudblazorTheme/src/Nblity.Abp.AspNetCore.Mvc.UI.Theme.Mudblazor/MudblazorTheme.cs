@@ -1,5 +1,6 @@
 ﻿using Volo.Abp.AspNetCore.Mvc.UI.Theming;
 using Volo.Abp.DependencyInjection;
+using Volo.Abp;
 
 namespace Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor;
 

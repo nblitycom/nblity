@@ -2,6 +2,7 @@
 using Nblity.Abp.Identity.Settings;
 using Volo.Abp.Localization;
 using Volo.Abp.Settings;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity;
 

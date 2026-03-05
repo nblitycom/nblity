@@ -7,6 +7,7 @@ using Nblity.Abp.Identity;
 using Volo.Abp.Localization;
 using Volo.Abp.Modularity;
 using Microsoft.Extensions.DependencyInjection;
+using Volo.Abp;
 
 namespace Nblity.Abp.Account;
 

@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Volo.Abp.Mapperly;
 using Volo.Abp.Modularity;
 using Nblity.Abp.PermissionManagement;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity;
 

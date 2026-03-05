@@ -12,6 +12,7 @@ using Nblity.Abp.Identity.Localization;
 using Volo.Abp.ObjectExtending;
 using Nblity.Abp.PermissionManagement.Blazor.Components;
 using Volo.Abp.Users;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity.Blazor.Pages.Identity;
 
@@ -73,9 +74,9 @@ public partial class UserManagement
 
     protected override ValueTask SetBreadcrumbItemsAsync()
     {
-        BreadcrumbItems.Add(new BlazoriseUI.BreadcrumbItem(LUiNavigation["Menu:Administration"].Value));
-        BreadcrumbItems.Add(new BlazoriseUI.BreadcrumbItem(L["Menu:IdentityManagement"].Value));
-        BreadcrumbItems.Add(new BlazoriseUI.BreadcrumbItem(L["Users"].Value));
+        BreadcrumbItems.Add(new Volo.Abp.BlazoriseUI.BreadcrumbItem(LUiNavigation["Menu:Administration"].Value));
+        BreadcrumbItems.Add(new Volo.Abp.BlazoriseUI.BreadcrumbItem(L["Menu:IdentityManagement"].Value));
+        BreadcrumbItems.Add(new Volo.Abp.BlazoriseUI.BreadcrumbItem(L["Users"].Value));
         return base.SetBreadcrumbItemsAsync();
     }
 

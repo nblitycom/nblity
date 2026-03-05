@@ -1,6 +1,7 @@
 ﻿using Nblity.Abp.Account.Localization;
 using Volo.Abp.Localization;
 using Volo.Abp.Settings;
+using Volo.Abp;
 
 namespace Nblity.Abp.Account.Settings;
 

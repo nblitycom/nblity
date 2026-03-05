@@ -5,6 +5,7 @@ using Volo.Abp.DependencyInjection;
 using Volo.Abp.Features;
 using Volo.Abp.MultiTenancy;
 using Volo.Abp.Security.Claims;
+using Volo.Abp;
 
 namespace Nblity.Abp.FeatureManagement;
 

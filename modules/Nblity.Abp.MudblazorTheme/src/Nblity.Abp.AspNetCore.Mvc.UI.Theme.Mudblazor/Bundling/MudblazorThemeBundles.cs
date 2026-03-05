@@ -1,3 +1,4 @@
+using Volo.Abp;
 ﻿namespace Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor.Bundling;
 
 public static class MudblazorThemeBundles

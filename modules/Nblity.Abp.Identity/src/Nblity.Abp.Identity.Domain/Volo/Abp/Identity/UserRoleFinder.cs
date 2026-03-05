@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.Domain.Repositories;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity;
 

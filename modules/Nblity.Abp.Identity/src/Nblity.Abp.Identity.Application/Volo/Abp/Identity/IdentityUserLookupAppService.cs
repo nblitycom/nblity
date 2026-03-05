@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Authorization;
 using Volo.Abp.Application.Dtos;
 using Nblity.Abp.Identity.Integration;
 using Volo.Abp.Users;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity;
 

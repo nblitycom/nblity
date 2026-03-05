@@ -6,6 +6,7 @@ using Nblity.Abp.Account.Web.Pages.Account.Components.ProfileManagementGroup.Pas
 using Nblity.Abp.Account.Web.Pages.Account.Components.ProfileManagementGroup.PersonalInfo;
 using Nblity.Abp.Identity;
 using Volo.Abp.Users;
+using Volo.Abp;
 
 namespace Nblity.Abp.Account.Web.ProfileManagement;
 

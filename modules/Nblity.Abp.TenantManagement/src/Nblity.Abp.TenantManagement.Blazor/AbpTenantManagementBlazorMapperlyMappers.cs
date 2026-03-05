@@ -1,5 +1,6 @@
 using Riok.Mapperly.Abstractions;
 using Volo.Abp.Mapperly;
+using Volo.Abp;
 
 namespace Nblity.Abp.TenantManagement.Blazor;
 

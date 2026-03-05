@@ -1,3 +1,4 @@
+using Volo.Abp;
 ﻿using System.ComponentModel.DataAnnotations;
 
 namespace Nblity.Abp.Identity;

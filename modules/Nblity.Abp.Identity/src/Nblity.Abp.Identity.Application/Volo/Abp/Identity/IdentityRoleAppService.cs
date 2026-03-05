@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Identity;
 using Volo.Abp.Application.Dtos;
 using Volo.Abp.Data;
 using Volo.Abp.ObjectExtending;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity;
 

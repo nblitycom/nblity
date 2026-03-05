@@ -1,5 +1,6 @@
 ﻿using System;
 using Volo.Abp.MultiTenancy;
+using Volo.Abp;
 
 namespace Nblity.Abp.FeatureManagement;
 

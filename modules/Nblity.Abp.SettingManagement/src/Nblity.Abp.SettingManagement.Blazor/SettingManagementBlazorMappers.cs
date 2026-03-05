@@ -1,6 +1,7 @@
 using Riok.Mapperly.Abstractions;
 using Volo.Abp.Mapperly;
 using static Nblity.Abp.SettingManagement.Blazor.Pages.SettingManagement.EmailSettingGroup.EmailSettingGroupViewComponent;
+using Volo.Abp;
 
 namespace Nblity.Abp.SettingManagement.Blazor;
 

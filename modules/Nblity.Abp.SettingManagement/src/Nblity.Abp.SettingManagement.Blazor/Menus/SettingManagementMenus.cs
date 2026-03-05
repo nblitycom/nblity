@@ -1,3 +1,4 @@
+using Volo.Abp;
 ﻿namespace Nblity.Abp.SettingManagement.Blazor.Menus;
 
 public class SettingManagementMenus

@@ -7,6 +7,7 @@ using Volo.Abp.EventBus;
 using Volo.Abp.EventBus.Distributed;
 using Nblity.Abp.Identity;
 using Volo.Abp.Uow;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement.Identity;
 

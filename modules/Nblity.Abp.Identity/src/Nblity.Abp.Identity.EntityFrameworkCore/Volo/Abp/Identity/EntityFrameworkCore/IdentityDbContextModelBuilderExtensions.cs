@@ -3,6 +3,7 @@ using JetBrains.Annotations;
 using Microsoft.EntityFrameworkCore;
 using Volo.Abp.EntityFrameworkCore.Modeling;
 using Volo.Abp.Users.EntityFrameworkCore;
+using Volo.Abp;
 
 namespace Nblity.Abp.Identity.EntityFrameworkCore;
 

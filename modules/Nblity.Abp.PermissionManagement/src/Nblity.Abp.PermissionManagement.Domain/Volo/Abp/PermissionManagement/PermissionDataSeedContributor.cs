@@ -4,6 +4,7 @@ using Volo.Abp.Authorization.Permissions;
 using Volo.Abp.Data;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.MultiTenancy;
+using Volo.Abp;
 
 namespace Nblity.Abp.PermissionManagement;
 

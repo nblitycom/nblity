@@ -3,6 +3,7 @@ using Volo.Abp.Emailing;
 using Volo.Abp.Modularity;
 using Volo.Abp.Timing;
 using Volo.Abp.Users;
+using Volo.Abp;
 
 namespace Nblity.Abp.SettingManagement;
 
