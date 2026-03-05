@@ -19,6 +19,11 @@ public class LeptonXLiteThemeGlobalStyleContributor : BundleContributor
 
         context.Files.ReplaceOne(x => x.FileName == "/libs/bootstrap/css/bootstrap.css", $"{RootPath}/side-menu/css/bootstrap-dim{rtlPostfix}.css");
 
+        // Remove FontAwesome CSS – not needed since MudBlazor uses SVG/Material icons.
+        context.Files.RemoveAll(x =>
+            x.FileName.StartsWith("/libs/@fortawesome/", System.StringComparison.OrdinalIgnoreCase) ||
+            x.FileName.StartsWith("/libs/fontawesome", System.StringComparison.OrdinalIgnoreCase));
+
         // Currently it doesn't exist. But ensure that it'll be replaced in the future too.
         context.Files.RemoveAll(x => x.FileName.EndsWith("bootstrap-icons.css"));
         context.Files.AddIfNotContains($"{RootPath}/side-menu/libs/bootstrap-icons/font/bootstrap-icons.css");
