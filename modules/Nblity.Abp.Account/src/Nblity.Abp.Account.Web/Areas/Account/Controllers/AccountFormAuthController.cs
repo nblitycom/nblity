@@ -188,7 +188,7 @@ public class AccountFormAuthController : AbpControllerBase
         catch (BusinessException ex)
         {
             Logger.LogWarning(ex, "Registration failed for user: {UserName}", userName);
-            return BuildErrorRedirect("/Account/Register", Uri.EscapeDataString(ex.Message ?? "RegistrationFailed"), returnUrl, returnUrlHash);
+            return BuildErrorRedirect("/Account/Register", "RegistrationFailed", returnUrl, returnUrlHash);
         }
         catch (Exception ex)
         {
@@ -221,7 +221,7 @@ public class AccountFormAuthController : AbpControllerBase
         catch (UserFriendlyException ex)
         {
             Logger.LogWarning(ex, "Forgot password failed for email: {Email}", email);
-            return BuildErrorRedirect("/Account/ForgotPassword", Uri.EscapeDataString(ex.Message ?? "ForgotPasswordFailed"), returnUrl, returnUrlHash);
+            return BuildErrorRedirect("/Account/ForgotPassword", "ForgotPasswordFailed", returnUrl, returnUrlHash);
         }
     }
 
@@ -256,7 +256,7 @@ public class AccountFormAuthController : AbpControllerBase
         catch (AbpIdentityResultException ex)
         {
             Logger.LogWarning(ex, "Reset password failed for user: {UserId}", userId);
-            return BuildErrorRedirect($"/Account/ResetPassword?userId={userId}&resetToken={Uri.EscapeDataString(resetToken ?? "")}", Uri.EscapeDataString(ex.Message ?? "ResetPasswordFailed"), returnUrl, returnUrlHash);
+            return BuildErrorRedirect($"/Account/ResetPassword?userId={userId}&resetToken={Uri.EscapeDataString(resetToken ?? "")}", "ResetPasswordFailed", returnUrl, returnUrlHash);
         }
         catch (AbpValidationException ex)
         {
@@ -372,9 +372,9 @@ public class AccountFormAuthController : AbpControllerBase
         {
             if (!string.IsNullOrWhiteSpace(returnUrlHash))
             {
-                return Redirect(returnUrl + returnUrlHash);
+                return LocalRedirect(returnUrl + returnUrlHash);
             }
-            return Redirect(returnUrl);
+            return LocalRedirect(returnUrl);
         }
 
         return Redirect("/");
