@@ -24,10 +24,7 @@ using Volo.Abp;
 using Nblity.Abp.Account.Web;
 using Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme;
 using Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme.Bundling;
-using Volo.Abp.AspNetCore.Components.Web;
 using Volo.Abp.AspNetCore.Components.Web.Theming.Routing;
-using Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Bundling;
-using Volo.Abp.AspNetCore.Components.WebAssembly.Theming.Bundling;
 using Volo.Abp.AspNetCore.Mvc;
 using Volo.Abp.AspNetCore.Mvc.Libs;
 using Volo.Abp.AspNetCore.Mvc.Localization;
@@ -180,15 +177,6 @@ public class NblityBlazorModule : AbpModule
             // Blazor Web App
             options.Parameters.InteractiveAuto = true;
 
-            // MVC UI
-            options.StyleBundles.Configure(
-                MudblazorThemeBundles.Styles.Global,
-                bundle =>
-                {
-                    bundle.AddFiles("/global-styles.css");
-                }
-            );
-
             options.ScriptBundles.Configure(
                 MudblazorThemeBundles.Scripts.Global,
                 bundle =>
@@ -201,26 +189,6 @@ public class NblityBlazorModule : AbpModule
                     }
                 }
             );
-
-            // Blazor UI
-            options.StyleBundles.Configure(
-                BlazorMudblazorThemeBundles.Styles.Global,
-                bundle =>
-                {
-                    bundle.AddFiles("/global-styles.css");
-                    bundle.AddContributors(typeof(NblityStyleBundleContributor));
-                }
-            );
-        });
-
-        Configure<AbpBundlingOptions>(options =>
-        {
-            var globalStyles = options.StyleBundles.Get(BlazorWebAssemblyStandardBundles.Styles.Global);
-            globalStyles.AddContributors(typeof(NblityStyleBundleContributor));
-
-            var globalScripts = options.ScriptBundles.Get(BlazorWebAssemblyStandardBundles.Scripts.Global);
-            globalScripts.AddContributors(typeof(NblityScriptBundleContributor));
-            
         });
     }
 

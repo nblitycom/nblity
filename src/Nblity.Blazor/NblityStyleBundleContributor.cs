@@ -6,7 +6,7 @@ public class NblityStyleBundleContributor : BundleContributor
 {
     public override void ConfigureBundle(BundleConfigurationContext context)
     {
-        context.Files.Add(new BundleFile("main.css", true));
+        // All custom CSS removed – UI is 100% MudBlazor
     }
 
     public override void PostConfigureBundle(BundleConfigurationContext context)

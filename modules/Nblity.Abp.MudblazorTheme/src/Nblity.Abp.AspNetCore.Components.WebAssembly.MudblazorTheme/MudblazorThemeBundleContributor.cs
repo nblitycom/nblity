@@ -8,22 +8,10 @@ public class MudblazorThemeBundleContributor : IBundleContributor
 {
     public void AddScripts(BundleContext context)
     {
-        if (!context.InteractiveAuto)
-        {
-            context.Add("_content/Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme/side-menu/libs/bootstrap/js/bootstrap.bundle.js");
-        }
-
-        context.Add("_content/Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme/side-menu/js/lepton-x.bundle.min.js");
-        context.Add("_content/Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme/side-menu/libs/jquery/jquery.min.js");
-        context.Add("_content/Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme/side-menu/libs/bootstrap-datepicker/js/bootstrap-datepicker.min.js");
-        context.Add("_content/Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme/scripts/style-initializer.js");
-        context.Add("_content/Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme/scripts/style-initializer.js");
     }
 
     public void AddStyles(BundleContext context)
     {
-        context.Add("_content/Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme/side-menu/libs/chart.js/Chart.min.css");
-        context.Add("_content/Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme/side-menu/libs/bootstrap-datepicker/css/bootstrap-datepicker.min.css");
-        context.Add("_content/Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme/side-menu/libs/bootstrap-icons/font/bootstrap-icons.css");
+        // All custom CSS removed – UI is 100% MudBlazor.
     }
 }
