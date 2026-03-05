@@ -1,0 +1,24 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Nblity.Abp.TenantManagement.Application.Contracts/Nblity.Abp.TenantManagement.Application.Contracts.csproj" />
+    <Project Path="src/Nblity.Abp.TenantManagement.Application/Nblity.Abp.TenantManagement.Application.csproj" />
+    <Project Path="src/Nblity.Abp.TenantManagement.Blazor.Server/Nblity.Abp.TenantManagement.Blazor.Server.csproj" />
+    <Project Path="src/Nblity.Abp.TenantManagement.Blazor.WebAssembly/Nblity.Abp.TenantManagement.Blazor.WebAssembly.csproj" />
+    <Project Path="src/Nblity.Abp.TenantManagement.Blazor/Nblity.Abp.TenantManagement.Blazor.csproj" />
+    <Project Path="src/Nblity.Abp.TenantManagement.Domain.Shared/Nblity.Abp.TenantManagement.Domain.Shared.csproj" />
+    <Project Path="src/Nblity.Abp.TenantManagement.Domain/Nblity.Abp.TenantManagement.Domain.csproj" />
+    <Project Path="src/Nblity.Abp.TenantManagement.EntityFrameworkCore/Nblity.Abp.TenantManagement.EntityFrameworkCore.csproj" />
+    <Project Path="src/Nblity.Abp.TenantManagement.HttpApi.Client/Nblity.Abp.TenantManagement.HttpApi.Client.csproj" />
+    <Project Path="src/Nblity.Abp.TenantManagement.HttpApi/Nblity.Abp.TenantManagement.HttpApi.csproj" />
+    <Project Path="src/Nblity.Abp.TenantManagement.Installer/Nblity.Abp.TenantManagement.Installer.csproj" />
+    <Project Path="src/Nblity.Abp.TenantManagement.MongoDB/Nblity.Abp.TenantManagement.MongoDB.csproj" />
+    <Project Path="src/Nblity.Abp.TenantManagement.Web/Nblity.Abp.TenantManagement.Web.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/Nblity.Abp.TenantManagement.Application.Tests/Nblity.Abp.TenantManagement.Application.Tests.csproj" />
+    <Project Path="test/Nblity.Abp.TenantManagement.Domain.Tests/Nblity.Abp.TenantManagement.Domain.Tests.csproj" />
+    <Project Path="test/Nblity.Abp.TenantManagement.EntityFrameworkCore.Tests/Nblity.Abp.TenantManagement.EntityFrameworkCore.Tests.csproj" />
+    <Project Path="test/Nblity.Abp.TenantManagement.MongoDB.Tests/Nblity.Abp.TenantManagement.MongoDB.Tests.csproj" />
+    <Project Path="test/Nblity.Abp.TenantManagement.TestBase/Nblity.Abp.TenantManagement.TestBase.csproj" />
+  </Folder>
+</Solution>

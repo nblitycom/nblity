@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Nblity.Abp.FeatureManagement": {
+      "path": "Nblity.Abp.FeatureManagement.abpmdl"
+    }
+  }
+}

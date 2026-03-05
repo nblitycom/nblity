@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Nblity.Abp.SettingManagement": {
+      "path": "Nblity.Abp.SettingManagement.abpmdl"
+    }
+  }
+}

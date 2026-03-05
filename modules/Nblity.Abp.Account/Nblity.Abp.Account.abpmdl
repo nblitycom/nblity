@@ -1,0 +1,47 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Nblity.Abp.Account.Web.OpenIddict": {
+      "path": "src/Nblity.Abp.Account.Web.OpenIddict/Nblity.Abp.Account.Web.OpenIddict.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.Account.Web.IdentityServer": {
+      "path": "src/Nblity.Abp.Account.Web.IdentityServer/Nblity.Abp.Account.Web.IdentityServer.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.Account.Web": {
+      "path": "src/Nblity.Abp.Account.Web/Nblity.Abp.Account.Web.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.Account.HttpApi.Client": {
+      "path": "src/Nblity.Abp.Account.HttpApi.Client/Nblity.Abp.Account.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.Account.HttpApi": {
+      "path": "src/Nblity.Abp.Account.HttpApi/Nblity.Abp.Account.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.Account.Application": {
+      "path": "src/Nblity.Abp.Account.Application/Nblity.Abp.Account.Application.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.Account.Application.Contracts": {
+      "path": "src/Nblity.Abp.Account.Application.Contracts/Nblity.Abp.Account.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.Account.Application.Tests": {
+      "path": "test/Nblity.Abp.Account.Application.Tests/Nblity.Abp.Account.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Nblity.Abp.Account.Blazor": {
+      "path": "src/Nblity.Abp.Account.Blazor/Nblity.Abp.Account.Blazor.abppkg",
+      "folder": "src"
+    }
+  },
+  "moduleId": "3a1d3306-b5eb-368a-6ad2-ed8e7c3b4357"
+}

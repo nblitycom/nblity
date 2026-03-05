@@ -12,15 +12,15 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Volo.Abp.Autofac.WebAssembly" Version="10.1.0" />
-    <ProjectReference Include="../../modules/Volo.Abp.FeatureManagement/src/Volo.Abp.FeatureManagement.Blazor.WebAssembly/Volo.Abp.FeatureManagement.Blazor.WebAssembly.csproj" />
-    <ProjectReference Include="../../modules/Volo.Abp.SettingManagement/src/Volo.Abp.SettingManagement.Blazor.WebAssembly/Volo.Abp.SettingManagement.Blazor.WebAssembly.csproj" />
+    <ProjectReference Include="../../modules/Nblity.Abp.FeatureManagement/src/Nblity.Abp.FeatureManagement.Blazor.WebAssembly/Nblity.Abp.FeatureManagement.Blazor.WebAssembly.csproj" />
+    <ProjectReference Include="../../modules/Nblity.Abp.SettingManagement/src/Nblity.Abp.SettingManagement.Blazor.WebAssembly/Nblity.Abp.SettingManagement.Blazor.WebAssembly.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="../../modules/Volo.Abp.LeptonXLiteTheme/src/Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme/Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.csproj" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme" Version="5.1.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="../../modules/Volo.Abp.Identity/src/Volo.Abp.Identity.Blazor.WebAssembly/Volo.Abp.Identity.Blazor.WebAssembly.csproj" />
-    <ProjectReference Include="../../modules/Volo.Abp.TenantManagement/src/Volo.Abp.TenantManagement.Blazor.WebAssembly/Volo.Abp.TenantManagement.Blazor.WebAssembly.csproj" />
+    <ProjectReference Include="../../modules/Nblity.Abp.Identity/src/Nblity.Abp.Identity.Blazor.WebAssembly/Nblity.Abp.Identity.Blazor.WebAssembly.csproj" />
+    <ProjectReference Include="../../modules/Nblity.Abp.TenantManagement/src/Nblity.Abp.TenantManagement.Blazor.WebAssembly/Nblity.Abp.TenantManagement.Blazor.WebAssembly.csproj" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\src\Nblity.HttpApi.Client\Nblity.HttpApi.Client.csproj" />

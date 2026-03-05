@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Nblity.Abp.TenantManagement.Web": {
+      "path": "src/Nblity.Abp.TenantManagement.Web/Nblity.Abp.TenantManagement.Web.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.TenantManagement.Blazor": {
+      "path": "src/Nblity.Abp.TenantManagement.Blazor/Nblity.Abp.TenantManagement.Blazor.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.TenantManagement.Blazor.WebAssembly": {
+      "path": "src/Nblity.Abp.TenantManagement.Blazor.WebAssembly/Nblity.Abp.TenantManagement.Blazor.WebAssembly.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.TenantManagement.Blazor.Server": {
+      "path": "src/Nblity.Abp.TenantManagement.Blazor.Server/Nblity.Abp.TenantManagement.Blazor.Server.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.TenantManagement.HttpApi": {
+      "path": "src/Nblity.Abp.TenantManagement.HttpApi/Nblity.Abp.TenantManagement.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.TenantManagement.HttpApi.Client": {
+      "path": "src/Nblity.Abp.TenantManagement.HttpApi.Client/Nblity.Abp.TenantManagement.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.TenantManagement.Application": {
+      "path": "src/Nblity.Abp.TenantManagement.Application/Nblity.Abp.TenantManagement.Application.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.TenantManagement.Application.Contracts": {
+      "path": "src/Nblity.Abp.TenantManagement.Application.Contracts/Nblity.Abp.TenantManagement.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.TenantManagement.Domain": {
+      "path": "src/Nblity.Abp.TenantManagement.Domain/Nblity.Abp.TenantManagement.Domain.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.TenantManagement.Domain.Shared": {
+      "path": "src/Nblity.Abp.TenantManagement.Domain.Shared/Nblity.Abp.TenantManagement.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.TenantManagement.EntityFrameworkCore": {
+      "path": "src/Nblity.Abp.TenantManagement.EntityFrameworkCore/Nblity.Abp.TenantManagement.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.TenantManagement.Application.Tests": {
+      "path": "test/Nblity.Abp.TenantManagement.Application.Tests/Nblity.Abp.TenantManagement.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Nblity.Abp.TenantManagement.EntityFrameworkCore.Tests": {
+      "path": "test/Nblity.Abp.TenantManagement.EntityFrameworkCore.Tests/Nblity.Abp.TenantManagement.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Nblity.Abp.TenantManagement.MongoDB": {
+      "path": "src/Nblity.Abp.TenantManagement.MongoDB/Nblity.Abp.TenantManagement.MongoDB.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.TenantManagement.MongoDB.Tests": {
+      "path": "test/Nblity.Abp.TenantManagement.MongoDB.Tests/Nblity.Abp.TenantManagement.MongoDB.Tests.abppkg",
+      "folder": "test"
+    },
+    "Nblity.Abp.TenantManagement.TestBase": {
+      "path": "test/Nblity.Abp.TenantManagement.TestBase/Nblity.Abp.TenantManagement.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Nblity.Abp.TenantManagement.Domain.Tests": {
+      "path": "test/Nblity.Abp.TenantManagement.Domain.Tests/Nblity.Abp.TenantManagement.Domain.Tests.abppkg",
+      "folder": "test"
+    }
+  },
+  "moduleId": "3a1d3306-b5eb-368a-6ad2-ed8e7c3b4357"
+}

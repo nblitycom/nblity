@@ -1,0 +1,24 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Nblity.Abp.PermissionManagement.Application.Contracts/Nblity.Abp.PermissionManagement.Application.Contracts.csproj" />
+    <Project Path="src/Nblity.Abp.PermissionManagement.Application/Nblity.Abp.PermissionManagement.Application.csproj" />
+    <Project Path="src/Nblity.Abp.PermissionManagement.Blazor.Server/Nblity.Abp.PermissionManagement.Blazor.Server.csproj" />
+    <Project Path="src/Nblity.Abp.PermissionManagement.Blazor.WebAssembly/Nblity.Abp.PermissionManagement.Blazor.WebAssembly.csproj" />
+    <Project Path="src/Nblity.Abp.PermissionManagement.Blazor/Nblity.Abp.PermissionManagement.Blazor.csproj" />
+    <Project Path="src/Nblity.Abp.PermissionManagement.Domain.Shared/Nblity.Abp.PermissionManagement.Domain.Shared.csproj" />
+    <Project Path="src/Nblity.Abp.PermissionManagement.Domain/Nblity.Abp.PermissionManagement.Domain.csproj" />
+    <Project Path="src/Nblity.Abp.PermissionManagement.EntityFrameworkCore/Nblity.Abp.PermissionManagement.EntityFrameworkCore.csproj" />
+    <Project Path="src/Nblity.Abp.PermissionManagement.HttpApi.Client/Nblity.Abp.PermissionManagement.HttpApi.Client.csproj" />
+    <Project Path="src/Nblity.Abp.PermissionManagement.HttpApi/Nblity.Abp.PermissionManagement.HttpApi.csproj" />
+    <Project Path="src/Nblity.Abp.PermissionManagement.Installer/Nblity.Abp.PermissionManagement.Installer.csproj" />
+    <Project Path="src/Nblity.Abp.PermissionManagement.MongoDB/Nblity.Abp.PermissionManagement.MongoDB.csproj" />
+    <Project Path="src/Nblity.Abp.PermissionManagement.Web/Nblity.Abp.PermissionManagement.Web.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/Nblity.Abp.PermissionManagement.Application.Tests/Nblity.Abp.PermissionManagement.Application.Tests.csproj" />
+    <Project Path="test/Nblity.Abp.PermissionManagement.Domain.Tests/Nblity.Abp.PermissionManagement.Domain.Tests.csproj" />
+    <Project Path="test/Nblity.Abp.PermissionManagement.EntityFrameworkCore.Tests/Nblity.Abp.PermissionManagement.EntityFrameworkCore.Tests.csproj" />
+    <Project Path="test/Nblity.Abp.PermissionManagement.MongoDB.Tests/Nblity.Abp.PermissionManagement.MongoDB.Tests.csproj" />
+    <Project Path="test/Nblity.Abp.PermissionManagement.TestBase/Nblity.Abp.PermissionManagement.TestBase.csproj" />
+  </Folder>
+</Solution>

@@ -9,11 +9,11 @@
     <ProjectReference Include="..\Nblity.Domain.Shared\Nblity.Domain.Shared.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="../../modules/Volo.Abp.FeatureManagement/src/Volo.Abp.FeatureManagement.Application.Contracts/Volo.Abp.FeatureManagement.Application.Contracts.csproj" />
-    <ProjectReference Include="../../modules/Volo.Abp.Identity/src/Volo.Abp.Identity.Application.Contracts/Volo.Abp.Identity.Application.Contracts.csproj" />
-    <ProjectReference Include="../../modules/Volo.Abp.PermissionManagement/src/Volo.Abp.PermissionManagement.Application.Contracts/Volo.Abp.PermissionManagement.Application.Contracts.csproj" />
-    <ProjectReference Include="../../modules/Volo.Abp.SettingManagement/src/Volo.Abp.SettingManagement.Application.Contracts/Volo.Abp.SettingManagement.Application.Contracts.csproj" />
-    <ProjectReference Include="../../modules/Volo.Abp.TenantManagement/src/Volo.Abp.TenantManagement.Application.Contracts/Volo.Abp.TenantManagement.Application.Contracts.csproj" />
-    <ProjectReference Include="../../modules/Volo.Abp.Account/src/Volo.Abp.Account.Application.Contracts/Volo.Abp.Account.Application.Contracts.csproj" />
+    <ProjectReference Include="../../modules/Nblity.Abp.FeatureManagement/src/Nblity.Abp.FeatureManagement.Application.Contracts/Nblity.Abp.FeatureManagement.Application.Contracts.csproj" />
+    <ProjectReference Include="../../modules/Nblity.Abp.Identity/src/Nblity.Abp.Identity.Application.Contracts/Nblity.Abp.Identity.Application.Contracts.csproj" />
+    <ProjectReference Include="../../modules/Nblity.Abp.PermissionManagement/src/Nblity.Abp.PermissionManagement.Application.Contracts/Nblity.Abp.PermissionManagement.Application.Contracts.csproj" />
+    <ProjectReference Include="../../modules/Nblity.Abp.SettingManagement/src/Nblity.Abp.SettingManagement.Application.Contracts/Nblity.Abp.SettingManagement.Application.Contracts.csproj" />
+    <ProjectReference Include="../../modules/Nblity.Abp.TenantManagement/src/Nblity.Abp.TenantManagement.Application.Contracts/Nblity.Abp.TenantManagement.Application.Contracts.csproj" />
+    <ProjectReference Include="../../modules/Nblity.Abp.Account/src/Nblity.Abp.Account.Application.Contracts/Nblity.Abp.Account.Application.Contracts.csproj" />
   </ItemGroup>
 </Project>

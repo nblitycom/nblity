@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Nblity.Abp.FeatureManagement.Web": {
+      "path": "src/Nblity.Abp.FeatureManagement.Web/Nblity.Abp.FeatureManagement.Web.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.FeatureManagement.Blazor": {
+      "path": "src/Nblity.Abp.FeatureManagement.Blazor/Nblity.Abp.FeatureManagement.Blazor.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.FeatureManagement.Blazor.Server": {
+      "path": "src/Nblity.Abp.FeatureManagement.Blazor.Server/Nblity.Abp.FeatureManagement.Blazor.Server.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.FeatureManagement.Blazor.WebAssembly": {
+      "path": "src/Nblity.Abp.FeatureManagement.Blazor.WebAssembly/Nblity.Abp.FeatureManagement.Blazor.WebAssembly.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.FeatureManagement.HttpApi": {
+      "path": "src/Nblity.Abp.FeatureManagement.HttpApi/Nblity.Abp.FeatureManagement.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.FeatureManagement.HttpApi.Client": {
+      "path": "src/Nblity.Abp.FeatureManagement.HttpApi.Client/Nblity.Abp.FeatureManagement.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.FeatureManagement.Application": {
+      "path": "src/Nblity.Abp.FeatureManagement.Application/Nblity.Abp.FeatureManagement.Application.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.FeatureManagement.Domain": {
+      "path": "src/Nblity.Abp.FeatureManagement.Domain/Nblity.Abp.FeatureManagement.Domain.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.FeatureManagement.Domain.Shared": {
+      "path": "src/Nblity.Abp.FeatureManagement.Domain.Shared/Nblity.Abp.FeatureManagement.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.FeatureManagement.Application.Contracts": {
+      "path": "src/Nblity.Abp.FeatureManagement.Application.Contracts/Nblity.Abp.FeatureManagement.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.FeatureManagement.EntityFrameworkCore": {
+      "path": "src/Nblity.Abp.FeatureManagement.EntityFrameworkCore/Nblity.Abp.FeatureManagement.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.FeatureManagement.MongoDB": {
+      "path": "src/Nblity.Abp.FeatureManagement.MongoDB/Nblity.Abp.FeatureManagement.MongoDB.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.FeatureManagement.TestBase": {
+      "path": "test/Nblity.Abp.FeatureManagement.TestBase/Nblity.Abp.FeatureManagement.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Nblity.Abp.FeatureManagement.Domain.Tests": {
+      "path": "test/Nblity.Abp.FeatureManagement.Domain.Tests/Nblity.Abp.FeatureManagement.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Nblity.Abp.FeatureManagement.EntityFrameworkCore.Tests": {
+      "path": "test/Nblity.Abp.FeatureManagement.EntityFrameworkCore.Tests/Nblity.Abp.FeatureManagement.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Nblity.Abp.FeatureManagement.MongoDB.Tests": {
+      "path": "test/Nblity.Abp.FeatureManagement.MongoDB.Tests/Nblity.Abp.FeatureManagement.MongoDB.Tests.abppkg",
+      "folder": "test"
+    },
+    "Nblity.Abp.FeatureManagement.Application.Tests": {
+      "path": "test/Nblity.Abp.FeatureManagement.Application.Tests/Nblity.Abp.FeatureManagement.Application.Tests.abppkg",
+      "folder": "test"
+    }
+  },
+  "moduleId": "3a1d3306-b5eb-368a-6ad2-ed8e7c3b4357"
+}

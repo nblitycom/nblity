@@ -1,0 +1,80 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "app": {}
+    }
+  },
+  "packages": {
+    "Nblity.Abp.SettingManagement.DemoApp": {
+      "path": "app/Nblity.Abp.SettingManagement.DemoApp/Nblity.Abp.SettingManagement.DemoApp.abppkg",
+      "folder": "app"
+    },
+    "Nblity.Abp.SettingManagement.Web": {
+      "path": "src/Nblity.Abp.SettingManagement.Web/Nblity.Abp.SettingManagement.Web.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.SettingManagement.Blazor": {
+      "path": "src/Nblity.Abp.SettingManagement.Blazor/Nblity.Abp.SettingManagement.Blazor.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.SettingManagement.Blazor.Server": {
+      "path": "src/Nblity.Abp.SettingManagement.Blazor.Server/Nblity.Abp.SettingManagement.Blazor.Server.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.SettingManagement.Blazor.WebAssembly": {
+      "path": "src/Nblity.Abp.SettingManagement.Blazor.WebAssembly/Nblity.Abp.SettingManagement.Blazor.WebAssembly.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.SettingManagement.HttpApi": {
+      "path": "src/Nblity.Abp.SettingManagement.HttpApi/Nblity.Abp.SettingManagement.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.SettingManagement.HttpApi.Client": {
+      "path": "src/Nblity.Abp.SettingManagement.HttpApi.Client/Nblity.Abp.SettingManagement.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.SettingManagement.Application": {
+      "path": "src/Nblity.Abp.SettingManagement.Application/Nblity.Abp.SettingManagement.Application.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.SettingManagement.Application.Contracts": {
+      "path": "src/Nblity.Abp.SettingManagement.Application.Contracts/Nblity.Abp.SettingManagement.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.SettingManagement.Domain.Shared": {
+      "path": "src/Nblity.Abp.SettingManagement.Domain.Shared/Nblity.Abp.SettingManagement.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.SettingManagement.Domain": {
+      "path": "src/Nblity.Abp.SettingManagement.Domain/Nblity.Abp.SettingManagement.Domain.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.SettingManagement.EntityFrameworkCore": {
+      "path": "src/Nblity.Abp.SettingManagement.EntityFrameworkCore/Nblity.Abp.SettingManagement.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.SettingManagement.Tests": {
+      "path": "test/Nblity.Abp.SettingManagement.Tests/Nblity.Abp.SettingManagement.Tests.abppkg",
+      "folder": "test"
+    },
+    "Nblity.Abp.SettingManagement.MongoDB": {
+      "path": "src/Nblity.Abp.SettingManagement.MongoDB/Nblity.Abp.SettingManagement.MongoDB.abppkg",
+      "folder": "src"
+    },
+    "Nblity.Abp.SettingManagement.TestBase": {
+      "path": "test/Nblity.Abp.SettingManagement.TestBase/Nblity.Abp.SettingManagement.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Nblity.Abp.SettingManagement.EntityFrameworkCore.Tests": {
+      "path": "test/Nblity.Abp.SettingManagement.EntityFrameworkCore.Tests/Nblity.Abp.SettingManagement.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Nblity.Abp.SettingManagement.MongoDB.Tests": {
+      "path": "test/Nblity.Abp.SettingManagement.MongoDB.Tests/Nblity.Abp.SettingManagement.MongoDB.Tests.abppkg",
+      "folder": "test"
+    }
+  },
+  "moduleId": "3a1d3306-b5eb-368a-6ad2-ed8e7c3b4357"
+}
