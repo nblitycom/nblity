@@ -1,0 +1,8 @@
+{
+  "template": "empty",
+  "modules": {
+    "Nblity.Abp.MudblazorTheme": {
+      "path": "Nblity.Abp.MudblazorTheme.abpmdl"
+    }
+  }
+}

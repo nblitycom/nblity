@@ -1,0 +1,58 @@
+﻿@using Nblity.Abp.SettingManagement.Localization
+@inherits Volo.Abp.AspNetCore.Components.AbpComponentBase
+
+@if (EmailSettings != null)
+{
+    <EditForm Model="@EmailSettings" OnValidSubmit="@UpdateSettingsAsync">
+        <DataAnnotationsValidator />
+        <MudGrid>
+            <MudItem xs="12">
+                <MudTextField T="string" @bind-Value="@EmailSettings.DefaultFromDisplayName" Label="@($"{L["DefaultFromDisplayName"]} *")" For="@(() => EmailSettings.DefaultFromDisplayName)" />
+                <MudTextField T="string" @bind-Value="@EmailSettings.DefaultFromAddress" Label="@($"{L["DefaultFromAddress"]} *")" For="@(() => EmailSettings.DefaultFromAddress)" />
+                <MudTextField T="string" @bind-Value="@EmailSettings.SmtpHost" Label="@L["SmtpHost"]" For="@(() => EmailSettings.SmtpHost)" />
+                <MudNumericField T="int" @bind-Value="@EmailSettings.SmtpPort" Label="@L["SmtpPort"]" For="@(() => EmailSettings.SmtpPort)" />
+                <MudCheckBox T="bool" @bind-Value="@EmailSettings.SmtpEnableSsl" Label="@L["SmtpEnableSsl"]" />
+                <MudCheckBox T="bool" @bind-Value="@EmailSettings.SmtpUseDefaultCredentials" Label="@L["SmtpUseDefaultCredentials"]" />
+                @if (!EmailSettings.SmtpUseDefaultCredentials)
+                {
+                    <MudTextField T="string" @bind-Value="@EmailSettings.SmtpDomain" Label="@L["SmtpDomain"]" For="@(() => EmailSettings.SmtpDomain)" />
+                    <MudTextField T="string" @bind-Value="@EmailSettings.SmtpUserName" Label="@L["SmtpUserName"]" For="@(() => EmailSettings.SmtpUserName)" />
+                    <MudTextField T="string" @bind-Value="@EmailSettings.SmtpPassword" InputType="InputType.Password" Label="@L["SmtpPassword"]" Placeholder="@L["SmtpPasswordPlaceholder"].Value" For="@(() => EmailSettings.SmtpPassword)" />
+                }
+            </MudItem>
+        </MudGrid>
+        <hr />
+        <MudGrid>
+            <MudItem xs="12">
+                @if (HasSendTestEmailPermission)
+                {
+                    <MudButton style="margin: 0.25rem" Color="MudBlazor.Color.Primary" Variant="Variant.Outlined" OnClick="OpenSendTestEmailModalAsync">@L["SendTestEmail"]</MudButton>
+                }
+                <MudButton ButtonType="MudBlazor.ButtonType.Submit" Color="MudBlazor.Color.Primary" Variant="Variant.Filled">@L["Save"]</MudButton>
+            </MudItem>
+        </MudGrid>
+    </EditForm>
+
+    @if (HasSendTestEmailPermission)
+    {
+        <MudDialog @bind-Visible="_sendTestEmailVisible">
+            <TitleContent>
+                <MudText Typo="Typo.h6">@L["SendTestEmail"]</MudText>
+                <MudIconButton Icon="@Icons.Material.Filled.Close" OnClick="CloseSendTestEmailModalAsync" Class="ml-auto" />
+            </TitleContent>
+            <DialogContent>
+                <EditForm Model="@SendTestEmailInput">
+                    <DataAnnotationsValidator />
+                    <MudTextField T="string" @bind-Value="@SendTestEmailInput.SenderEmailAddress" Label="@L["SenderEmailAddress"]" AutoFocus="true" For="@(() => SendTestEmailInput.SenderEmailAddress)" />
+                    <MudTextField T="string" @bind-Value="@SendTestEmailInput.TargetEmailAddress" Label="@L["TargetEmailAddress"]" For="@(() => SendTestEmailInput.TargetEmailAddress)" />
+                    <MudTextField T="string" @bind-Value="@SendTestEmailInput.Subject" Label="@L["Subject"]" For="@(() => SendTestEmailInput.Subject)" />
+                    <MudTextField T="string" @bind-Value="@SendTestEmailInput.Body" Label="@L["Body"]" For="@(() => SendTestEmailInput.Body)" />
+                </EditForm>
+            </DialogContent>
+            <DialogActions>
+                <MudButton Color="MudBlazor.Color.Secondary" OnClick="CloseSendTestEmailModalAsync">@L["Cancel"]</MudButton>
+                <MudButton Color="MudBlazor.Color.Primary" Variant="Variant.Filled" OnClick="SendTestEmailAsync">@L["Send"]</MudButton>
+            </DialogActions>
+        </MudDialog>
+    }
+}

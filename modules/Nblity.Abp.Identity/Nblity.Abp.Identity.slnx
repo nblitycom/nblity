@@ -1,0 +1,27 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Nblity.Abp.Identity.Application.Contracts/Nblity.Abp.Identity.Application.Contracts.csproj" />
+    <Project Path="src/Nblity.Abp.Identity.Application/Nblity.Abp.Identity.Application.csproj" />
+    <Project Path="src/Nblity.Abp.Identity.AspNetCore/Nblity.Abp.Identity.AspNetCore.csproj" />
+    <Project Path="src/Nblity.Abp.Identity.Blazor.Server/Nblity.Abp.Identity.Blazor.Server.csproj" />
+    <Project Path="src/Nblity.Abp.Identity.Blazor.WebAssembly/Nblity.Abp.Identity.Blazor.WebAssembly.csproj" />
+    <Project Path="src/Nblity.Abp.Identity.Blazor/Nblity.Abp.Identity.Blazor.csproj" />
+    <Project Path="src/Nblity.Abp.Identity.Domain.Shared/Nblity.Abp.Identity.Domain.Shared.csproj" />
+    <Project Path="src/Nblity.Abp.Identity.Domain/Nblity.Abp.Identity.Domain.csproj" />
+    <Project Path="src/Nblity.Abp.Identity.EntityFrameworkCore/Nblity.Abp.Identity.EntityFrameworkCore.csproj" />
+    <Project Path="src/Nblity.Abp.Identity.HttpApi.Client/Nblity.Abp.Identity.HttpApi.Client.csproj" />
+    <Project Path="src/Nblity.Abp.Identity.HttpApi/Nblity.Abp.Identity.HttpApi.csproj" />
+    <Project Path="src/Nblity.Abp.Identity.Installer/Nblity.Abp.Identity.Installer.csproj" />
+    <Project Path="src/Nblity.Abp.Identity.MongoDB/Nblity.Abp.Identity.MongoDB.csproj" />
+    <Project Path="src/Nblity.Abp.Identity.Web/Nblity.Abp.Identity.Web.csproj" />
+    <Project Path="src/Nblity.Abp.PermissionManagement.Domain.Identity/Nblity.Abp.PermissionManagement.Domain.Identity.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/Nblity.Abp.Identity.Application.Tests/Nblity.Abp.Identity.Application.Tests.csproj" />
+    <Project Path="test/Nblity.Abp.Identity.AspNetCore.Tests/Nblity.Abp.Identity.AspNetCore.Tests.csproj" />
+    <Project Path="test/Nblity.Abp.Identity.Domain.Tests/Nblity.Abp.Identity.Domain.Tests.csproj" />
+    <Project Path="test/Nblity.Abp.Identity.EntityFrameworkCore.Tests/Nblity.Abp.Identity.EntityFrameworkCore.Tests.csproj" />
+    <Project Path="test/Nblity.Abp.Identity.MongoDB.Tests/Nblity.Abp.Identity.MongoDB.Tests.csproj" />
+    <Project Path="test/Nblity.Abp.Identity.TestBase/Nblity.Abp.Identity.TestBase.csproj" />
+  </Folder>
+</Solution>

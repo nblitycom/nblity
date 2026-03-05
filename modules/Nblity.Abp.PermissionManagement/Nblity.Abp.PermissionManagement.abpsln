@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Nblity.Abp.PermissionManagement": {
+      "path": "Nblity.Abp.PermissionManagement.abpmdl"
+    }
+  }
+}

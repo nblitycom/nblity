@@ -9,13 +9,13 @@
     <ProjectReference Include="..\Nblity.Application.Contracts\Nblity.Application.Contracts.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="../../modules/Volo.Abp.FeatureManagement/src/Volo.Abp.FeatureManagement.HttpApi/Volo.Abp.FeatureManagement.HttpApi.csproj" />
-    <ProjectReference Include="../../modules/Volo.Abp.PermissionManagement/src/Volo.Abp.PermissionManagement.HttpApi/Volo.Abp.PermissionManagement.HttpApi.csproj" />
-    <ProjectReference Include="../../modules/Volo.Abp.SettingManagement/src/Volo.Abp.SettingManagement.HttpApi/Volo.Abp.SettingManagement.HttpApi.csproj" />
+    <ProjectReference Include="../../modules/Nblity.Abp.FeatureManagement/src/Nblity.Abp.FeatureManagement.HttpApi/Nblity.Abp.FeatureManagement.HttpApi.csproj" />
+    <ProjectReference Include="../../modules/Nblity.Abp.PermissionManagement/src/Nblity.Abp.PermissionManagement.HttpApi/Nblity.Abp.PermissionManagement.HttpApi.csproj" />
+    <ProjectReference Include="../../modules/Nblity.Abp.SettingManagement/src/Nblity.Abp.SettingManagement.HttpApi/Nblity.Abp.SettingManagement.HttpApi.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="../../modules/Volo.Abp.Identity/src/Volo.Abp.Identity.HttpApi/Volo.Abp.Identity.HttpApi.csproj" />
-    <ProjectReference Include="../../modules/Volo.Abp.TenantManagement/src/Volo.Abp.TenantManagement.HttpApi/Volo.Abp.TenantManagement.HttpApi.csproj" />
-    <ProjectReference Include="../../modules/Volo.Abp.Account/src/Volo.Abp.Account.HttpApi/Volo.Abp.Account.HttpApi.csproj" />
+    <ProjectReference Include="../../modules/Nblity.Abp.Identity/src/Nblity.Abp.Identity.HttpApi/Nblity.Abp.Identity.HttpApi.csproj" />
+    <ProjectReference Include="../../modules/Nblity.Abp.TenantManagement/src/Nblity.Abp.TenantManagement.HttpApi/Nblity.Abp.TenantManagement.HttpApi.csproj" />
+    <ProjectReference Include="../../modules/Nblity.Abp.Account/src/Nblity.Abp.Account.HttpApi/Nblity.Abp.Account.HttpApi.csproj" />
   </ItemGroup>
 </Project>

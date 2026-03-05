@@ -11,23 +11,23 @@
           "name": "NblityApplicationContractsModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.PermissionManagement.HttpApi",
-          "namespace": "Volo.Abp.PermissionManagement.HttpApi",
+          "declaringAssemblyName": "Nblity.Abp.PermissionManagement.HttpApi",
+          "namespace": "Nblity.Abp.PermissionManagement.HttpApi",
           "name": "AbpPermissionManagementHttpApiModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.SettingManagement.HttpApi",
-          "namespace": "Volo.Abp.SettingManagement",
+          "declaringAssemblyName": "Nblity.Abp.SettingManagement.HttpApi",
+          "namespace": "Nblity.Abp.SettingManagement",
           "name": "AbpSettingManagementHttpApiModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.Identity.Pro.HttpApi",
-          "namespace": "Volo.Abp.Identity",
+          "declaringAssemblyName": "Nblity.Abp.Identity.Pro.HttpApi",
+          "namespace": "Nblity.Abp.Identity",
           "name": "AbpIdentityHttpApiModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.Account.Pro.Admin.HttpApi",
-          "namespace": "Volo.Abp.Account",
+          "declaringAssemblyName": "Nblity.Abp.Account.Pro.Admin.HttpApi",
+          "namespace": "Nblity.Abp.Account",
           "name": "AbpAccountAdminHttpApiModule"
         },
         {
@@ -56,13 +56,13 @@
           "name": "AbpGdprHttpApiModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.Account.Pro.Public.HttpApi",
-          "namespace": "Volo.Abp.Account",
+          "declaringAssemblyName": "Nblity.Abp.Account.Pro.Public.HttpApi",
+          "namespace": "Nblity.Abp.Account",
           "name": "AbpAccountPublicHttpApiModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.FeatureManagement.HttpApi",
-          "namespace": "Volo.Abp.FeatureManagement",
+          "declaringAssemblyName": "Nblity.Abp.FeatureManagement.HttpApi",
+          "namespace": "Nblity.Abp.FeatureManagement",
           "name": "AbpFeatureManagementHttpApiModule"
         }
       ],

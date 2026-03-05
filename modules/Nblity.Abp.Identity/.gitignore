@@ -1,0 +1,4 @@
+src/Nblity.Abp.Identity.HttpApi/Properties/launchSettings.json
+src/Nblity.Abp.Identity.Web/Properties/launchSettings.json
+test/Nblity.Abp.Identity.AspNetCore.Tests/Properties/launchSettings.json
+src/Nblity.Abp.Identity.AspNetCore/Properties/launchSettings.json

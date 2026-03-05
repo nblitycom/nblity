@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>Nblity.Abp.Account.HttpApi</AssemblyName>
+    <PackageId>Nblity.Abp.Account.HttpApi</PackageId>
+    <RootNamespace />
+    <Version>10.1.0</Version>
+    <CopyLocalLockFileAssemblies>True</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nblity.Abp.Account.Application.Contracts\Nblity.Abp.Account.Application.Contracts.csproj" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="10.1.0" />
+    <ProjectReference Include="../../../Nblity.Abp.Identity/src/Nblity.Abp.Identity.HttpApi/Nblity.Abp.Identity.HttpApi.csproj" />
+  </ItemGroup>
+</Project>

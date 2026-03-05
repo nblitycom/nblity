@@ -26,23 +26,23 @@
           "name": "AbpBackgroundJobsDomainModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.FeatureManagement.Domain",
-          "namespace": "Volo.Abp.FeatureManagement",
+          "declaringAssemblyName": "Nblity.Abp.FeatureManagement.Domain",
+          "namespace": "Nblity.Abp.FeatureManagement",
           "name": "AbpFeatureManagementDomainModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.PermissionManagement.Domain.Identity",
-          "namespace": "Volo.Abp.PermissionManagement.Identity",
+          "declaringAssemblyName": "Nblity.Abp.PermissionManagement.Domain.Identity",
+          "namespace": "Nblity.Abp.PermissionManagement.Identity",
           "name": "AbpPermissionManagementDomainIdentityModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.PermissionManagement.Domain.OpenIddict",
-          "namespace": "Volo.Abp.PermissionManagement.OpenIddict",
+          "declaringAssemblyName": "Nblity.Abp.PermissionManagement.Domain.OpenIddict",
+          "namespace": "Nblity.Abp.PermissionManagement.OpenIddict",
           "name": "AbpPermissionManagementDomainOpenIddictModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.SettingManagement.Domain",
-          "namespace": "Volo.Abp.SettingManagement",
+          "declaringAssemblyName": "Nblity.Abp.SettingManagement.Domain",
+          "namespace": "Nblity.Abp.SettingManagement",
           "name": "AbpSettingManagementDomainModule"
         },
         {
@@ -51,8 +51,8 @@
           "name": "AbpEmailingModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.Identity.Pro.Domain",
-          "namespace": "Volo.Abp.Identity",
+          "declaringAssemblyName": "Nblity.Abp.Identity.Pro.Domain",
+          "namespace": "Nblity.Abp.Identity",
           "name": "AbpIdentityProDomainModule"
         },
         {

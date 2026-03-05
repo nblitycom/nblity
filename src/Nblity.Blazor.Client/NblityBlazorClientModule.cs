@@ -18,12 +18,12 @@ using Volo.Abp.Modularity;
 using Volo.Abp.UI.Navigation;
 using Volo.Abp.AspNetCore.Mvc.UI.Bundling;
 using Volo.Abp.AspNetCore.Components.WebAssembly.Theming.Bundling;
-using Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme;
-using Volo.Abp.SettingManagement.Blazor.WebAssembly;
-using Volo.Abp.FeatureManagement.Blazor.WebAssembly;
-using Volo.Abp.TenantManagement.Blazor.WebAssembly;
-using Volo.Abp.Identity.Blazor;
-using Volo.Abp.Identity.Blazor.WebAssembly;
+using Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme;
+using Nblity.Abp.SettingManagement.Blazor.WebAssembly;
+using Nblity.Abp.FeatureManagement.Blazor.WebAssembly;
+using Nblity.Abp.TenantManagement.Blazor.WebAssembly;
+using Nblity.Abp.Identity.Blazor;
+using Nblity.Abp.Identity.Blazor.WebAssembly;
 
 
 namespace Nblity.Blazor.Client;
@@ -33,7 +33,7 @@ namespace Nblity.Blazor.Client;
     typeof(AbpFeatureManagementBlazorWebAssemblyModule),
     typeof(AbpIdentityBlazorWebAssemblyModule),
     typeof(AbpTenantManagementBlazorWebAssemblyModule),
-    typeof(AbpAspNetCoreComponentsWebAssemblyLeptonXLiteThemeModule),
+    typeof(AbpAspNetCoreComponentsWebAssemblyMudblazorThemeModule),
     typeof(AbpAutofacWebAssemblyModule),
     typeof(NblityHttpApiClientModule)
 )]

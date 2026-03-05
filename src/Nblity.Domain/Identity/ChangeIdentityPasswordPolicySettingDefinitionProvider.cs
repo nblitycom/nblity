@@ -1,4 +1,4 @@
-using Volo.Abp.Identity.Settings;
+using Nblity.Abp.Identity.Settings;
 using Volo.Abp.Settings;
 
 namespace Nblity.Identity;

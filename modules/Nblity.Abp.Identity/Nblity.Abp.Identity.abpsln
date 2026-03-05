@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Nblity.Abp.Identity": {
+      "path": "Nblity.Abp.Identity.abpmdl"
+    }
+  }
+}

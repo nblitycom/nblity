@@ -1,14 +1,14 @@
 using System.IO;
 using Volo.Abp.VirtualFileSystem;
-using Volo.Abp.PermissionManagement;
-using Volo.Abp.SettingManagement;
-using Volo.Abp.Account;
-using Volo.Abp.Identity;
+using Nblity.Abp.PermissionManagement;
+using Nblity.Abp.SettingManagement;
+using Nblity.Abp.Account;
+using Nblity.Abp.Identity;
 using Volo.Abp.Mapperly;
-using Volo.Abp.FeatureManagement;
+using Nblity.Abp.FeatureManagement;
 using Volo.Abp.Modularity;
 using Microsoft.Extensions.DependencyInjection;
-using Volo.Abp.TenantManagement;
+using Nblity.Abp.TenantManagement;
 
 namespace Nblity;
 

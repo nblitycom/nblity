@@ -2,14 +2,14 @@ using System.IO;
 using Volo.Abp.VirtualFileSystem;
 using Localization.Resources.AbpUi;
 using Nblity.Localization;
-using Volo.Abp.Account;
-using Volo.Abp.SettingManagement;
-using Volo.Abp.FeatureManagement;
-using Volo.Abp.Identity;
+using Nblity.Abp.Account;
+using Nblity.Abp.SettingManagement;
+using Nblity.Abp.FeatureManagement;
+using Nblity.Abp.Identity;
 using Volo.Abp.Modularity;
-using Volo.Abp.PermissionManagement.HttpApi;
+using Nblity.Abp.PermissionManagement.HttpApi;
 using Volo.Abp.Localization;
-using Volo.Abp.TenantManagement;
+using Nblity.Abp.TenantManagement;
 
 namespace Nblity;
 

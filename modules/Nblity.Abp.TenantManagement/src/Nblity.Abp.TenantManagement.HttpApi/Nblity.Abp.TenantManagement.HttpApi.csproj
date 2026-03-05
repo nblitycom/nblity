@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>Nblity.Abp.TenantManagement.HttpApi</AssemblyName>
+    <PackageId>Nblity.Abp.TenantManagement.HttpApi</PackageId>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace />
+    <Version>10.1.0</Version>
+    <CopyLocalLockFileAssemblies>True</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nblity.Abp.TenantManagement.Application.Contracts\Nblity.Abp.TenantManagement.Application.Contracts.csproj" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="10.1.0" />
+    <ProjectReference Include="../../../Nblity.Abp.FeatureManagement/src/Nblity.Abp.FeatureManagement.HttpApi/Nblity.Abp.FeatureManagement.HttpApi.csproj" />
+  </ItemGroup>
+</Project>

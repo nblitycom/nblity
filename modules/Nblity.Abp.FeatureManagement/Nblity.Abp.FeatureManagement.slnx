@@ -1,0 +1,24 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Nblity.Abp.FeatureManagement.Application.Contracts/Nblity.Abp.FeatureManagement.Application.Contracts.csproj" />
+    <Project Path="src/Nblity.Abp.FeatureManagement.Application/Nblity.Abp.FeatureManagement.Application.csproj" />
+    <Project Path="src/Nblity.Abp.FeatureManagement.Blazor.Server/Nblity.Abp.FeatureManagement.Blazor.Server.csproj" />
+    <Project Path="src/Nblity.Abp.FeatureManagement.Blazor.WebAssembly/Nblity.Abp.FeatureManagement.Blazor.WebAssembly.csproj" />
+    <Project Path="src/Nblity.Abp.FeatureManagement.Blazor/Nblity.Abp.FeatureManagement.Blazor.csproj" />
+    <Project Path="src/Nblity.Abp.FeatureManagement.Domain.Shared/Nblity.Abp.FeatureManagement.Domain.Shared.csproj" />
+    <Project Path="src/Nblity.Abp.FeatureManagement.Domain/Nblity.Abp.FeatureManagement.Domain.csproj" />
+    <Project Path="src/Nblity.Abp.FeatureManagement.EntityFrameworkCore/Nblity.Abp.FeatureManagement.EntityFrameworkCore.csproj" />
+    <Project Path="src/Nblity.Abp.FeatureManagement.HttpApi.Client/Nblity.Abp.FeatureManagement.HttpApi.Client.csproj" />
+    <Project Path="src/Nblity.Abp.FeatureManagement.HttpApi/Nblity.Abp.FeatureManagement.HttpApi.csproj" />
+    <Project Path="src/Nblity.Abp.FeatureManagement.Installer/Nblity.Abp.FeatureManagement.Installer.csproj" />
+    <Project Path="src/Nblity.Abp.FeatureManagement.MongoDB/Nblity.Abp.FeatureManagement.MongoDB.csproj" />
+    <Project Path="src/Nblity.Abp.FeatureManagement.Web/Nblity.Abp.FeatureManagement.Web.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/Nblity.Abp.FeatureManagement.Application.Tests/Nblity.Abp.FeatureManagement.Application.Tests.csproj" />
+    <Project Path="test/Nblity.Abp.FeatureManagement.Domain.Tests/Nblity.Abp.FeatureManagement.Domain.Tests.csproj" />
+    <Project Path="test/Nblity.Abp.FeatureManagement.EntityFrameworkCore.Tests/Nblity.Abp.FeatureManagement.EntityFrameworkCore.Tests.csproj" />
+    <Project Path="test/Nblity.Abp.FeatureManagement.MongoDB.Tests/Nblity.Abp.FeatureManagement.MongoDB.Tests.csproj" />
+    <Project Path="test/Nblity.Abp.FeatureManagement.TestBase/Nblity.Abp.FeatureManagement.TestBase.csproj" />
+  </Folder>
+</Solution>

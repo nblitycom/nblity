@@ -11,26 +11,26 @@
     "Nblity": {
       "path": "Nblity.abpmdl"
     },
-    "Volo.Abp.FeatureManagement": {
-      "path": "modules/Volo.Abp.FeatureManagement/Volo.Abp.FeatureManagement.abpmdl"
+    "Nblity.Abp.FeatureManagement": {
+      "path": "modules/Nblity.Abp.FeatureManagement/Nblity.Abp.FeatureManagement.abpmdl"
     },
-    "Volo.Abp.Identity": {
-      "path": "modules/Volo.Abp.Identity/Volo.Abp.Identity.abpmdl"
+    "Nblity.Abp.Identity": {
+      "path": "modules/Nblity.Abp.Identity/Nblity.Abp.Identity.abpmdl"
     },
-    "Volo.Abp.PermissionManagement": {
-      "path": "modules/Volo.Abp.PermissionManagement/Volo.Abp.PermissionManagement.abpmdl"
+    "Nblity.Abp.PermissionManagement": {
+      "path": "modules/Nblity.Abp.PermissionManagement/Nblity.Abp.PermissionManagement.abpmdl"
     },
-    "Volo.Abp.SettingManagement": {
-      "path": "modules/Volo.Abp.SettingManagement/Volo.Abp.SettingManagement.abpmdl"
+    "Nblity.Abp.SettingManagement": {
+      "path": "modules/Nblity.Abp.SettingManagement/Nblity.Abp.SettingManagement.abpmdl"
     },
-    "Volo.Abp.TenantManagement": {
-      "path": "modules/Volo.Abp.TenantManagement/Volo.Abp.TenantManagement.abpmdl"
+    "Nblity.Abp.TenantManagement": {
+      "path": "modules/Nblity.Abp.TenantManagement/Nblity.Abp.TenantManagement.abpmdl"
     },
-    "Volo.Abp.Account": {
-      "path": "modules/Volo.Abp.Account/Volo.Abp.Account.abpmdl"
+    "Nblity.Abp.Account": {
+      "path": "modules/Nblity.Abp.Account/Nblity.Abp.Account.abpmdl"
     },
-    "Volo.Abp.LeptonXLiteTheme": {
-      "path": "modules/Volo.Abp.LeptonXLiteTheme/Volo.Abp.LeptonXLiteTheme.abpmdl"
+    "Nblity.Abp.MudblazorTheme": {
+      "path": "modules/Nblity.Abp.MudblazorTheme/Nblity.Abp.MudblazorTheme.abpmdl"
     }
   },
   "runProfiles": {

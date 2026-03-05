@@ -8,18 +8,18 @@ using System;
 using Volo.Abp.Localization;
 using Volo.Abp.Modularity;
 using Volo.Abp.MultiTenancy;
-using Volo.Abp.PermissionManagement.Identity;
-using Volo.Abp.SettingManagement;
+using Nblity.Abp.PermissionManagement.Identity;
+using Nblity.Abp.SettingManagement;
 using Volo.Abp.BlobStoring.Database;
 using Volo.Abp.Caching;
 using Volo.Abp.OpenIddict;
-using Volo.Abp.PermissionManagement.OpenIddict;
+using Nblity.Abp.PermissionManagement.OpenIddict;
 using Volo.Abp.AuditLogging;
 using Volo.Abp.BackgroundJobs;
 using Volo.Abp.Emailing;
-using Volo.Abp.FeatureManagement;
-using Volo.Abp.Identity;
-using Volo.Abp.TenantManagement;
+using Nblity.Abp.FeatureManagement;
+using Nblity.Abp.Identity;
+using Nblity.Abp.TenantManagement;
 
 namespace Nblity;
 

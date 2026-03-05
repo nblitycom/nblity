@@ -11,13 +11,13 @@
           "name": "NblityDomainModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.PermissionManagement.EntityFrameworkCore",
-          "namespace": "Volo.Abp.PermissionManagement.EntityFrameworkCore",
+          "declaringAssemblyName": "Nblity.Abp.PermissionManagement.EntityFrameworkCore",
+          "namespace": "Nblity.Abp.PermissionManagement.EntityFrameworkCore",
           "name": "AbpPermissionManagementEntityFrameworkCoreModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.SettingManagement.EntityFrameworkCore",
-          "namespace": "Volo.Abp.SettingManagement.EntityFrameworkCore",
+          "declaringAssemblyName": "Nblity.Abp.SettingManagement.EntityFrameworkCore",
+          "namespace": "Nblity.Abp.SettingManagement.EntityFrameworkCore",
           "name": "AbpSettingManagementEntityFrameworkCoreModule"
         },
         {
@@ -36,13 +36,13 @@
           "name": "AbpAuditLoggingEntityFrameworkCoreModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.FeatureManagement.EntityFrameworkCore",
-          "namespace": "Volo.Abp.FeatureManagement.EntityFrameworkCore",
+          "declaringAssemblyName": "Nblity.Abp.FeatureManagement.EntityFrameworkCore",
+          "namespace": "Nblity.Abp.FeatureManagement.EntityFrameworkCore",
           "name": "AbpFeatureManagementEntityFrameworkCoreModule"
         },
         {
-          "declaringAssemblyName": "Volo.Abp.Identity.Pro.EntityFrameworkCore",
-          "namespace": "Volo.Abp.Identity.EntityFrameworkCore",
+          "declaringAssemblyName": "Nblity.Abp.Identity.Pro.EntityFrameworkCore",
+          "namespace": "Nblity.Abp.Identity.EntityFrameworkCore",
           "name": "AbpIdentityProEntityFrameworkCoreModule"
         },
         {
@@ -126,15 +126,15 @@
       "replacedDbContexts": [
         {
           "name": "ITenantManagementDbContext",
-          "namespace": "Volo.Abp.TenantManagement.EntityFrameworkCore",
-          "declaringAssemblyName": "Volo.Abp.TenantManagement.EntityFrameworkCore",
-          "fullName": "Volo.Abp.TenantManagement.EntityFrameworkCore.ITenantManagementDbContext"
+          "namespace": "Nblity.Abp.TenantManagement.EntityFrameworkCore",
+          "declaringAssemblyName": "Nblity.Abp.TenantManagement.EntityFrameworkCore",
+          "fullName": "Nblity.Abp.TenantManagement.EntityFrameworkCore.ITenantManagementDbContext"
         },
         {
           "name": "IIdentityDbContext",
-          "namespace": "Volo.Abp.Identity.EntityFrameworkCore",
-          "declaringAssemblyName": "Volo.Abp.Identity.EntityFrameworkCore",
-          "fullName": "Volo.Abp.Identity.EntityFrameworkCore.IIdentityDbContext"
+          "namespace": "Nblity.Abp.Identity.EntityFrameworkCore",
+          "declaringAssemblyName": "Nblity.Abp.Identity.EntityFrameworkCore",
+          "fullName": "Nblity.Abp.Identity.EntityFrameworkCore.IIdentityDbContext"
         }
       ],
       "modelBuilderExtensionMethods": [],
@@ -207,15 +207,15 @@
         },
         {
           "name": "IIdentityProDbContext",
-          "namespace": "Volo.Abp.Identity.EntityFrameworkCore",
-          "declaringAssemblyName": "Volo.Abp.Identity.Pro.EntityFrameworkCore",
-          "fullName": "Volo.Abp.Identity.EntityFrameworkCore.IIdentityProDbContext"
+          "namespace": "Nblity.Abp.Identity.EntityFrameworkCore",
+          "declaringAssemblyName": "Nblity.Abp.Identity.Pro.EntityFrameworkCore",
+          "fullName": "Nblity.Abp.Identity.EntityFrameworkCore.IIdentityProDbContext"
         },
         {
           "name": "IIdentityDbContext",
-          "namespace": "Volo.Abp.Identity.EntityFrameworkCore",
-          "declaringAssemblyName": "Volo.Abp.Identity.EntityFrameworkCore",
-          "fullName": "Volo.Abp.Identity.EntityFrameworkCore.IIdentityDbContext"
+          "namespace": "Nblity.Abp.Identity.EntityFrameworkCore",
+          "declaringAssemblyName": "Nblity.Abp.Identity.EntityFrameworkCore",
+          "fullName": "Nblity.Abp.Identity.EntityFrameworkCore.IIdentityDbContext"
         }
       ],
       "contentType": "efCoreDbContext",

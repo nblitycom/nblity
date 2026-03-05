@@ -37,14 +37,14 @@
     <PackageReference Include="Volo.Abp.AspNetCore.Serilog" Version="10.1.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="../../modules/Volo.Abp.Identity/src/Volo.Abp.Identity.Blazor.Server/Volo.Abp.Identity.Blazor.Server.csproj" />
-    <ProjectReference Include="../../modules/Volo.Abp.TenantManagement/src/Volo.Abp.TenantManagement.Blazor.Server/Volo.Abp.TenantManagement.Blazor.Server.csproj" />
-    <ProjectReference Include="../../modules/Volo.Abp.Account/src/Volo.Abp.Account.Web.OpenIddict/Volo.Abp.Account.Web.OpenIddict.csproj" />
+    <ProjectReference Include="../../modules/Nblity.Abp.Identity/src/Nblity.Abp.Identity.Blazor.Server/Nblity.Abp.Identity.Blazor.Server.csproj" />
+    <ProjectReference Include="../../modules/Nblity.Abp.TenantManagement/src/Nblity.Abp.TenantManagement.Blazor.Server/Nblity.Abp.TenantManagement.Blazor.Server.csproj" />
+    <ProjectReference Include="../../modules/Nblity.Abp.Account/src/Nblity.Abp.Account.Web.OpenIddict/Nblity.Abp.Account.Web.OpenIddict.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="../../modules/Volo.Abp.LeptonXLiteTheme/src/Volo.Abp.AspNetCore.Components.Server.LeptonXLiteTheme/Volo.Abp.AspNetCore.Components.Server.LeptonXLiteTheme.csproj" />
-    <ProjectReference Include="../../modules/Volo.Abp.LeptonXLiteTheme/src/Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling/Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling.csproj" />
-    <ProjectReference Include="../../modules/Volo.Abp.LeptonXLiteTheme/src/Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite/Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite.csproj" />
+    <ProjectReference Include="../../modules/Nblity.Abp.MudblazorTheme/src/Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme/Nblity.Abp.AspNetCore.Components.Server.MudblazorTheme.csproj" />
+    <ProjectReference Include="../../modules/Nblity.Abp.MudblazorTheme/src/Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Bundling/Nblity.Abp.AspNetCore.Components.WebAssembly.MudblazorTheme.Bundling.csproj" />
+    <ProjectReference Include="../../modules/Nblity.Abp.MudblazorTheme/src/Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor/Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Volo.Abp.Studio.Client.AspNetCore" Version="2.2.1" />

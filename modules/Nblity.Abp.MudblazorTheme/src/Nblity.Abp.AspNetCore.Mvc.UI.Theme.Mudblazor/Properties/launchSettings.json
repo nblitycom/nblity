@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Nblity.Abp.AspNetCore.Mvc.UI.Theme.Mudblazor": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:56571;http://localhost:56572"
+    }
+  }
+}

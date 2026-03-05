@@ -1,0 +1,47 @@
+﻿@using Nblity.Abp.AspNetCore.Components.Web.MudblazorTheme.Navigation
+
+@inject NavigationManager Navigation
+
+@{
+	var customComponentType = MenuItem.MenuItem.GetComponentTypeOrDefault();
+	var icon = MenuItem.MenuItem.Icon;
+}
+
+@if (MenuItem.MenuItem.IsLeaf)
+{
+	var url = MenuItem.MenuItem.Url == null ? "/" : MenuItem.MenuItem.Url.TrimStart('~');
+	if (url.IsNullOrEmpty())
+	{
+		url = "/";
+	}
+
+	@if (customComponentType != null)
+	{
+		<DynamicComponent Type="@customComponentType" />
+	}
+	else
+	{
+		<MudNavLink Href="@url" Target="@MenuItem.MenuItem.Target" Icon="@icon" id="@MenuItem.MenuItem.ElementId"
+				    Match="NavLinkMatch.All">
+			@MenuItem.MenuItem.DisplayName
+		</MudNavLink>
+	}
+}
+else
+{
+	if (customComponentType != null)
+	{
+		<div @onclick="ToggleMenu">
+			<DynamicComponent Type="@customComponentType" />
+		</div>
+	}
+	else
+	{
+		<MudNavGroup Title="@MenuItem.MenuItem.DisplayName" Icon="@icon" @bind-Expanded="MenuItem.IsOpen">
+			@foreach (var childMenuItem in MenuItem.Items)
+			{
+				<MainMenuItem Menu="@Menu" MenuItem="@childMenuItem" />
+			}
+		</MudNavGroup>
+	}
+}
