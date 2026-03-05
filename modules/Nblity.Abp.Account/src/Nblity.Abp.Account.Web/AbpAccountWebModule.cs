@@ -1,14 +1,9 @@
-using System.IO;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.DependencyInjection;
 using Nblity.Abp.Account.Localization;
-using Nblity.Abp.Account.Web.Pages.Account;
 using Nblity.Abp.Account.Web.Pages.Account.Components.ProfileManagementGroup.PersonalInfo;
 using Nblity.Abp.Account.Web.ProfileManagement;
 using Volo.Abp.AspNetCore.Mvc.Localization;
-using Volo.Abp.AspNetCore.Mvc.UI.Bundling;
 using Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared;
-using Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.Toolbars;
 using Volo.Abp.Mapperly;
 using Volo.Abp.ExceptionHandling;
 using Volo.Abp.Http.ProxyScripting.Generators.JQuery;
@@ -62,7 +57,10 @@ public class AbpAccountWebModule : AbpModule
             options.MenuContributors.Add(new AbpAccountUserMenuContributor());
         });
 
-        ConfigureProfileManagementPage();
+        Configure<ProfileManagementPageOptions>(options =>
+        {
+            options.Contributors.Add(new AccountProfileManagementPageContributor());
+        });
 
         context.Services.AddMapperlyObjectMapper<AbpAccountWebModule>();
 
@@ -70,32 +68,6 @@ public class AbpAccountWebModule : AbpModule
         {
             options.DisableModule(AccountRemoteServiceConsts.ModuleName);
         });
-    }
-
-    private void ConfigureProfileManagementPage()
-    {
-        Configure<RazorPagesOptions>(options =>
-        {
-            options.Conventions.AuthorizePage("/Account/Manage");
-        });
-
-        Configure<ProfileManagementPageOptions>(options =>
-        {
-            options.Contributors.Add(new AccountProfileManagementPageContributor());
-        });
-
-        Configure<AbpBundlingOptions>(options =>
-        {
-            options.ScriptBundles
-                .Configure(typeof(ManageModel).FullName,
-                    configuration =>
-                    {
-                        configuration.AddFiles("/client-proxies/account-proxy.js");
-                        configuration.AddFiles("/Pages/Account/Components/ProfileManagementGroup/Password/Default.js");
-                        configuration.AddFiles("/Pages/Account/Components/ProfileManagementGroup/PersonalInfo/Default.js");
-                    });
-        });
-
     }
 
     public override void PostConfigureServices(ServiceConfigurationContext context)

@@ -16,21 +16,16 @@
     <title>Nblity</title>
     <base href="/" />
 
-    <AbpStyles BundleName="@BlazorMudblazorThemeBundles.Styles.Global" WebAssemblyStyleFiles="GlobalStyles" @rendermode="InteractiveAuto" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
 
-    <link href="Nblity.Blazor.styles.css" rel="stylesheet"/>
-    <link href="Nblity.Blazor.Client.styles.css" rel="stylesheet"/>
-    
     <HeadOutlet @rendermode="InteractiveAuto" />
 
     
 </head>
-<body class="abp-application-layout @rtl">
+<body>
 
     <Routes @rendermode="InteractiveAuto" />
 
@@ -43,8 +38,8 @@
         {
             <text>An error has occurred. This application may no longer respond until reloaded.</text>
         }
-        <a href="" class="reload">Reload</a>
-        <a class="dismiss">🗙</a>
+        <a href="">Reload</a>
+        <a>🗙</a>
     </div>
     
     <AbpScripts BundleName="@BlazorMudblazorThemeBundles.Scripts.Global" WebAssemblyScriptFiles="GlobalScripts" @rendermode="InteractiveAuto" />
@@ -56,11 +51,6 @@
 </html>
 
 @code{
-    private List<string> GlobalStyles =>
-    [
-        "global.css"
-    ];
-
     private List<string> GlobalScripts =>
     [
         "global.js"
